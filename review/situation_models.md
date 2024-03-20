@@ -1,0 +1,18 @@
+# Constructing multidimensional situation models during reading
+- the paper examines which aspects of a situational model are noticed more often while reading:
+  - time
+  - space
+  - causation
+  - motivation
+  - protagonist
+- they tested that by tracking reading time while changing the linearity of certain aspects
+- more noticeable:
+  - time
+  - causation
+  - motivation
+  - protagonist
+- reading time goes up when discontinuities are presented
+- not noticeable in spatial continuity
+- processing-load hypothesis
+  - the fewer indexes that are shared between the current event being processed and other events, the more difficult it is to incorporate that event into the situation model
+  - increases in processing load when there is little overlap
