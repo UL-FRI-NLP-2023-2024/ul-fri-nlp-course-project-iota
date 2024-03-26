@@ -41,7 +41,7 @@
 \PaperTitle{Natural language processing course Latex Template} 
 
 % Authors (student competitors) and their info
-\Authors{John Doe, Jane Doe, and Mike Smith}
+\Authors{Žiga Trček, Matej Urbas, and Jan Vasiljević}
 
 % Advisors
 \affiliation{\textit{Advisors: Slavko Žitnik}}
@@ -64,22 +64,22 @@ The abstract goes here. The abstract goes here. The abstract goes here. The abst
 \begin{document}
 
 % Makes all text pages the same height
-\flushbottom 
+\flushbottom
 
 % Print the title and abstract box
-\maketitle 
+\maketitle
 
 % Removes page numbering from the first page
-\thispagestyle{empty} 
+\thispagestyle{empty}
 
 %----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
 
 \section*{Introduction}
-	These latex files are intended to serve as a the template for the NLP course at FRI.  The template is adapted from the FRI Data Science Project Competition. template  If you find mistakes in the template or have problems using it, please consult Jure Demšar (\href{mailto:jure.demsar@fri.uni-lj.si}{jure.demsar@fri.uni-lj.si}).
-	
-	In the Introduction section you should write about the relevance of your work (what is the purpose of the project, what will we solve) and about related work (what solutions for the problem already exist). Where appropriate, reference scientific work conducted by other researchers. For example, the work done by Demšar et al. \cite{Demsar2016BalancedMixture} is very important for our project. The abbreviation et al. is for et alia, which in latin means and others, we use this abbreviation when there are more than two authors of the work we are citing. If there are two authors (or if there is a single author) we just write down their surnames. For example, the work done by Demšar and Lebar Bajec \cite{Demsar2017LinguisticEvolution} is also important for successful completion of our project.
+These latex files are intended to serve as a the template for the NLP course at FRI.  The template is adapted from the FRI Data Science Project Competition. template  If you find mistakes in the template or have problems using it, please consult Jure Demšar (\href{mailto:jure.demsar@fri.uni-lj.si}{jure.demsar@fri.uni-lj.si}).
+
+In the Introduction section you should write about the relevance of your work (what is the purpose of the project, what will we solve) and about related work (what solutions for the problem already exist). Where appropriate, reference scientific work conducted by other researchers. For example, the work done by Demšar et al. \cite{Demsar2016BalancedMixture} is very important for our project. The abbreviation et al. is for et alia, which in latin means and others, we use this abbreviation when there are more than two authors of the work we are citing. If there are two authors (or if there is a single author) we just write down their surnames. For example, the work done by Demšar and Lebar Bajec \cite{Demsar2017LinguisticEvolution} is also important for successful completion of our project.
 
 
 %------------------------------------------------
@@ -107,13 +107,13 @@ where $A$ and $B$ are some events. You can also reference it -- the equation \re
 We can insert numbered and bullet lists:
 
 % the [noitemsep] option makes the list more compact
-\begin{enumerate}[noitemsep] 
+\begin{enumerate}[noitemsep]
 	\item First item in the list.
 	\item Second item in the list.
 	\item Third item in the list.
 \end{enumerate}
 
-\begin{itemize}[noitemsep] 
+\begin{itemize}[noitemsep]
 	\item First item in the list.
 	\item Second item in the list.
 	\item Third item in the list.
@@ -148,7 +148,7 @@ You can insert figures that span over the whole page, or over just a single colu
 On the other hand, \figurename~\ref{fig:whole} is an example of a figure that spans across the whole page (across both columns) of the report.
 
 % \begin{figure*} makes the figure take up the entire width of the page
-\begin{figure*}[ht]\centering 
+\begin{figure*}[ht]\centering
 	\includegraphics[width=\linewidth]{whole_page.pdf}
 	\caption{\textbf{Visualization of a Bayesian hierarchical model.} This is an example of a figure that spans the whole width of the report.}
 	\label{fig:whole}
@@ -164,13 +164,13 @@ Use the table environment to insert tables.
 	\centering
 	\begin{tabular}{l l | r}
 		\toprule
-		\multicolumn{2}{c}{Name} \\
+		\multicolumn{2}{c}{Name}       \\
 		\cmidrule(r){1-2}
 		First name & Last Name & Grade \\
 		\midrule
-		John & Doe & $7.5$ \\
-		Jane & Doe & $10$ \\
-		Mike & Smith & $8$ \\
+		John       & Doe       & $7.5$ \\
+		Jane       & Doe       & $10$  \\
+		Mike       & Smith     & $8$   \\
 		\bottomrule
 	\end{tabular}
 	\label{tab:label}
