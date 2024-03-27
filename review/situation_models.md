@@ -1,18 +1,16 @@
 # Constructing multidimensional situation models during reading
-- the paper examines which aspects of a situational model are noticed more often while reading:
-  - time
-  - space
-  - causation
-  - motivation
-  - protagonist
-- they tested that by tracking reading time while changing the linearity of certain aspects
-- more noticeable:
-  - time
-  - causation
-  - motivation
-  - protagonist
-- reading time goes up when discontinuities are presented
-- not noticeable in spatial continuity
-- processing-load hypothesis
-  - the fewer indexes that are shared between the current event being processed and other events, the more difficult it is to incorporate that event into the situation model
-  - increases in processing load when there is little overlap
+
+The paper describes three experiments on 27 psychology students that tested which aspects of a five-dimensional situational model are more important to our experience.
+They tested the impact of different aspects by measuring reading time while introducing discontinuities across different dimensions.
+The dimensions are:
+- time
+- space
+- causation
+- motivation
+- protagonist
+
+The reading time increase is very noticeable in all but the spatial dimension.
+There, spatial discontinuities did not present a large increase in reading time unless the study participants memorized the map of the story space in advance.
+
+The study confirmed the "processing-load hypothesis" that predicts that the reading time goes up when there is more data to process.
+It's very likely that we could take this information into account when constructing a model used for learning by keeping continuities along dimensions that are irrelevant for the learning experience and channeling the focus elsewhere.
