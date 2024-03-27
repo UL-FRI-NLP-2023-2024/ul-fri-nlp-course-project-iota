@@ -20,6 +20,12 @@
 %----------------------------------------------------------------------------------------
 \documentclass[fleqn,moreauthors,10pt]{ds_report}
 \usepackage[english]{babel}
+\usepackage{tcolorbox}
+\usepackage{etoolbox}
+\usepackage{todonotes}
+\usepackage{numprint}
+
+\setuptodonotes{inline,backgroundcolor=yellow}
 
 \graphicspath{{fig/}}
 
@@ -31,14 +37,14 @@
 %----------------------------------------------------------------------------------------
 
 % Header
-\JournalInfo{FRI Natural language processing course 2021}
+\JournalInfo{FRI Natural language processing course 2024}
 
 % Interim or final report
 \Archive{Project report} 
 %\Archive{Final report} 
 
 % Article title
-\PaperTitle{Natural language processing course Latex Template} 
+\PaperTitle{Draft: Literary Conversational Agents}
 
 % Authors (student competitors) and their info
 \Authors{Žiga Trček, Matej Urbas, and Jan Vasiljević}
@@ -77,15 +83,43 @@ The abstract goes here. The abstract goes here. The abstract goes here. The abst
 %----------------------------------------------------------------------------------------
 
 \section*{Introduction}
-Literacy in youth is in decline \cite{murray2021literacy}. Young people hate reading and rearly read recreationally. One way to motivate young people to read is to engage them in converstaional interaction with digital pedagogical agents. There are many papers discussing the benefits of pedagogical agents  \cite{nielen2018digital,alaimi2020pedagogical}, but none of them really describes the technical implementation details. The aim of this project is to provide technical implementation details for creating pedagogical agents.
+
+Literacy among young people is declining, as highlighted in \cite{murray2021literacy}. Many young people have a disinterest in reading and seldom read for enjoyment. A potential strategy to encourage reading is to involve them in conversational interactions with digital pedagogical agents that imitate well-known literary figures. Although numerous studies, such as those \cite{nielen2018digital,alaimi2020pedagogical}, discuss the advantages of pedagogical agents, detailed technical implementation aspects are often overlooked. Our work aims to explore various methods for creating pedagogical agents and to provide a comprehensive technical implementation for the method we choose.
+
 \subsection*{Related work}
 In \cite{papaioannou2022designing} they built a social bot, called Alana, which is able to engage in an open-domain conversation with their users over various popular topics. The key requirements for such a bot are to maintain the context, provide coherent responses, and be engaging and knowledgeable. The final bot is an ensemble of many different bots, each of which has a different purpose. A ranker is used to determine the best bot response for the given user input. For context maintaining, a state object with information from previous conversations is stored and accessible to every bot in the ensemble.
 
-Retrieval augmented generation (RAG) is often used to correct factually inaccurate, outdated or halucinated LLM outputs. A survey on different RAG methods is conducted in \cite{gao2023retrieval}. RAGs can be seprated into three categories: pre-training, fine-tunning and inference. Nowdays inference RAGs are mostly used. \cite{jiang2023active} proposed FLARE, Forward-Looking Active REtrieval Augmented Generation, which re-prompts the language model with extra retrieved data about the subject when some tokens in LLM's output have a low probability.
+Retrieval augmented generation (RAG) is often used to correct factually inaccurate, outdated or halucinated Large Language Model (LLM) outputs. A survey on different RAG methods is conducted in \cite{gao2023retrieval}. RAGs can be seprated into three categories: pre-training, fine-tunning and inference. Nowdays inference RAGs are mostly used. \cite{jiang2023active} proposed FLARE, Forward-Looking Active REtrieval Augmented Generation, which re-prompts the language model with extra retrieved data about the subject when some tokens in LLM's output have a low probability.
+
+A straightforward way to create agents is by training or fine-tuning LLM. In \cite{shao2023characterllm} the authors developed conversational agents that resemble historical figures like Beethoven, Cleopatra, and Caesar, with personalized profiles, experiences, and emotional states. They introduced three new methods for training specialized agents. Experience Reconstruction extracts scenes in the style of memory flashes, such as profiles, scenes, or interactions. Protective Experience aims at teaching the model to forget or ignore information not relevant to the character to prevent knowledge hallucinations. Experience Upload uses the previous two techniques to fine-tune an existing LLM. They fine-tuned a LLaMa 7B model \cite{touvron2023llama} on a dataset of \numprint{750000} words per character using eight A100 80GB GPUs for 1 hour per character. To assess the models, they used an interview process.
+
+To avoid training a LLM, \cite{jeong2023chatbot} suggests using prompt engineering, specifically Chain-of-Thought (COT), on an existing model to incorporate more contextual information. They recommend employing Information-Rich Prompts (IRP) that include the emotional state, the character's relationship with the interlocutor, and the character's memories. Memories are categorized into short-term, which are a limited number of the most recent conversations with the interlocutor, and long-term, which are recursively summarized memories of longer conversations from the character's perspective. Although not explicitly stated, implementing the Big Five personality model \cite{goldberg1990thebigfive} could further refine the character's responses. This model would detail the character's Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism.
+
+Previous methods that do not involve fine-tuning could be enhanced by using the OpenICL framework \cite{wu2023openicl}. In-Context Learning (ICL) is an approach used with LLMs where the model learns a specific task without the need to update its weights. Instead, the model is shown examples of how the task should be performed. OpenICL offers the tools needed to construct ICL tasks, including key components like retrieval strategies and inference methods. For retrieval, it incorporates heuristic-based methods (such as BM25 and Top-K), random sampling, and model-based retrieval (using embeddings, RAG, Minimum Description Length (MDL), and entropy-based selection). For inference, OpenICL facilitates the integration of COT and other methods along with a prompt template.
+
+% TODO: Remove this
+\begin{tcolorbox}[colback=green!5!white,colframe=green!75!black]{\textbf{Method proposals}}
+	
+
+We have a few ideas on how to tackle the problem of creating an Agent. These include:
+
+\begin{enumerate}
+\itemsep0em
+\item Using ICL with OpenICL and RAG
+\item Training our own LLM - can be quite expensive
+\item Using another LLM to correctly format text - e.g., using Mistral \cite{jiang2023mistral} on HPC to give us a dataset.
+\item Preprompting an LLM and giving it a context, such as character memories
+\end{enumerate}
+
+\textit{This box here is only temporary and is meant only for the first phase. It will be removed in the next revision.}
+	
+\end{tcolorbox}
 
 %------------------------------------------------
 
 \section*{Methods}
+
+\todo{After the 1st phase}
 
 Use the Methods section to describe what you did an how you did it -- in what way did you prepare the data, what algorithms did you use, how did you test various solutions ... Provide all the required details for a reproduction of your work.
 
@@ -204,6 +238,8 @@ ggplot(diamonds,
 
 \section*{Results}
 
+\todo{After the 1st phase}
+
 Use the results section to present the final results of your work. Present the results in a objective and scientific fashion. Use visualisations to convey your results in a clear and efficient manner. When comparing results between various techniques use appropriate statistical methodology.
 
 \subsection*{More random text}
@@ -219,12 +255,17 @@ Nulla rhoncus tortor eget ipsum commodo lacinia sit amet eu urna. Cras maximus l
 
 \section*{Discussion}
 
+
+\todo{After the 1st phase}
+
 Use the Discussion section to objectively evaluate your work, do not just put praise on everything you did, be critical and exposes flaws and weaknesses of your solution. You can also explain what you would do differently if you would be able to start again and what upgrades could be done on the project in the future.
 
 
 %------------------------------------------------
 
 \section*{Acknowledgments}
+
+\todo{After the 1st phase}
 
 Here you can thank other persons (advisors, colleagues ...) that contributed to the successful completion of your project.
 
