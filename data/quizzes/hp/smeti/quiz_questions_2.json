@@ -1,0 +1,254 @@
+[
+  {
+    "question": "What do the initials J.K. Rowling stand for?",
+    "answers": [
+      {
+        "text": "Joanne Kathleen",
+        "correct": true
+      },
+      {
+        "text": "Jane Kathleen",
+        "correct": false
+      },
+      {
+        "text": "Jody Katie",
+        "correct": false
+      },
+      {
+        "text": "Joanne Katie",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What year was the first Harry Potter book published?",
+    "answers": [
+      {
+        "text": "1996",
+        "correct": false
+      },
+      {
+        "text": "1997",
+        "correct": true
+      },
+      {
+        "text": "1998",
+        "correct": false
+      },
+      {
+        "text": "1999",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the real name of Ronald Weasleys pet rat?",
+    "answers": [
+      {
+        "text": "Scabbers",
+        "correct": false
+      },
+      {
+        "text": "Wormtail",
+        "correct": false
+      },
+      {
+        "text": "Peter Pettigrew",
+        "correct": true
+      },
+      {
+        "text": "Hedwig",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of these is not one of Albus Dumbledores middle names?",
+    "answers": [
+      {
+        "text": "Brian",
+        "correct": false
+      },
+      {
+        "text": "Percival",
+        "correct": false
+      },
+      {
+        "text": "Wulfric",
+        "correct": false
+      },
+      {
+        "text": "Severus",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What school does Viktor Krum go to?",
+    "answers": [
+      {
+        "text": "Hogwarts School of Witchcraft & Wizardry",
+        "correct": false
+      },
+      {
+        "text": "Durmstrang Institute",
+        "correct": true
+      },
+      {
+        "text": "Drumstead Institute",
+        "correct": false
+      },
+      {
+        "text": "Beauxbatons Academy of Magic",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How many named ghosts live at Hogwarts?",
+    "answers": [
+      {
+        "text": "12",
+        "correct": false
+      },
+      {
+        "text": "7",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": true
+      },
+      {
+        "text": "11",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What was the name of the Weasley twins shop?",
+    "answers": [
+      {
+        "text": "Weasleys Tricks & Treats",
+        "correct": false
+      },
+      {
+        "text": "Weasleys Wizard Treats",
+        "correct": false
+      },
+      {
+        "text": "Weasleys Wicked Treats",
+        "correct": false
+      },
+      {
+        "text": "Weasleys Wizard Wheezes",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which species operates Gringotts Wizarding Bank?",
+    "answers": [
+      {
+        "text": "Dwarves",
+        "correct": false
+      },
+      {
+        "text": "Elves",
+        "correct": false
+      },
+      {
+        "text": "Goblins",
+        "correct": true
+      },
+      {
+        "text": "Muggles",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Hagrid has a giant pet spider by the name of:",
+    "answers": [
+      {
+        "text": "Aragon",
+        "correct": false
+      },
+      {
+        "text": "Aragog",
+        "correct": true
+      },
+      {
+        "text": "Spidey",
+        "correct": false
+      },
+      {
+        "text": "Fang",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which ingredient is not required to make Polyjuice Potion?",
+    "answers": [
+      {
+        "text": "Fluxweed",
+        "correct": false
+      },
+      {
+        "text": "Leeches",
+        "correct": false
+      },
+      {
+        "text": "Lacewing Flies",
+        "correct": false
+      },
+      {
+        "text": "Unicorn Blood",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "How many film directors have worked on the Harry Potter series?",
+    "answers": [
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "5",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who killed Dobby?",
+    "answers": [
+      {
+        "text": "Severus Snape",
+        "correct": false
+      },
+      {
+        "text": "He Who Must Not Be Named",
+        "correct": false
+      },
+      {
+        "text": "Bellatrix Lestrange",
+        "correct": true
+      },
+      {
+        "text": "Lucius Malfoy",
+        "correct": false
+      }
+    ]
+  }
+]

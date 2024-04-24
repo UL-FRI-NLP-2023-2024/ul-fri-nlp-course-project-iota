@@ -1,4 +1,4 @@
-export const quizQuestions = [
+const questions = [
     {
       question: 'What do the initials J.K. Rowling stand for?',
       possibleAnswers: [
@@ -108,4 +108,10 @@ export const quizQuestions = [
       ],
     }
   ];
+  // save questions to json File
+  // path: smeti/quiz-questions.json
+  const fs = require('fs');
+  questions_json = JSON.stringify(questions);
+  fs.writeFileSync('smeti/quiz-questions.json', questions_json);
+
   

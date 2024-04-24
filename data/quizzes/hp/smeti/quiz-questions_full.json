@@ -1,0 +1,2042 @@
+[
+  {
+    "question": "Which Harry Potter word is now in the Oxford English Dictionary?",
+    "answers": [
+      {
+        "text": "Hogwarts",
+        "correct": false
+      },
+      {
+        "text": "Voldemort",
+        "correct": false
+      },
+      {
+        "text": "Muggle",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Who were Harry's parents?",
+    "answers": [
+      {
+        "text": "Henry and Maggie Potter",
+        "correct": false
+      },
+      {
+        "text": "William and Elizabeth Potter",
+        "correct": false
+      },
+      {
+        "text": "James and Lily Potter",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Who are the muggle aunt and uncle that Harry must live with every summer?",
+    "answers": [
+      {
+        "text": "Ned and Camilla Diddly",
+        "correct": false
+      },
+      {
+        "text": "Ralph and Magnolia Dudley",
+        "correct": false
+      },
+      {
+        "text": "Vernon and Petunia Dursley",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "In order of birth, who are the seven Weasley siblings?",
+    "answers": [
+      {
+        "text": "Percy, Bill, George, Charlie, Fred, Ron, Ginny",
+        "correct": false
+      },
+      {
+        "text": "George, Fred, Percy, Bill, Charlie, Ron, Ginny",
+        "correct": false
+      },
+      {
+        "text": "Bill, Charlie, Percy, Fred, George, Ron, Ginny",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What are the three Unforgivable Curses?",
+    "answers": [
+      {
+        "text": "Impedimenta, Incarcerous and Incendio",
+        "correct": false
+      },
+      {
+        "text": "Avada Kedavra, Crucio and Imperio",
+        "correct": true
+      },
+      {
+        "text": "Expelliarmus, Expecto Patronum and Diffindo",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of these Hogwarts professors teaches Transfiguration?",
+    "answers": [
+      {
+        "text": "Snape",
+        "correct": false
+      },
+      {
+        "text": "Sprout",
+        "correct": false
+      },
+      {
+        "text": "McGonagall",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "At the end of \"Harry Potter and the Sorcerer's Stone,\" \nwhich professor removes his turban to reveal Voldemort on the back of \nhis head?",
+    "answers": [
+      {
+        "text": "Quirrell",
+        "correct": true
+      },
+      {
+        "text": "Lockhart",
+        "correct": false
+      },
+      {
+        "text": "Snape",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who first shows Harry the diary of Tom Riddle?",
+    "answers": [
+      {
+        "text": "Moaning  Myrtle",
+        "correct": true
+      },
+      {
+        "text": "Fawkes",
+        "correct": false
+      },
+      {
+        "text": "Nearly Headless Nick",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who was Tom Marvolo Riddle?",
+    "answers": [
+      {
+        "text": "The ghost of Sirius Black",
+        "correct": false
+      },
+      {
+        "text": "Harry's father",
+        "correct": false
+      },
+      {
+        "text": "Voldemort",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What's the only book in the Harry Potter series that doesn't feature Lord Voldemort?",
+    "answers": [
+      {
+        "text": "The Sorcerer's Stone",
+        "correct": false
+      },
+      {
+        "text": "The Prisoner of Azkaban",
+        "correct": true
+      },
+      {
+        "text": "The Deathly Hallows",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who was the Prisoner of Azkaban, and was he guilty of the crime he was accused of committing?",
+    "answers": [
+      {
+        "text": "James Potter, not guilty",
+        "correct": false
+      },
+      {
+        "text": "Cornelius Fudge, guilty",
+        "correct": false
+      },
+      {
+        "text": "Sirius Black, not guilty",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What Hogwarts student is killed in Little Hangleton graveyard at the end of \"The Goblet of Fire\"?",
+    "answers": [
+      {
+        "text": "Draco Malfoy",
+        "correct": false
+      },
+      {
+        "text": "Neville Longbottom",
+        "correct": false
+      },
+      {
+        "text": "Cedric Diggory",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Who was NOT a member of the Order of the Phoenix?",
+    "answers": [
+      {
+        "text": "Mad-Eye Moody",
+        "correct": false
+      },
+      {
+        "text": "Bellatrix Lestrange",
+        "correct": true
+      },
+      {
+        "text": "Sirius Black",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who kills Dumbledore at the end of \"The Half-Blood Prince\"?",
+    "answers": [
+      {
+        "text": "Lucius Malfoy",
+        "correct": false
+      },
+      {
+        "text": "Draco Malfoy",
+        "correct": false
+      },
+      {
+        "text": "Professor Snape",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "How many copies did \"Harry Potter and the Deathly Hallows\"\n sell the first day of its release in the U.S. and the U.K.?",
+    "answers": [
+      {
+        "text": "5 million",
+        "correct": false
+      },
+      {
+        "text": "8 million",
+        "correct": false
+      },
+      {
+        "text": "11 million",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What's the name of the fairy-tale book that Dumbledore bequeaths to Hermione in \"The Deathly Hallows?\"",
+    "answers": [
+      {
+        "text": "The Tales of Beedle the Bard",
+        "correct": true
+      },
+      {
+        "text": "The Tales of Crookshanks the Cat",
+        "correct": false
+      },
+      {
+        "text": "The Tales of Gilderoy the Great",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the epilogue to \"Harry Potter and the Deathly Hallows,\" to whom is Harry married?",
+    "answers": [
+      {
+        "text": "Hermione Granger",
+        "correct": false
+      },
+      {
+        "text": "Ginny Weasley",
+        "correct": true
+      },
+      {
+        "text": "Cho Chang",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Another tidbit offered in the final epilogue is that this \nformer Hogwarts student is now teaching Herbology at his alma mater.",
+    "answers": [
+      {
+        "text": "Luna Lovegood",
+        "correct": false
+      },
+      {
+        "text": "Lavender Brown",
+        "correct": false
+      },
+      {
+        "text": "Neville Longbottom",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "The first Harry Potter theme park opened in 2010. Where is it?",
+    "answers": [
+      {
+        "text": "Kyoto, Japan",
+        "correct": false
+      },
+      {
+        "text": "Birmingham, England",
+        "correct": false
+      },
+      {
+        "text": "Orlando, Florida",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "In the first line of the first book of the Harry Potter \nseries, we learn that Harry's aunt and uncle, the Dursleys, were proud \nto say that they were____________:",
+    "answers": [
+      {
+        "text": "\"...perfectly normal, thank you very much.\"",
+        "correct": true
+      },
+      {
+        "text": "\"...the last people you'd expect to be involved in anything strange or mysterious.\"",
+        "correct": false
+      },
+      {
+        "text": "\"...proud winners of the best-kept suburban lawn competition.\"",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In \"Harry Potter and the Sorcerer's Stone,\" the first \nbook, a magical creature named Fluffy guards a trapdoor. What kind of \ncreature is Fluffy?",
+    "answers": [
+      {
+        "text": "A Niffler, a cuddly creature that is a useful treasure detector",
+        "correct": false
+      },
+      {
+        "text": "Acromantula, a gigantic black spider raised by Hagrid from infancy",
+        "correct": false
+      },
+      {
+        "text": "A Hellhound, also known as a \"three-headed dog\"",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "The sorcerer's stone is an incredibly valuable magical \nitem which provides immortality and unlimited wealth. Which item was NOT\n protecting its hiding place?",
+    "answers": [
+      {
+        "text": "A three-headed dog",
+        "correct": false
+      },
+      {
+        "text": "A Blast-Ended Skrewt",
+        "correct": true
+      },
+      {
+        "text": "Snape's potions puzzle",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How did Harry retrieve the sorcerer's stone from the Mirror of Erised?",
+    "answers": [
+      {
+        "text": "He broke the mirror fighting with Quirrell.",
+        "correct": false
+      },
+      {
+        "text": "He looked into the mirror and felt the stone drop into his pocket.",
+        "correct": true
+      },
+      {
+        "text": "He distracted Quirrell and quickly accessed a small hidden chamber in the mirror's lower frame.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the second book, \"Harry Potter and the Chamber of \nSecrets,\" Harry receives a warning when a creature named Dobby smashes a\n pudding in the Dursley's house. What kind of creature is Dobby?",
+    "answers": [
+      {
+        "text": "Goblin",
+        "correct": false
+      },
+      {
+        "text": "House-Elf",
+        "correct": true
+      },
+      {
+        "text": "Centaur",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the second book, Harry and Ron miss the train back to \nschool, so they fly to Hogwarts in Ron's dad's bewitched Ford Anglia \ninstead. How does this misadventure end?",
+    "answers": [
+      {
+        "text": "They land spectacularly on the front lawn at Hogwarts.",
+        "correct": false
+      },
+      {
+        "text": "The car is spotted by muggles up and down the countryside, and\n both Harry and Ron are disciplined by the Ministry of Magic.",
+        "correct": false
+      },
+      {
+        "text": "They crash into the Whomping Willow.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Hogwarts students are excited when Professor Lockhart \nstarts a dueling club. At the first meeting, Harry unwittingly reveals a\n mysterious and rare ability. What is this ability?",
+    "answers": [
+      {
+        "text": "Harry is a Horcrux.",
+        "correct": false
+      },
+      {
+        "text": "Harry can cast a Patronus charm.",
+        "correct": false
+      },
+      {
+        "text": "Harry can speak Parseltongue.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Exceptionally handsome and infuriatingly arrogant, \nProfessor Gilderoy Lockhart is a fraud and a disaster at almost all \nspells. There is one type of charm at which he excels, however. What is \nit?",
+    "answers": [
+      {
+        "text": "Memory charms",
+        "correct": true
+      },
+      {
+        "text": "Summoning charms",
+        "correct": false
+      },
+      {
+        "text": "The immensely difficult Homorphus charm",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the second book, Harry discovers a diary that used to \nbelong to a Hogwarts student named Tom Riddle. According to the diary, \nwhich Hogwarts employee is the heir of Slytherin?",
+    "answers": [
+      {
+        "text": "Hagrid",
+        "correct": true
+      },
+      {
+        "text": "McGonagall",
+        "correct": false
+      },
+      {
+        "text": "Snape",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Hagrid was not, however, the heir of Slytherin. That \nperson turned out to be Tom Marvolo Riddle himself, who came to be known\n by what name after he graduated from Hogwarts?",
+    "answers": [
+      {
+        "text": "The Dark Lord",
+        "correct": false
+      },
+      {
+        "text": "Voldemort",
+        "correct": false
+      },
+      {
+        "text": "Both of the above",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "In the third book, \"Harry Potter and the Prisoner of \nAzkaban,\" Harry runs away from his aunt and uncle's home after \naccidentally ______________.",
+    "answers": [
+      {
+        "text": "Casting a Patronus charm",
+        "correct": false
+      },
+      {
+        "text": "Blowing his Aunt Marge up like a balloon",
+        "correct": true
+      },
+      {
+        "text": "Dropping a ton-tongue toffee that gets eaten by Dudley",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the third book, Harry nearly dies several times after thinking he's caught a glimpse of which death omen?",
+    "answers": [
+      {
+        "text": "The Grim",
+        "correct": true
+      },
+      {
+        "text": "The Werewolf",
+        "correct": false
+      },
+      {
+        "text": "The Thestral",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Third-year students at Hogwarts get to do two things they weren't allowed to do previously. What are they?",
+    "answers": [
+      {
+        "text": "Visit Hogsmeade and become prefects",
+        "correct": false
+      },
+      {
+        "text": "Become prefects and start new subjects",
+        "correct": false
+      },
+      {
+        "text": "Start new elective subjects and visit Hogsmeade",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Hermione begs permission from Professor McGonagall to take\n an unusually heavy course load in her third year. What does McGonagall \ngive her to help her get to all her classes?",
+    "answers": [
+      {
+        "text": "Mandrake draught",
+        "correct": false
+      },
+      {
+        "text": "A time-turner",
+        "correct": true
+      },
+      {
+        "text": "Felix Felicis",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Harry and Ron each add only two classes to their course \nschedule: Care of Magical Creatures with Professor Rubeus Hagrid and \nDivination, with a professor who reminds Harry strongly of a \"glittering\n insect.\" Who is the Hogwarts Divination professor?",
+    "answers": [
+      {
+        "text": "Aurora Sinistra",
+        "correct": false
+      },
+      {
+        "text": "Sibyll Trelawney",
+        "correct": true
+      },
+      {
+        "text": "Pomona Sprout",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Harry hasn't had the best experiences with his Defense \nAgainst the Dark Arts teachers, but in his third year, he finally gets \none who really knows his stuff. Who is he?",
+    "answers": [
+      {
+        "text": "Professor Lockhart",
+        "correct": false
+      },
+      {
+        "text": "Professor Lupin",
+        "correct": true
+      },
+      {
+        "text": "Professor Grubbly-Plank",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Name both the Wizarding prison and the foul creatures who guard it.",
+    "answers": [
+      {
+        "text": "Azkaban is guarded by Dementors.",
+        "correct": true
+      },
+      {
+        "text": "Absolom is guarded by Dementors.",
+        "correct": false
+      },
+      {
+        "text": "Arkaban is guarded by Deluminators.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the fourth book, \"Harry Potter and the Goblet of Fire,\"\n Harry gets to spend part of his summer vacation with Ron because Ron's \ndad has managed to get them tickets to what major Wizarding event?",
+    "answers": [
+      {
+        "text": "The Triwizard Tournament",
+        "correct": false
+      },
+      {
+        "text": "International Exhibition of Thick-Bottomed Cauldrons",
+        "correct": false
+      },
+      {
+        "text": "The Quidditch World Cup",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "In the fourth book, Harry finds himself infatuated with a \ngirl for the first time. What Quidditch position did Cho Chang play?",
+    "answers": [
+      {
+        "text": "Seeker",
+        "correct": true
+      },
+      {
+        "text": "Beater",
+        "correct": false
+      },
+      {
+        "text": "Keeper",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the fourth book, Harry received much unwanted attention from which Daily Prophet reporter?",
+    "answers": [
+      {
+        "text": "Rita Skeeter",
+        "correct": true
+      },
+      {
+        "text": "Barnabas Cuffe",
+        "correct": false
+      },
+      {
+        "text": "Gilderoy Lockhart",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "As bad as the Avada Kevadra (killing) curse is, the \nCruciatus curse can be equally devastating, as Harry learns when he \nhears how Bellatrix Lestrange tortured Neville Longbottom's parents. \nWhat happened to the Longbottoms?",
+    "answers": [
+      {
+        "text": "They were driven insane and now live in a locked ward at St. Mungo's.",
+        "correct": true
+      },
+      {
+        "text": "They became Death Eaters.",
+        "correct": false
+      },
+      {
+        "text": "They died, leaving Neville to be raised by his grandmother.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How did Harry learn about the fate of Neville's parents?",
+    "answers": [
+      {
+        "text": "Hermione put two and two together and told Harry.",
+        "correct": false
+      },
+      {
+        "text": "He overheard Neville talking in his sleep.",
+        "correct": false
+      },
+      {
+        "text": "He saw the trial of Bartemious Crouch and the Lestranges in Dumbledore's Pensieve.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Harry witnessed Voldemort's return at the end of the fourth book. How did the Dark Lord get his body back?",
+    "answers": [
+      {
+        "text": "He stole the sorcerer's stone and used it to conjure a corporeal form.",
+        "correct": false
+      },
+      {
+        "text": "He reanimated his old body by possessing the corpse of James Potter.",
+        "correct": false
+      },
+      {
+        "text": "He used a potion of his own invention to restore himself to his mortal form.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which horse-like creatures pull the school carriages at Hogwarts?",
+    "answers": [
+      {
+        "text": "Thestrals",
+        "correct": true
+      },
+      {
+        "text": "Centaurs",
+        "correct": false
+      },
+      {
+        "text": "Hippogriffs",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "When Harry meets Luna Lovegood for the first time, which publication is she reading?",
+    "answers": [
+      {
+        "text": "The Daily Prophet",
+        "correct": false
+      },
+      {
+        "text": "The Quibbler",
+        "correct": true
+      },
+      {
+        "text": "Which Broomstick",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Fred and George Weasley's life ambition was to open a joke\n shop. By Harry's fifth year at Hogwarts, they'd already invented which \nof these novelty items?",
+    "answers": [
+      {
+        "text": "Skiving snackboxes, canary creams, ton-tongue toffee and extendable ears",
+        "correct": true
+      },
+      {
+        "text": "Canary creams, fizzing whizzbees, skiving snackboxes and trick wands",
+        "correct": false
+      },
+      {
+        "text": "Trick wands, skiving snackboxes, ton-tongue toffee and sneakoscopes",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the fifth book, Hogwarts gets its worst-ever Defense \nAgainst the Dark Arts Teacher in \"Harry Potter and the Order of the \nPhoenix.\" Who was it?",
+    "answers": [
+      {
+        "text": "Dolores Umbridge",
+        "correct": true
+      },
+      {
+        "text": "Quirinus Quirrell",
+        "correct": false
+      },
+      {
+        "text": "Severus Snape",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Since Umbridge wouldn't allow students to actually \npractice spells, Hermione convinced Harry to start a secret Defense \nAgainst the Dark Arts society. What was it called, and where were \nmeetings held?",
+    "answers": [
+      {
+        "text": "Defense Association, \"D.A.\" for short, met in the Room of Requirement.",
+        "correct": false
+      },
+      {
+        "text": "The Defense Against the Dark Arts League met in the Come-and-Go room.",
+        "correct": false
+      },
+      {
+        "text": "Dumbledore's Army met in the Room of Requirement.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "At the beginning of the sixth book, \"Harry Potter and the \nHalf-Blood Prince,\" we meet a new Hogwarts professor. Who was he?",
+    "answers": [
+      {
+        "text": "Professor Slughorn",
+        "correct": true
+      },
+      {
+        "text": "Professor Umbridge",
+        "correct": false
+      },
+      {
+        "text": "Professor Moody",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the sixth book, we learn about Horcruxes, objects that \ncontain a fragment of a Dark Wizard's soul. What are the seven Horcruxes\n that Voldemort created?",
+    "answers": [
+      {
+        "text": "Tom Riddle's diary, Marvolo Gaunt's locket, Slytherin's ring, \nHufflepuff's cup, Rowena Ravenclaw's diadem, Nagini the snake and Harry \nPotter himself",
+        "correct": false
+      },
+      {
+        "text": "Tom Riddle's diary, Marvolo Gaunt's ring, Slytherin's locket, \nHufflepuff's cup, Rowena Ravenclaw's diadem, Nagini the snake and Harry \nPotter himself",
+        "correct": true
+      },
+      {
+        "text": "Tom Riddle's diary, Marvolo Gaunt's ring, Slytherin's locket, \nHufflepuff's diadem, Rowena Ravenclaw's cup, Nagini the snake and Harry \nPotter himself",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does Dumbledore do in the sixth book to equip Harry with the tools he needs to destroy Voldemort's Horcruxes?",
+    "answers": [
+      {
+        "text": "He bequeaths him the sword of Gryffindor.",
+        "correct": false
+      },
+      {
+        "text": "He teaches him Horcruxio, the secret spell for destroying Horcruxes.",
+        "correct": false
+      },
+      {
+        "text": "He takes him through the Pensieve to show him his memories of Voldemort's past.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "In the sixth book, while on the school train, Draco Malfoy\n hints that his dark aspirations involve much more than schoolboy \npranks. What has the Dark Lord asked him to do?",
+    "answers": [
+      {
+        "text": "Join the Death Eaters",
+        "correct": false
+      },
+      {
+        "text": "Murder Albus Dumbledore",
+        "correct": false
+      },
+      {
+        "text": "Both of the above",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What magical object must Draco Malfoy repair in order to carry out his instructions from Voldemort?",
+    "answers": [
+      {
+        "text": "Slytherin's locket",
+        "correct": false
+      },
+      {
+        "text": "Vanishing Cabinet",
+        "correct": true
+      },
+      {
+        "text": "The Room of Requirement",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is the Half-Blood Prince?",
+    "answers": [
+      {
+        "text": "Severus Snape",
+        "correct": true
+      },
+      {
+        "text": "Horace Slughorn",
+        "correct": false
+      },
+      {
+        "text": "Albus Dumbledore",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the seventh book, Dumbledore makes bequests to Harry and Ron. What were these?",
+    "answers": [
+      {
+        "text": "A Deluminator, Gryffindor's sword and the first golden snitch Harry ever caught",
+        "correct": true
+      },
+      {
+        "text": "Gryffindor's sword, a put-outer and the Pensieve",
+        "correct": false
+      },
+      {
+        "text": "An invisibility cloak, a Deluminator and Gryffindor's sword",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the three Deathly Hallows?",
+    "answers": [
+      {
+        "text": "Invisibility cloak, elder wand and polyjuice potion",
+        "correct": false
+      },
+      {
+        "text": "Elder wand, Horcrux and resurrection stone",
+        "correct": false
+      },
+      {
+        "text": "Resurrection stone, invisibility cloak and elder wand",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Harry's best friend is Ron Weasley, who comes from a large\n Wizarding family. Over the years, Harry gets to know all of the Weasley\n kids pretty well. Which Weasley sibling dies in the Battle of Hogwarts?",
+    "answers": [
+      {
+        "text": "George",
+        "correct": false
+      },
+      {
+        "text": "Percy",
+        "correct": false
+      },
+      {
+        "text": "Fred",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Severus Snape is a Death Eater. Is he also a bad guy?",
+    "answers": [
+      {
+        "text": "Snape became a murderer and a double agent in the name of love. He's complicated, but ultimately good.",
+        "correct": true
+      },
+      {
+        "text": "A superb Occlumens, Snape plays Dumbledore like a fiddle. He's rotten to the core.",
+        "correct": false
+      },
+      {
+        "text": "Death Eaters are all good guys.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What do the initials J.K. Rowling stand for?",
+    "answers": [
+      {
+        "text": "Joanne Kathleen",
+        "correct": true
+      },
+      {
+        "text": "Jane Kathleen",
+        "correct": false
+      },
+      {
+        "text": "Jody Katie",
+        "correct": false
+      },
+      {
+        "text": "Joanne Katie",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What year was the first Harry Potter book published?",
+    "answers": [
+      {
+        "text": "1996",
+        "correct": false
+      },
+      {
+        "text": "1997",
+        "correct": true
+      },
+      {
+        "text": "1998",
+        "correct": false
+      },
+      {
+        "text": "1999",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the real name of Ronald Weasleys pet rat?",
+    "answers": [
+      {
+        "text": "Scabbers",
+        "correct": false
+      },
+      {
+        "text": "Wormtail",
+        "correct": false
+      },
+      {
+        "text": "Peter Pettigrew",
+        "correct": true
+      },
+      {
+        "text": "Hedwig",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of these is not one of Albus Dumbledores middle names?",
+    "answers": [
+      {
+        "text": "Brian",
+        "correct": false
+      },
+      {
+        "text": "Percival",
+        "correct": false
+      },
+      {
+        "text": "Wulfric",
+        "correct": false
+      },
+      {
+        "text": "Severus",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What school does Viktor Krum go to?",
+    "answers": [
+      {
+        "text": "Hogwarts School of Witchcraft & Wizardry",
+        "correct": false
+      },
+      {
+        "text": "Durmstrang Institute",
+        "correct": true
+      },
+      {
+        "text": "Drumstead Institute",
+        "correct": false
+      },
+      {
+        "text": "Beauxbatons Academy of Magic",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How many named ghosts live at Hogwarts?",
+    "answers": [
+      {
+        "text": "12",
+        "correct": false
+      },
+      {
+        "text": "7",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": true
+      },
+      {
+        "text": "11",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What was the name of the Weasley twins shop?",
+    "answers": [
+      {
+        "text": "Weasleys Tricks & Treats",
+        "correct": false
+      },
+      {
+        "text": "Weasleys Wizard Treats",
+        "correct": false
+      },
+      {
+        "text": "Weasleys Wicked Treats",
+        "correct": false
+      },
+      {
+        "text": "Weasleys Wizard Wheezes",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which species operates Gringotts Wizarding Bank?",
+    "answers": [
+      {
+        "text": "Dwarves",
+        "correct": false
+      },
+      {
+        "text": "Elves",
+        "correct": false
+      },
+      {
+        "text": "Goblins",
+        "correct": true
+      },
+      {
+        "text": "Muggles",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Hagrid has a giant pet spider by the name of:",
+    "answers": [
+      {
+        "text": "Aragon",
+        "correct": false
+      },
+      {
+        "text": "Aragog",
+        "correct": true
+      },
+      {
+        "text": "Spidey",
+        "correct": false
+      },
+      {
+        "text": "Fang",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which ingredient is not required to make Polyjuice Potion?",
+    "answers": [
+      {
+        "text": "Fluxweed",
+        "correct": false
+      },
+      {
+        "text": "Leeches",
+        "correct": false
+      },
+      {
+        "text": "Lacewing Flies",
+        "correct": false
+      },
+      {
+        "text": "Unicorn Blood",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "How many film directors have worked on the Harry Potter series?",
+    "answers": [
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "5",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who killed Dobby?",
+    "answers": [
+      {
+        "text": "Severus Snape",
+        "correct": false
+      },
+      {
+        "text": "He Who Must Not Be Named",
+        "correct": false
+      },
+      {
+        "text": "Bellatrix Lestrange",
+        "correct": true
+      },
+      {
+        "text": "Lucius Malfoy",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which Hogwarts House does Harry belong to?",
+    "answers": [
+      {
+        "text": "Hufflepuff",
+        "correct": false
+      },
+      {
+        "text": "Slytherin",
+        "correct": false
+      },
+      {
+        "text": "Gryffindor",
+        "correct": true
+      },
+      {
+        "text": "Ravenclaw",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Can you remember on which street the Dursleys live?",
+    "answers": [
+      {
+        "text": "Magnolia Crescent",
+        "correct": false
+      },
+      {
+        "text": "Diagon Alley",
+        "correct": false
+      },
+      {
+        "text": "Whinging Way",
+        "correct": false
+      },
+      {
+        "text": "Privet Drive",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a Quidditch term?",
+    "answers": [
+      {
+        "text": "Quaffle",
+        "correct": false
+      },
+      {
+        "text": "Seeker",
+        "correct": false
+      },
+      {
+        "text": "Snitch",
+        "correct": false
+      },
+      {
+        "text": "Bloopers",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is the name of the fourth Harry Potter book?",
+    "answers": [
+      {
+        "text": "Harry Potter and the Goblet of Fire",
+        "correct": true
+      },
+      {
+        "text": "Harry Potter and the Philosopher's Stone",
+        "correct": false
+      },
+      {
+        "text": "Harry Potter and the Prisoner of Azkaban",
+        "correct": false
+      },
+      {
+        "text": "Harry Potter and the Deathly Hollows",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the name of the magical room in Hogwarts that transforms into the place you need the most?",
+    "answers": [
+      {
+        "text": "The Room of Retirement",
+        "correct": true
+      },
+      {
+        "text": "The Vanishing Vault",
+        "correct": false
+      },
+      {
+        "text": "The Chamber of Secrets",
+        "correct": false
+      },
+      {
+        "text": "The Hogwart's Hideaway",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What position does Harry play on the Gryffindor Quidditch team?",
+    "answers": [
+      {
+        "text": "Chaser",
+        "correct": false
+      },
+      {
+        "text": "Seeker",
+        "correct": true
+      },
+      {
+        "text": "Beater",
+        "correct": false
+      },
+      {
+        "text": "Keeper",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "There are heaps of ghouls and ghosts throughout Hogwarts. Which of the following is a poltergeist and is NOT a ghost?",
+    "answers": [
+      {
+        "text": "Nearly Headless Nick",
+        "correct": false
+      },
+      {
+        "text": "Moaning Myrtle",
+        "correct": false
+      },
+      {
+        "text": "Peeves",
+        "correct": true
+      },
+      {
+        "text": "The Fat Friar",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is Arthur Weasley\u2019s nickname for Molly?",
+    "answers": [
+      {
+        "text": "Mollywobbles",
+        "correct": true
+      },
+      {
+        "text": "Mollyma",
+        "correct": false
+      },
+      {
+        "text": "Miss Molly",
+        "correct": false
+      },
+      {
+        "text": "Mollywolly",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "________________ is the title of Chapter Five in the book, \u2018Harry Potter and the Chamber of Secrets\u2019.",
+    "answers": [
+      {
+        "text": "The Weeping Willow",
+        "correct": false
+      },
+      {
+        "text": "The Whomping Willow",
+        "correct": true
+      },
+      {
+        "text": "The Whooping Willow",
+        "correct": false
+      },
+      {
+        "text": "The Whomping Tree",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Where are the headquarters of the Order of the Phoenix?",
+    "answers": [
+      {
+        "text": "The Hog's Head",
+        "correct": false
+      },
+      {
+        "text": "Hogwart's",
+        "correct": false
+      },
+      {
+        "text": "Godric's Hollow",
+        "correct": false
+      },
+      {
+        "text": "Grimmauld Place",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Who competes for Hogwarts alongside Harry in the Triwizard Tournament?",
+    "answers": [
+      {
+        "text": "Cedric Diggory",
+        "correct": true
+      },
+      {
+        "text": "Cho Chang",
+        "correct": false
+      },
+      {
+        "text": "Draco Malfoy",
+        "correct": false
+      },
+      {
+        "text": "Viktor Krum",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which character\u2019s Patronus takes this form?",
+    "answers": [
+      {
+        "text": "Hermione Granger",
+        "correct": false
+      },
+      {
+        "text": "Luna Lovegood",
+        "correct": false
+      },
+      {
+        "text": "Harry Potter",
+        "correct": true
+      },
+      {
+        "text": "Ginny Weasley",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "_____________________ was second to open the Chamber of Secrets.",
+    "answers": [
+      {
+        "text": "Dumbledore",
+        "correct": false
+      },
+      {
+        "text": "Draco Malfoy",
+        "correct": false
+      },
+      {
+        "text": "Ginny Weasley",
+        "correct": true
+      },
+      {
+        "text": "Tom Riddle",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Let\u2019s jog your brain a little bit. \u2018Harry Potter and the Order of the Phoenix\u2019 contains how many chapters?",
+    "answers": [
+      {
+        "text": "37",
+        "correct": false
+      },
+      {
+        "text": "38",
+        "correct": true
+      },
+      {
+        "text": "34",
+        "correct": false
+      },
+      {
+        "text": "36",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "J.K. Rowling has a pseudonym that she goes by when writing other books. Which of the following is it?",
+    "answers": [
+      {
+        "text": "Jillian Kerry",
+        "correct": false
+      },
+      {
+        "text": "Robert Gailbraith",
+        "correct": true
+      },
+      {
+        "text": "Annie Parkland",
+        "correct": false
+      },
+      {
+        "text": "Joanne Rowe",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Platform 9 \u00be can be found at which London station?",
+    "answers": [
+      {
+        "text": "Paddington",
+        "correct": false
+      },
+      {
+        "text": "Colindale",
+        "correct": false
+      },
+      {
+        "text": "Kings Cross",
+        "correct": true
+      },
+      {
+        "text": "Waterloo",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Boggarts turn into the thing you are most afraid of. What does Ron\u2019s boggart become?",
+    "answers": [
+      {
+        "text": "A spider",
+        "correct": true
+      },
+      {
+        "text": "Mrs. Weasley",
+        "correct": false
+      },
+      {
+        "text": "A dragon",
+        "correct": false
+      },
+      {
+        "text": "Lavender Brown",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "\u201cCome \nseek us where our voices sound, we cannot sing above the ground.\u201d Harry \nunveiled this message underwater, which was sent by which group?",
+    "answers": [
+      {
+        "text": "The Centaurs",
+        "correct": false
+      },
+      {
+        "text": "The Thunderbirds",
+        "correct": false
+      },
+      {
+        "text": "The Merpeople",
+        "correct": true
+      },
+      {
+        "text": "The House Elves",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "'Tom Marvolo Riddle' is a clever anagram of which character name?",
+    "answers": [
+      {
+        "text": "I am Lord Voldemort",
+        "correct": true
+      },
+      {
+        "text": "Lord Voldemort I am",
+        "correct": false
+      },
+      {
+        "text": "I am Voldemort Lord",
+        "correct": false
+      },
+      {
+        "text": "Am I Lord Voldemort?",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What did Sirius give Harry for his first birthday?",
+    "answers": [
+      {
+        "text": "Toy broomstick",
+        "correct": true
+      },
+      {
+        "text": "Magical wand",
+        "correct": false
+      },
+      {
+        "text": "Magic position",
+        "correct": false
+      },
+      {
+        "text": "Invisible cloak",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who does Tom Riddle possess in order to open the Chamber of Secrets?",
+    "answers": [
+      {
+        "text": "Hermione Granger",
+        "correct": false
+      },
+      {
+        "text": "Harry Potter",
+        "correct": false
+      },
+      {
+        "text": "Ginny Weasley",
+        "correct": true
+      },
+      {
+        "text": "Luna Lovegood",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Ron\u2019s rat Scabbers is an Animagus! Who is he really?",
+    "answers": [
+      {
+        "text": "Peter Pettigrew",
+        "correct": true
+      },
+      {
+        "text": "Kingsley Shaklebolt",
+        "correct": false
+      },
+      {
+        "text": "Remus Lupin",
+        "correct": false
+      },
+      {
+        "text": "Barty Crouch Jr.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Can you finish the Sorting Hat\u2019s line about Gryffindor?",
+    "answers": [
+      {
+        "text": "Strong",
+        "correct": false
+      },
+      {
+        "text": "Heroic",
+        "correct": false
+      },
+      {
+        "text": "Gallant",
+        "correct": false
+      },
+      {
+        "text": "Brave",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What name does Hagrid give to his pet dragon?",
+    "answers": [
+      {
+        "text": "Fang",
+        "correct": false
+      },
+      {
+        "text": "Norbert",
+        "correct": true
+      },
+      {
+        "text": "Witherwings",
+        "correct": false
+      },
+      {
+        "text": "Aragog",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Harry and Voldemort\u2019s wands share twin cores. What is the core of their wands?",
+    "answers": [
+      {
+        "text": "Dragon heartstring",
+        "correct": false
+      },
+      {
+        "text": "Acromantula web",
+        "correct": false
+      },
+      {
+        "text": "Unicorn hair",
+        "correct": false
+      },
+      {
+        "text": "Phoenix feather",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which \nwitch or wizard did Harry meet in the Leaky Cauldron that he pretended \nnot to remember after seeing him in Hagrid\u2019s Hut the previous year?",
+    "answers": [
+      {
+        "text": "Cornelius Fudge",
+        "correct": true
+      },
+      {
+        "text": "Stan Shunpike",
+        "correct": false
+      },
+      {
+        "text": "Minerva McGonagall",
+        "correct": false
+      },
+      {
+        "text": "Ernie Prang",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of these is NOT an unforgiveable curse?",
+    "answers": [
+      {
+        "text": "Imperio",
+        "correct": false
+      },
+      {
+        "text": "Crucio",
+        "correct": false
+      },
+      {
+        "text": "Avada Kedavra",
+        "correct": false
+      },
+      {
+        "text": "Sectumsempra",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Whose Patronus was a hare?",
+    "answers": [
+      {
+        "text": "Hermione Granger",
+        "correct": false
+      },
+      {
+        "text": "Luna Lovegood",
+        "correct": true
+      },
+      {
+        "text": "Sirius Black",
+        "correct": false
+      },
+      {
+        "text": "Arthur Weasley",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does Albus Dumbledore leave to Hermione in his will?",
+    "answers": [
+      {
+        "text": "The Sword of Goodrich Gryffindor",
+        "correct": false
+      },
+      {
+        "text": "The Deluminator",
+        "correct": false
+      },
+      {
+        "text": "The Tales of Bridle the Bard",
+        "correct": true
+      },
+      {
+        "text": "Secrets of the Darkest Art",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How are Bellatrix Lestrange and Nymphadora Tonks related?",
+    "answers": [
+      {
+        "text": "They are sisters.",
+        "correct": false
+      },
+      {
+        "text": "They are mother and daughter.",
+        "correct": false
+      },
+      {
+        "text": "They are aunt and niece.",
+        "correct": true
+      },
+      {
+        "text": "They are cousins.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the \u2018Langlock\u2019 spell do?",
+    "answers": [
+      {
+        "text": "Glues your opponents tongue to the roof of their mouth.",
+        "correct": true
+      },
+      {
+        "text": "Cause boils to appear all over your opponent's body.",
+        "correct": false
+      },
+      {
+        "text": "Binds your opponent's limbs together.",
+        "correct": false
+      },
+      {
+        "text": "Sticks your opponent's feet to the ground.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Can you help Dumbledore out with the last word of his speech? \u201cNitwit! Blubber! Oddment! _______!\u201d\u201d",
+    "answers": [
+      {
+        "text": "Widdershins",
+        "correct": false
+      },
+      {
+        "text": "Tweak",
+        "correct": true
+      },
+      {
+        "text": "Gobble",
+        "correct": false
+      },
+      {
+        "text": "Doodle",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Do you know which witch Snape has been in love with since childhood?",
+    "answers": [
+      {
+        "text": "Professor McGonagall",
+        "correct": false
+      },
+      {
+        "text": "Bellatrix Lestrange",
+        "correct": false
+      },
+      {
+        "text": "Lily Evans",
+        "correct": true
+      },
+      {
+        "text": "Nymphadora Tonks",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "This is a tough one. There are how many words in the fourth \u2018Harry Potter\u2019 book?",
+    "answers": [
+      {
+        "text": "260,520 words",
+        "correct": false
+      },
+      {
+        "text": "170,440 words",
+        "correct": false
+      },
+      {
+        "text": "190,637 words",
+        "correct": true
+      },
+      {
+        "text": "156,670 words",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is the motto of Gringotts Wizarding Bank?",
+    "answers": [
+      {
+        "text": "Fortius Quo Fidelius",
+        "correct": true
+      },
+      {
+        "text": "Expecto patronum",
+        "correct": false
+      },
+      {
+        "text": "Canis lupus",
+        "correct": false
+      },
+      {
+        "text": "Cruciare expellere arma",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Do you know which lovesick Hogwarts pupil spikes Harry\u2019s chocolates with love potion?",
+    "answers": [
+      {
+        "text": "Cho Chang",
+        "correct": false
+      },
+      {
+        "text": "Hannah Abbott",
+        "correct": false
+      },
+      {
+        "text": "Romilda Vane",
+        "correct": true
+      },
+      {
+        "text": "Parvati Patil",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is special about the Weasley clock?",
+    "answers": [
+      {
+        "text": "There is nothing special about it.",
+        "correct": false
+      },
+      {
+        "text": "It tells you where the Weasleys are.",
+        "correct": true
+      },
+      {
+        "text": "It allows you to read people's minds.",
+        "correct": false
+      },
+      {
+        "text": "It can predict the future.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following was the least successful of the \u2018Harry Potter\u2019 films?",
+    "answers": [
+      {
+        "text": "Harry Potter and the Philosopher's Stone",
+        "correct": false
+      },
+      {
+        "text": "Harry Potter and the Half-Blood Prince",
+        "correct": false
+      },
+      {
+        "text": "Harry Potter and the Order of the Phoenix",
+        "correct": false
+      },
+      {
+        "text": "Harry Potter and the Prisoner of Azkaban",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "__________________ is the UK Publisher that initially published \u2018Harry Potter\u2019.",
+    "answers": [
+      {
+        "text": "Pearson",
+        "correct": false
+      },
+      {
+        "text": "Bloomsbury",
+        "correct": true
+      },
+      {
+        "text": "HarperCollins",
+        "correct": false
+      },
+      {
+        "text": "Simon & Schuster",
+        "correct": false
+      }
+    ]
+  }
+]
