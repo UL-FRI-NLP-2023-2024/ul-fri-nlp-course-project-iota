@@ -1,0 +1,1518 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Extended Sorting Hat Quiz</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Extended Sorting Hat Quiz with all possible questions" />
+	
+	<link rel="shortcut icon" href="http://wizardmore.com/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="http://wizardmore.com/favicon.ico" type="image/x-icon">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5bcbcc4b1efc580011ca5e50&product=social-ab' async='async'></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+	<script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="wizardmore" data-description="Support me on Buy me a coffee!" data-message="Help us pay for the server and the Patronus data cost!" data-color="#b4285a" data-position="" data-x_margin="18" data-y_margin="18"></script>
+	
+	<style>
+		@font-face { font-family: Magorian; src: url(../assets/fonts/Magorian-web.woff); }
+		body { margin-top: 30px; }
+		h1 { font-family: Magorian; font-size: 36pt; }
+		@media (max-width: 767px) {
+			.houses { display:none; }
+		}
+		@media (min-width: 768px) {
+			.houses-mobile { display:none; }
+		}
+		.home { position: fixed; top:5px; left: 5px; }
+	</style>
+</head>
+<body>
+<a href="http://wizardmore.com" class="home" style='z-index:99'><img style='z-index:99' src="../favicon.ico" /></a>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<h1>Extended Sorting Hat Quiz</h1>
+			<hr>
+			<p class="text-justify">
+				This extended version of the <a href="http://wizardmore.com/sorting-hat" target="_blank">Pottermore Sorting Hat Quiz</a> takes into account every single quiz question in order to determine your house accurately. The grading scheme that is used is exactly the same as in Pottermore. You can click the house crests to show or hide the percentage scores. <i>For copyright reasons, house names and images are not shown.</i>
+			</p>
+			<hr>
+		</div>
+	</div>
+	<div class="row sticky-top houses" style="background-color:white">
+				<div class="col-sm-3 text-center">
+			<h4>G</h4>
+			<img class="img-fluid" src="../assets/img/G_crest.png"
+				alt="G" onclick="$('.score').toggle()"><br>
+			<h4 class="score G-pct">0%</h4>
+			<span class="score G-score" style='font-size:12pt'>0</span>
+			<h4 class="score" style="display: none"></h4>
+		</div>
+				<div class="col-sm-3 text-center">
+			<h4>R</h4>
+			<img class="img-fluid" src="../assets/img/R_crest.png"
+				alt="R" onclick="$('.score').toggle()"><br>
+			<h4 class="score R-pct">0%</h4>
+			<span class="score R-score" style='font-size:12pt'>0</span>
+			<h4 class="score" style="display: none"></h4>
+		</div>
+				<div class="col-sm-3 text-center">
+			<h4>H</h4>
+			<img class="img-fluid" src="../assets/img/H_crest.png"
+				alt="H" onclick="$('.score').toggle()"><br>
+			<h4 class="score H-pct">0%</h4>
+			<span class="score H-score" style='font-size:12pt'>0</span>
+			<h4 class="score" style="display: none"></h4>
+		</div>
+				<div class="col-sm-3 text-center">
+			<h4>S</h4>
+			<img class="img-fluid" src="../assets/img/S_crest.png"
+				alt="S" onclick="$('.score').toggle()"><br>
+			<h4 class="score S-pct">0%</h4>
+			<span class="score S-score" style='font-size:12pt'>0</span>
+			<h4 class="score" style="display: none"></h4>
+		</div>
+			</div>
+	<div class="row sticky-top houses-mobile" style="background-color:white">
+					<div class="col-sm-3 text-center">
+				<img style="width:25px; height:28px;" src="../assets/img/G_crest.png"
+					alt="G" onclick="$('.score').toggle()"> G				<span class="score G-pct">0%</span>
+				<span class="score">(<span class="G-score">0</span>)</span>
+				<span class="score" style="display: none"></span>
+			</div>
+					<div class="col-sm-3 text-center">
+				<img style="width:25px; height:28px;" src="../assets/img/R_crest.png"
+					alt="R" onclick="$('.score').toggle()"> R				<span class="score R-pct">0%</span>
+				<span class="score">(<span class="R-score">0</span>)</span>
+				<span class="score" style="display: none"></span>
+			</div>
+					<div class="col-sm-3 text-center">
+				<img style="width:25px; height:28px;" src="../assets/img/H_crest.png"
+					alt="H" onclick="$('.score').toggle()"> H				<span class="score H-pct">0%</span>
+				<span class="score">(<span class="H-score">0</span>)</span>
+				<span class="score" style="display: none"></span>
+			</div>
+					<div class="col-sm-3 text-center">
+				<img style="width:25px; height:28px;" src="../assets/img/S_crest.png"
+					alt="S" onclick="$('.score').toggle()"> S				<span class="score S-pct">0%</span>
+				<span class="score">(<span class="S-score">0</span>)</span>
+				<span class="score" style="display: none"></span>
+			</div>
+			</div>	
+	<div class="row">
+		<div class="col-sm-12 text-left">
+									<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Dawn or dusk?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="dawn-dusk" 
+											id="S3rUVa4VPLNFNCdKko2gdg==" value="" onchange="update()"
+											data-g="100" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="S3rUVa4VPLNFNCdKko2gdg==">
+											Dawn										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="dawn-dusk" 
+											id="Q2QngrNlQ9e3TS+kzsHgSA==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="100">
+										<label class="form-check-label" for="Q2QngrNlQ9e3TS+kzsHgSA==">
+											Dusk										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="dawn-dusk"
+											id="blank-dawn-dusk" onchange="update()" checked>
+										<label class="form-check-label" for="blank-dawn-dusk">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Forest or river?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="forest-river" 
+											id="coof0UMQOQ+T4RAoJVg1QA==" value="" onchange="update()"
+											data-g="100" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="coof0UMQOQ+T4RAoJVg1QA==">
+											Forest										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="forest-river" 
+											id="2u9YJ8AG4pPVMqjaSYEXYw==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="100">
+										<label class="form-check-label" for="2u9YJ8AG4pPVMqjaSYEXYw==">
+											River										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="forest-river"
+											id="blank-forest-river" onchange="update()" checked>
+										<label class="form-check-label" for="blank-forest-river">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Moon or stars?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="moon-stars" 
+											id="R3WFPkjK2pcDUNPDiHfYhw==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="R3WFPkjK2pcDUNPDiHfYhw==">
+											Moon										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="moon-stars" 
+											id="5eWNz0rlc9qJg0aEccxZrQ==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="5eWNz0rlc9qJg0aEccxZrQ==">
+											Stars										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="moon-stars"
+											id="blank-moon-stars" onchange="update()" checked>
+										<label class="form-check-label" for="blank-moon-stars">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Which of the following would you most hate people to call you?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="label" 
+											id="ThtBzvUYciLKRD3K1R84JA==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="ThtBzvUYciLKRD3K1R84JA==">
+											Ordinary										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="label" 
+											id="gMmKOHqr86YcbuX0LsWZgA==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="gMmKOHqr86YcbuX0LsWZgA==">
+											Ignorant										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="label" 
+											id="F4yAPimdRVcfls5u6uKeMA==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="F4yAPimdRVcfls5u6uKeMA==">
+											Cowardly										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="label" 
+											id="oLPt0OOL4bMgYGzJ4kjLKQ==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="oLPt0OOL4bMgYGzJ4kjLKQ==">
+											Selfish										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="label"
+											id="blank-label" onchange="update()" checked>
+										<label class="form-check-label" for="blank-label">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">After you have died, what would you most like people to do when they hear your name?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="legacy" 
+											id="OqXiiYuXXEIDwulvKUL4hg==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="OqXiiYuXXEIDwulvKUL4hg==">
+											Miss you, but smile										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="legacy" 
+											id="D73jDWO7NXtvYnMsJ0++WQ==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="D73jDWO7NXtvYnMsJ0++WQ==">
+											Ask for more stories about your adventures										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="legacy" 
+											id="xTUOH2ta3RUDm7kwlDveyw==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="xTUOH2ta3RUDm7kwlDveyw==">
+											Think with admiration of your achievements										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="legacy" 
+											id="3/oMchmrn32ooUh/kMMkJw==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="3/oMchmrn32ooUh/kMMkJw==">
+											I don't care what people think of me after I'm dead, it's what they think of me while I'm alive that counts										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="legacy"
+											id="blank-legacy" onchange="update()" checked>
+										<label class="form-check-label" for="blank-legacy">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">How would you like to be known to history?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="legacy-2" 
+											id="agj6K8mGzZBY5mR9zlhCDQ==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="agj6K8mGzZBY5mR9zlhCDQ==">
+											The Wise										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="legacy-2" 
+											id="8yPqp5DG7DocTmwRifbQSw==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="8yPqp5DG7DocTmwRifbQSw==">
+											The Good										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="legacy-2" 
+											id="Q5h70HPKpkEK1ts9JlQsZg==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="Q5h70HPKpkEK1ts9JlQsZg==">
+											The Great										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="legacy-2" 
+											id="7j55Ro6hgVoTn0Cp4QMkYg==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="7j55Ro6hgVoTn0Cp4QMkYg==">
+											The Bold										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="legacy-2"
+											id="blank-legacy-2" onchange="update()" checked>
+										<label class="form-check-label" for="blank-legacy-2">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Given the choice, would you rather invent a potion that would guarantee you:</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="potion" 
+											id="HmpVLNNBBs54nb20HJYWOg==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="HmpVLNNBBs54nb20HJYWOg==">
+											Love?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="potion" 
+											id="mgHIhVRuX2zOtQZeBZA//Q==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="mgHIhVRuX2zOtQZeBZA//Q==">
+											Glory?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="potion" 
+											id="wdiP17RvOSlhT3VAGgUeHA==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="wdiP17RvOSlhT3VAGgUeHA==">
+											Wisdom?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="potion" 
+											id="yhG/f7jCKlnfinD7ezxdhw==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="yhG/f7jCKlnfinD7ezxdhw==">
+											Power?										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="potion"
+											id="blank-potion" onchange="update()" checked>
+										<label class="form-check-label" for="blank-potion">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Once every century, the Flutterby bush produces flowers that adapt their scent to attract the unwary.  If it lured you, it would smell of:</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="bush" 
+											id="q587y/xCSipANE3OQ/XEaw==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="q587y/xCSipANE3OQ/XEaw==">
+											A crackling log fire										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="bush" 
+											id="waL+6GieafAGdOUgHkxIxA==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="waL+6GieafAGdOUgHkxIxA==">
+											The sea										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="bush" 
+											id="0+tGacUK2lSZQUePADjjDg==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="0+tGacUK2lSZQUePADjjDg==">
+											Fresh parchment										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="bush" 
+											id="lehq9IUsA55BspevbtQo2g==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="lehq9IUsA55BspevbtQo2g==">
+											Home										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="bush"
+											id="blank-bush" onchange="update()" checked>
+										<label class="form-check-label" for="blank-bush">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Four goblets are placed before you.  Which would you choose to drink?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="goblets" 
+											id="HlLzEvI7BrhGKMavU9Id0A==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="HlLzEvI7BrhGKMavU9Id0A==">
+											The foaming, frothing, silvery liquid that sparkles as though containing ground diamonds.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="goblets" 
+											id="CopEdQ2GJasHqmxpwT2G+A==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="CopEdQ2GJasHqmxpwT2G+A==">
+											The smooth, thick, richly purple drink that gives off a delicious smell of chocolate and plums.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="goblets" 
+											id="3BZxthJFD0ZVYWVLoYGptw==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="3BZxthJFD0ZVYWVLoYGptw==">
+											The golden liquid so bright that it hurts the eye, and which makes sunspots dance all around the room.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="goblets" 
+											id="/sYHAEk4bCNwNCluSn4sBA==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="/sYHAEk4bCNwNCluSn4sBA==">
+											The mysterious black liquid that gleams like ink, and gives off fumes that make you see strange visions.										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="goblets"
+											id="blank-goblets" onchange="update()" checked>
+										<label class="form-check-label" for="blank-goblets">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">What kind of instrument most pleases your ear?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="instrument" 
+											id="MapNUbj0fy8RhZEBytbhlQ==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="MapNUbj0fy8RhZEBytbhlQ==">
+											The violin										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="instrument" 
+											id="2rFaxBgwqDSNAaa4tqBI7Q==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="2rFaxBgwqDSNAaa4tqBI7Q==">
+											The trumpet										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="instrument" 
+											id="HURRqkkQo8bB3uKEogeZ9g==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="HURRqkkQo8bB3uKEogeZ9g==">
+											The piano										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="instrument" 
+											id="taakc/QSLBPHmdBJAXZPYg==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="taakc/QSLBPHmdBJAXZPYg==">
+											The drum										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="instrument"
+											id="blank-instrument" onchange="update()" checked>
+										<label class="form-check-label" for="blank-instrument">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">You enter an enchanted garden.  What would you be most curious to examine first?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="garden" 
+											id="JLJIEyvQW3WXoOtcPfUzuw==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="JLJIEyvQW3WXoOtcPfUzuw==">
+											The silver leafed tree bearing golden apples										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="garden" 
+											id="lfOGYpR45HHAcgyIDvZ5Dg==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="lfOGYpR45HHAcgyIDvZ5Dg==">
+											The fat red toadstools that appear to be talking to each other										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="garden" 
+											id="JGA5pL7DgfpYlthNjiT/OA==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="JGA5pL7DgfpYlthNjiT/OA==">
+											The bubbling pool, in the depths of which something luminous is swirling										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="garden" 
+											id="ABM/EnbXnP3gz7RLcpIwxA==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="ABM/EnbXnP3gz7RLcpIwxA==">
+											The statue of an old wizard with a strangely twinkling eye										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="garden"
+											id="blank-garden" onchange="update()" checked>
+										<label class="form-check-label" for="blank-garden">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Four boxes are placed before you. Which would you try and open?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="boxes" 
+											id="f7nIiOdk+NhLnuVHfD6dmA==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="f7nIiOdk+NhLnuVHfD6dmA==">
+											The small tortoiseshell box, embellished with gold, inside which some small creature seems to be squeaking.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="boxes" 
+											id="lJGG1mPmdXE9BTjo49rDnQ==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="lJGG1mPmdXE9BTjo49rDnQ==">
+											The gleaming jet black box with a silver lock and key, marked with a mysterious rune that you know to be the mark of Merlin.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="boxes" 
+											id="AslF8dkv7KUo5UlAYQUAjg==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="AslF8dkv7KUo5UlAYQUAjg==">
+											The ornate golden casket, standing on clawed feet, whose inscription warns that both secret knowledge and unbearable temptation lie within.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="boxes" 
+											id="NBRnO7vrIvLkqMimMrwxsQ==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="NBRnO7vrIvLkqMimMrwxsQ==">
+											The small pewter box, unassuming and plain, with a scratched message upon it that reads ‘I open only for the worthy.'										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="boxes"
+											id="blank-boxes" onchange="update()" checked>
+										<label class="form-check-label" for="blank-boxes">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">A troll has gone beserk in the Headmaster's study at Hogwarts.  It is about to smash, crush and tear several irreplaceable items and treasures. In which order would you rescue these objects from the troll's club, if you could?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="troll" 
+											id="6jsHYrz1ubedLjrmybk1uA==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="6jsHYrz1ubedLjrmybk1uA==">
+											First, a nearly perfected cure for dragon pox. Then student records going back 1000 years. Finally, a mysterious handwritten book full of strange runes.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="troll" 
+											id="De8U64TEywG3XOLL2kuJMA==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="De8U64TEywG3XOLL2kuJMA==">
+											First, student records going back 1000 years. Then a mysterious handwritten book full of strange runes. Finally, a nearly perfected cure for dragon pox.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="troll" 
+											id="vrbj9wEvUdKkkOd0O2tx1A==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="vrbj9wEvUdKkkOd0O2tx1A==">
+											First, a mysterious handwritten book full of strange runes. Then a nearly perfected cure for dragon pox. Finally, student records going back 1000 years.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="troll" 
+											id="DUZgC+K6+xjgYZYIo+8N8A==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="DUZgC+K6+xjgYZYIo+8N8A==">
+											First, a nearly perfected cure for dragon pox. Then a mysterious handwritten book full of strange runes. Finally, student records going back 1000 years.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="troll" 
+											id="bQicA/gsEZF1tDRPAkTo5Q==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="bQicA/gsEZF1tDRPAkTo5Q==">
+											First student records going back 1000 years. Then, a nearly perfected cure for dragon pox. Finally, a mysterious handwritten book full of strange runes.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="troll" 
+											id="Pyr3KPgorHDqpUDlVv+wIg==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="Pyr3KPgorHDqpUDlVv+wIg==">
+											First,  a mysterious handwritten book full of strange runes. Then student records going back 1000 years. Finally, a nearly perfected cure for dragon pox. 										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="troll"
+											id="blank-troll" onchange="update()" checked>
+										<label class="form-check-label" for="blank-troll">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Which of the following do you find most difficult to deal with?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="difficulty" 
+											id="LiO2jLqaocICknYzMI+SFg==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="LiO2jLqaocICknYzMI+SFg==">
+											Hunger										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="difficulty" 
+											id="IYl8SzzPuRqAxAJhnm8d0A==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="100">
+										<label class="form-check-label" for="IYl8SzzPuRqAxAJhnm8d0A==">
+											Cold										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="difficulty" 
+											id="ho6mwp7yrdwD0br3lKqT0A==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="ho6mwp7yrdwD0br3lKqT0A==">
+											Loneliness										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="difficulty" 
+											id="CCGQJzfWneRY7Wm2zYYCMQ==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="CCGQJzfWneRY7Wm2zYYCMQ==">
+											Boredom										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="difficulty" 
+											id="potfV4/At0023mrPIEKpXQ==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="potfV4/At0023mrPIEKpXQ==">
+											Being ignored										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="difficulty"
+											id="blank-difficulty" onchange="update()" checked>
+										<label class="form-check-label" for="blank-difficulty">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Which would you rather be:</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="vanity" 
+											id="1LmWYPM6O1mGZayncDfLtw==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="1LmWYPM6O1mGZayncDfLtw==">
+											Envied?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="vanity" 
+											id="Qy81tZem664lu1Z7VxN5jA==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="Qy81tZem664lu1Z7VxN5jA==">
+											Imitated?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="vanity" 
+											id="hC/mFhsLwDYW3O1l37f5KA==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="hC/mFhsLwDYW3O1l37f5KA==">
+											Trusted?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="vanity" 
+											id="kWjfHMtJWq5qLCZZM1QOMg==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="50">
+										<label class="form-check-label" for="kWjfHMtJWq5qLCZZM1QOMg==">
+											Praised?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="vanity" 
+											id="HHR/1Bi+x4Dh+E4W4l6XVA==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="HHR/1Bi+x4Dh+E4W4l6XVA==">
+											Liked?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="vanity" 
+											id="N81QS9+yrhTh1vQeykpb8w==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="N81QS9+yrhTh1vQeykpb8w==">
+											Feared?										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="vanity"
+											id="blank-vanity" onchange="update()" checked>
+										<label class="form-check-label" for="blank-vanity">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">If you could have any power, which would you choose?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="power" 
+											id="1LW2jfkOgk6gJklscSDjIg==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="1LW2jfkOgk6gJklscSDjIg==">
+											The power to read minds										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="power" 
+											id="t61wbIvbaNQPgVbao/OVCw==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="50" data-s="0">
+										<label class="form-check-label" for="t61wbIvbaNQPgVbao/OVCw==">
+											The power of invisibility										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="power" 
+											id="pwsQFU2031y0SQzrR2jnNQ==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="50">
+										<label class="form-check-label" for="pwsQFU2031y0SQzrR2jnNQ==">
+											The power of superhuman strength										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="power" 
+											id="rDHeFsim4nWr97kRJogjkw==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="rDHeFsim4nWr97kRJogjkw==">
+											The power to speak to animals										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="power" 
+											id="ghlr3oZc8hEjoR9jbykQxg==" value="" onchange="update()"
+											data-g="50" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="ghlr3oZc8hEjoR9jbykQxg==">
+											The power to change the past										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="power" 
+											id="or0rWnTQjlQBLGLLN3PDQw==" value="" onchange="update()"
+											data-g="50" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="or0rWnTQjlQBLGLLN3PDQw==">
+											The power to change your appearance at will										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="power"
+											id="blank-power" onchange="update()" checked>
+										<label class="form-check-label" for="blank-power">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">What are you most looking forward to learning at Hogwarts?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="study" 
+											id="NgPc8wWpwZ3FQI/EQoC5xg==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="NgPc8wWpwZ3FQI/EQoC5xg==">
+											Apparition and Disapparition (being able to materialize and dematerialize at will)										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="study" 
+											id="wDnNcnmjLiBcSIadH+3dXA==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="wDnNcnmjLiBcSIadH+3dXA==">
+											Transfiguration (turning one object into another object)										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="study" 
+											id="fSK5NQv3xE2Ga3smShjENQ==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="fSK5NQv3xE2Ga3smShjENQ==">
+											Flying on a broomstick										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="study" 
+											id="ZtKULaksrnYZonOrrUWK6w==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="ZtKULaksrnYZonOrrUWK6w==">
+											Hexes and jinxes										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="study" 
+											id="ZU5emOWr7hM+zZConeblIA==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="ZU5emOWr7hM+zZConeblIA==">
+											All about magical creatures, and how to befriend/care for them										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="study" 
+											id="OWt8Rcy/Lt2dtnZ2ZJ6ZWw==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="OWt8Rcy/Lt2dtnZ2ZJ6ZWw==">
+											Secrets about the castle										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="study" 
+											id="UAPvw5r+CWltvjXyHP447g==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="UAPvw5r+CWltvjXyHP447g==">
+											Every area of magic I can										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="study"
+											id="blank-study" onchange="update()" checked>
+										<label class="form-check-label" for="blank-study">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Which of the following would you most like to study?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="study-2" 
+											id="wA8iZYyLeHXz5s/2wbZbrg==" value="" onchange="update()"
+											data-g="100" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="wA8iZYyLeHXz5s/2wbZbrg==">
+											Centaurs										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="study-2" 
+											id="s3YBiy8fZ7Vn2hyjnOCP3Q==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="50">
+										<label class="form-check-label" for="s3YBiy8fZ7Vn2hyjnOCP3Q==">
+											Goblins										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="study-2" 
+											id="C2phbW+TMh+0afkHE8AJUQ==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="100">
+										<label class="form-check-label" for="C2phbW+TMh+0afkHE8AJUQ==">
+											Merpeople										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="study-2" 
+											id="ma+dYz6BcUUrmMZww6JMyg==" value="" onchange="update()"
+											data-g="100" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="ma+dYz6BcUUrmMZww6JMyg==">
+											Ghosts										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="study-2" 
+											id="8uKH/4Voy1iqN119T+1pPw==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="8uKH/4Voy1iqN119T+1pPw==">
+											Vampires										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="study-2" 
+											id="pEYlsibS+TXS0/U1z66wOQ==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="pEYlsibS+TXS0/U1z66wOQ==">
+											Werewolves										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="study-2" 
+											id="Pf5K2Cnr9QZah65w0mlhtg==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="100">
+										<label class="form-check-label" for="Pf5K2Cnr9QZah65w0mlhtg==">
+											Trolls										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="study-2"
+											id="blank-study-2" onchange="update()" checked>
+										<label class="form-check-label" for="blank-study-2">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">You and two friends need to cross a bridge guarded by a river troll who insists on fighting one of you before he will let all of you pass.  Do you:</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="bridge" 
+											id="K1dA2UBSpvv0WEgwhXEHwQ==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="K1dA2UBSpvv0WEgwhXEHwQ==">
+											Attempt to confuse the troll into letting all three of you pass without fighting?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="bridge" 
+											id="g5Io89KG83P9PUCmS2R2hQ==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="g5Io89KG83P9PUCmS2R2hQ==">
+											Suggest drawing lots to decide which of you will fight?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="bridge" 
+											id="U0zcHOi+hcCILCZbU+DOHg==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="U0zcHOi+hcCILCZbU+DOHg==">
+											Suggest that all three of you should fight (without telling the troll)?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="bridge" 
+											id="Ix+1LK+j3DR4aqKJMrL0lA==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="Ix+1LK+j3DR4aqKJMrL0lA==">
+											Volunteer to fight?										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="bridge"
+											id="blank-bridge" onchange="update()" checked>
+										<label class="form-check-label" for="blank-bridge">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">One of your house mates has cheated in a Hogwarts exam by using a Self-Spelling Quill. Now he has come top of the class in Charms, beating you into second place. Professor Flitwick is suspicious of what happened.  He draws you to one side after his lesson and asks you whether or not your classmate used a forbidden quill.  What do you do?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="cheat" 
+											id="JCPGbn1ArU/e6Ka9kzbk8A==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="JCPGbn1ArU/e6Ka9kzbk8A==">
+											Lie and say you don't know (but hope that somebody else tells Professor Flitwick the truth).										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="cheat" 
+											id="5ZVmEtR7zp2EsAj8XqRWcA==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="5ZVmEtR7zp2EsAj8XqRWcA==">
+											Tell Professor Flitwick that he ought to ask your classmate (and resolve to tell your classmate that if he doesn't tell the truth, you will).										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="cheat" 
+											id="vqIEgxsWL3rURKHTOY4RcA==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="vqIEgxsWL3rURKHTOY4RcA==">
+											Tell Professor Flitwick the truth.  If your classmate is prepared to win by cheating, he deserves to be found out.  Also, as you are both in the same house, any points he loses will be regained by you, for coming first in his place.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="cheat" 
+											id="2+lgfLF/+/rxdAYun5vgDA==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="2+lgfLF/+/rxdAYun5vgDA==">
+											You would not wait to be asked to tell Professor Flitwick the truth.  If you knew that somebody was using a forbidden quill, you would tell the teacher before the exam started.										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="cheat"
+											id="blank-cheat" onchange="update()" checked>
+										<label class="form-check-label" for="blank-cheat">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">A Muggle confronts you and says that they are sure you are a witch or wizard.  Do you:</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="muggle" 
+											id="BsGOWKS5yKkPK/YnJd3S7A==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="BsGOWKS5yKkPK/YnJd3S7A==">
+											Ask what makes them think so?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="muggle" 
+											id="g2eYS1v2v0tIHaIKGJH8Kg==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="g2eYS1v2v0tIHaIKGJH8Kg==">
+											Agree, and ask whether they'd like a free sample of a jinx?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="muggle" 
+											id="jUI4y/VyJxgfUYsRGA+tTQ==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="jUI4y/VyJxgfUYsRGA+tTQ==">
+											Agree, and walk away, leaving them to wonder whether you are bluffing?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="muggle" 
+											id="zhjD34nRRtxPux2KaTMY0Q==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="zhjD34nRRtxPux2KaTMY0Q==">
+											Tell them that you are worried about their mental health, and offer to call a doctor.										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="muggle"
+											id="blank-muggle" onchange="update()" checked>
+										<label class="form-check-label" for="blank-muggle">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Which nightmare would frighten you most?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="nightmare" 
+											id="e1XfUgUoSWvrN/dQEnlgQQ==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="e1XfUgUoSWvrN/dQEnlgQQ==">
+											Standing on top of something very high and realizing suddenly that there are no hand- or footholds, nor any barrier to stop you falling.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="nightmare" 
+											id="rCDOpjyFh2roynUiDZcuXw==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="rCDOpjyFh2roynUiDZcuXw==">
+											An eye at the keyhole of the dark, windowless room in which you are locked.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="nightmare" 
+											id="EHwpvVoHIMaPiEsjfqmMnw==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="EHwpvVoHIMaPiEsjfqmMnw==">
+											Waking up to find that neither your friends nor your family have any idea who you are.										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="nightmare" 
+											id="E8xceMpLPY0D8tcqhhYAKA==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="E8xceMpLPY0D8tcqhhYAKA==">
+											Being forced to speak in such a silly voice that hardly anyone can   understand you, and everyone laughs at you.										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="nightmare"
+											id="blank-nightmare" onchange="update()" checked>
+										<label class="form-check-label" for="blank-nightmare">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Which road tempts you most?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="road" 
+											id="TK30YkyGkwXe4SbY68p+3w==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="TK30YkyGkwXe4SbY68p+3w==">
+											The wide, sunny, grassy lane										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="road" 
+											id="CR1d0gzcEFzuke3zbxtcyA==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="CR1d0gzcEFzuke3zbxtcyA==">
+											The narrow, dark, lantern-lit alley										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="road" 
+											id="Oz2ESSu8yMJRP+AhTY9xxA==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="Oz2ESSu8yMJRP+AhTY9xxA==">
+											The twisting, leaf-strewn path through woods										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="road" 
+											id="r+VZqKtOO/q1cdc6vAOmAg==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="r+VZqKtOO/q1cdc6vAOmAg==">
+											The cobbled street lined with ancient buildings										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="road"
+											id="blank-road" onchange="update()" checked>
+										<label class="form-check-label" for="blank-road">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Late at night, walking alone down the street, you hear a peculiar cry that you believe to have a magical source.  Do you:</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="street" 
+											id="asZAbddWnpiElvZT9Jfr4Q==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="asZAbddWnpiElvZT9Jfr4Q==">
+											Proceed with caution, keeping one hand on your concealed wand and an eye out for any disturbance?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="street" 
+											id="s2+4Ayt3QzjNhd8ZENaDLg==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="s2+4Ayt3QzjNhd8ZENaDLg==">
+											Draw your wand and try to discover the source of the noise?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="street" 
+											id="eMlMT3pMpio/CCsIFrxKTg==" value="" onchange="update()"
+											data-g="0" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="eMlMT3pMpio/CCsIFrxKTg==">
+											Draw your wand and stand your ground?										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="street" 
+											id="90d7k1rQL/wl/6YOBzNCuw==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="90d7k1rQL/wl/6YOBzNCuw==">
+											Withdraw into the shadows to await developments, while mentally reviewing the most appropriate defensive and offensive spells, should trouble occur?										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="street"
+											id="blank-street" onchange="update()" checked>
+										<label class="form-check-label" for="blank-street">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">If you were attending Hogwarts, which pet would you choose to take with you?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="x6UsYK1XWgPeqY1krcnzSA==" value="" onchange="update()"
+											data-g="50" data-r="0" 
+											data-h="0" data-s="50">
+										<label class="form-check-label" for="x6UsYK1XWgPeqY1krcnzSA==">
+											Tabby cat										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="+kNgq8Jh++m+irey4VTMZA==" value="" onchange="update()"
+											data-g="25" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="+kNgq8Jh++m+irey4VTMZA==">
+											Siamese cat										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="N0CWHP5zkl/ukdTirvU7xg==" value="" onchange="update()"
+											data-g="25" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="N0CWHP5zkl/ukdTirvU7xg==">
+											Ginger cat										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="lmURA3RZop2h+V8pwBLOag==" value="" onchange="update()"
+											data-g="25" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="lmURA3RZop2h+V8pwBLOag==">
+											Black cat										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="ATi/3zO5JV9zK02EAhTydA==" value="" onchange="update()"
+											data-g="25" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="ATi/3zO5JV9zK02EAhTydA==">
+											White cat										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="qpcjbTN8P4ywgJwO5gu/aQ==" value="" onchange="update()"
+											data-g="25" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="qpcjbTN8P4ywgJwO5gu/aQ==">
+											Tawny owl										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="0Mj+mmbKJUf/LJB2yAKWBA==" value="" onchange="update()"
+											data-g="25" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="0Mj+mmbKJUf/LJB2yAKWBA==">
+											Screech owl										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="PC71lMMquvdKOZITfQxjgQ==" value="" onchange="update()"
+											data-g="25" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="PC71lMMquvdKOZITfQxjgQ==">
+											Brown owl										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="Rz5Z+cM420M5FoRFSEuYiQ==" value="" onchange="update()"
+											data-g="25" data-r="50" 
+											data-h="50" data-s="0">
+										<label class="form-check-label" for="Rz5Z+cM420M5FoRFSEuYiQ==">
+											Snowy owl										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="alw53/Ezw1any24qRfLLWg==" value="" onchange="update()"
+											data-g="25" data-r="100" 
+											data-h="0" data-s="0">
+										<label class="form-check-label" for="alw53/Ezw1any24qRfLLWg==">
+											Barn owl										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="wndHF428iLO98d7gNQlcww==" value="" onchange="update()"
+											data-g="25" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="wndHF428iLO98d7gNQlcww==">
+											Common toad										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="niM1HXtt2CufcMogAP+olg==" value="" onchange="update()"
+											data-g="25" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="niM1HXtt2CufcMogAP+olg==">
+											Natterjack toad										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="LvofepcOWwIjHKzsp0ZyrA==" value="" onchange="update()"
+											data-g="50" data-r="0" 
+											data-h="50" data-s="0">
+										<label class="form-check-label" for="LvofepcOWwIjHKzsp0ZyrA==">
+											Dragon toad										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="kd/Q/xXbxQAyFYKvJAuPMg==" value="" onchange="update()"
+											data-g="25" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="kd/Q/xXbxQAyFYKvJAuPMg==">
+											Harlequin toad										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="pet" 
+											id="7fXM5RYeRq7OcQE0zT7KXA==" value="" onchange="update()"
+											data-g="25" data-r="50" 
+											data-h="50" data-s="0">
+										<label class="form-check-label" for="7fXM5RYeRq7OcQE0zT7KXA==">
+											Three toed tree toad										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="pet"
+											id="blank-pet" onchange="update()" checked>
+										<label class="form-check-label" for="blank-pet">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Black or white?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="black-white" 
+											id="1eBf5ncZSYex/pLlxKynMw==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="1eBf5ncZSYex/pLlxKynMw==">
+											Black										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="black-white" 
+											id="ugDOsUbBHH1AVxOsT52mtw==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="ugDOsUbBHH1AVxOsT52mtw==">
+											White										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="black-white"
+											id="blank-black-white" onchange="update()" checked>
+										<label class="form-check-label" for="blank-black-white">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Heads or tails?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="heads-tails" 
+											id="aGYj1HTl4GnTXibewawh3g==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="aGYj1HTl4GnTXibewawh3g==">
+											Heads										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="heads-tails" 
+											id="MKZ/z6X3d+7bPHiwDSA3qg==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="MKZ/z6X3d+7bPHiwDSA3qg==">
+											Tails										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="heads-tails"
+											id="blank-heads-tails" onchange="update()" checked>
+										<label class="form-check-label" for="blank-heads-tails">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+												<div class="card" style="margin-bottom:10px">
+							<div class="card-body">
+								<h5 class="card-title">Left or right?</h5>
+								<hr>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="left-right" 
+											id="MI7PlmrlNbtmWcLiGglX3A==" value="" onchange="update()"
+											data-g="0" data-r="100" 
+											data-h="0" data-s="100">
+										<label class="form-check-label" for="MI7PlmrlNbtmWcLiGglX3A==">
+											Left										</label>
+									</div>
+																		<div class="form-check">
+										<input class="form-check-input answer" type="radio" name="left-right" 
+											id="jfK2fj3wZdVGuxm5oWnRKg==" value="" onchange="update()"
+											data-g="100" data-r="0" 
+											data-h="100" data-s="0">
+										<label class="form-check-label" for="jfK2fj3wZdVGuxm5oWnRKg==">
+											Right										</label>
+									</div>
+																		<br>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="left-right"
+											id="blank-left-right" onchange="update()" checked>
+										<label class="form-check-label" for="blank-left-right">
+											Blank
+										</label>
+									</div>
+							</div>
+						</div>
+								</div>
+	</div>
+</div>
+
+<script>
+	function update() {
+		var g = 0; var r = 0; var h = 0; var s = 0;
+		$(".answer:checked").each(function() {
+			g += $(this).data("g");
+			r += $(this).data("r");
+			h += $(this).data("h");
+			s += $(this).data("s");
+		});
+		var t = Math.max(1,g+r+h+s);
+		$(".G-pct").html(Math.round(100*g/t)+"%");
+		$(".R-pct").html(Math.round(100*r/t)+"%");
+		$(".H-pct").html(Math.round(100*h/t)+"%");
+		$(".S-pct").html(Math.round(100*s/t)+"%");
+		
+		$(".G-score").html(g);
+		$(".R-score").html(r);
+		$(".H-score").html(h);
+		$(".S-score").html(s);
+	}
+</script>
+</body>
+</html>

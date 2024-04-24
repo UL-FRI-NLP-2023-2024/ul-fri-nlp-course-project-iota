@@ -1,0 +1,1258 @@
+[
+  {
+    "question": "Dawn or dusk?",
+    "answers": [
+      {
+        "text": "Dawn",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Dusk",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Forest or river?",
+    "answers": [
+      {
+        "text": "Forest",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "River",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Moon or stars?",
+    "answers": [
+      {
+        "text": "Moon",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Stars",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Which of the following would you most hate people to call you?",
+    "answers": [
+      {
+        "text": "Ordinary",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Ignorant",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Cowardly",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Selfish",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "After you have died, what would you most like people to do when they hear your name?",
+    "answers": [
+      {
+        "text": "Miss you, but smile",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Ask for more stories about your adventures",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Think with admiration of your achievements",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "I don't care what people think of me after I'm dead, it's what they think of me while I'm alive that counts",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      }
+    ]
+  },
+  {
+    "question": "How would you like to be known to history?",
+    "answers": [
+      {
+        "text": "The Wise",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The Good",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The Great",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "The Bold",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Given the choice, would you rather invent a potion that would guarantee you:",
+    "answers": [
+      {
+        "text": "Love?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Glory?",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Wisdom?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Power?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Once every century, the Flutterby bush produces flowers that adapt their scent to attract the unwary.  If it lured you, it would smell of:",
+    "answers": [
+      {
+        "text": "A crackling log fire",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The sea",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Fresh parchment",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Home",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Four goblets are placed before you.  Which would you choose to drink?",
+    "answers": [
+      {
+        "text": "The foaming, frothing, silvery liquid that sparkles as though containing ground diamonds.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The smooth, thick, richly purple drink that gives off a delicious smell of chocolate and plums.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The golden liquid so bright that it hurts the eye, and which makes sunspots dance all around the room.",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The mysterious black liquid that gleams like ink, and gives off fumes that make you see strange visions.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      }
+    ]
+  },
+  {
+    "question": "What kind of instrument most pleases your ear?",
+    "answers": [
+      {
+        "text": "The violin",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "The trumpet",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The piano",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The drum",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "You enter an enchanted garden.  What would you be most curious to examine first?",
+    "answers": [
+      {
+        "text": "The silver leafed tree bearing golden apples",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The fat red toadstools that appear to be talking to each other",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The bubbling pool, in the depths of which something luminous is swirling",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "The statue of an old wizard with a strangely twinkling eye",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Four boxes are placed before you. Which would you try and open?",
+    "answers": [
+      {
+        "text": "The small tortoiseshell box, embellished with gold, inside which some small creature seems to be squeaking.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The gleaming jet black box with a silver lock and key, marked with a mysterious rune that you know to be the mark of Merlin.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "The ornate golden casket, standing on clawed feet, whose inscription warns that both secret knowledge and unbearable temptation lie within.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The small pewter box, unassuming and plain, with a scratched message upon it that reads \u2018I open only for the worthy.'",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "A troll has gone beserk in the Headmaster's study at Hogwarts.  It is about to smash, crush and tear several irreplaceable items and treasures. In which order would you rescue these objects from the troll's club, if you could?",
+    "answers": [
+      {
+        "text": "First, a nearly perfected cure for dragon pox. Then student records going back 1000 years. Finally, a mysterious handwritten book full of strange runes.",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "First, student records going back 1000 years. Then a mysterious handwritten book full of strange runes. Finally, a nearly perfected cure for dragon pox.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "First, a mysterious handwritten book full of strange runes. Then a nearly perfected cure for dragon pox. Finally, student records going back 1000 years.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "First, a nearly perfected cure for dragon pox. Then a mysterious handwritten book full of strange runes. Finally, student records going back 1000 years.",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "First student records going back 1000 years. Then, a nearly perfected cure for dragon pox. Finally, a mysterious handwritten book full of strange runes.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "First,  a mysterious handwritten book full of strange runes. Then student records going back 1000 years. Finally, a nearly perfected cure for dragon pox.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "100"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Which of the following do you find most difficult to deal with?",
+    "answers": [
+      {
+        "text": "Hunger",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Cold",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Loneliness",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Boredom",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Being ignored",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "100"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Which would you rather be:",
+    "answers": [
+      {
+        "text": "Envied?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Imitated?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Trusted?",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Praised?",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "50"
+        }
+      },
+      {
+        "text": "Liked?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Feared?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      }
+    ]
+  },
+  {
+    "question": "If you could have any power, which would you choose?",
+    "answers": [
+      {
+        "text": "The power to read minds",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "The power of invisibility",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "50",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The power of superhuman strength",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "50"
+        }
+      },
+      {
+        "text": "The power to speak to animals",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The power to change the past",
+        "values": {
+          "gryffindor": "50",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "The power to change your appearance at will",
+        "values": {
+          "gryffindor": "50",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "What are you most looking forward to learning at Hogwarts?",
+    "answers": [
+      {
+        "text": "Apparition and Disapparition (being able to materialize and dematerialize at will)",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Transfiguration (turning one object into another object)",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Flying on a broomstick",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Hexes and jinxes",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "All about magical creatures, and how to befriend/care for them",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Secrets about the castle",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Every area of magic I can",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Which of the following would you most like to study?",
+    "answers": [
+      {
+        "text": "Centaurs",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Goblins",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "50"
+        }
+      },
+      {
+        "text": "Merpeople",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Ghosts",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Vampires",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Werewolves",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Trolls",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      }
+    ]
+  },
+  {
+    "question": "You and two friends need to cross a bridge guarded by a river troll who insists on fighting one of you before he will let all of you pass.  Do you:",
+    "answers": [
+      {
+        "text": "Attempt to confuse the troll into letting all three of you pass without fighting?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Suggest drawing lots to decide which of you will fight?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Suggest that all three of you should fight (without telling the troll)?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Volunteer to fight?",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "One of your house mates has cheated in a Hogwarts exam by using a Self-Spelling Quill. Now he has come top of the class in Charms, beating you into second place. Professor Flitwick is suspicious of what happened.  He draws you to one side after his lesson and asks you whether or not your classmate used a forbidden quill.  What do you do?",
+    "answers": [
+      {
+        "text": "Lie and say you don't know (but hope that somebody else tells Professor Flitwick the truth).",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Tell Professor Flitwick that he ought to ask your classmate (and resolve to tell your classmate that if he doesn't tell the truth, you will).",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Tell Professor Flitwick the truth.  If your classmate is prepared to win by cheating, he deserves to be found out.  Also, as you are both in the same house, any points he loses will be regained by you, for coming first in his place.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "You would not wait to be asked to tell Professor Flitwick the truth.  If you knew that somebody was using a forbidden quill, you would tell the teacher before the exam started.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      }
+    ]
+  },
+  {
+    "question": "A Muggle confronts you and says that they are sure you are a witch or wizard.  Do you:",
+    "answers": [
+      {
+        "text": "Ask what makes them think so?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Agree, and ask whether they'd like a free sample of a jinx?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Agree, and walk away, leaving them to wonder whether you are bluffing?",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Tell them that you are worried about their mental health, and offer to call a doctor.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Which nightmare would frighten you most?",
+    "answers": [
+      {
+        "text": "Standing on top of something very high and realizing suddenly that there are no hand- or footholds, nor any barrier to stop you falling.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "An eye at the keyhole of the dark, windowless room in which you are locked.",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Waking up to find that neither your friends nor your family have any idea who you are.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Being forced to speak in such a silly voice that hardly anyone can   understand you, and everyone laughs at you.",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Which road tempts you most?",
+    "answers": [
+      {
+        "text": "The wide, sunny, grassy lane",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The narrow, dark, lantern-lit alley",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "The twisting, leaf-strewn path through woods",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "The cobbled street lined with ancient buildings",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Late at night, walking alone down the street, you hear a peculiar cry that you believe to have a magical source.  Do you:",
+    "answers": [
+      {
+        "text": "Proceed with caution, keeping one hand on your concealed wand and an eye out for any disturbance?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Draw your wand and try to discover the source of the noise?",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Draw your wand and stand your ground?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Withdraw into the shadows to await developments, while mentally reviewing the most appropriate defensive and offensive spells, should trouble occur?",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "If you were attending Hogwarts, which pet would you choose to take with you?",
+    "answers": [
+      {
+        "text": "Tabby cat",
+        "values": {
+          "gryffindor": "50",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "50"
+        }
+      },
+      {
+        "text": "Siamese cat",
+        "values": {
+          "gryffindor": "25",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Ginger cat",
+        "values": {
+          "gryffindor": "25",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Black cat",
+        "values": {
+          "gryffindor": "25",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "White cat",
+        "values": {
+          "gryffindor": "25",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Tawny owl",
+        "values": {
+          "gryffindor": "25",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Screech owl",
+        "values": {
+          "gryffindor": "25",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Brown owl",
+        "values": {
+          "gryffindor": "25",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Snowy owl",
+        "values": {
+          "gryffindor": "25",
+          "hufflepuff": "50",
+          "ravenclaw": "50",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Barn owl",
+        "values": {
+          "gryffindor": "25",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Common toad",
+        "values": {
+          "gryffindor": "25",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Natterjack toad",
+        "values": {
+          "gryffindor": "25",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Dragon toad",
+        "values": {
+          "gryffindor": "50",
+          "hufflepuff": "50",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Harlequin toad",
+        "values": {
+          "gryffindor": "25",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Three toed tree toad",
+        "values": {
+          "gryffindor": "25",
+          "hufflepuff": "50",
+          "ravenclaw": "50",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Black or white?",
+    "answers": [
+      {
+        "text": "Black",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "White",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Heads or tails?",
+    "answers": [
+      {
+        "text": "Heads",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "100",
+          "ravenclaw": "100",
+          "slytherin": "0"
+        }
+      },
+      {
+        "text": "Tails",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "0",
+          "ravenclaw": "0",
+          "slytherin": "100"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Left or right?",
+    "answers": [
+      {
+        "text": "Left",
+        "values": {
+          "gryffindor": "0",
+          "hufflepuff": "0",
+          "ravenclaw": "100",
+          "slytherin": "100"
+        }
+      },
+      {
+        "text": "Right",
+        "values": {
+          "gryffindor": "100",
+          "hufflepuff": "100",
+          "ravenclaw": "0",
+          "slytherin": "0"
+        }
+      }
+    ]
+  }
+]
