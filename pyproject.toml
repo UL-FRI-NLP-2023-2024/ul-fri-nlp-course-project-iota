@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ul-fri-nlp-course-project-iota"
+version = "0.1.0"
+description = "Project 7 — Conversations with Characters in Stories for Literacy — Quick, Customized Persona Bots from novels"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.3.0"
+transformers = "^4.40.1"
+ipykernel = "^6.29.4"
+ipywidgets = "^8.1.2"
+accelerate = "^0.29.3"
+bitsandbytes = "^0.43.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
