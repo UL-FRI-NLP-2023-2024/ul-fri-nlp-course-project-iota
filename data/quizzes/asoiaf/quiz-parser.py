@@ -89,8 +89,23 @@ def parse_hp_quiz(html):
 def parse_aqoiaf(html):
     soup = BeautifulSoup(html, 'html.parser')
     questions = []
-    for question in soup.findAll('ul', {'class': 'questions-list'}):
-        print(question)
+    for question in soup.findAll('li', {'class': 'ques_marg'}):
+        text = question.find('h3').text.strip()
+        answers = []
+        answer_items = question.findAll('li')
+        correct_answer = question.find('div', {'class': 'correct_ans_list'}).text.strip().split('.')[0][-1]
+        for answer in answer_items:
+            mark = answer.find('div', {'class': 'questonnopt'}).text.strip().split('.')[0][-1]
+            answers.append({
+                'text': answer.find('p').text.strip(),
+                'correct': correct_answer == mark,
+            })
+
+        questions.append({
+            'question': text,
+            'answers': answers,
+        })
+    return questions            
 
 if __name__ == '__main__':
     # with open('smeti/sorting_hat.html') as f:
@@ -121,6 +136,11 @@ if __name__ == '__main__':
     #     json.dump(questions, f, indent=2)
 
     asoiaf_questions = []
-    with open('smeti/aqoiaf-4.htm') as f:
+    with open('html/aqoiaf-4.htm') as f:
         html = f.read()
-    parse_aqoiaf(html)
+    asoiaf_questions.append(parse_aqoiaf(html))
+    with open('html/aqoiaf-5.htm') as f:
+        html = f.read()
+    asoiaf_questions.append(parse_aqoiaf(html))
+    with open('json/quiz_questions.json', 'w') as f:
+        json.dump(asoiaf_questions, f, indent=2)
