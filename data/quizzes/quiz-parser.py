@@ -122,6 +122,8 @@ def parse_aqoiaf(html):
                 }
             )
 
+        if not answers:
+            continue
         questions.append(
             {
                 "question": text,
@@ -162,9 +164,19 @@ if __name__ == "__main__":
     asoiaf_questions = []
     with open("src/asoiaf/aqoiaf-4.htm") as f:
         html = f.read()
-    asoiaf_questions.append(parse_aqoiaf(html))
+    asoiaf_questions += parse_aqoiaf(html)
     with open("src/asoiaf/aqoiaf-5.htm") as f:
         html = f.read()
-    asoiaf_questions.append(parse_aqoiaf(html))
+    asoiaf_questions += parse_aqoiaf(html)
+
+    with open("src/asoiaf/asoiaf_quiz3.htm") as f:
+        html = f.read()
+    asoiaf_questions += parse_aqoiaf(html)
+
+    with open("src/asoiaf/custom_questions.json") as f:
+        custom_questions = json.load(f)
+    asoiaf_questions += custom_questions
+    print(len(asoiaf_questions))
+
     with open("quiz_questions/asoiaf/quiz_questions.json", "w") as f:
         json.dump(asoiaf_questions, f, indent=2)

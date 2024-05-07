@@ -1,0 +1,422 @@
+[
+  {
+    "question": "According to Oberyn Martell, who gave the order?",
+    "answers": [
+      {
+        "text": "Tywin Lannister",
+        "correct": true
+      },
+      {
+        "text": "Jaime Lannister",
+        "correct": false
+      },
+      {
+        "text": "Cersei Lannister",
+        "correct": false
+      },
+      {
+        "text": "Tyrion Lannister",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the seat of House Tarly?",
+    "answers": [
+      {
+        "text": "Barrow Hall",
+        "correct": false
+      },
+      {
+        "text": "Stone Hedge",
+        "correct": false
+      },
+      {
+        "text": "Horn Hill",
+        "correct": true
+      },
+      {
+        "text": "Raventree Hall",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which title has not been held by Cersei Lannister?",
+    "answers": [
+      {
+        "text": "Queen Dowager",
+        "correct": false
+      },
+      {
+        "text": "Queen Regent",
+        "correct": false
+      },
+      {
+        "text": "Light of the West",
+        "correct": false
+      },
+      {
+        "text": "Queen of Light",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of these is not one of Oberyn's Sandsnakes?",
+    "answers": [
+      {
+        "text": "Obara",
+        "correct": false
+      },
+      {
+        "text": "Tyene",
+        "correct": false
+      },
+      {
+        "text": "Sarella",
+        "correct": false
+      },
+      {
+        "text": "Marei",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which region of Westeros is House Lychester from?",
+    "answers": [
+      {
+        "text": "Riverlands",
+        "correct": true
+      },
+      {
+        "text": "Vale",
+        "correct": false
+      },
+      {
+        "text": "Reach",
+        "correct": false
+      },
+      {
+        "text": "Stormlands",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who said this 'The old woman is not boring, though, I'll grant her that. A fearsome old harridan, and not near as frail as she pretends' about Olenna Tyrell",
+    "answers": [
+      {
+        "text": "Tyrion Lannister",
+        "correct": false
+      },
+      {
+        "text": "Jaime Lannister",
+        "correct": false
+      },
+      {
+        "text": "Petyr Baelish",
+        "correct": true
+      },
+      {
+        "text": "Varys",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is the father of Osfryd, Osmund and Osney Kettleblack?",
+    "answers": [
+      {
+        "text": "Ondrew",
+        "correct": false
+      },
+      {
+        "text": "Oswell",
+        "correct": true
+      },
+      {
+        "text": "Ossifer",
+        "correct": false
+      },
+      {
+        "text": "Othell",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What company is Shagwell a member of?",
+    "answers": [
+      {
+        "text": "Brave Companions",
+        "correct": true
+      },
+      {
+        "text": "Golden Company",
+        "correct": false
+      },
+      {
+        "text": "Stormbreakers",
+        "correct": false
+      },
+      {
+        "text": "Free Company",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which is not one of The Seven?",
+    "answers": [
+      {
+        "text": "The Smith",
+        "correct": false
+      },
+      {
+        "text": "The Stranger",
+        "correct": false
+      },
+      {
+        "text": "The Merchant",
+        "correct": true
+      },
+      {
+        "text": "The Maiden",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the words of House Follard?",
+    "answers": [
+      {
+        "text": "Our Blades are Sharp",
+        "correct": false
+      },
+      {
+        "text": "None so Wise",
+        "correct": true
+      },
+      {
+        "text": "Pride and Purpose",
+        "correct": false
+      },
+      {
+        "text": "Righteous in Wrath",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who thought this about Tywin Lannister 'I would sooner entrust a child to a pit viper than to Lord Tywin.'?",
+    "answers": [
+      {
+        "text": "Olenna Tyrell",
+        "correct": false
+      },
+      {
+        "text": "Eddard Stark",
+        "correct": true
+      },
+      {
+        "text": "Stannis Baratheon",
+        "correct": false
+      },
+      {
+        "text": "Jon Arryn",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who was Roose Bolton's second wife?",
+    "answers": [
+      {
+        "text": "Melara Crane",
+        "correct": false
+      },
+      {
+        "text": "Jeyne Swann",
+        "correct": false
+      },
+      {
+        "text": "Falena Stokeworth",
+        "correct": false
+      },
+      {
+        "text": "Bethany Ryswell",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which is not a Wildling?",
+    "answers": [
+      {
+        "text": "Dalla",
+        "correct": false
+      },
+      {
+        "text": "Val",
+        "correct": false
+      },
+      {
+        "text": "Elza",
+        "correct": true
+      },
+      {
+        "text": "Orell",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who tries to take Jaqen H'ghar to The Wall?",
+    "answers": [
+      {
+        "text": "Yandry",
+        "correct": false
+      },
+      {
+        "text": "Yoren",
+        "correct": true
+      },
+      {
+        "text": "Yorkel",
+        "correct": false
+      },
+      {
+        "text": "Yormwell",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is Theon Greyjoy's squire?",
+    "answers": [
+      {
+        "text": "Benfred Tallhart",
+        "correct": false
+      },
+      {
+        "text": "Wex Pyke",
+        "correct": true
+      },
+      {
+        "text": "Ralf Kenning",
+        "correct": false
+      },
+      {
+        "text": "Dagmer Cleftjaw",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is not a child of Walder Frey?",
+    "answers": [
+      {
+        "text": "Torbert",
+        "correct": true
+      },
+      {
+        "text": "Luceon",
+        "correct": false
+      },
+      {
+        "text": "Elmar",
+        "correct": false
+      },
+      {
+        "text": "Jared",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who did Robert Baratheon say this to 'I will not kill a man for loyalty, nor for fighting well.'?",
+    "answers": [
+      {
+        "text": "Eddard Stark",
+        "correct": false
+      },
+      {
+        "text": "Tywin Lannister",
+        "correct": false
+      },
+      {
+        "text": "Roose Bolton",
+        "correct": true
+      },
+      {
+        "text": "Cersei Lannister",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who said this 'A craven's knife can slay a queen as easily as a hero's.' to Daenerys?",
+    "answers": [
+      {
+        "text": "Hizdahr zo Loraq",
+        "correct": false
+      },
+      {
+        "text": "Xaro Xhoan Daxos",
+        "correct": true
+      },
+      {
+        "text": "Kraznys mo Nakloz",
+        "correct": false
+      },
+      {
+        "text": "Pyat Pree",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of these was not a ranger for the Night's Watch?",
+    "answers": [
+      {
+        "text": "Gared",
+        "correct": false
+      },
+      {
+        "text": "Othor",
+        "correct": false
+      },
+      {
+        "text": "Dywen",
+        "correct": false
+      },
+      {
+        "text": "Horse",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "How is Benjen Stark related to Rickon Stark?",
+    "answers": [
+      {
+        "text": "Brother",
+        "correct": false
+      },
+      {
+        "text": "Father",
+        "correct": false
+      },
+      {
+        "text": "Uncle",
+        "correct": true
+      },
+      {
+        "text": "Cousin",
+        "correct": false
+      }
+    ]
+  }
+]
