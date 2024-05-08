@@ -157,6 +157,16 @@ We have a few ideas on how to tackle the problem of creating an Agent. These inc
 
 \todo{After the 1st phase}
 
+We used \cite{touvron2023llama} and \cite{abdin2024phi} as our base models.
+We fine-tuned them on a preprocessed full-text dataset from Harry Potter novels.
+We trained the models using overlapping chunks of text to ensure that the model learns the context of the conversation.
+We used a chunk size of 512 characters and an overlap of 64 characters.
+
+In the future, we will extract all dialogues from the Harry Potter and A Song of Ice and Fire series and use them to fine-tune the models.
+This will allow the models to have contextual knowledge to provide a more accurate depiction of characters.
+We aim to construct a dataset of quotes from the literary works and the characters who said them.
+
+
 Use the Methods section to describe what you did an how you did it -- in what way did you prepare the data, what algorithms did you use, how did you test various solutions ... Provide all the required details for a reproduction of your work.
 
 Below are \LaTeX examples of some common elements that you will probably need when writing your report (e.g. figures, equations, lists, code examples ...).
@@ -276,6 +286,16 @@ ggplot(diamonds,
 
 \todo{After the 1st phase}
 
+We evaluated our fine-tuned models on a dataset of 108 multiple-choice quiz questions about the Harry Potter series.
+The questions were designed to test the models' understanding of the characters and their relationships.
+The models achieved an average accuracy of 72\% before and after fine-tuning.
+
+We also evaluated the models with a sorting hat quiz, where the model had to solve a quiz as a character from a given house (Gryffindor, Hufflepuff, Ravenclaw, or Slytherin).
+The models were always classified into Ravenclaw.
+
+We plan to evaluate the models on a dataset of quiz questions about the A Song of Ice and Fire series.
+
+We will also evaluate our models on state of the art benchmarks, as in \cite{guo2023evaluating}.
 Use the results section to present the final results of your work. Present the results in a objective and scientific fashion. Use visualisations to convey your results in a clear and efficient manner. When comparing results between various techniques use appropriate statistical methodology.
 
 \subsection*{More random text}
@@ -290,6 +310,13 @@ Nulla rhoncus tortor eget ipsum commodo lacinia sit amet eu urna. Cras maximus l
 %------------------------------------------------
 
 \section*{Discussion}
+
+Our fine-tuning attempts have not been successful so far.
+The baseline models perform well on the quiz questions and simple fine-tuning does not seem to improve the performance.
+We will try to extract more context from the books using more sophisticated approaches and use it to fine-tune the models.
+
+The dialogue generation is also very good out of the box, especially with smart prompting.
+We will try to improve the dialogue generation by using context databases.
 
 
 \todo{After the 1st phase}
