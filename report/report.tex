@@ -44,7 +44,7 @@
 %\Archive{Final report} 
 
 % Article title
-\PaperTitle{Draft: Literary Conversational Agents}
+\PaperTitle{\textcolor{red}{Revision 1}: Literary Conversational Agents}
 
 % Authors (student competitors) and their info
 \Authors{Žiga Trček, Matej Urbas, and Jan Vasiljević}
@@ -53,7 +53,7 @@
 \affiliation{\textit{Advisors: Slavko Žitnik}}
 
 % Keywords
-\Keywords{Keyword1, Keyword2, Keyword3 ...}
+\Keywords{\textcolor{red}{DRAFT}, conversational agents, large language models, in-context-learning}
 \newcommand{\keywordname}{Keywords}
 
 
@@ -62,7 +62,7 @@
 %----------------------------------------------------------------------------------------
 
 \Abstract{
-The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here.
+\textcolor{red}{DRAFT:} Engaging audiences deeply with literature is crucial for enhancing global literacy levels. In this study, we build upon the foundation of conversational agents, which have historically underperformed but have recently been revolutionized by advancements in large-scale language models. We fine-tune various foundational models and assess their enhanced capabilities using a series of standardized quizzes that we introduce. Our focus is on popular literary series, specifically "A Song of Ice and Fire" and "Harry Potter." Additionally, we underscore the significance of employing In-Context Learning to effectively emulate the dialogue styles of key characters within these series, thereby enriching the interactive reading experience.
 }
 
 %----------------------------------------------------------------------------------------
@@ -155,7 +155,15 @@ We have a few ideas on how to tackle the problem of creating an Agent. These inc
 
 \section*{Methods}
 
-\todo{After the 1st phase}
+We used \cite{touvron2023llama} and \cite{abdin2024phi} as our base models.
+We fine-tuned them on a preprocessed full-text dataset from Harry Potter novels.
+We trained the models using overlapping chunks of text to ensure that the model learns the context of the conversation.
+We used a chunk size of 512 characters and an overlap of 64 characters.
+
+In the future, we will extract all dialogues from the Harry Potter and A Song of Ice and Fire series and use them to fine-tune the models.
+This will allow the models to have contextual knowledge to provide a more accurate depiction of characters.
+We aim to construct a dataset of quotes from the literary works and the characters who said them.
+
 
 Use the Methods section to describe what you did an how you did it -- in what way did you prepare the data, what algorithms did you use, how did you test various solutions ... Provide all the required details for a reproduction of your work.
 
@@ -198,12 +206,6 @@ We can use the description environment to define or describe key terms and phras
 	\item[Idea] What is an idea?
 \end{description}
 
-
-\subsection*{Random text}
-
-This text is inserted only to make this template look more like a proper report. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit dictum facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam convallis tellus velit, quis ornare ipsum aliquam id. Maecenas tempus mauris sit amet libero elementum eleifend. Nulla nunc orci, consectetur non consequat ac, consequat non nisl. Aenean vitae dui nec ex fringilla malesuada. Proin elit libero, faucibus eget neque quis, condimentum laoreet urna. Etiam at nunc quis felis pulvinar dignissim. Phasellus turpis turpis, vestibulum eget imperdiet in, molestie eget neque. Curabitur quis ante sed nunc varius dictum non quis nisl. Donec nec lobortis velit. Ut cursus, libero efficitur dictum imperdiet, odio mi fermentum dui, id vulputate metus velit sit amet risus. Nulla vel volutpat elit. Mauris ex erat, pulvinar ac accumsan sit amet, ultrices sit amet turpis.
-
-Phasellus in ligula nunc. Vivamus sem lorem, malesuada sed pretium quis, varius convallis lectus. Quisque in risus nec lectus lobortis gravida non a sem. Quisque et vestibulum sem, vel mollis dolor. Nullam ante ex, scelerisque ac efficitur vel, rhoncus quis lectus. Pellentesque scelerisque efficitur purus in faucibus. Maecenas vestibulum vulputate nisl sed vestibulum. Nullam varius turpis in hendrerit posuere.
 
 
 \subsection*{Figures}
@@ -276,6 +278,16 @@ ggplot(diamonds,
 
 \todo{After the 1st phase}
 
+We evaluated our fine-tuned models on a dataset of 108 multiple-choice quiz questions about the Harry Potter series.
+The questions were designed to test the models' understanding of the characters and their relationships.
+The models achieved an average accuracy of 72\% before and after fine-tuning.
+
+We also evaluated the models with a sorting hat quiz, where the model had to solve a quiz as a character from a given house (Gryffindor, Hufflepuff, Ravenclaw, or Slytherin).
+The models were always classified into Ravenclaw.
+
+We plan to evaluate the models on a dataset of quiz questions about the A Song of Ice and Fire series.
+
+We will also evaluate our models on state of the art benchmarks, as in \cite{guo2023evaluating}.
 Use the results section to present the final results of your work. Present the results in a objective and scientific fashion. Use visualisations to convey your results in a clear and efficient manner. When comparing results between various techniques use appropriate statistical methodology.
 
 \subsection*{More random text}
@@ -290,6 +302,13 @@ Nulla rhoncus tortor eget ipsum commodo lacinia sit amet eu urna. Cras maximus l
 %------------------------------------------------
 
 \section*{Discussion}
+
+Our fine-tuning attempts have not been successful so far.
+The baseline models perform well on the quiz questions and simple fine-tuning does not seem to improve the performance.
+We will try to extract more context from the books using more sophisticated approaches and use it to fine-tune the models.
+
+The dialogue generation is also very good out of the box, especially with smart prompting.
+We will try to improve the dialogue generation by using context databases.
 
 
 \todo{After the 1st phase}

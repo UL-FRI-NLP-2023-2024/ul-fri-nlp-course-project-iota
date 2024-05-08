@@ -1,573 +1,1582 @@
 [
-  [
-    {
-      "question": "What is the name of Samwell Tarly's younger brother, preferred by his father Lord Randyll as the heir to Horn Hill?",
-      "answers": [
-        {
-          "text": "Edwyn",
-          "correct": false
-        },
-        {
-          "text": "Randyll",
-          "correct": false
-        },
-        {
-          "text": "Dickon",
-          "correct": true
-        },
-        {
-          "text": "Willas",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "When Tyrion visits Selhorys, the city is bracing itself for a potential attack by a Dothraki khalasar, led by which Khal?",
-      "answers": [
-        {
-          "text": "Ogo",
-          "correct": false
-        },
-        {
-          "text": "Pono",
-          "correct": true
-        },
-        {
-          "text": "Drogo",
-          "correct": false
-        },
-        {
-          "text": "Mago",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "What is the name of Joffrey Baratheon's first sword, which is thrown into The Trident by Arya Stark?",
-      "answers": [
-        {
-          "text": "Heart Eater",
-          "correct": false
-        },
-        {
-          "text": "Widow's Wail",
-          "correct": false
-        },
-        {
-          "text": "Lion's Tooth",
-          "correct": true
-        },
-        {
-          "text": "Stag's Storm",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Which member of the Kingsguard is tasked with \nescorting Prince Tommen Baratheon to Rosby ahead of Stannis Baratheon's \nassault on King's Landing?",
-      "answers": [
-        {
-          "text": "Ser Boros Blount",
-          "correct": true
-        },
-        {
-          "text": "Ser Balon Swann",
-          "correct": false
-        },
-        {
-          "text": "Ser Meryn Trant",
-          "correct": false
-        },
-        {
-          "text": "Ser Preston Greenfield",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Following his altercation with Dareon in a \nbrothel in Braavos, Samwell Tarly is thrown into a canal. A man called \nXhondo helps him, but where is Xhondo from?",
-      "answers": [
-        {
-          "text": "The Basilisk Isles",
-          "correct": false
-        },
-        {
-          "text": "Dorne",
-          "correct": false
-        },
-        {
-          "text": "Ibben",
-          "correct": false
-        },
-        {
-          "text": "The Summer Islands",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Which of the following events is not recounted or prophesised by the Ghost of High Heart",
-      "answers": [
-        {
-          "text": "The Purple Wedding",
-          "correct": false
-        },
-        {
-          "text": "Hoster Tully's eventual death",
-          "correct": false
-        },
-        {
-          "text": "The Mountain attacking Vargo Hoat at Harrenhal",
-          "correct": false
-        },
-        {
-          "text": "Euron Greyjoy's conquest of The Shield Islands",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "The City of Qarth is protected by three walls,\n each with a different set of carvings. Which of the following can NOT \nbe seen on any of the three walls?",
-      "answers": [
-        {
-          "text": "Carvings of Animals",
-          "correct": false
-        },
-        {
-          "text": "Carvings of Scenes of War",
-          "correct": false
-        },
-        {
-          "text": "Carvings of Scenes of Sex",
-          "correct": false
-        },
-        {
-          "text": "Carvings of the Raising of Buildings",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "What happened to the ancient crown worn by the Stark Kings of Winter?",
-      "answers": [
-        {
-          "text": "Stolen by looters from the Iron Islands",
-          "correct": false
-        },
-        {
-          "text": "Taken by a King Beyond the Wall",
-          "correct": false
-        },
-        {
-          "text": "Surrendered to Aegon the Conqueror",
-          "correct": true
-        },
-        {
-          "text": "Buried in the crypts beneath Winterfell",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Robb Stark's direwolf Grey Wind always growls at which member of his wife Jeyne Westerling's family?",
-      "answers": [
-        {
-          "text": "Eleyna Westerling",
-          "correct": false
-        },
-        {
-          "text": "Ser Rolph Spicer",
-          "correct": true
-        },
-        {
-          "text": "Lady Sybell Spicer",
-          "correct": false
-        },
-        {
-          "text": "Raynald Westerling",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Where does Jon Snow flee from Magnar Styr's wildling party after his cover is blown?",
-      "answers": [
-        {
-          "text": "The Last River",
-          "correct": false
-        },
-        {
-          "text": "Queenscrown",
-          "correct": true
-        },
-        {
-          "text": "The Nightfort",
-          "correct": false
-        },
-        {
-          "text": "Long Lake",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Joy Hill is the bastard daughter of which member of House Lannister?",
-      "answers": [
-        {
-          "text": "Tygett Lannister",
-          "correct": false
-        },
-        {
-          "text": "Stafford Lannister",
-          "correct": false
-        },
-        {
-          "text": "Gerion Lannister",
-          "correct": true
-        },
-        {
-          "text": "Tytos Lannister",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Dyre Den, located on Crackclaw Point, is the holding of which minor Lord?",
-      "answers": [
-        {
-          "text": "Lord Brune",
-          "correct": true
-        },
-        {
-          "text": "Lord Crabb",
-          "correct": false
-        },
-        {
-          "text": "Lord Kettleblack",
-          "correct": false
-        },
-        {
-          "text": "Lord Hunt",
-          "correct": false
-        }
-      ]
-    }
-  ],
-  [
-    {
-      "question": "Prince Doran Martell had his son Quentyn fostered with which other noble Dornish house?",
-      "answers": [
-        {
-          "text": "Dayne",
-          "correct": false
-        },
-        {
-          "text": "Santagar",
-          "correct": false
-        },
-        {
-          "text": "Uller",
-          "correct": false
-        },
-        {
-          "text": "Yronwood",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Which set of islands is located just off the coast of Dorne?",
-      "answers": [
-        {
-          "text": "The Iron Islands",
-          "correct": false
-        },
-        {
-          "text": "The Shield Islands",
-          "correct": false
-        },
-        {
-          "text": "The Sisters",
-          "correct": false
-        },
-        {
-          "text": "The Stepstones",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Ser Arys Oakheart, the Kingsguard sent to protect Princess Myrcella, originates from which region of Westeros?",
-      "answers": [
-        {
-          "text": "Dorne",
-          "correct": false
-        },
-        {
-          "text": "The Reach",
-          "correct": true
-        },
-        {
-          "text": "The Vale",
-          "correct": false
-        },
-        {
-          "text": "The Westerlands",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Where does Arianne Martell plot to take Princess Myrcella in order to crown her as Queen of the Seven Kingdoms?",
-      "answers": [
-        {
-          "text": "Hellholt",
-          "correct": true
-        },
-        {
-          "text": "Shandystone",
-          "correct": false
-        },
-        {
-          "text": "Storm's End",
-          "correct": false
-        },
-        {
-          "text": "Vaith",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "King Robert's master at arms in King's Landing in A Game of Thrones is of a noble Dornish house. Which one?",
-      "answers": [
-        {
-          "text": "Dalt",
-          "correct": false
-        },
-        {
-          "text": "Jordayne",
-          "correct": false
-        },
-        {
-          "text": "Santagar",
-          "correct": true
-        },
-        {
-          "text": "Wyl",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Which of the following serves as Maester to Prince Doran Martell?",
-      "answers": [
-        {
-          "text": "Maester Alleras",
-          "correct": false
-        },
-        {
-          "text": "Maester Caleotte",
-          "correct": true
-        },
-        {
-          "text": "Maester Pylos",
-          "correct": false
-        },
-        {
-          "text": "Maester Vyman",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Ser Daemon Sand, the Bastard of Godsgrace, \ntook Arianne Martell's maidenhead at the age of 14 and served as squire \nto Oberyn Martell during Tyrion Lannister's trial by combat. Which house\n rules Godsgrace?",
-      "answers": [
-        {
-          "text": "Allyrion",
-          "correct": true
-        },
-        {
-          "text": "Jordayne",
-          "correct": false
-        },
-        {
-          "text": "Uller",
-          "correct": false
-        },
-        {
-          "text": "Yronwood",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Ellaria Sand, paramour of Oberyn Martell, is mother to how many of the Sand Snakes?",
-      "answers": [
-        {
-          "text": "2",
-          "correct": false
-        },
-        {
-          "text": "3",
-          "correct": false
-        },
-        {
-          "text": "4",
-          "correct": true
-        },
-        {
-          "text": "5",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Which disease does Prince Doran Martell suffer from that gives him difficulty walking?",
-      "answers": [
-        {
-          "text": "Brownleg",
-          "correct": false
-        },
-        {
-          "text": "Gout",
-          "correct": true
-        },
-        {
-          "text": "Sweetrot",
-          "correct": false
-        },
-        {
-          "text": "Wormbone",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "What was the first name of the Targaryen King who succeeded in his conquest of Dorne and was dubbed 'the Young Dragon'?",
-      "answers": [
-        {
-          "text": "Aegon",
-          "correct": false
-        },
-        {
-          "text": "Baelor",
-          "correct": false
-        },
-        {
-          "text": "Daeron",
-          "correct": true
-        },
-        {
-          "text": "Viserys",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Starfall, the ancient seat of House Dayne, lies on which river?",
-      "answers": [
-        {
-          "text": "The Brimstone",
-          "correct": false
-        },
-        {
-          "text": "The Greenblood",
-          "correct": false
-        },
-        {
-          "text": "The Rhoyne",
-          "correct": false
-        },
-        {
-          "text": "The Torentine",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Prince Doran's captain of guards, Areo Hotah, originates from which city in Essos?",
-      "answers": [
-        {
-          "text": "Braavos",
-          "correct": false
-        },
-        {
-          "text": "Meereen",
-          "correct": false
-        },
-        {
-          "text": "Norvos",
-          "correct": true
-        },
-        {
-          "text": "Qohor",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "With which Essosi sellsword company does Oberyn Martell fight during his early life?",
-      "answers": [
-        {
-          "text": "The Golden Company",
-          "correct": false
-        },
-        {
-          "text": "The Second Sons",
-          "correct": true
-        },
-        {
-          "text": "The Stormcrows",
-          "correct": false
-        },
-        {
-          "text": "The Windblown",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Obara Sand, the eldest of Oberyn's eight daughters, is the daughter of the Dornish Prince and a whore from which city?",
-      "answers": [
-        {
-          "text": "King's Landing",
-          "correct": false
-        },
-        {
-          "text": "Lys",
-          "correct": false
-        },
-        {
-          "text": "Oldtown",
-          "correct": true
-        },
-        {
-          "text": "Plankytown",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "At the beginning of Robert's Rebellion, how many of Aerys II's Kingsguard were of Dornish nobility?",
-      "answers": [
-        {
-          "text": "1",
-          "correct": false
-        },
-        {
-          "text": "2",
-          "correct": true
-        },
-        {
-          "text": "3",
-          "correct": false
-        },
-        {
-          "text": "4",
-          "correct": false
-        }
-      ]
-    }
-  ]
+  {
+    "question": "What is the name of Samwell Tarly's younger brother, preferred by his father Lord Randyll as the heir to Horn Hill?",
+    "answers": [
+      {
+        "text": "Edwyn",
+        "correct": false
+      },
+      {
+        "text": "Randyll",
+        "correct": false
+      },
+      {
+        "text": "Dickon",
+        "correct": true
+      },
+      {
+        "text": "Willas",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "When Tyrion visits Selhorys, the city is bracing itself for a potential attack by a Dothraki khalasar, led by which Khal?",
+    "answers": [
+      {
+        "text": "Ogo",
+        "correct": false
+      },
+      {
+        "text": "Pono",
+        "correct": true
+      },
+      {
+        "text": "Drogo",
+        "correct": false
+      },
+      {
+        "text": "Mago",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the name of Joffrey Baratheon's first sword, which is thrown into The Trident by Arya Stark?",
+    "answers": [
+      {
+        "text": "Heart Eater",
+        "correct": false
+      },
+      {
+        "text": "Widow's Wail",
+        "correct": false
+      },
+      {
+        "text": "Lion's Tooth",
+        "correct": true
+      },
+      {
+        "text": "Stag's Storm",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which member of the Kingsguard is tasked with \nescorting Prince Tommen Baratheon to Rosby ahead of Stannis Baratheon's \nassault on King's Landing?",
+    "answers": [
+      {
+        "text": "Ser Boros Blount",
+        "correct": true
+      },
+      {
+        "text": "Ser Balon Swann",
+        "correct": false
+      },
+      {
+        "text": "Ser Meryn Trant",
+        "correct": false
+      },
+      {
+        "text": "Ser Preston Greenfield",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Following his altercation with Dareon in a \nbrothel in Braavos, Samwell Tarly is thrown into a canal. A man called \nXhondo helps him, but where is Xhondo from?",
+    "answers": [
+      {
+        "text": "The Basilisk Isles",
+        "correct": false
+      },
+      {
+        "text": "Dorne",
+        "correct": false
+      },
+      {
+        "text": "Ibben",
+        "correct": false
+      },
+      {
+        "text": "The Summer Islands",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following events is not recounted or prophesised by the Ghost of High Heart",
+    "answers": [
+      {
+        "text": "The Purple Wedding",
+        "correct": false
+      },
+      {
+        "text": "Hoster Tully's eventual death",
+        "correct": false
+      },
+      {
+        "text": "The Mountain attacking Vargo Hoat at Harrenhal",
+        "correct": false
+      },
+      {
+        "text": "Euron Greyjoy's conquest of The Shield Islands",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "The City of Qarth is protected by three walls,\n each with a different set of carvings. Which of the following can NOT \nbe seen on any of the three walls?",
+    "answers": [
+      {
+        "text": "Carvings of Animals",
+        "correct": false
+      },
+      {
+        "text": "Carvings of Scenes of War",
+        "correct": false
+      },
+      {
+        "text": "Carvings of Scenes of Sex",
+        "correct": false
+      },
+      {
+        "text": "Carvings of the Raising of Buildings",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What happened to the ancient crown worn by the Stark Kings of Winter?",
+    "answers": [
+      {
+        "text": "Stolen by looters from the Iron Islands",
+        "correct": false
+      },
+      {
+        "text": "Taken by a King Beyond the Wall",
+        "correct": false
+      },
+      {
+        "text": "Surrendered to Aegon the Conqueror",
+        "correct": true
+      },
+      {
+        "text": "Buried in the crypts beneath Winterfell",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Robb Stark's direwolf Grey Wind always growls at which member of his wife Jeyne Westerling's family?",
+    "answers": [
+      {
+        "text": "Eleyna Westerling",
+        "correct": false
+      },
+      {
+        "text": "Ser Rolph Spicer",
+        "correct": true
+      },
+      {
+        "text": "Lady Sybell Spicer",
+        "correct": false
+      },
+      {
+        "text": "Raynald Westerling",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Where does Jon Snow flee from Magnar Styr's wildling party after his cover is blown?",
+    "answers": [
+      {
+        "text": "The Last River",
+        "correct": false
+      },
+      {
+        "text": "Queenscrown",
+        "correct": true
+      },
+      {
+        "text": "The Nightfort",
+        "correct": false
+      },
+      {
+        "text": "Long Lake",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Joy Hill is the bastard daughter of which member of House Lannister?",
+    "answers": [
+      {
+        "text": "Tygett Lannister",
+        "correct": false
+      },
+      {
+        "text": "Stafford Lannister",
+        "correct": false
+      },
+      {
+        "text": "Gerion Lannister",
+        "correct": true
+      },
+      {
+        "text": "Tytos Lannister",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Dyre Den, located on Crackclaw Point, is the holding of which minor Lord?",
+    "answers": [
+      {
+        "text": "Lord Brune",
+        "correct": true
+      },
+      {
+        "text": "Lord Crabb",
+        "correct": false
+      },
+      {
+        "text": "Lord Kettleblack",
+        "correct": false
+      },
+      {
+        "text": "Lord Hunt",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Prince Doran Martell had his son Quentyn fostered with which other noble Dornish house?",
+    "answers": [
+      {
+        "text": "Dayne",
+        "correct": false
+      },
+      {
+        "text": "Santagar",
+        "correct": false
+      },
+      {
+        "text": "Uller",
+        "correct": false
+      },
+      {
+        "text": "Yronwood",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which set of islands is located just off the coast of Dorne?",
+    "answers": [
+      {
+        "text": "The Iron Islands",
+        "correct": false
+      },
+      {
+        "text": "The Shield Islands",
+        "correct": false
+      },
+      {
+        "text": "The Sisters",
+        "correct": false
+      },
+      {
+        "text": "The Stepstones",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Ser Arys Oakheart, the Kingsguard sent to protect Princess Myrcella, originates from which region of Westeros?",
+    "answers": [
+      {
+        "text": "Dorne",
+        "correct": false
+      },
+      {
+        "text": "The Reach",
+        "correct": true
+      },
+      {
+        "text": "The Vale",
+        "correct": false
+      },
+      {
+        "text": "The Westerlands",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Where does Arianne Martell plot to take Princess Myrcella in order to crown her as Queen of the Seven Kingdoms?",
+    "answers": [
+      {
+        "text": "Hellholt",
+        "correct": true
+      },
+      {
+        "text": "Shandystone",
+        "correct": false
+      },
+      {
+        "text": "Storm's End",
+        "correct": false
+      },
+      {
+        "text": "Vaith",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "King Robert's master at arms in King's Landing in A Game of Thrones is of a noble Dornish house. Which one?",
+    "answers": [
+      {
+        "text": "Dalt",
+        "correct": false
+      },
+      {
+        "text": "Jordayne",
+        "correct": false
+      },
+      {
+        "text": "Santagar",
+        "correct": true
+      },
+      {
+        "text": "Wyl",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following serves as Maester to Prince Doran Martell?",
+    "answers": [
+      {
+        "text": "Maester Alleras",
+        "correct": false
+      },
+      {
+        "text": "Maester Caleotte",
+        "correct": true
+      },
+      {
+        "text": "Maester Pylos",
+        "correct": false
+      },
+      {
+        "text": "Maester Vyman",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Ser Daemon Sand, the Bastard of Godsgrace, \ntook Arianne Martell's maidenhead at the age of 14 and served as squire \nto Oberyn Martell during Tyrion Lannister's trial by combat. Which house\n rules Godsgrace?",
+    "answers": [
+      {
+        "text": "Allyrion",
+        "correct": true
+      },
+      {
+        "text": "Jordayne",
+        "correct": false
+      },
+      {
+        "text": "Uller",
+        "correct": false
+      },
+      {
+        "text": "Yronwood",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Ellaria Sand, paramour of Oberyn Martell, is mother to how many of the Sand Snakes?",
+    "answers": [
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "5",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which disease does Prince Doran Martell suffer from that gives him difficulty walking?",
+    "answers": [
+      {
+        "text": "Brownleg",
+        "correct": false
+      },
+      {
+        "text": "Gout",
+        "correct": true
+      },
+      {
+        "text": "Sweetrot",
+        "correct": false
+      },
+      {
+        "text": "Wormbone",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What was the first name of the Targaryen King who succeeded in his conquest of Dorne and was dubbed 'the Young Dragon'?",
+    "answers": [
+      {
+        "text": "Aegon",
+        "correct": false
+      },
+      {
+        "text": "Baelor",
+        "correct": false
+      },
+      {
+        "text": "Daeron",
+        "correct": true
+      },
+      {
+        "text": "Viserys",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Starfall, the ancient seat of House Dayne, lies on which river?",
+    "answers": [
+      {
+        "text": "The Brimstone",
+        "correct": false
+      },
+      {
+        "text": "The Greenblood",
+        "correct": false
+      },
+      {
+        "text": "The Rhoyne",
+        "correct": false
+      },
+      {
+        "text": "The Torentine",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Prince Doran's captain of guards, Areo Hotah, originates from which city in Essos?",
+    "answers": [
+      {
+        "text": "Braavos",
+        "correct": false
+      },
+      {
+        "text": "Meereen",
+        "correct": false
+      },
+      {
+        "text": "Norvos",
+        "correct": true
+      },
+      {
+        "text": "Qohor",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "With which Essosi sellsword company does Oberyn Martell fight during his early life?",
+    "answers": [
+      {
+        "text": "The Golden Company",
+        "correct": false
+      },
+      {
+        "text": "The Second Sons",
+        "correct": true
+      },
+      {
+        "text": "The Stormcrows",
+        "correct": false
+      },
+      {
+        "text": "The Windblown",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Obara Sand, the eldest of Oberyn's eight daughters, is the daughter of the Dornish Prince and a whore from which city?",
+    "answers": [
+      {
+        "text": "King's Landing",
+        "correct": false
+      },
+      {
+        "text": "Lys",
+        "correct": false
+      },
+      {
+        "text": "Oldtown",
+        "correct": true
+      },
+      {
+        "text": "Plankytown",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "At the beginning of Robert's Rebellion, how many of Aerys II's Kingsguard were of Dornish nobility?",
+    "answers": [
+      {
+        "text": "1",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Whom of the following was not one of the Lords Declarant?",
+    "answers": [
+      {
+        "text": "Lord Gerold Grafton",
+        "correct": true
+      },
+      {
+        "text": "Lord Yohn Royce",
+        "correct": false
+      },
+      {
+        "text": "Lord Benedar Belmore",
+        "correct": false
+      },
+      {
+        "text": "Lord Horton Redfort",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Check all the nicknames of Tormund the Wildling.",
+    "answers": [
+      {
+        "text": "Mead-King of Ruddy Hall",
+        "correct": true
+      },
+      {
+        "text": "Father of Hosts",
+        "correct": false
+      },
+      {
+        "text": "Brother to Wolves",
+        "correct": false
+      },
+      {
+        "text": "Son of Dormund",
+        "correct": false
+      },
+      {
+        "text": "Breaker of Ice",
+        "correct": false
+      },
+      {
+        "text": "Husband to Bears",
+        "correct": false
+      },
+      {
+        "text": "Conqueror of Snow",
+        "correct": false
+      },
+      {
+        "text": "Thunderfist",
+        "correct": false
+      },
+      {
+        "text": "Horn-Blower",
+        "correct": false
+      },
+      {
+        "text": "Speaker to Gods",
+        "correct": false
+      },
+      {
+        "text": "Chicken-Eater",
+        "correct": false
+      },
+      {
+        "text": "Fire-Eater of Hardhome",
+        "correct": false
+      },
+      {
+        "text": "Tall-Talker",
+        "correct": false
+      },
+      {
+        "text": "Greatest of Mountains",
+        "correct": false
+      },
+      {
+        "text": "Giantsbane",
+        "correct": false
+      },
+      {
+        "text": "Spearwife-Stealer",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is Samwell Tarly's grandfather?",
+    "answers": [
+      {
+        "text": "Lord Alester Florent",
+        "correct": true
+      },
+      {
+        "text": "Lord Wyman Manderly",
+        "correct": false
+      },
+      {
+        "text": "Lord Leyton Hightower",
+        "correct": false
+      },
+      {
+        "text": "Lord Walder Frey",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Ser Ilyn Payne got his tongue ripped out by the Mad King for saying that the Hand of the King, Lord Tywin Lannister, was truly ruling the kingdom rather than King Aerys himself.",
+    "answers": [
+      {
+        "text": "True",
+        "correct": true
+      },
+      {
+        "text": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "The Eyrie is the smallest of the great castles in Westeros.",
+    "answers": [
+      {
+        "text": "True",
+        "correct": true
+      },
+      {
+        "text": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is forbidden and punishable by death in Vaes Dothrak, the Dothraki 'city'?",
+    "answers": [
+      {
+        "text": "Killing horses and/or eating their meat",
+        "correct": false
+      },
+      {
+        "text": "Cursing the gods and/or the Mother of Mountains",
+        "correct": false
+      },
+      {
+        "text": "Threatening a Khal and/or killing him",
+        "correct": false
+      },
+      {
+        "text": "Drawing a blade and/or spilling blood",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Garth the Gardener, son of Garth Greenhand, founded House Tyrell of the Reach.",
+    "answers": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which sellsword company does Brown Ben Plumm command?",
+    "answers": [
+      {
+        "text": "Second Sons",
+        "correct": true
+      },
+      {
+        "text": "Stormcrows",
+        "correct": false
+      },
+      {
+        "text": "Windblown",
+        "correct": false
+      },
+      {
+        "text": "Long Lances",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the sigil of House Glover?",
+    "answers": [
+      {
+        "text": "A black battle-axe",
+        "correct": false
+      },
+      {
+        "text": "Three green sentinels",
+        "correct": false
+      },
+      {
+        "text": "A giant in broken chains",
+        "correct": false
+      },
+      {
+        "text": "A mailed fist",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Dany saw a vision of both the coming of the Others and the Red Wedding in the House of the Undying in a Clash of Kings.",
+    "answers": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "According to a popular theory, Wyman Manderly killed the three Freys that visited him, baked them into pies, and subsequently served them at the wedding of Ramsay Bolton to Jeyne Poole.",
+    "answers": [
+      {
+        "text": "True",
+        "correct": true
+      },
+      {
+        "text": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Before Jaime Lannister was appointed to the Kingsguard, Lord Tywin intended to marry him to ______?",
+    "answers": [
+      {
+        "text": "Lyanna Stark",
+        "correct": false
+      },
+      {
+        "text": "Lysa Tully",
+        "correct": true
+      },
+      {
+        "text": "Ashara Dayne",
+        "correct": false
+      },
+      {
+        "text": "Brienne of Tarth",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "The first Faceless Men were (probably) responsible for:",
+    "answers": [
+      {
+        "text": "The Long Night",
+        "correct": false
+      },
+      {
+        "text": "The extinction of dragons",
+        "correct": false
+      },
+      {
+        "text": "The Doom of Valyria",
+        "correct": true
+      },
+      {
+        "text": "The fall of the Rhoynish Empire",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In a Feast for Crows, Brynden Tully escapes Riverrun just before his nephew Edmure Tully surrenders the castle to Jaime Lannister. How?",
+    "answers": [
+      {
+        "text": "He swims under the portcullis and downstream along the Red fork",
+        "correct": true
+      },
+      {
+        "text": "He poses as a singer and talks his way out.",
+        "correct": false
+      },
+      {
+        "text": "He takes a boat with a black sail and sails away at night.",
+        "correct": false
+      },
+      {
+        "text": "He surrenders to Jaime but escapes with the help of his bannermen from the Riverlands.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Legends about the Grey King, legendary first king of the Iron Islands, say that he married a mermaid.",
+    "answers": [
+      {
+        "text": "True",
+        "correct": true
+      },
+      {
+        "text": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "The current Lord of House Dayne was:",
+    "answers": [
+      {
+        "text": "Fighting for Stannis on the Battle of the Blackwater",
+        "correct": false
+      },
+      {
+        "text": "Part of the Brotherhood Without Banners",
+        "correct": true
+      },
+      {
+        "text": "Squire to Oberyn Martell in King's Landing",
+        "correct": false
+      },
+      {
+        "text": "A novice at the Citadel",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Roose Bolton is brother-in-law to Big Walder, one of the Frey wards in Winterfell.",
+    "answers": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Egg, squire to Ser Duncan the Tall, would later be known as:",
+    "answers": [
+      {
+        "text": "Maester Aemon",
+        "correct": false
+      },
+      {
+        "text": "King Jaehaerys II",
+        "correct": false
+      },
+      {
+        "text": "The Mad King",
+        "correct": false
+      },
+      {
+        "text": "King Aegon V",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Who did Theon Stark, alias the Hungry Wolf,\u00a0NOT fight during his reign as King of Winter?",
+    "answers": [
+      {
+        "text": "The wildlings beyond the Wall",
+        "correct": false
+      },
+      {
+        "text": "The invading Andals in the east",
+        "correct": false
+      },
+      {
+        "text": "The ironborn reaving along the west shore",
+        "correct": false
+      },
+      {
+        "text": "The Boltons rebelling against the Starks",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "According to a popular theory, Balon Greyjoy was killed by a Faceless Man. What character prophesied the manner of his death?",
+    "answers": [
+      {
+        "text": "Melisandre",
+        "correct": false
+      },
+      {
+        "text": "The Ghost of High Heart",
+        "correct": true
+      },
+      {
+        "text": "Patchface",
+        "correct": false
+      },
+      {
+        "text": "The Three-Eyed Crow",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the House of the Undying, Daenerys saw a vision of Prince Rhaegar falling in the battle of the Trident. What were his last words?",
+    "answers": [
+      {
+        "text": "A declaration of love",
+        "correct": false
+      },
+      {
+        "text": "A request to spare his children",
+        "correct": false
+      },
+      {
+        "text": "A woman's name",
+        "correct": true
+      },
+      {
+        "text": "A curse",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Biter is killed by whom in a Feast for Crows?",
+    "answers": [
+      {
+        "text": "Brienne of Tarth",
+        "correct": false
+      },
+      {
+        "text": "The Hound",
+        "correct": false
+      },
+      {
+        "text": "Lem Lemoncloak",
+        "correct": false
+      },
+      {
+        "text": "Gendry",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Who does Littlefinger blame for the death of Lysa Arryn?",
+    "answers": [
+      {
+        "text": "Alayne Stone",
+        "correct": false
+      },
+      {
+        "text": "Lysa Arryn (suicide)",
+        "correct": false
+      },
+      {
+        "text": "Marillion the singer",
+        "correct": true
+      },
+      {
+        "text": "Ser Lyn Corbray",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In her first assasination assignment during her training at the House of Black and White, Arya kills her target by quietly putting a poisoned coin in his purse.",
+    "answers": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "While in Harrenhal, Arya sees Elmar Frey, squire to Roose Bolton, cry. Why?",
+    "answers": [
+      {
+        "text": "His family told him of the plans to kill Robb Stark at the Red Wedding",
+        "correct": false
+      },
+      {
+        "text": "Roose Bolton sent him back to the Twins",
+        "correct": false
+      },
+      {
+        "text": "His half-brother Stevron Frey died in the Battle of Oxcross",
+        "correct": false
+      },
+      {
+        "text": "His marriage to Arya was called off",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What was the direct cause of Tyrion Lannister deciding to murder his father Tywin in a Storm of Swords?",
+    "answers": [
+      {
+        "text": "Finding Shae in his father's chambers",
+        "correct": false
+      },
+      {
+        "text": "Hearing the truth about Tysha from Jaime",
+        "correct": true
+      },
+      {
+        "text": "Tywin comdemning him to death after Oberyn's loss to the Mountain",
+        "correct": false
+      },
+      {
+        "text": "Tywin naming him \"no son of mine\"",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "_________ had a hand in the dwindling of the dragons during the reign of the Targaryens in Westeros.",
+    "answers": [
+      {
+        "text": "The Faith of the Seven",
+        "correct": false
+      },
+      {
+        "text": "The Faceless Men",
+        "correct": false
+      },
+      {
+        "text": "The Night's Watch",
+        "correct": false
+      },
+      {
+        "text": "The Citadel",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Who devises the plan to rescue the Arya Stark imposter and get her out of Winterfell in a Dance with Dragons?",
+    "answers": [
+      {
+        "text": "Jeyne Poole",
+        "correct": false
+      },
+      {
+        "text": "Theon Greyjoy / Reek",
+        "correct": false
+      },
+      {
+        "text": "Mance Rayder",
+        "correct": true
+      },
+      {
+        "text": "Wyman Manderly",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "According to a fan theory, at the end of a Dance with Dragons Jojen Reed is _________.",
+    "answers": [
+      {
+        "text": "Eaten by Bran Stark",
+        "correct": true
+      },
+      {
+        "text": "Lost in the cave of the children of the forest.",
+        "correct": false
+      },
+      {
+        "text": "Killed by the wights outside the cave of the children of the forest",
+        "correct": false
+      },
+      {
+        "text": "Dead or dying due to the cold and lack of decent food north of the Wall.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "According to Oberyn Martell, who gave the order?",
+    "answers": [
+      {
+        "text": "Tywin Lannister",
+        "correct": true
+      },
+      {
+        "text": "Jaime Lannister",
+        "correct": false
+      },
+      {
+        "text": "Cersei Lannister",
+        "correct": false
+      },
+      {
+        "text": "Tyrion Lannister",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the seat of House Tarly?",
+    "answers": [
+      {
+        "text": "Barrow Hall",
+        "correct": false
+      },
+      {
+        "text": "Stone Hedge",
+        "correct": false
+      },
+      {
+        "text": "Horn Hill",
+        "correct": true
+      },
+      {
+        "text": "Raventree Hall",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which title has not been held by Cersei Lannister?",
+    "answers": [
+      {
+        "text": "Queen Dowager",
+        "correct": false
+      },
+      {
+        "text": "Queen Regent",
+        "correct": false
+      },
+      {
+        "text": "Light of the West",
+        "correct": false
+      },
+      {
+        "text": "Queen of Light",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of these is not one of Oberyn's Sandsnakes?",
+    "answers": [
+      {
+        "text": "Obara",
+        "correct": false
+      },
+      {
+        "text": "Tyene",
+        "correct": false
+      },
+      {
+        "text": "Sarella",
+        "correct": false
+      },
+      {
+        "text": "Marei",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which region of Westeros is House Lychester from?",
+    "answers": [
+      {
+        "text": "Riverlands",
+        "correct": true
+      },
+      {
+        "text": "Vale",
+        "correct": false
+      },
+      {
+        "text": "Reach",
+        "correct": false
+      },
+      {
+        "text": "Stormlands",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who said this 'The old woman is not boring, though, I'll grant her that. A fearsome old harridan, and not near as frail as she pretends' about Olenna Tyrell",
+    "answers": [
+      {
+        "text": "Tyrion Lannister",
+        "correct": false
+      },
+      {
+        "text": "Jaime Lannister",
+        "correct": false
+      },
+      {
+        "text": "Petyr Baelish",
+        "correct": true
+      },
+      {
+        "text": "Varys",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is the father of Osfryd, Osmund and Osney Kettleblack?",
+    "answers": [
+      {
+        "text": "Ondrew",
+        "correct": false
+      },
+      {
+        "text": "Oswell",
+        "correct": true
+      },
+      {
+        "text": "Ossifer",
+        "correct": false
+      },
+      {
+        "text": "Othell",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What company is Shagwell a member of?",
+    "answers": [
+      {
+        "text": "Brave Companions",
+        "correct": true
+      },
+      {
+        "text": "Golden Company",
+        "correct": false
+      },
+      {
+        "text": "Stormbreakers",
+        "correct": false
+      },
+      {
+        "text": "Free Company",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which is not one of The Seven?",
+    "answers": [
+      {
+        "text": "The Smith",
+        "correct": false
+      },
+      {
+        "text": "The Stranger",
+        "correct": false
+      },
+      {
+        "text": "The Merchant",
+        "correct": true
+      },
+      {
+        "text": "The Maiden",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the words of House Follard?",
+    "answers": [
+      {
+        "text": "Our Blades are Sharp",
+        "correct": false
+      },
+      {
+        "text": "None so Wise",
+        "correct": true
+      },
+      {
+        "text": "Pride and Purpose",
+        "correct": false
+      },
+      {
+        "text": "Righteous in Wrath",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who thought this about Tywin Lannister 'I would sooner entrust a child to a pit viper than to Lord Tywin.'?",
+    "answers": [
+      {
+        "text": "Olenna Tyrell",
+        "correct": false
+      },
+      {
+        "text": "Eddard Stark",
+        "correct": true
+      },
+      {
+        "text": "Stannis Baratheon",
+        "correct": false
+      },
+      {
+        "text": "Jon Arryn",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who was Roose Bolton's second wife?",
+    "answers": [
+      {
+        "text": "Melara Crane",
+        "correct": false
+      },
+      {
+        "text": "Jeyne Swann",
+        "correct": false
+      },
+      {
+        "text": "Falena Stokeworth",
+        "correct": false
+      },
+      {
+        "text": "Bethany Ryswell",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which is not a Wildling?",
+    "answers": [
+      {
+        "text": "Dalla",
+        "correct": false
+      },
+      {
+        "text": "Val",
+        "correct": false
+      },
+      {
+        "text": "Elza",
+        "correct": true
+      },
+      {
+        "text": "Orell",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who tries to take Jaqen H'ghar to The Wall?",
+    "answers": [
+      {
+        "text": "Yandry",
+        "correct": false
+      },
+      {
+        "text": "Yoren",
+        "correct": true
+      },
+      {
+        "text": "Yorkel",
+        "correct": false
+      },
+      {
+        "text": "Yormwell",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is Theon Greyjoy's squire?",
+    "answers": [
+      {
+        "text": "Benfred Tallhart",
+        "correct": false
+      },
+      {
+        "text": "Wex Pyke",
+        "correct": true
+      },
+      {
+        "text": "Ralf Kenning",
+        "correct": false
+      },
+      {
+        "text": "Dagmer Cleftjaw",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is not a child of Walder Frey?",
+    "answers": [
+      {
+        "text": "Torbert",
+        "correct": true
+      },
+      {
+        "text": "Luceon",
+        "correct": false
+      },
+      {
+        "text": "Elmar",
+        "correct": false
+      },
+      {
+        "text": "Jared",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who did Robert Baratheon say this to 'I will not kill a man for loyalty, nor for fighting well.'?",
+    "answers": [
+      {
+        "text": "Eddard Stark",
+        "correct": false
+      },
+      {
+        "text": "Tywin Lannister",
+        "correct": false
+      },
+      {
+        "text": "Roose Bolton",
+        "correct": true
+      },
+      {
+        "text": "Cersei Lannister",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who said this 'A craven's knife can slay a queen as easily as a hero's.' to Daenerys?",
+    "answers": [
+      {
+        "text": "Hizdahr zo Loraq",
+        "correct": false
+      },
+      {
+        "text": "Xaro Xhoan Daxos",
+        "correct": true
+      },
+      {
+        "text": "Kraznys mo Nakloz",
+        "correct": false
+      },
+      {
+        "text": "Pyat Pree",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of these was not a ranger for the Night's Watch?",
+    "answers": [
+      {
+        "text": "Gared",
+        "correct": false
+      },
+      {
+        "text": "Othor",
+        "correct": false
+      },
+      {
+        "text": "Dywen",
+        "correct": false
+      },
+      {
+        "text": "Horse",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "How is Benjen Stark related to Rickon Stark?",
+    "answers": [
+      {
+        "text": "Brother",
+        "correct": false
+      },
+      {
+        "text": "Father",
+        "correct": false
+      },
+      {
+        "text": "Uncle",
+        "correct": true
+      },
+      {
+        "text": "Cousin",
+        "correct": false
+      }
+    ]
+  }
 ]
