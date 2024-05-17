@@ -21,10 +21,23 @@ print(f"Importing packages took {end_time - start_time} seconds")  # For HPC
 This script extracts all the dialoges from HP and ASOIF.
 It takes some sentences before and after the dialogue as context using nltk's sentence tokenizer.
 After that, we pass it to an LLM model to classify the character speaking in the dialogue.
+
+!! This script is meant to be ran on HPC !!
 """
 
-MIN_DIALOGUE_LENGTH = 10  # minimum length of dialogue to consider
+MIN_DIALOGUE_LENGTH = 16  # minimum length of dialogue to consider
 MODEL_NAME = "microsoft/Phi-3-mini-4k-instruct"  # model for dialogue classification
+BATCH_SIZE = 10 # How many dialogues to classify at once
+MAX_DIALOGUE_LENGTH = 500
+MAX_CONTEXT_LENGTH = 4000
+
+print(f"""Configuration:
+MIN_DIALOGUE_LENGTH: {MIN_DIALOGUE_LENGTH}
+MODEL_NAME: {MODEL_NAME}
+BATCH_SIZE: {BATCH_SIZE}
+MAX_DIALOGUE_LENGTH: {MAX_DIALOGUE_LENGTH}
+MAX_CONTEXT_LENGTH: {MAX_CONTEXT_LENGTH}
+""")
 
 nltk.download("punkt")
 
@@ -91,14 +104,15 @@ for book in books:
 df = pd.DataFrame(dfs)
 df = df.sample(frac=1).reset_index(drop=True)
 
-# filter out dialogues that are too short
 before_len = len(df)
 
+df = df[df["Context"].apply(len) < MAX_CONTEXT_LENGTH]
+df = df[df["Dialogue"].apply(len) < MAX_DIALOGUE_LENGTH]
 df = df[df["Dialogue"].apply(len) > MIN_DIALOGUE_LENGTH]
 
 after_len = len(df)
 
-print(f"Filtered out {before_len - after_len} dialogues that were too short. Current length: {after_len}")
+print(f"Filtered out {before_len - after_len} dialogues. Current length: {after_len}")
 
 random_sample = df.sample(3)
 
@@ -109,11 +123,16 @@ for _, row in random_sample.iterrows():
     print(row["Context"])
     print()
 
+# This is done for efficient batch processing   
+df = df.sort_values(by="Context", key=lambda x: x.str.len(), ascending=False)
+
+for _, row in df.head(5).iterrows():
+    print('len of context: ', len(row['Context']))
+
 logging.getLogger("transformers.generation_utils").setLevel(logging.ERROR)
 # supresses 'Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.'
 
-
-bnb_config = BitsAndBytesConfig(
+""" bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_quant_type="nf4",
     bnb_4bit_use_double_quant=True,
@@ -124,15 +143,30 @@ model = AutoModelForCausalLM.from_pretrained(
     MODEL_NAME,
     quantization_config=bnb_config,
     trust_remote_code=True,
-)
-model.config.use_cache = False
+) """
 
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
+# model.config.use_cache = True
 
-text_gen = pipeline("text-generation", model=model, tokenizer=tokenizer)
+# model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, trust_remote_code=True, attn_implementation="eager")
+# tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME,trust_remote_code=True)
+model = AutoModelForCausalLM.from_pretrained(MODEL_NAME,
+                                             trust_remote_code=True)
+
+model = model.to("cuda")
+                                         
+
+
+text_gen = pipeline("text-generation", model=model, tokenizer=tokenizer, device=0, batch_size=BATCH_SIZE)
+
+
+i = 0
 
 
 def classify_dialogues_batch(dialogue_entries):
+    
+    global i
+
     prompts = []
     for dialogue, context in zip(dialogue_entries["Dialogue"], dialogue_entries["Context"]):
         prompt_text = f"""
@@ -162,7 +196,7 @@ Arya crossed the room and lifted the crossbar. Father was alone. He seemed more 
 ### Who speaks the following dialogue?
 "{dialogue}"
 ### In the context of:
-{context}
+{context[:300]}
 
 ### Answer:
 """
@@ -176,16 +210,17 @@ Arya crossed the room and lifted the crossbar. Father was alone. He seemed more 
         generated_text = result["generated_text"] if "generated_text" in result else result
         answer = generated_text.split("### Answer:")[-1].strip().split("\n")[0].strip()
         characters.append(answer)
+        
+    print(f"{i} / {len(df)}  Characters: {', '.join(characters)}")
+    
+    i += BATCH_SIZE
 
     return {"Character": characters}
-
-
-# df = df.head(20)
 
 print(f"Running on {len(df)} dialogues")
 
 dataset = Dataset.from_pandas(df)
-dataset = dataset.map(classify_dialogues_batch, batched=True, batch_size=8)
+dataset = dataset.map(classify_dialogues_batch, batched=True, batch_size=BATCH_SIZE)
 df = dataset.to_pandas()
 
 df.to_csv("dialogues.csv", index=False)
