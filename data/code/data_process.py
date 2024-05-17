@@ -1,22 +1,34 @@
-import logging
-import os
-import re
+import time
 
-import nltk
-import pandas as pd
-import torch
-from datasets import Dataset
-from nltk.tokenize import sent_tokenize
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, pipeline
+start_time = time.time()
 
-print("Imported packages")  # this takes forever on HPC
+import logging  # noqa: E402
+import os  # noqa: E402
+import re  # noqa: E402
 
-MIN_DIALOGUE_LENGTH = 10
+import nltk  # noqa: E402
+import pandas as pd  # noqa: E402
+import torch  # noqa: E402
+from datasets import Dataset  # noqa: E402
+from nltk.tokenize import sent_tokenize  # noqa: E402
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, pipeline  # noqa: E402
+
+end_time = time.time()
+
+print(f"Importing packages took {end_time - start_time} seconds")  # For HPC
+
+""" 
+This script extracts all the dialoges from HP and ASOIF.
+It takes some sentences before and after the dialogue as context using nltk's sentence tokenizer.
+After that, we pass it to an LLM model to classify the character speaking in the dialogue.
+"""
+
+MIN_DIALOGUE_LENGTH = 10  # minimum length of dialogue to consider
+MODEL_NAME = "microsoft/Phi-3-mini-4k-instruct"  # model for dialogue classification
 
 nltk.download("punkt")
 
 data_paths = ["./../books/asoif/", "./../books/hp/"]
-# data_paths = ["./../books/hp/"]
 books: list[tuple[str, str]] = []  # name, path
 
 for data_path in data_paths:
@@ -100,9 +112,6 @@ for _, row in random_sample.iterrows():
 logging.getLogger("transformers.generation_utils").setLevel(logging.ERROR)
 # supresses 'Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.'
 
-print("Imported packages")  # this takes forever on HPC
-
-model_name = "microsoft/Phi-3-mini-4k-instruct"
 
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
@@ -112,13 +121,13 @@ bnb_config = BitsAndBytesConfig(
 )
 
 model = AutoModelForCausalLM.from_pretrained(
-    model_name,
+    MODEL_NAME,
     quantization_config=bnb_config,
     trust_remote_code=True,
 )
 model.config.use_cache = False
 
-tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
 
 text_gen = pipeline("text-generation", model=model, tokenizer=tokenizer)
 
