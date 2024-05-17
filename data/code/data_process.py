@@ -180,7 +180,7 @@ Arya crossed the room and lifted the crossbar. Father was alone. He seemed more 
     return {"Character": characters}
 
 
-df = df.head(20)
+# df = df.head(20)
 
 print(f"Running on {len(df)} dialogues")
 
