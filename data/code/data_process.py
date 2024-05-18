@@ -18,6 +18,8 @@ end_time = time.time()
 print(f"Importing packages took {end_time - start_time} seconds")  # For HPC
 
 """ 
+Second iteration of the data processing script for extracting dialogues from books.
+
 This script extracts all the dialoges from HP and ASOIF.
 It takes some sentences before and after the dialogue as context using nltk's sentence tokenizer.
 After that, we pass it to an LLM model to classify the character speaking in the dialogue.
@@ -27,7 +29,7 @@ After that, we pass it to an LLM model to classify the character speaking in the
 
 MIN_DIALOGUE_LENGTH = 16  # minimum length of dialogue to consider
 MODEL_NAME = "microsoft/Phi-3-mini-4k-instruct"  # model for dialogue classification
-BATCH_SIZE = 10 # How many dialogues to classify at once
+BATCH_SIZE = 10  # How many dialogues to classify at once
 MAX_DIALOGUE_LENGTH = 500
 MAX_CONTEXT_LENGTH = 4000
 
@@ -123,11 +125,11 @@ for _, row in random_sample.iterrows():
     print(row["Context"])
     print()
 
-# This is done for efficient batch processing   
+# This is done for efficient batch processing
 df = df.sort_values(by="Context", key=lambda x: x.str.len(), ascending=False)
 
 for _, row in df.head(5).iterrows():
-    print('len of context: ', len(row['Context']))
+    print("len of context: ", len(row["Context"]))
 
 logging.getLogger("transformers.generation_utils").setLevel(logging.ERROR)
 # supresses 'Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.'
@@ -149,12 +151,10 @@ model = AutoModelForCausalLM.from_pretrained(
 
 # model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, trust_remote_code=True, attn_implementation="eager")
 # tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME,trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained(MODEL_NAME,
-                                             trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
+model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, trust_remote_code=True)
 
 model = model.to("cuda")
-                                         
 
 
 text_gen = pipeline("text-generation", model=model, tokenizer=tokenizer, device=0, batch_size=BATCH_SIZE)
@@ -164,7 +164,6 @@ i = 0
 
 
 def classify_dialogues_batch(dialogue_entries):
-    
     global i
 
     prompts = []
@@ -210,12 +209,13 @@ Arya crossed the room and lifted the crossbar. Father was alone. He seemed more 
         generated_text = result["generated_text"] if "generated_text" in result else result
         answer = generated_text.split("### Answer:")[-1].strip().split("\n")[0].strip()
         characters.append(answer)
-        
+
     print(f"{i} / {len(df)}  Characters: {', '.join(characters)}")
-    
+
     i += BATCH_SIZE
 
     return {"Character": characters}
+
 
 print(f"Running on {len(df)} dialogues")
 
