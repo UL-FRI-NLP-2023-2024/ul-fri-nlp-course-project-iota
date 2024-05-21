@@ -21,6 +21,9 @@ peft = "^0.10.0"
 trl = "^0.8.6"
 nltk = "^3.8.1"
 colorama = "^0.4.6"
+langchain = "^0.2.0"
+langchain-community = "^0.2.0"
+faiss-cpu = "^1.8.0"
 
 [tool.poetry.extras]
 # poetry install --extras "optional-deps"
