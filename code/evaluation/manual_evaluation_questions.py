@@ -112,4 +112,71 @@ questions = {
         "What is your biggest fear?",
         "Who do you admire the most?",
     ],
+    "trivia": {
+        "hp": [
+            {
+                "question": "What is the name of the centaur who saves Harry in the Forbidden Forest?",
+                "answer": "Firenze",
+            },
+            {"question": "Who is the ghost of Ravenclaw house?", "answer": "The Grey Lady"},
+            {"question": "Do the Weasleys have a house elf?", "answer": "No."},
+            {"question": "What is the name of the wizarding bank?", "answer": "Gringott"},
+            {
+                "question": "What magical creature is known for guarding Gringott’s Bank?",
+                "answer": "Ukrainian Ironbelly, a type of dragon",
+            },
+            {"question": "What kind of wood is Harry’s first wand made out of?", "answer": "Holly"},
+            {
+                "question": "Where does Harry Potter first see Draco Malfoy?",
+                "answer": "In Madame Malkin’s Robes for All Occasions",
+            },
+            {"question": "What is the cure for being Petrified?", "answer": "Mandrake root"},
+            {"question": "What two creatures are Hippogriffs a mix of?", "answer": "Horses and eagles"},
+            {
+                "question": "Who grows a beard after trying to cheat their way into the Triwizard Tournament?",
+                "answer": "Fred and George Weasley",
+            },
+            {
+                "question": "What did Sirius Black’s mother do to his name on the Black family tapestry?",
+                "answer": "Burned it away",
+            },
+            {
+                "question": "What are the gemstones in the cursed necklace Draco Malfoy buys from Borgin and Burkes?",
+                "answer": "Opals",
+            },
+            {
+                "question": "What fake illness does Ron Weasley say he has to cover up his absence from Hogwarts?",
+                "answer": "Spattergroit",
+            },
+        ],
+        "asoiaf": [
+            {"question": "Arya's friend, Micah, was the son of what tradesman at Winterfell?", "answer": "Butcher"},
+            {
+                "question": "What was the trade of Lommy, the boy who was traveling with Arya, Hot Pie and Gendry after Yoren's wagon train was attacked?",
+                "answer": "Fabric dyer's apprentice",
+            },
+            {
+                "question": "When Jon and the free folk are sheltering in an old ruin, Styr orders Jon Snow to kill an old man. What was the building before it became a ruin?",
+                "answer": "An inn.",
+            },
+            {
+                "question": "Name the four legendary figures of Westeros from which several of the great houses claim descent.",
+                "answer": "Bran the Builder, Durran Godsgrief, Lann the Clever, Garth Greenhand",
+            },
+            {"question": "What was the name of Ramsay Snow's first wife?", "answer": "Lady Donella Hornwood"},
+            {"question": "What was the name of Walder Frey's third wife?", "answer": "Amarei Crakehall"},
+            {
+                "question": "Why did Ned Stark condemn Jorah Mormont to execution?",
+                "answer": "He sold some poachers into slavery instead of sending them to the Wall.",
+            },
+            {
+                "question": "Varamyr Sixskins can skinchange into any of six animals under his control. What are the four types of animals he inhabits?",
+                "answer": "shadow cat, snow bear, three wolves, eagle",
+            },
+            {
+                "question": "In addition to stockpiling wild fire, what strategic weapon did Tyrion order for use at the Battle of the Blackwater? ",
+                "answer": "A chain. Also: trebuchets.",
+            },
+        ],
+    },
 }
