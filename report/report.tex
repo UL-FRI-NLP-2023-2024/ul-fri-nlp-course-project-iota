@@ -119,10 +119,10 @@ Little actual knowledge about reading strategies was illustrated and there was n
 The interviews showed that the teachers were aware of these problems, but there were very few who adapted the lessons to counteract them and improve the quality of their teaching.
 The knowledge that was observed in the textbooks was divided into:
 \begin{itemize}
-\itemsep0em
-\item declarative knowledge - knowing something
-\item procedural knowledge - knowing how to do something
-\item conditional knowledge - knowing when to do something.
+	\itemsep0em
+	\item declarative knowledge - knowing something
+	\item procedural knowledge - knowing how to do something
+	\item conditional knowledge - knowing when to do something.
 \end{itemize}
 The textbooks were mostly just focused on the procedural part of the knowledge.
 To improve literacy, all three should be taught.
@@ -144,16 +144,16 @@ BookNLP \cite{booknlp} is a NLP pipeline that supports the analysis of literary 
 
 
 \todo[author=Jan]{
-\textbf{To smo pisal pred 2. zagovorom. Ne vem a se pustimo ali drugace oblikujemo.}	
+	\textbf{To smo pisal pred 2. zagovorom. Ne vem a se pustimo ali drugace oblikujemo.}
 
-We used \cite{touvron2023llama} and \cite{abdin2024phi} as our base models.
-We fine-tuned them on a preprocessed full-text dataset from Harry Potter novels.
-We trained the models using overlapping chunks of text to ensure that the model learns the context of the conversation.
-We used a chunk size of 512 characters and an overlap of 64 characters.
+	We used \cite{touvron2023llama} and \cite{abdin2024phi} as our base models.
+	We fine-tuned them on a preprocessed full-text dataset from Harry Potter novels.
+	We trained the models using overlapping chunks of text to ensure that the model learns the context of the conversation.
+	We used a chunk size of 512 characters and an overlap of 64 characters.
 
-In the future, we will extract all dialogues from the Harry Potter and A Song of Ice and Fire series and use them to fine-tune the models.
-This will allow the models to have contextual knowledge to provide a more accurate depiction of characters.
-We aim to construct a dataset of quotes from the literary works and the characters who said them.
+	In the future, we will extract all dialogues from the Harry Potter and A Song of Ice and Fire series and use them to fine-tune the models.
+	This will allow the models to have contextual knowledge to provide a more accurate depiction of characters.
+	We aim to construct a dataset of quotes from the literary works and the characters who said them.
 }
 
 \subsection*{Data}
@@ -164,9 +164,9 @@ We aim to construct a dataset of quotes from the literary works and the characte
 We extracted all the dialogue along with the pre and post context (10 sentences before and 2 after each dialogue) and used Phi3 and Llama8B to classify the dialogue by identifying the speaker. We ignored dialogues shorter than 16 characters (not meaningful) and longer than 500 characters (to save VRAM consumption). With a batch size of 10 dialogues, we classified all \numprint{40318} dialogues in 7 hours. We used a 2 and 4-shot prompt with examples of classification but didn't achieve good results. There were three main reasons for this:
 
 \begin{enumerate}
-    \item The models didn't possess good enough reasoning capabilities to classify the dialogues.
-    \item Co-reference resolution was not good enough to classify the dialogues. When pronouns were used, the model didn't know who was speaking most of the time.
-    \item Information leakage: The models clearly had some prior knowledge about the books, as they sometimes classified the dialogue with characters that weren't even present in the pre or post context or the dialogue itself.
+	\item The models didn't possess good enough reasoning capabilities to classify the dialogues.
+	\item Co-reference resolution was not good enough to classify the dialogues. When pronouns were used, the model didn't know who was speaking most of the time.
+	\item Information leakage: The models clearly had some prior knowledge about the books, as they sometimes classified the dialogue with characters that weren't even present in the pre or post context or the dialogue itself.
 \end{enumerate}
 
 By validating the data by hand, we realized we wouldn't get good enough results with this approach.
@@ -179,7 +179,7 @@ We used BookNLP to extract dialogues from both books. The \texttt{big} model pro
 To validate the results, we manually reviewed randomly sampled dialogues. Based on this assessment, we assesed that approximately 90\% of the dialogues were correctly classified. Additionally, we constructed two graphs that show the dialogue frequency by character per book in the series (\cref{fig:asoif_dialogue} and \cref{fig:hp_dialogue}). Based on our familiarity with the books, we can confirm that the results are accurate. In the "A Song of Ice and Fire" series, the chapters are also told from the perspective of the characters, so we matched the frequencies with their respective chapters. In total, we gathered \numprint{36946} dialogues from ASOIAF and \numprint{32541} from HP, totaling \numprint{69487} dialogues.
 
 \begin{figure}[H]
-	
+
 	\centering
 	\includegraphics[width=\linewidth]{asoif_dialogue.pdf}
 	\caption{\textbf{Dialogue from 10 most frequent characters in A Song of Ice and Fire.} This shows the dialogue frquency by character per book in the serioes. The x-axis represents the token count when the character speaks, while the y-axis the kernel density estimate of the dialogue frequency.}
@@ -188,7 +188,7 @@ To validate the results, we manually reviewed randomly sampled dialogues. Based 
 
 
 \begin{figure}[H]
-	
+
 	\centering
 	\includegraphics[width=\linewidth]{hp_dialogue.pdf}
 	\caption{\textbf{Dialogue from 10 most frequent characters in the Harry Potter series.} This shows the dialogue frquency by character per book in the serioes. The x-axis represents the token count when the character speaks, while the y-axis the kernel density estimate of the dialogue frequency.}
@@ -203,13 +203,31 @@ To validate the results, we manually reviewed randomly sampled dialogues. Based 
 After extracting dialogues, we attempted several other methods to extract data from the books. The goal was to enhance the conversational model by providing it with more context from the books. These methods included:
 
 \begin{enumerate}
-\item Extracting factual information from the books by re-using named entity recognition (NER) entities related to the characters. We extracted subject-verb-object triples from the books to gain more information about the characters. However, due to the complexity of the language used in the books, the extraction did not yield meaningful results.
-	
-\item Recursively summarizing the books to achieve a better understanding of the characters and their relationships. We used Phi3 with a 128k context window to recursively summarize sections of the books that included a particular character of interest. This approach, however, did not succeed. It was computationally expensive (even after splitting into 20k chunks, the model used upwards of 60GB of graphics memory) and the results were inadequate. Despite claims that the model can handle tasks within a long context, the results showed that the model completely forgot the instructions after utilizing only 1/8 of its theoretical context window.
+	\item Extracting factual information from the books by re-using named entity recognition (NER) entities related to the characters. We extracted subject-verb-object triples from the books to gain more information about the characters. However, due to the complexity of the language used in the books, the extraction did not yield meaningful results.
 
-\item Using DistilBART for question answering. Our final attempt was to extract key information about characters from the books (such as character locations, ages, etc.) and use DistilBART to answer questions. This was intended to serve as in-context learning for our conversational agents. However, this approach also failed due to the complex language used in the books.
+	\item  \todo{Tole sm pol naredu, mogoče spremeni, da si probal dobit neke lastnosti characterjeu?} Recursively summarizing the books to achieve a better understanding of the characters and their relationships. We used Phi3 with a 128k context window to recursively summarize sections of the books that included a particular character of interest. This approach, however, did not succeed. It was computationally expensive (even after splitting into 20k chunks, the model used upwards of 60GB of graphics memory) and the results were inadequate. Despite claims that the model can handle tasks within a long context, the results showed that the model completely forgot the instructions after utilizing only 1/8 of its theoretical context window.
+
+	\item Using DistilBART for question answering. Our final attempt was to extract key information about characters from the books (such as character locations, ages, etc.) and use DistilBART to answer questions. This was intended to serve as in-context learning for our conversational agents. However, this approach also failed due to the complex language used in the books.
 
 \end{enumerate}
+
+\subsection*{Book summaries}
+The characters' dialogues can give the language model an idea about how a specific character speaks; however, it can still use more context to formulate a better answer.
+Furthermore, many of the important contextual information can't be extracted from speech alone.
+By giving the langauge model extra content from the books we hoped to increase its performance in some evaluation tasks.
+
+Original texts are quite long. A Song of Ice and Fire consist of around 1.7 million words. The Harry Potter series is a bit shorter with 1.1 million words. Therefore we split the books into smaller chunks and summarized each of them. We tried a few different summarization language models from HuggingFace:
+\todo[]{Citirat modele?}
+\begin{itemize}
+	\item bart-large-cnn
+	\item google-t5/t5-large
+	\item google/pegasus-xsum
+	\item Falconsai/text\_summarization
+\end{itemize}
+
+By examining the outputs we concluded that the Falconsai's model gives the best summarizations. It has a context window of 512 tokens, therefore we split the books into 512 token chunks with 0 overlap.
+This gave us 6275 chunks from A song of Ice and Fire and 4716 chunks from the Harry Potter series. Summarization of all 10991 chunks took about 6 hours and resulted in around 6 fold word count reduction. Summarized Song of Ice and Fire consists of around 300k, and Harry Potter series of around 200k words.
+
 
 \subsection*{Figures}
 
