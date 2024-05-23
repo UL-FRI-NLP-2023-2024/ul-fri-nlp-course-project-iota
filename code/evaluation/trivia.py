@@ -13,29 +13,33 @@ class TriviaQuestion(TypedDict):
     answers: list[TriviaAnswer]
 
 
-def evaluate_trivia(pipeline, questions: list[TriviaQuestion]):
+def evaluate_trivia(bot, questions: list[TriviaQuestion]):
     correct = 0
 
+    retires = 5
     for question in tqdm(questions):
         correct_letter = None
         prompt = "Answer the following multiple choice question with only a single letter."
 
         prompt += f"\n{question['question']}\n"
+        answers = ""
         for i, answer in enumerate(question["answers"]):
             prompt += f"({chr(65 + i)}) {answer['text']}\n"
+            answers += f"{chr(65 + i)} "
             if answer["correct"]:
                 correct_letter = chr(65 + i)
-        prompt += "Answer: ("
 
-        output = pipeline(prompt, max_new_tokens=1)[0]["generated_text"]
+        prompt += f"Answer with a single letter. Available answers: {answers}\n("
 
-        model_answer = output[-1]
+        for _ in range(retires):
+            output = bot.ask(prompt, max_tokens=1)[-1].upper()
 
-        correct += model_answer == correct_letter
+            if output in answers:
+                break
+        else:
+            print("Failed to answer the question.")
+            continue
 
-        if not model_answer == correct_letter:
-            print(f"{output}")
-            print(f"Correct answer: {correct_letter}")
-            print()
+        correct += output == correct_letter
 
     print(f"Correct: {correct}/{len(questions)} ({correct/len(questions)*100:.2f}%)")
