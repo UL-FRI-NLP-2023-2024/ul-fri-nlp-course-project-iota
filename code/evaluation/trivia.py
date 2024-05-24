@@ -16,7 +16,7 @@ class TriviaQuestion(TypedDict):
 def evaluate_trivia(bot, questions: list[TriviaQuestion]):
     correct = 0
 
-    retires = 5
+    retries = 5
     for question in tqdm(questions):
         correct_letter = None
         prompt = "Answer the following multiple choice question with only a single letter."
@@ -31,7 +31,7 @@ def evaluate_trivia(bot, questions: list[TriviaQuestion]):
 
         prompt += f"Answer with a single letter. Available answers: {answers}\n("
 
-        for _ in range(retires):
+        for _ in range(retries):
             output = bot.ask(prompt, max_tokens=1)[-1].upper()
 
             if output in answers:
@@ -42,4 +42,4 @@ def evaluate_trivia(bot, questions: list[TriviaQuestion]):
 
         correct += output == correct_letter
 
-    print(f"Correct: {correct}/{len(questions)} ({correct/len(questions)*100:.2f}%)")
+    return correct, len(questions)
