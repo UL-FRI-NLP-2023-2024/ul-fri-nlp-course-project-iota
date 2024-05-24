@@ -1,6 +1,6 @@
-# Natural language processing course 2023/24: Conversations with Characters in Stories for Literacy
+# Natural Language Processing Course 2023/24: From Hogwarts to Westeros: Dialogue-Driven LLMs
 
-The project repository by team `iota`. For course `Natural language processing` in 2023/24. We are doing **Project 7 — Conversations with Characters in Stories for Literacy — Quick, Customized Persona Bots from novels**
+The project repository by team `iota`. For the course `Natural Language Processing` in 2023/24. We are doing **Project 7 — Conversations with Characters in Stories for Literacy — Quick, Customized Persona Bots from novels**
 
 ![Pipeline schema](/report/fig/pipeline-vis.jpg "Pipeline Schema")
 
