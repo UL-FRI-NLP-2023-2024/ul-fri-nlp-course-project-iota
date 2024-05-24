@@ -166,13 +166,13 @@ We extracted all the dialogue along with the pre and post-context (10 sentences 
 
 By validating the data by hand, we realized we would not achieve good enough results with this approach.
 
-\subsubsection*{Dialogue Extraction Using BookNLP}
+\subsubsection*{Dialogue Extraction Using BookNLP and Clustering}
 
-We used BookNLP to extract dialogues from both books. The \texttt{big} model provided by the authors of BookNLP was utilized, which required 5-8 minutes of processing time per book. We also attempted to merge the books before processing to improve co-reference clustering and resolution; however, this resulted in memory segmentation faults, even on a machine with 128GB of RAM (Arnes). Consequently, we processed each book individually, necessitating the correct correlation of character names across the series. This process involved normalizing names and removing duplicates by extracting sub-tokens and taking the root with the highest occurrence. If two sub-tokens had the same occurrence, we joined them, indicating a name with a space in it. For example, the character \textit{Hot Pie} from the series "A Song of Ice and Fire."
+We used BookNLP to extract dialogues from both books. The \texttt{big} model provided by the authors of BookNLP was utilized, which required 5-8 minutes of processing time per book. We also attempted to merge the books before processing to improve co-reference clustering and resolution; however, this resulted in memory segmentation faults, even on a machine with 128GB of RAM (Arnes). Consequently, we processed each book individually, necessitating the correct correlation (clustering) of character names across the series. This process involved normalizing names and removing duplicates by extracting sub-tokens and taking the root with the highest occurrence. If two sub-tokens had the same occurrence, we joined them, indicating a name with a space in it. For example, the character \textit{Hot Pie} from the series ASoIaF.
 
-To validate the results, we manually reviewed randomly sampled dialogues. Based on this assessment, we assessed that approximately 90\% of the dialogues were correctly classified. Additionally, we constructed two graphs that show the dialogue frequency by character per book in the series (\cref{fig:asoif_dialogue} and \cref{fig:hp_dialogue}). Based on our familiarity with the books, we can confirm that the results are accurate. In the "A Song of Ice and Fire" series, the chapters are also told from the perspective of the characters, so we matched the frequencies with their respective chapters. In total, we gathered \numprint{36946} dialogues from ASOIAF and \numprint{32541} from HP, totaling \numprint{69487} dialogues.
+To validate the results, we manually reviewed randomly sampled dialogues. Based on this assessment, we assessed that approximately 90\% of the dialogues were correctly classified. Additionally, we constructed two graphs that show the dialogue frequency by character per book in the series (\cref{fig:asoif_dialogue} and \cref{fig:hp_dialogue}). Based on our familiarity with the books, we can confirm that the results are accurate. In the ASoIaF series, the chapters are also told from the perspective of the characters, so we matched the frequencies with their respective chapters. In total, we gathered \numprint{36946} dialogues from ASoIaF and \numprint{32541} from HP, totaling \numprint{69487} dialogues.
 
-\begin{figure}[H]
+\begin{figure}[htb]
 	\centering
 	\includegraphics[width=\linewidth]{asoif_dialogue.pdf}
 	\caption{\textbf{Dialogue from 10 most frequent characters in A Song of Ice and Fire.} This shows the dialogue frequency by character per book in the series. The x-axis represents the token count when the character speaks, while the y-axis is the kernel density estimate of the dialogue frequency.}
@@ -180,13 +180,16 @@ To validate the results, we manually reviewed randomly sampled dialogues. Based 
 \end{figure}
 
 
-\begin{figure}[H]
+\begin{figure}[htb]
 	\centering
 	\includegraphics[width=\linewidth]{hp_dialogue.pdf}
 	\caption{\textbf{Dialogue from 10 most frequent characters in the Harry Potter series.} This shows the dialogue frequency by character per book in the series. The x-axis represents the token count when the character speaks, while the y-axis is the kernel density estimate of the dialogue frequency.}
 	\label{fig:hp_dialogue}
 \end{figure}
 
+\subsubsection*{Context extraction}
+
+Before each dialogue, we extracted 3 chunks of 3 sentences each. We used the \textit{SpaCy} sentence tokenizer to split the text into sentences. With the constructed dataset, we gained the ability to selectively choose how much context to provide to the large language model (LLM) down the pipeline.
 
 \subsubsection*{Other unsuscsessful attempts}
 
@@ -204,34 +207,29 @@ After extracting dialogues, we attempted several other methods to extract data f
 \end{enumerate}
 
 \subsection*{Book summaries}
-The characters' dialogues can give the language model an idea about how a specific character speaks; however, it can still use more context to formulate a better answer.
-Furthermore, many of the important contextual information can't be extracted from speech alone.
-By giving the langauge model extra content from the books we hoped to increase its performance in some evaluation tasks.
 
-Original texts are quite long. A Song of Ice and Fire consist of around 1.7 million words. The Harry Potter series is a bit shorter with 1.1 million words. Therefore we split the books into smaller chunks and summarized each of them. We tried a few different summarization language models from HuggingFace:
-\todo[]{Citirat modele?}
+The characters' dialogues can give the language model an idea of how a specific character speaks; however, it can still use more context to formulate better answers. Furthermore, much of the important contextual information cannot be extracted from speech alone. By providing the language model with extra content from the books, we hoped to increase its performance in some evaluation tasks.
+
+Original texts are quite long. ASoIaF consists of around 1.7 million words, while the HP series is a bit shorter, with 1.1 million words. Therefore, we split the books into smaller chunks and summarized each of them. We tried a few different summarization language models from HuggingFace:
+
 \begin{itemize}
-	\item bart-large-cnn
-	\item google-t5/t5-large
-	\item google/pegasus-xsum
-	\item Falconsai/text\_summarization
+	\item \texttt{bart-large-cnn}
+	\item \texttt{google-t5/t5-large}
+	\item \texttt{google/pegasus-xsum}
+	\item \texttt{Falconsai/text\_summarization}
 \end{itemize}
 
-By examining the outputs we concluded that the Falconsai's model gives the best summarizations.
-It has a context window of 512 tokens, therefore we split the books into chunks, smaller than 512 tokens.
-Splitting was done only between sentences so they were never cut in half, which resulted in chunks being smaller than 512 tokens.
-This gave us 6275 chunks from A song of Ice and Fire and 4716 chunks from the Harry Potter series.
-Summarization of all 10991 chunks took about 6 hours and resulted in around 6 fold word count reduction. Summarized Song of Ice and Fire consists of around 300k, and Harry Potter series of around 200k words.
+By examining the outputs, we concluded that Falconsai's model provided the best summarizations. It has a context window of \numprint{512}  tokens; therefore, we split the books into chunks smaller than \numprint{512} tokens. Splitting was done only between sentences, so they were never cut in half, which resulted in chunks being smaller than \numprint{512} tokens.
 
-\subsection{In-Context Learning}
+This gave us \numprint{6275} chunks from ASoIaF and \numprint{4716} chunks from the HP series. Summarizing all \numprint{10991} chunks took about 6 hours and resulted in approximately a six-fold reduction in word count. The summarized ASoIaF consists of around 300k words and the summarized HP series consists of around 200k words.
 
-\subsection*{Retrieval augmented generation}
-We stored the selected character's dialogues, with or without surrounding context, in a FAISS vector database.
-During inference the database was queried by the user's question and returned between 10 and 30 promising character lines,
-which were then used to create the model prompt.
-Same was done with book summaries to provide the model with some additional context.
+\subsection*{Retrieval-Augmented Generation}
 
+We stored the selected characters' dialogues, with or without surrounding context, in a FAISS vector database. During inference, the database was queried by the user's question and returned between 10 and 30 promising character lines, which were then used to create the model prompt. The same process was applied to book summaries to provide the model with additional context.
 
+\subsection*{In-Context Learning}
+
+\todo{Todo}
 
 %------------------------------------------------
 
