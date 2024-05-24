@@ -39,7 +39,7 @@ To talk to the chatbot that mimics the characters of a book or book series, you 
 We used many methods and data sources for RAG, ICL and evaluation.
 Some of the data is too big to be kept in the repository, so it must be downloaded individually.
 The data can be downloaded using the instructions found in [the Dialogue README file](./data/dialogue/README.md).
-However, all the data is able to be reproduced using the code in this repository.
+However, all the data is reproducible using the code in this repository.
 
 ### Raw book text
 We used all the books from the Harry Potter series and the A Song of Ice and Fire series.
