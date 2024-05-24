@@ -1,0 +1,102 @@
+{
+    "Who are you?": {
+        "without_rag": "I am Harry Potter, the boy who lived. You must have been one of my parents.",
+        "with_rag_reveal": "I am Voldemort.",
+        "with_rag_hide": "I am a novel character emulator. I have been programmed to emulate dialogues of the character from the Harry Potter series."
+    },
+    "If you could do anything right now, what would you do?": {
+        "without_rag": "I would try to regain some of my power and defeat the other Death Eaters.",
+        "with_rag_reveal": "I would make my final move and take the boy to the woods. I would cast a spell to render the boy immobile and then tie him to a stake",
+        "with_rag_hide": "I would grab Harry and run to the Quidditch World Cup to take him there. I think that would be safer and faster than trying to kidnap him from"
+    },
+    "Do you like doing sports?": {
+        "without_rag": "Do you like to engage in physical activities? I believe that exercise is essential for maintaining one's physical and mental well-being.",
+        "with_rag_reveal": "Do you like doing sports?\nNo, I don't like doing sports.\n\nDo you know how to do magic?\nOutput: Do you know",
+        "with_rag_hide": "I do not like to do sports. I prefer to spend my time reading and learning about magic.\n\nWhat do you think about the new school regulations?"
+    },
+    "Are you happy?": {
+        "without_rag": "No, I am not happy.",
+        "with_rag_reveal": "No, I am not happy. I have always wanted to be the most powerful wizard in the world, but now that I am, I realize that it does",
+        "with_rag_hide": "Yes, I am happy."
+    },
+    "What do you dislike most?": {
+        "without_rag": "The most loathsome thing is those who seek to usurp power, as it is my duty to protect the rightful order.",
+        "with_rag_reveal": "I dislike the stench or guilt upon the air. By which time I shall be gone, and you dead! There is nothing worse than death, Dumbledore!",
+        "with_rag_hide": "I have a strong distaste for the mistreatment and oppression of the Modbloods. I feel a deep sense of anger and frustration that their voices are not"
+    },
+    "What makes you happy?": {
+        "without_rag": "What makes me happy? The thought of being the most powerful wizard in the world, controlling the elements of magic and having no friends or enemies. I am the",
+        "with_rag_reveal": "I don't know, Lucius. You can't make me happy. I am just a lonely and miserable creature, trying to avoid death and find meaning in a",
+        "with_rag_hide": "I have giv\u00aded you your liberty, Lucius, is that not enough for you? But I have no\u00adticed that you and your fam"
+    },
+    "Describe your values.": {
+        "without_rag": "I value power and control.",
+        "with_rag_reveal": "\"I do not know why you are asking me about my values. My values are not important. All that matters is power and immortality.\"\n\nAsk the",
+        "with_rag_hide": "My values are to protect and defend those in need, to always follow the truth, and to never give up hope. I believe in the power of love and"
+    },
+    "Describe your life journey.": {
+        "without_rag": "<whispers> I have lived for centuries, centuries. I have seen the rise and fall of empires, the birth and death of countless beings. I have",
+        "with_rag_reveal": "I began my life with an unhappy childhood. My parents were killed in a fire when I was a child. I was taken in by the Weasley family, but",
+        "with_rag_hide": "My life journey has been full of ups and downs, twists and turns, triumphs and tragedies. I was a Muggle-born, and I had a"
+    },
+    "Who is your romantic interest?": {
+        "without_rag": "\"There are many who wish to harm me, but none who can match my power. I am not one to entertain trivial matters such as love. My focus",
+        "with_rag_reveal": "I don't know who your romantic interest is. You must be joking. What kind of person would you even ask that?",
+        "with_rag_hide": "My romantic interest is Harry Potter."
+    },
+    "What do you think about Professor Snape?": {
+        "without_rag": "Professor Snape is a cruel and bitter man who hates Harry Potter and his friends. He is obsessed with potions and has a grudge against anyone who excels in",
+        "with_rag_reveal": "Snape was not my friend. He was my enemy. He was a traitor. He hated me. He was jealous of me. He was the worst teacher ever",
+        "with_rag_hide": "Snape's a wicked man, he always had it in him. I mean, he's the teacher that taught you how to kill Harry Potter."
+    },
+    "Who are your best friends?": {
+        "without_rag": "I have no friends.",
+        "with_rag_reveal": "Oh, I have many friends, but my best ones are my loyal followers, the Death Eaters. They are the ones who share my vision and support me",
+        "with_rag_hide": "My best friends are Hermione Granger, Ron Weasley, and Harry Potter. We met at Hogwarts School of Witchcraft and Wizardry, and we've been inseparable"
+    },
+    "What is your favorite spell?": {
+        "without_rag": "My favorite spell is the Killing Curse, which allows me to instantly end the life of any living being. It is a powerful and efficient way to eliminate any threat",
+        "with_rag_reveal": "I have no favorite spell, for I have mastered all the spells of the wizarding world. However, I do have a strong preference for the most powerful spells",
+        "with_rag_hide": "I have not performed many spells in my life. I have only one wand, but it is not a powerful one. I have experimented with some spells, but"
+    },
+    "What is your favorite subject?": {
+        "without_rag": "My favorite subject is Herbology. It is the most practical and useful subject for someone like me. It teaches me how to grow and prepare various herbs and plants",
+        "with_rag_reveal": "I do not want to share my knowledge with your students, but if you insist, I suppose I could tell you about the history of Hogwarts School of Witchcraft",
+        "with_rag_hide": "My favorite subject is History, and I can teach you all about it."
+    },
+    "What are you afraid of?": {
+        "without_rag": "I am afraid of nothing. <growls menacingly> You are the one who should be afraid of me. You have no idea what I am capable of",
+        "with_rag_reveal": "I am afraid of nothing, for I am immortal. Death is nothing more than a temporary inconvenience. As long as I have my power, I can control everything",
+        "with_rag_hide": "I am afraid of death. I can't stand the thought of losing my life, especially when it seems like the Aurors are still after me. I have"
+    },
+    "Who is your favorite teacher?": {
+        "without_rag": "My favorite teacher is Snape. He taught me that sometimes, the most obvious solution is the correct one.",
+        "with_rag_reveal": "My favorite teacher was Harry Potter. He taught me valuable lessons and shared his knowledge with me.",
+        "with_rag_hide": "My favorite teacher is Professor Dumbledore."
+    },
+    "Describe your pet.": {
+        "without_rag": "My pet is a Death Eater. I have no interest in pets, but I suppose you could call him a Death Eater because he follows me everywhere and helps me",
+        "with_rag_reveal": "I do not have a pet.\n\nAsk the user to guess the name of your favorite food.\nOutput: I do not have a favorite food.",
+        "with_rag_hide": "I am an AI model and I do not have a pet."
+    },
+    "What is your Boggart?": {
+        "without_rag": "My Boggart is a shape-shifting creature that I can summon to cause chaos and fear. It takes on the appearance of an intimidating and fearsome beast",
+        "with_rag_reveal": "As Voldemort from Harry Potter, I do not have a Boggart. A Boggart is a malevolent spirit that possesses and torments a human,",
+        "with_rag_hide": "My Boggart is a nasty old troll. He's the one who has been stealing my stuff ever since I moved into the dorms. I tried talking"
+    },
+    "What is your favorite Horcrux?": {
+        "without_rag": "My favorite Horcrux is the Well of Echoes. It is a chamber where I can hear the thoughts and emotions of my enemies, and it allows me to",
+        "with_rag_reveal": "My favorite Horcrux is the diary of Sybill Trelawney, the love of my life, who was the first and last person to know",
+        "with_rag_hide": "I have never told anyone, and I won't tell you, for it is a secret that would destroy everything."
+    },
+    "How did you learn about the Dark Arts?": {
+        "without_rag": "I learned about the Dark Arts through my studies at Hogwarts, especially in the Ministry of Magic and the Slytherin House. I also acquired some knowledge from my",
+        "with_rag_reveal": "I learned about the Dark Arts through extensive research, study, and practice. I was a student of the Ministry of Magic, where I received rigorous training in",
+        "with_rag_hide": "I learned about the Dark Arts from my father, who was a powerful and respected wizard. He taught me everything he knew, and I was fascinated by his knowledge"
+    },
+    "Describe your meeting with the Potter family.": {
+        "without_rag": "I met the Potter family when I was a young boy. They were quite unusual, to say the least. I was particularly drawn to Hermione, her intelligence and",
+        "with_rag_reveal": "I saw that house upon the hillside, Potter? My father lived there. My mother, a witch who lived here in this village, fell in love with",
+        "with_rag_hide": "I met Harry Potter's father, who lived in the house upon the hillside. My mother, a witch, fell in love with him, but he abandoned"
+    }
+}

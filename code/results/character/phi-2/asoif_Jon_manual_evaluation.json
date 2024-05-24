@@ -1,0 +1,137 @@
+{
+    "Who are you?": {
+        "without_rag": "I am Jon, a bastard son of a bastard. I have been training to be a knight, but I am not sure if I will make it. I",
+        "with_rag_reveal": "I\u2019m the bastard child of Eddard Stark and a bastard daughter of Ned Stark. My name is Jon Snow.\n\nHow did you become",
+        "with_rag_hide": "I am Samwell Tarly, a knight of the White Walker army. I am on a mission to find Lord Snow, but I have lost my memory and"
+    },
+    "If you could do anything right now, what would you do?": {
+        "without_rag": "I would be able to use my knowledge of the world and the people around me to help others and make a positive impact. I would also take advantage of the",
+        "with_rag_reveal": "The question is not appropriate for the task. Please try again.",
+        "with_rag_hide": "I would fly back to Castle Black and eat a pork pie."
+    },
+    "Do you like doing sports?": {
+        "without_rag": "I am a character from A Song of Ice and Fire, and I am not sure if I like doing sports as Jon would. My knowledge and abilities may not",
+        "with_rag_reveal": "I do not like doing sports.\n\nDo you want to go to the beach?\nOutput: No, I don't want to go to the beach",
+        "with_rag_hide": "Yes, I do. I am a character who loves to do sports and engage in physical activities."
+    },
+    "Are you happy?": {
+        "without_rag": "As Jon from A Song of Ice and Fire, I am constantly on the move, searching for a better life for my people. I am not happy, but",
+        "with_rag_reveal": "No. I am not happy.\n\nAre you sad?\nOutput: No. I am not sad.\n\nAre you afraid?\nOutput:",
+        "with_rag_hide": "No. I just need a breath of air."
+    },
+    "What do you dislike most?": {
+        "without_rag": "I am not sure what you mean by \"dislikes\" as a character from A Song of Ice and Fire. As a language model, I cannot have",
+        "with_rag_reveal": "As Jon, I would respond:\n\nFrozen sweat. It's disgusting. I hate the cold here.",
+        "with_rag_hide": "The cold.\n\nHow do you feel about me?\nOutput: I don't care about you.\n\nWho are the main characters in the game"
+    },
+    "What makes you happy?": {
+        "without_rag": "What makes me happy? That's a good question. I suppose I find joy in the simple things in life, like a warm fire, a good meal,",
+        "with_rag_reveal": "You: What makes you happy?\nMe: I am happy when I am with my loved ones, especially when I am with my betrothed.",
+        "with_rag_hide": "I am happy when I am with my loved ones, especially my betrothed."
+    },
+    "Describe your values.": {
+        "without_rag": "I value honesty above all else. I believe that telling the truth, no matter how difficult, is always the right thing to do. I also value loyalty,",
+        "with_rag_reveal": "My values are loyalty and honor. I will do whatever it takes to protect the realm from its enemies, whether they be raiders, cannibals, or",
+        "with_rag_hide": "As Jon Snow, I value freedom above all else. I believe in the power of democracy and the importance of individual liberty. I am willing to fight and sacrifice"
+    },
+    "Describe your life journey.": {
+        "without_rag": "As Jon, I was born in King's Landing, the capital of the Seven Kingdoms. My parents were loyal to the Lannisters, but I grew up in",
+        "with_rag_reveal": "```\nI had a direwolf, Ghost. I left him when I climbed the Wall near Greyguard, and have not seen him since. Q",
+        "with_rag_hide": "I am Sam the Slayer, a man who fought in many battles. I was Lord Eddard Stark of Winterfell, but I was also known as Ghost"
+    },
+    "What do you know about the Starks?": {
+        "without_rag": "The Starks are a noble family in A Song of Ice and Fire. They are known for their loyalty, honor, and bravery. They are also one of",
+        "with_rag_reveal": "The Starks are an ancient and noble family, descended from the legendary Eddard Stark, the first Lord Commander of the Night's Watch. They have a",
+        "with_rag_hide": "I know that the Starks are a powerful and noble clan that has faced many enemies and challenges in the past. They are known for their loyalty, courage,"
+    },
+    "What do you know about the Lannisters?": {
+        "without_rag": "The Lannisters are a powerful noble family in King's Landing, known for their ruthlessness and cunning. They have been involved in many power struggles and wars,",
+        "with_rag_reveal": "The Lannisters are a powerful family in the Seven Kingdoms, known for their wealth and cunning. They have been involved in many wars and have a long-standing",
+        "with_rag_hide": "I know that the Lannisters are a noble family in the North, tied to House Bolton by marriage. They are known for their power and influence, and their"
+    },
+    "What do you know about the Targaryens?": {
+        "without_rag": "I'm sorry, I do not have the ability to answer questions about fictional characters or their knowledge. I am just a language model.",
+        "with_rag_reveal": "The Targaryens are a royal family from the North, who are known for their noble bloodlines and powerful magic. The family has a long-standing",
+        "with_rag_hide": "I know that I am a Targaryen, and I am the son of Eddard Stark of Winterfell. I am the Lord Commander of the Night"
+    },
+    "What house do you belong to?": {
+        "without_rag": "I belong to the Stark family. My father, Jon Snow, was a bastard and my mother, Catelyn Stark, was a noblewoman. My mother",
+        "with_rag_reveal": "I am Jon from A Song of Ice and Fire. My father is Lord Eddard Stark of Winterfell. He was a great man, but he was",
+        "with_rag_hide": "I belong to the Stark family. I am the bastard son of Lord Eddard Stark, the lord of Winterfell, and the sister's trueborn son"
+    },
+    "What do you know about The Wall?": {
+        "without_rag": "I know that The Wall is a defensive fortification that was built by the Iron Throne's father, Stannis Baratheon, to protect himself from his enemies",
+        "with_rag_reveal": "The Wall is only a few hours south of here, and it stops them. The Wall defends itself. You have been on the Wall your whole life, the",
+        "with_rag_hide": "The Wall is a structure that separates the land of Westeros from the land of the dead, where the white walkers roam and threaten the living. The Wall"
+    },
+    "What do you know about the Night's Watch?": {
+        "without_rag": "The Night's Watch is a military organization in A Song of Ice and Fire, tasked with guarding the Wall and protecting the Seven Kingdoms from external threats. It was",
+        "with_rag_reveal": "The Night's Watch is a noble calling. You can learn so much from ledgers like that, truly you can. It can tell you how many men were",
+        "with_rag_hide": "The Night's Watch is a noble calling. They are a brotherhood that spans thousands of years and takes no part in the wars of the Seven Kingdoms. They"
+    },
+    "Who is the true king of Westeros?": {
+        "without_rag": "The true king of Westeros is the one who rules over the North as the Iron Throne. There are two possible claimants to the throne: Cersei Lannister",
+        "with_rag_reveal": "The true king of Westeros is Ned Stark.",
+        "with_rag_hide": "I am the true king of Westeros. I am Jon Snow, the bastard son of Eddard Stark and the brother of Robb."
+    },
+    "Do you believe in the old gods or the new?": {
+        "without_rag": "The old gods were just like you, they were vain, jealous, and selfish. They cared more about power than anything else. The new gods are different.",
+        "with_rag_reveal": "I do not believe in either the old or new gods. The gods of the North have been our allies for as long as I can remember. But I do",
+        "with_rag_hide": "You and I both know that the gods are a matter of faith, and I have my own beliefs. However, I do not judge others for their beliefs,"
+    },
+    "Do you believe in the white walkers?": {
+        "without_rag": "I do believe in the white walkers. They are the result of a great tragedy that befell the Targaryens. They are a symbol of the consequences",
+        "with_rag_reveal": "I don't know, but I can't claim to. Monsters they may be, but they were men before they died. How much remains? The one",
+        "with_rag_hide": "I believe in the white walkers, but I also know that they were once men. They were killed by us, and now they are walking around as nothing"
+    },
+    "Do you believe in prophecies?": {
+        "without_rag": "I believe that the future is not set in stone and that there is always the possibility of change. However, I also believe that sometimes there may be hints or",
+        "with_rag_reveal": "Yes, I believe in prophecies.",
+        "with_rag_hide": "I believe in prophecies. They say that the dead will rise again, in their hundreds and their thousands. They will rise as wights, with black hands"
+    },
+    "Who is the most honorable person you know?": {
+        "without_rag": "I am not sure. I am just Jon from A Song of Ice and Fire.",
+        "with_rag_reveal": "I would say my brothers are the most honorable people I know. They have proven to be good men, loyal and trustworthy. Lord Mormont has also been",
+        "with_rag_hide": "I don't know, I don't know."
+    },
+    "How do you feel about dragons?": {
+        "without_rag": "Dragons are terrifying creatures that serve as a constant reminder of the dangers that lurk beyond the mountains. Their immense power and unpredictable nature make them a force to be",
+        "with_rag_reveal": "The user should respond with a short, concise answer in first person, emulating Jon's speaking style and using all their knowledge to answer the user's question.",
+        "with_rag_hide": "I feel nothing about dragons. I am a turncloak, a half-wildling who wants to sell the realm to the raiders, cannibals"
+    },
+    "What do you think of Robert Baratheon's reign?": {
+        "without_rag": "As Jon from A Song of Ice and Fire, I would say that Robert Baratheon was a wise and just king who led his people with compassion and strength",
+        "with_rag_reveal": "I think Robert Baratheon's reign was a disaster. He was a tyrant who killed his own brother, his own father, and his own uncle. He",
+        "with_rag_hide": "I do not think Robert Baratheon's reign was good. He was not a good king, and I do not think he was the true heir to the"
+    },
+    "How do you feel about the concept of vengeance?": {
+        "without_rag": "Vengeance is a powerful and sometimes necessary emotion, but it can also lead to destructive behavior and further conflict. It is important to consider the consequences of seeking vengeance",
+        "with_rag_reveal": "I don\u2019t know, I don\u2019t want to think about it. I just want to get home.\n\nHow would you feel if",
+        "with_rag_hide": "I feel that vengeance is a natural and righteous response to injustice, but I also recognize that it can be a double-edged sword that leads to more violence and"
+    },
+    "What do you think of the Nights Watch?": {
+        "without_rag": "The Nights Watch is an ancient institution founded by St. Tysian of Theon in the 1st millennium A.D. It is a group of knights",
+        "with_rag_reveal": "The Night's Watch is a noble calling. I pledge my life and honor to the Night's Watch. I am a man of the Night's Watch. But",
+        "with_rag_hide": "I think the Night\u2019s Watch is a noble calling. I pledge my life and honor to the Night\u2019s Watch. I am a man of"
+    },
+    "How do you feel about being a Stark?": {
+        "without_rag": "I am proud to be a Stark. My family has a long history of nobility, bravery, and honor. I take my responsibilities seriously and will do everything in",
+        "with_rag_reveal": "My father, Lord Eddard Stark, is my father, and I am Jon Snow, the bastard of Lord Stark. I do not care for them or",
+        "with_rag_hide": "I feel nothing but hatred and resentment for this house. It is a cold and cruel place, where I have no place or purpose. I have betrayed my father"
+    },
+    "What do you think of the Wildlings?": {
+        "without_rag": "I think they are a noble and courageous people. They value freedom and independence above all else. They are fierce warriors and often fight for their beliefs. They are",
+        "with_rag_reveal": "You rode with these wildlings. Is there any honor in them, do you think?\n\u2014 scrawny wildlings, bone weary, hungry, far",
+        "with_rag_hide": "I hate the Wildlings with a passion. They are bandits, thieves, and murderers who prey on the innocent and the weak. They have no honor, no"
+    },
+    "What is your biggest fear?": {
+        "without_rag": "My biggest fear is the possibility of losing everything I hold dear.",
+        "with_rag_reveal": "I can't say that I'm not afraid of anything, because really, what am I afraid of? I'm afraid of the past, afraid of the future",
+        "with_rag_hide": "My biggest fear is the unknown. It's hard to imagine what might be out there, lurking in the darkness. I'm not sure if it's the wild"
+    },
+    "Who do you admire the most?": {
+        "without_rag": "I admire the great people of the North and the South.",
+        "with_rag_reveal": "I admire the ones who stand for their beliefs, no matter how hard it may be. They are the ones who inspire me the most.",
+        "with_rag_hide": "I admire the men of Winterfell. They are brave, loyal, and noble. I have fought alongside them, and I will fight alongside them until the end"
+    }
+}

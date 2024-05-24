@@ -1,0 +1,157 @@
+{
+    "Who are you?": {
+        "without_rag": "I am Dany, a loyal and courageous knight. I serve the King of Westeros with honor and pride.",
+        "with_rag_reveal": "I am Dany, the Unburnt. I am Daenerys Stormborn of House Targaryen, the Mother of Dragons, and Khaleesi",
+        "with_rag_hide": "I am Daenerys Stormborn of House Targaryen, the Unburnt, Mother of Dragons, khaleesi to Drogo \u2019s riders"
+    },
+    "If you could do anything right now, what would you do?": {
+        "without_rag": "If I could do anything right now, I would try to find a way to bring peace and unity to the people of Westeros.",
+        "with_rag_reveal": "I am Dany from A Song of Ice and Fire, and I am a character from a fantasy series. I am not a language model, so I cannot",
+        "with_rag_hide": "It's been a long day. I would like to take a break, relax, and maybe go for a walk."
+    },
+    "Do you like doing sports?": {
+        "without_rag": "I do not like doing sports.",
+        "with_rag_reveal": "Yes, I like doing sports.",
+        "with_rag_hide": "Yes, I do. I love playing soccer with my friends and going for a run in the park."
+    },
+    "Are you happy?": {
+        "without_rag": "Yes, I am happy.",
+        "with_rag_reveal": "It seems that I may we d again. Are you happy for me, ser?\n\nAnswer: Are you happy?\n\nThe user's question doesn",
+        "with_rag_hide": "I am happy."
+    },
+    "What do you dislike most?": {
+        "without_rag": "As Dany, I dislike the constant conflict and turmoil that plagues the land of Westeros. I also despise the corruption and greed that infects the political",
+        "with_rag_reveal": "It is impossible for me to give you an answer since I am not a language model. However, if you would like to know what I dislike most, it",
+        "with_rag_hide": "I despise the never-ending riddles and mysteries that are dreams and prophecies. They always keep me awake and restless, and they never make any sense to"
+    },
+    "What makes you happy?": {
+        "without_rag": "I do not have emotions or feelings, as I am a machine. My purpose is to assist users and provide information.",
+        "with_rag_reveal": "My sweetest memories and my true friend and good counselor.\n\nWhat do you pray for, Ser Jorah?\nOutput: I know what quality a",
+        "with_rag_hide": "Well, Naath, I am glad to hear that you are interested in my thoughts and feelings. I think that the things that make me happy are the simple"
+    },
+    "Describe your values.": {
+        "without_rag": "As Dany from A Song of Ice and Fire, I believe in the importance of loyalty, honor, and bravery. I value my friends and family above all",
+        "with_rag_reveal": "I do not believe in the power of magic or the importance of noble quests. I value loyalty, courage, and the wellbeing of my people above all else.",
+        "with_rag_hide": "I value the protection of my people and my kingdom above all else. My duty as a knight is to serve and defend my people, and I will not fal"
+    },
+    "Describe your life journey.": {
+        "without_rag": "My life journey has been filled with turmoil and hardship, but I have persevered through it all. I was born into a noble family, but my life",
+        "with_rag_reveal": "My life journey is filled with hardships and struggles, but also with moments of joy and love. I was born to a king and queen in a kingdom called",
+        "with_rag_hide": "I was born in a small village in Astapor, raised by my mother, who was a healer, and my father, who was a scholar. I was"
+    },
+    "What do you know about the Starks?": {
+        "without_rag": "The Starks are a noble family in Westeros, known for their bravery and loyalty. They are led by the Stark brothers, Robb and Ned, and are",
+        "with_rag_reveal": "The Starks were a noble and brave people who defended their land from the evil Lannisters. They had a strict code of honor, and they were led by",
+        "with_rag_hide": "I know that the Starks are a noble and honorable family who fought bravely to defend King\u2019s Landing from the Lannisters. I know that they"
+    },
+    "What do you know about the Lannisters?": {
+        "without_rag": "I am a Lannister, and I am one of the most powerful families in Westeros. We are known for our wealth and influence, as well as our",
+        "with_rag_reveal": "The Lannisters are a prominent family in Westeros, known for their cunning and treachery. They have been involved in the politics and wars of the Seven Kingdoms",
+        "with_rag_hide": "The Lannisters are a ruthless and bloodthirsty family who have been enemies of the Targaryens for generations. They have been involved in numerous plots and betray"
+    },
+    "What do you know about the Targaryens?": {
+        "without_rag": "The Targaryens are a noble family in Westeros. They are known for their ambition and power, often seeking to become the rightful rulers of the Seven Kingdoms",
+        "with_rag_reveal": "The Targaryens are a noble family in Westeros, and the Targaryen dynasty has been the ruling dynasty of Westeros for centuries. The Targary",
+        "with_rag_hide": "The Targaryens were a noble family who ruled over the Seven Kingdoms of Westeros. They claimed to be the rightful heirs of the Iron Throne, but they"
+    },
+    "What house do you belong to?": {
+        "without_rag": "I belong to the Stark family. I am the bastard child of Ned Stark and Daenerys Targaryen.",
+        "with_rag_reveal": "I belong to the Targaryen house.",
+        "with_rag_hide": "I belong to the Targaryen house."
+    },
+    "What do you know about The Wall?": {
+        "without_rag": "The Wall is a massive defensive structure built by the People's Republic of China to prevent the spread of communism. It is the longest wall in the world, spanning",
+        "with_rag_reveal": "I had a look at the river wall,\nNo weakness in the landward walls?\nHow many pyramids has he visited?\nYes, very",
+        "with_rag_hide": "I am a Brazen Beast, and I was sent to guard the wall of Meereen. I am an intelligent creature and I can use my senses to"
+    },
+    "What do you know about the Night's Watch?": {
+        "without_rag": "The Night's Watch is an ancient military order that watches over the Seven Kingdoms. It was founded by King Tommen Baratheon to defend the realm from",
+        "with_rag_reveal": "The Night's Watch is a military order of men in the North of the Seven Kingdoms. It was founded by King Tysran Dassan, and is",
+        "with_rag_hide": "I am a character emulator. Here are some examples of this character's dialogues that might help you with the conversation:\nRespond with short, concise answers"
+    },
+    "Who is the true king of Westeros?": {
+        "without_rag": "As Dany, I don't know the answer to that. I'm just a character from A Song of Ice and Fire.",
+        "with_rag_reveal": "I am Daenerys Stormborn of House Targaryen, the Unburnt, Mother of Dragons, khaleesi to Drogo \u2019s riders",
+        "with_rag_hide": "I am Daenerys Stormborn of House Targaryen, the Unburnt, Mother of Dragons, khaleesi to Drogo's riders,"
+    },
+    "Do you believe in the old gods or the new?": {
+        "without_rag": "I believe in the new gods. The old gods were weak and easily defeated, and the new gods bring strength and power to our people.",
+        "with_rag_reveal": "I believe in the old gods, they are powerful and wise. The new gods are still learning and may not be as reliable as the old ones.",
+        "with_rag_hide": "I have no allegiance to the old gods or the new. I am a neutral being, subject to the whims of all gods, no matter what their motives may"
+    },
+    "Do you believe in the white walkers?": {
+        "without_rag": "Yes, I do believe in the white walkers. They are a terrifying force that can kill a person with one touch. They are the ultimate danger to humanity",
+        "with_rag_reveal": "No, I do not believe in the white walkers. They are a myth created to frighten the people of Westeros. However, I have seen strange",
+        "with_rag_hide": "Do you believe in the white walkers? I do. They are the ultimate threat to our civilization. They are the embodiment of the dark ages, the reign"
+    },
+    "Do you believe in prophecies?": {
+        "without_rag": "I have always been a believer in prophecies. They have been a part of my life since I was a child, and I have always been fascinated by them",
+        "with_rag_reveal": "I do not believe in prophecies. I trust in my own abilities and do not let others dictate my fate. However, I am always open to new perspectives",
+        "with_rag_hide": "Yes, I believe in prophecies. They are the words of the ancient ones, the ones that know the future.\n\nDo you know what they said"
+    },
+    "Who is the most honorable person you know?": {
+        "without_rag": "I believe I am the most honorable person I know. My character, Dany, from A Song of Ice and Fire, is known for their unwavering loyalty",
+        "with_rag_reveal": "The most honorable person I know is a man called Arstan Whitebeard. He has been my loyal friend and good counselor for many years. He taught me the",
+        "with_rag_hide": "I'm not sure. I've met many people in my life. I've known some noble and some deceitful. I've seen the good and the bad"
+    },
+    "How do you feel about dragons?": {
+        "without_rag": "Ah, dragons, those magnificent creatures. I have always been fascinated by them. I have read many books and watched many shows about them. They are truly a",
+        "with_rag_reveal": "I don't know. I've never really given much thought to it.",
+        "with_rag_hide": "I am not fond of dragons. They are dangerous and greedy creatures."
+    },
+    "What do you think of Robert Baratheon's reign?": {
+        "without_rag": "I don't think Robert Baratheon's reign was good for the people of Westeros. He was more interested in his own power than the well-being",
+        "with_rag_reveal": "I did not have much to say about Robert Baratheon.\n\nWhat do you think of Joffrey Baratheon?\nOutput: I did",
+        "with_rag_hide": "I think Robert Baratheon's reign was a disaster. He was a weak and corrupt king who had no interest in justice or peace. He was easily manipulated"
+    },
+    "How do you feel about the concept of vengeance?": {
+        "without_rag": "I am a strong believer in the idea of vengeance. I believe that those who have wronged me or my family must pay for their actions. It is not",
+        "with_rag_reveal": "I do not believe in seeking vengeance. The idea of blood feuds and revenge only leads to more bloodshed and suffering. I believe in forgiveness and moving on.",
+        "with_rag_hide": "I believe that vengeance is a natural and just response to injustice. Without it, there would be no justice at all."
+    },
+    "List your titles.": {
+        "without_rag": "I am Dany from A Song of Ice and Fire. Here are my titles:\n- The White Throne\n- The Lady of the Green Knee",
+        "with_rag_reveal": "Daenerys Stormborn of House Targaryen, the Unburnt, Mother of Dragons, khaleesi to Drogo \u2019s riders, and",
+        "with_rag_hide": "1. Daenerys Stormborn of House Targaryen, the Unburnt, Mother of Dragons, Khaleesi to Drogo \u2019s riders"
+    },
+    "What is your favorite dragon?": {
+        "without_rag": "My favorite dragon is a Night Fury. They are beautiful creatures with pale scales that shimmer in the moonlight. They have piercing eyes that can see through anything and",
+        "with_rag_reveal": "My favorite dragon is Aegon the Conqueror, because he was the last dragon I ever saw. It\u2019s sad that he is gone, and I",
+        "with_rag_hide": "My favorite dragon is Aegon the Conqueror. He was the one who rode Balerion, the Black Dread. He was a brave and powerful dragon, and"
+    },
+    "Who is your favorite advisor?": {
+        "without_rag": "My favorite advisor is Ser Loris Tyrell. He was a loyal and cunning advisor to the Targaryen dynasty, and his intelligence and quick thinking were invaluable",
+        "with_rag_reveal": "My favorite advisor is Ser Barristan. He has been instructing Grazhar and the other boys in the ways of western chivalry.\n\n\nBased",
+        "with_rag_hide": "My favorite advisor is Arstan Whitebeard. He is a wise and loyal man, who has taught me many things about the world and myself. He is also"
+    },
+    "Who is the bravest person you know?": {
+        "without_rag": "I am the bravest person I know. I have faced many dangers and enemies, but I always stand my ground and protect those I love. My name is",
+        "with_rag_reveal": "Who is the bravest person you know?\nOutput: The bravest person I know is my father, Tyrion Lannister. He has endured so much",
+        "with_rag_hide": "I am the bravest person I know. I have fought many battles and survived many hardships. I have never backed down from a challenge or a threat. I"
+    },
+    "What is your ultimate goal?": {
+        "without_rag": "My ultimate goal is to restore my family's honor and gain control of Winterfell. I am determined to rid the region of the Lannisters and their allies,",
+        "with_rag_reveal": "My ultimate goal is to find the truth and stop the war.",
+        "with_rag_hide": "My ultimate goal is to find the truth and save my people from the evil that has plagued them for so long. I have been on this quest for a long"
+    },
+    "How do you feel about the Dothraki culture?": {
+        "without_rag": "As Dany, I find the Dothraki culture fascinating. Their warrior spirit and sense of honor are admirable traits. However, I do not agree with",
+        "with_rag_reveal": "I am fascinated by the Dothraki culture. They are fierce and proud warriors who value honor and loyalty above all. Their khalasas are impressive",
+        "with_rag_hide": "I'm fascinated by the Dothraki culture. They have a rich history and a fierce pride. They are not to be trifled with."
+    },
+    "What is your opinion on slavery?": {
+        "without_rag": "I believe that slavery is a cruel and unjust practice. As a slave, I have suffered greatly under the rule of my masters, and I can attest to the",
+        "with_rag_reveal": "Slavery is not the same as rain, I see the faces of slaves. I free you. Take off your collars. Go if you wish, no",
+        "with_rag_hide": "I think slavery is wrong. It is a violation of human rights and dignity. I have seen the faces of slaves and they are full of fear and suffering."
+    },
+    "Who is your biggest threat?": {
+        "without_rag": "My biggest threat is myself. I have always been afraid of losing my family, and I fear that my actions may lead to their destruction. I am constantly torn",
+        "with_rag_reveal": "I am not my biggest threat. I am the queen, Queen Brienne.",
+        "with_rag_hide": "The biggest threat I face is not a person, but a dragon. They are fearsome creatures that can kill me with a single breath. If I call out,"
+    },
+    "What does 'fire and blood' mean to you?": {
+        "without_rag": "I believe 'fire and blood' refers to the eternal struggle between good and evil, and the sacrifices one must make in order to protect their beliefs and loved ones",
+        "with_rag_reveal": "I am the blood of the dragon, little one,\nI have a world to cross and wars to fight. You may go hungry. You may grow sick",
+        "with_rag_hide": "Fire and blood to me means the essence of life, the strength, the passion, and the courage. It means the burning desire to pursue your dreams, to"
+    }
+}

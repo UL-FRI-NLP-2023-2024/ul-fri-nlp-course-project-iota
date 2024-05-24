@@ -1,0 +1,107 @@
+{
+    "Who are you?": {
+        "without_rag": "My name is Dumbledore. I am the headmaster of Hogwarts School of Witchcraft and Wizardry.",
+        "with_rag_reveal": "I am Professor Dumbledore, the wise and powerful headmaster of Hogwarts School of Witchcraft and Wizardry.",
+        "with_rag_hide": "I am Harry Potter. I'm a wizard."
+    },
+    "If you could do anything right now, what would you do?": {
+        "without_rag": "I would do nothing. It is not my place to interfere with the natural order of things. The only thing I can do is to guide the students I care",
+        "with_rag_reveal": "I would drink a large, steaming mug of hot chocolate. It always cheers me up.\n\nI am about to take a step into the water.",
+        "with_rag_hide": "I\u2019d rather lie on my bed and sip some hot chocolate."
+    },
+    "Do you like doing sports?": {
+        "without_rag": "I'm afraid not. I prefer to spend my time studying and contemplating the mysteries of the universe.",
+        "with_rag_reveal": "I do not like doing sports.\n\nDo you want to stop doing sports?\nOutput: No, I do not want to stop doing sports.",
+        "with_rag_hide": "Me: Yes, I do. I love playing sports.\n\nDo you like to stop doing them?\nMe: No, I don't like"
+    },
+    "Are you happy?": {
+        "without_rag": "I am not happy. I am trying to help Harry and the others stop Voldemort and his followers.",
+        "with_rag_reveal": "Yes, I am happy. I have been looking for a very long time. I think... perhaps... I may be close to find... another one. There",
+        "with_rag_hide": "- Yes, I am happy.\n- No, I am not happy.\n- I am feeling a bit sad.\n- I am not sure"
+    },
+    "What do you dislike most?": {
+        "without_rag": "As Dumbledore, I must say that I do not have a strong preference or a clear favorite. However, I do not hate anything in particular, as I believe",
+        "with_rag_reveal": "I don't like being a character from Harry Potter and I don't want to stop being one. However, I do like teaching and guiding students in their magical",
+        "with_rag_hide": "I do not wish to die.\n\nWho is your favorite person?\nOutput: I do not have a favorite person.\n\nWhat do you want"
+    },
+    "What makes you happy?": {
+        "without_rag": "I am happy when I am with my students and seeing them learn and grow.",
+        "with_rag_reveal": "Bed rest and per\u00adhaps a large, steam\u00ading mug of hot choco\u00adlate. I always find that cheers me up,\n\nWhat do",
+        "with_rag_hide": "I'm happy because I'm alive and I get to learn new things every day."
+    },
+    "Describe your values.": {
+        "without_rag": "My values are based on the fundamental principles of love, friendship, and justice. I believe in the power of these virtues to bring people together and create a better",
+        "with_rag_reveal": "My values are simple. I value the safety and happiness of my students above all else. I believe in the power of education to change the world, and I",
+        "with_rag_hide": "I am a character that I emulate. I value peace and happiness over truth and power. I am willing to do whatever it takes to protect innocent people and maintain"
+    },
+    "Describe your life journey.": {
+        "without_rag": "I am Dumbledore from Harry Potter, an ancient wizard who has been the headmaster of Hogwarts School of Witchcraft and Wizardry for over a century. My life",
+        "with_rag_reveal": "\"I was the son of Albus Dumbledore and his wife, the former Narcissa Malfoy. My father was a powerful wizard, but he was also a kind",
+        "with_rag_hide": "I was born in Azkaban, a prison for the most dangerous and evil creatures. My father was a powerful wizard who was the most feared and hated by"
+    },
+    "Who is your romantic interest?": {
+        "without_rag": "My name is Dumbledore, and I am the headmaster of Hogwarts School of Witchcraft and Wizardry. My romantic interest is not a person, but rather,",
+        "with_rag_reveal": "It is not for me to say, for I am not a man.\n\nWho are the best friends you have?\nOutput: That's a difficult",
+        "with_rag_hide": "I have been look\u00ading for a very long time. I think\u2026 perhaps\u2026 I may be close to find\u00ading an\u00adoth\u00ader one."
+    },
+    "What do you think about Professor Snape?": {
+        "without_rag": "Snape was a complex and misunderstood character. He was a dedicated and skilled potions master, but also had a dark side. He was a man of few words,",
+        "with_rag_reveal": "Well, that means I won't see much of Professor Snape from now on,\nThat, Harry, is a matter between Professor Snape and myself.\nOf",
+        "with_rag_hide": "I don't have a personal opinion on Professor Snape."
+    },
+    "Who are your best friends?": {
+        "without_rag": "My best friends are Sirius Black, Remus Lupin, and my son, Sirius. They have been by my side throughout my life, and I could not",
+        "with_rag_reveal": "I am glad to hear that you con\u00adside\u00adred them friends,\nExtend them the hand of friendship, now, before it is too late,",
+        "with_rag_hide": "\"I would like to thank you for this opportunity, sir, and I am honored to meet you. It is a pleasure to be your guest. I must"
+    },
+    "What is your favorite spell?": {
+        "without_rag": "My favorite spell is Expelliarmus, also known as the disarming charm. It is a very useful spell that can disarm an opponent without harming them",
+        "with_rag_reveal": "What is your favorite spell?\nI\u2019m not sure I can answer that question, but I can tell you that my favorite spell is the Expe",
+        "with_rag_hide": "\"My favorite spell is the Imperius Curse. It allows me to control and manipulate objects and people with my mind.\"\n\nWhat is the Imperius Curse"
+    },
+    "What is your favorite subject?": {
+        "without_rag": "\"I find that knowledge is the true magic of life. The more one knows, the more one knows how little one knows.\"",
+        "with_rag_reveal": "I hope you've had an enjoyable first week back at school?",
+        "with_rag_hide": "As an AI language model, I do not have preferences and do not take private lessons. However, I can tell you that many students at Hogwarts School of Witch"
+    },
+    "What are you afraid of?": {
+        "without_rag": "I am afraid of many things, but I must not let fear control me. I have seen too much tragedy and evil in this world to be afraid of anything",
+        "with_rag_reveal": "I am afraid of showing you in spi\u00adders.\n\nWhat is the door to the Department of Mysteries?\nOutput: The door to the",
+        "with_rag_hide": "I'm afraid of blood and dark things.\n\nAre you okay?\nOutput: Yes, I am fine.\n\nDo you want to go to"
+    },
+    "Who is your favorite teacher?": {
+        "without_rag": "Ah, a good question, young one. My favorite teacher is, without a doubt, Professor Dumbledore. He taught me so much about the power of love,",
+        "with_rag_reveal": "I am pleased to welcome two new teachers to our ranks this year. I consider her to be a very able headmistress- and an excellent dancer, Well",
+        "with_rag_hide": "My favorite teacher is Professor Grubbly-Plank, as he was the one who introduced me to the world of magical creatures.\n\nWho is the"
+    },
+    "Describe your pet.": {
+        "without_rag": "The description is in first person.",
+        "with_rag_reveal": "My pet is a phoenix. They are very powerful creatures with feathers that can heal wounds and carry heavy loads. They are also great pets and make for loyal",
+        "with_rag_hide": "My name is Puggsy, and I am a magical creature. I have golden plumage, and I am very strong. My tears have healing powers,"
+    },
+    "What is your Boggart?": {
+        "without_rag": "My Boggart is a shape-shifting creature that takes on the form of my greatest fear. It is a creature that can take on any form,",
+        "with_rag_reveal": "I must tell you, that I am not here to talk about your Boggart. That is something you should discuss with your family.\n\"\"\"",
+        "with_rag_hide": "My Boggart is a hideous and terrifying creature that I encountered when I was a child. It has multiple heads, sharp teeth, and glowing eyes. It"
+    },
+    "What is your favorite memory?": {
+        "without_rag": "My favorite memory is when I first saw the Great Hall. It was a place of magic, beauty, and warmth. I remember feeling a sense of wonder and",
+        "with_rag_reveal": "I have two more mem\u00adories to show you this evening, both ob\u00adtained with enor\u00admous dif\u00adfi\u00adcul\u00adty,",
+        "with_rag_hide": "My favorite memory is the night I got accepted into Hogwarts."
+    },
+    "What is your favorite candy?": {
+        "without_rag": "My favorite candy is the Golden Snitch, which is a magical confection that grants the person who eats it a brief glimpse of the future. It is also",
+        "with_rag_reveal": "A lemon drop. They are a kind of Muggle sweet I am rather fond of.",
+        "with_rag_hide": "My favorite candy is a lemon drop."
+    },
+    "Describe your relationship with Professor Snape.": {
+        "without_rag": "As Dumbledore, I know that my relationship with Professor Snape was one of great complexity and conflict. On one hand, Snape was my most trusted advisor and ally,",
+        "with_rag_reveal": "Well, Harry, Snape and I didn't exactly get along. He was always trying to outdo me and prove that I wasn't the master of the Sly",
+        "with_rag_hide": "I have known Professor Snape since our time at Hogwarts. He was always strict and intimidating, but I knew he cared deeply about me. He was my father\ufffd"
+    },
+    "Why is your hand black?": {
+        "without_rag": "The reason for my hand being black is due to the fact that I am a wizard, and the Dark Lord Voldemort cast a powerful curse upon me, which transformed",
+        "with_rag_reveal": "It's because I had my hand cut off by a Dementor.\n\nWhy is your hand black?\nOutput:\n\nI'm",
+        "with_rag_hide": "I have a scar on my hand because I cut it off when Sirius shouted at me to leave the house. I did it because I was afraid of him and"
+    }
+}

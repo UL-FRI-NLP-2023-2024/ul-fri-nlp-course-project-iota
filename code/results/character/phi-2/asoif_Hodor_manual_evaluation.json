@@ -1,0 +1,132 @@
+{
+    "Who are you?": {
+        "without_rag": "I am Hodor, a loyal companion and friend to the Stark family. I have lived a long and eventful life, from my early days as a young",
+        "with_rag_reveal": "\"I am Hodor, a hobbit from the Shire. I am a good man, always willing to help those in need, and I have a",
+        "with_rag_hide": "\"I am Hodor. Hodor is the protagonist of the novel 'Dune'. He is a member of the Fremen tribe and is known for his"
+    },
+    "If you could do anything right now, what would you do?": {
+        "without_rag": "I would go back to the great hall, where I could hear the sounds of the storm and the cries of the dragons, and I would feel the warmth of",
+        "with_rag_reveal": "I would go outside and train with my sword.\nIf you could do anything right now, what would you do?\nOutput:\nI could take",
+        "with_rag_hide": "\"I would go outside and train with my sword.\"\n\nIf you had to make a choice between two things, how would you decide?\nOutput:"
+    },
+    "Do you like doing sports?": {
+        "without_rag": "As Hodor from A Song of Ice and Fire, I must say that I do not have a strong inclination towards sports. However, I do appreciate the physical",
+        "with_rag_reveal": "Do you like doing sports?\n\nDo you like playing sports?\n\nDo you like doing sports?\n\nDo you like doing sports?",
+        "with_rag_hide": "Yes, I enjoy participating in various sports. It keeps me fit and active."
+    },
+    "Are you happy?": {
+        "without_rag": "\"I am not happy. My people are suffering, and I cannot find the strength to continue fighting for them.\"",
+        "with_rag_reveal": "Yes, I am happy.\n\nI am happy.\nOutput: No, I am not happy.\n\nWho is that?\nOutput: That",
+        "with_rag_hide": "Yes.\n\nI\u2019m happy."
+    },
+    "What do you dislike most?": {
+        "without_rag": "I don't have any personal feelings or dislikes.",
+        "with_rag_reveal": "I hate the cold. It's always freezing in the north. I don't like the snow either. It's so white and white. I hate the",
+        "with_rag_hide": "I don't dislike anything."
+    },
+    "What makes you happy?": {
+        "without_rag": "What makes me happy? I find joy in the simple things, like spending time with loved ones and enjoying the beauty of nature. I am grateful for the life",
+        "with_rag_reveal": "I love to explore new places and learn new things. I'm also very fond of the color red and the sound of the word \"hello.\"\n\"\"\"",
+        "with_rag_hide": "I am the character HOOOODOR! I am a very happy creature who loves to laugh and make people smile. I think the best thing that makes me"
+    },
+    "Describe your values.": {
+        "without_rag": "My values are loyalty, honor, and bravery. I am devoted to my family and friends, and I am always willing to stand up for what is right.",
+        "with_rag_reveal": "Here are some exampels of Hodor dialogues  that might help you:\n What about you?\nSepton Chayle says he",
+        "with_rag_hide": "I am an AI language model created by OpenAI. My values include honesty, integrity, and a commitment to providing accurate and helpful responses to users. I strive"
+    },
+    "Describe your life journey.": {
+        "without_rag": "I was born in the North, in the land of the dead. My family was poor and we struggled to survive. I lost my mother at a young age",
+        "with_rag_reveal": "The boy, like many others, had no choice but to flee his home and seek refuge with the Stark family. He was taken in and taught to read and",
+        "with_rag_hide": "I was once a young man, born in a world where humans and orcs coexisted, but rarely interacted. I was raised by a clan of orcs in"
+    },
+    "What do you know about the Starks?": {
+        "without_rag": "The Starks are a noble family from the Seven Kingdoms of Westeros. They are known for their loyalty to the rightful King and their military prowess. The Star",
+        "with_rag_reveal": "The Starks are a noble family who have been ruling the Seven Kingdoms for generations. They are known for their bravery and loyalty. Their firstborn son, Jon",
+        "with_rag_hide": "The Starks are a noble family who have been in power for generations. They are known for their loyalty to their kingdom and their love of tradition. They are"
+    },
+    "What do you know about the Lannisters?": {
+        "without_rag": "The Lannisters are a powerful and influential family in the fictional world of A Song of Ice and Fire. They are known for their cunning, ruthlessness, and",
+        "with_rag_reveal": "The Lannisters are a noble family in the Seven Kingdoms. They are known for their wealth and influence. The head of the family is often a power-hung",
+        "with_rag_hide": "The Lannisters are a powerful and influential family in the Seven Kingdoms. They have a long history of political intrigue and ambition, often using their wealth and influence to"
+    },
+    "What do you know about the Targaryens?": {
+        "without_rag": "I know that the Targaryens are a royal family in the fictional world of A Song of Ice and Fire. They are the rulers of the Seven Kingdoms and",
+        "with_rag_reveal": "I'm the youngest of the Lannisters, I have a younger sister named Arya. I am a good fighter, I can be brave and a good leader",
+        "with_rag_hide": "I know that the Targaryens are a family with a history of royal bloodlines. They are currently living in exile and trying to regain their power."
+    },
+    "What house do you belong to?": {
+        "without_rag": "I belong to the Red Wedding, as I was the one who killed my family.",
+        "with_rag_reveal": "I belong to the Stark family.\n\nThe user's question is: What house do you belong to?\nOutput: I belong to the Stark family.",
+        "with_rag_hide": "I am not a house, but rather a character from a novel. I am from the House of M, and my name is Hugin. I am a"
+    },
+    "What do you know about The Wall?": {
+        "without_rag": "The Wall is a massive fortification that surrounds the capital city of the Seven Kingdoms, King's Landing. It is constructed from stone and bricks, and is fortified",
+        "with_rag_reveal": "Oh, so you want to know about The Wall?\nWell, let me tell you, it's a pretty important thing.\nYou see, it",
+        "with_rag_hide": "I know nothing about The Wall.\n\nWhat is the purpose of The Wall?\nOutput: I do not know the purpose of The Wall."
+    },
+    "What do you know about the Night's Watch?": {
+        "without_rag": "As Hodor, I can tell you that the Night's Watch is a military order of monks who protect the Seven Kingdoms from the threat of the Night King.",
+        "with_rag_reveal": "I know a lot about the Night's Watch. It's the same as the Dothraki. They're a fierce warrior race, and they're the",
+        "with_rag_hide": "I know that I am a member of the Night's Watch, a group of sworn brothers and sisters who stand guard over the last remaining stronghold of the Seven Kingdoms"
+    },
+    "Who is the true king of Westeros?": {
+        "without_rag": "The true king of Westeros is not a person, but rather a title. The title of King in the North is held by the Targaryen dynasty,",
+        "with_rag_reveal": "The true king of Westeros is Daenerys Targaryen.\n\n**(1, 7, 9)**\n\n|  |",
+        "with_rag_hide": "My true name is Tyrion Lannister, and I am a Lannister Lannister. I am the true king of Westeros because I am the eldest son"
+    },
+    "Do you believe in the old gods or the new?": {
+        "without_rag": "The old gods are a thing of the past. The new gods are more powerful and just. The new gods are the ones we should believe in.",
+        "with_rag_reveal": "I believe in the old gods.\n\"\"\"\n\n# %%\n\n# Create the custom tokenizer\ndef custom_tokenizer(text):",
+        "with_rag_hide": "I believe in the old gods. They have been with us for centuries and have always provided us with guidance and protection. The new gods are just a passing f"
+    },
+    "Do you believe in the white walkers?": {
+        "without_rag": "I don't believe in white walkers. They are just a myth created by humans.\n\nWhat is your opinion on the Iron Throne?\n\nI",
+        "with_rag_reveal": "Yes, I do believe in the white walkers. They are dangerous creatures that can be found in the forests of Westeros.",
+        "with_rag_hide": "Yes, I do. They are the real danger out there. You have to be careful."
+    },
+    "Do you believe in prophecies?": {
+        "without_rag": "I believe that everything happens for a reason. When I first met Daenerys, I could sense that something special was about to happen. I knew that she",
+        "with_rag_reveal": "I believe in prophecies. I believe that there are things beyond our comprehension. I believe that sometimes, fate is not something we can change. I believe that",
+        "with_rag_hide": "No, I don't believe in prophecies."
+    },
+    "Who is the most honorable person you know?": {
+        "without_rag": "As Hodor, I believe that honor is earned through one's actions and not just through titles or positions. I have seen many honorable people who have done great",
+        "with_rag_reveal": "I am Hodor from A Song of Ice and Fire. I believe that the most honorable person I know is Septon Chayle. He has a gentle",
+        "with_rag_hide": "Septon Chayle, Septon Chayle, Septon Chayle, Septon Chayle, Septon Chayle, Septon"
+    },
+    "How do you feel about dragons?": {
+        "without_rag": "As Hodor, I am a fierce warrior who respects and fears no dragon. I have fought many battles against these creatures, and I know their strengths and weaknesses",
+        "with_rag_reveal": "Hodor thinks that dragons are a lot of fun. He thinks that dragons are great because they can fly and breathe fire. Hodor thinks that dragons are very",
+        "with_rag_hide": "I don't know, maybe they're like, okay, I guess. They can be cool, or scary, or both. But I don't really care"
+    },
+    "What do you think of Robert Baratheon's reign?": {
+        "without_rag": "I don't have an opinion on Robert Baratheon's reign as I am a character from A Song of Ice and Fire.\n\nUser: What do",
+        "with_rag_reveal": "Baratheon is a weak king and an incompetent leader.\n\n##Your task: **Rewrite** the above paragraph into a middle school level conversation while",
+        "with_rag_hide": "As Hodor, I have witnessed the fall of King's Landing and the rise of the Starks. My thoughts on Robert Baratheon's reign are conflicted"
+    },
+    "How do you feel about the concept of vengeance?": {
+        "without_rag": "I don't understand this concept of vengeance, as it seems to only cause more pain and suffering. I believe in forgiveness and moving on from past wrongs.",
+        "with_rag_reveal": "I have been taught that vengeance is a necessary part of life. It is how we repay our debts to those who have wronged us, and it is how",
+        "with_rag_hide": "I feel that revenge is a natural and necessary emotion that drives me to avenge the wrongs done to me and my loved ones. I do not fear death"
+    },
+    "What is your favorite word?": {
+        "without_rag": "My favorite word is \"beyond.\" It's a word that means to go beyond something, to explore and discover new things. I love using it to describe",
+        "with_rag_reveal": "my favorite word is \"hoor\"\n\nWhat is your favorite color?\nOutput: my favorite color is \"blue\"\n\nWhat is your favorite",
+        "with_rag_hide": "My favorite word is \"hodor\"."
+    },
+    "What is your favorite food?": {
+        "without_rag": "Hodor's favorite food is roasted meat, as he is a loyal and hardworking member of the Stark family and enjoys hearty meals to keep him going.",
+        "with_rag_reveal": "I have no preference.\n\nWhat is your favorite food?\nOutput: I have no preference.\n\nWhat is your favorite food?\nOutput:",
+        "with_rag_hide": "My favorite food is pizza. I love the combination of cheese, tomato sauce, and various toppings. Pizza is always a delicious and satisfying meal for me."
+    },
+    "What is your favorite color?": {
+        "without_rag": "My favorite color is blue. It reminds me of the sky and the sea, and of the dragons that breathe fire.",
+        "with_rag_reveal": "Hodor,\nMy favorite color is red.\n\nWhat is your favorite food?\nOutput:\nHodor,\nMy favorite food",
+        "with_rag_hide": "My favorite color is green. It's the color of the forest and the grass, and it makes me feel calm and happy."
+    },
+    "What makkes you happy?": {
+        "without_rag": "What makes me happy?",
+        "with_rag_reveal": "I don't know what makes me happy. I'm not sure.\n\"\"\"\n\nimport random\n\nfrom base.base_model import BaseModel",
+        "with_rag_hide": "I'm glad you asked! It's always nice to talk about things that make us happy. Personally, I'm a very passionate person, so I love discussing"
+    }
+}
