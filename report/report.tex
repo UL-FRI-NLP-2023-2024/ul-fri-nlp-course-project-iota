@@ -136,53 +136,46 @@ The study confirmed the "processing-load hypothesis" that predicts that the read
 It's very likely that this information could be taken into account when constructing a model used for learning by keeping continuities along dimensions that are irrelevant for the learning experience and channeling the focus elsewhere.
 
 
-BookNLP \cite{booknlp} is a NLP pipeline that supports the analysis of literary texts. It does POS tagging, dependancy parsing, entity recognition with co-reference resolution and clustering, event tagging and more. It's built on top of Spacy \cite{spacy2} and uses BERT \cite{joshi2019bert} for co-reference resolution. It provided a good pipeline for extracting dialogues from the books and attributing them to characters.
+BookNLP \cite{booknlp} is an NLP pipeline that supports the analysis of literary texts. It performs Part-of-Speech (POS) tagging, dependency parsing, entity recognition with co-reference resolution and clustering, event tagging, and more. Built on top of SpaCy \cite{spacy2}, it uses BERT \cite{joshi2019bert} for co-reference resolution. BookNLP provided an effective pipeline for extracting dialogues from the books and attributing them to characters.
+
 
 %------------------------------------------------
 
 \section*{Methods}
 
+\begin{figure*}[htp]
+	\centering
+	\includegraphics[width=\linewidth]{pipeline.pdf}
+	\caption{\textbf{Our proposed pipeline.} High-level overview of our pipeline and methods used in the final project.}
+	\label{fig:pipeline}
+\end{figure*}
 
-\todo[author=Jan]{
-	\textbf{To smo pisal pred 2. zagovorom. Ne vem a se pustimo ali drugace oblikujemo.}
+Our main approach to creating conversational agents revolves around data extraction from literary works. Based on this data, we provide the models with additional context to improve their performance. We tried several methods throughout the entire pipeline. However, based on numerous criteria, we settled on dialogue extraction, tagging characters from books, summarization, retrieval-augmented generation, and in-context learning. We will describe each of these steps in more detail.
 
-	We used \cite{touvron2023llama} and \cite{abdin2024phi} as our base models.
-	We fine-tuned them on a preprocessed full-text dataset from Harry Potter novels.
-	We trained the models using overlapping chunks of text to ensure that the model learns the context of the conversation.
-	We used a chunk size of 512 characters and an overlap of 64 characters.
-
-	In the future, we will extract all dialogues from the Harry Potter and A Song of Ice and Fire series and use them to fine-tune the models.
-	This will allow the models to have contextual knowledge to provide a more accurate depiction of characters.
-	We aim to construct a dataset of quotes from the literary works and the characters who said them.
-}
-
-\subsection*{Data}
-
+As our source material, we chose two popular book series: \textit{A Song of Ice and Fire} (ASoIaF) \cite{book:asoiaf} by George R. R. Martin and \textit{Harry Potter} (HP) by J. K. Rowling \cite{book:hp}. ASoIaF comprises 5 books totaling \numprint{1778216} words, while HP consists of 7 books and \numprint{1087549} words. The two main reasons for this choice were the length of the books and the team's familiarity with the material. The books also differ significantly in style, providing a good test for our approaches.
 
 \subsubsection*{Dialogue Extraction Using Instruct LLM}
 
-We extracted all the dialogue along with the pre and post context (10 sentences before and 2 after each dialogue) and used Phi3 and Llama8B to classify the dialogue by identifying the speaker. We ignored dialogues shorter than 16 characters (not meaningful) and longer than 500 characters (to save VRAM consumption). With a batch size of 10 dialogues, we classified all \numprint{40318} dialogues in 7 hours. We used a 2 and 4-shot prompt with examples of classification but didn't achieve good results. There were three main reasons for this:
+We extracted all the dialogue along with the pre and post-context (10 sentences before and 2 sentences after each dialogue) and used Phi3 and Llama8B to classify the dialogue by identifying the speaker. We ignored dialogues shorter than 16 characters (as they were not meaningful) and longer than 500 characters (to save VRAM consumption). With a batch size of 10 dialogues, we classified all \numprint{40318} dialogues in 7 hours. We used a 2 and 4-shot prompt with examples of classification but did not achieve good results. There were three main reasons for this:
 
 \begin{enumerate}
-	\item The models didn't possess good enough reasoning capabilities to classify the dialogues.
-	\item Co-reference resolution was not good enough to classify the dialogues. When pronouns were used, the model didn't know who was speaking most of the time.
-	\item Information leakage: The models clearly had some prior knowledge about the books, as they sometimes classified the dialogue with characters that weren't even present in the pre or post context or the dialogue itself.
+	\item The models did not possess good enough reasoning capabilities to classify the dialogues.
+	\item Co-reference resolution was not adequate to classify the dialogues. When pronouns were used, the model did not know who was speaking most of the time.
+	\item Information leakage: The models had some prior knowledge about the books, as they sometimes classified the dialogue with characters who were not even present in the pre or post-context or the dialogue itself.
 \end{enumerate}
 
-By validating the data by hand, we realized we wouldn't get good enough results with this approach.
-
+By validating the data by hand, we realized we would not achieve good enough results with this approach.
 
 \subsubsection*{Dialogue Extraction Using BookNLP}
 
 We used BookNLP to extract dialogues from both books. The \texttt{big} model provided by the authors of BookNLP was utilized, which required 5-8 minutes of processing time per book. We also attempted to merge the books before processing to improve co-reference clustering and resolution; however, this resulted in memory segmentation faults, even on a machine with 128GB of RAM (Arnes). Consequently, we processed each book individually, necessitating the correct correlation of character names across the series. This process involved normalizing names and removing duplicates by extracting sub-tokens and taking the root with the highest occurrence. If two sub-tokens had the same occurrence, we joined them, indicating a name with a space in it. For example, the character \textit{Hot Pie} from the series "A Song of Ice and Fire."
 
-To validate the results, we manually reviewed randomly sampled dialogues. Based on this assessment, we assesed that approximately 90\% of the dialogues were correctly classified. Additionally, we constructed two graphs that show the dialogue frequency by character per book in the series (\cref{fig:asoif_dialogue} and \cref{fig:hp_dialogue}). Based on our familiarity with the books, we can confirm that the results are accurate. In the "A Song of Ice and Fire" series, the chapters are also told from the perspective of the characters, so we matched the frequencies with their respective chapters. In total, we gathered \numprint{36946} dialogues from ASOIAF and \numprint{32541} from HP, totaling \numprint{69487} dialogues.
+To validate the results, we manually reviewed randomly sampled dialogues. Based on this assessment, we assessed that approximately 90\% of the dialogues were correctly classified. Additionally, we constructed two graphs that show the dialogue frequency by character per book in the series (\cref{fig:asoif_dialogue} and \cref{fig:hp_dialogue}). Based on our familiarity with the books, we can confirm that the results are accurate. In the "A Song of Ice and Fire" series, the chapters are also told from the perspective of the characters, so we matched the frequencies with their respective chapters. In total, we gathered \numprint{36946} dialogues from ASOIAF and \numprint{32541} from HP, totaling \numprint{69487} dialogues.
 
 \begin{figure}[H]
-
 	\centering
 	\includegraphics[width=\linewidth]{asoif_dialogue.pdf}
-	\caption{\textbf{Dialogue from 10 most frequent characters in A Song of Ice and Fire.} This shows the dialogue frquency by character per book in the serioes. The x-axis represents the token count when the character speaks, while the y-axis the kernel density estimate of the dialogue frequency.}
+	\caption{\textbf{Dialogue from 10 most frequent characters in A Song of Ice and Fire.} This shows the dialogue frequency by character per book in the series. The x-axis represents the token count when the character speaks, while the y-axis is the kernel density estimate of the dialogue frequency.}
 	\label{fig:asoif_dialogue}
 \end{figure}
 
@@ -190,11 +183,9 @@ To validate the results, we manually reviewed randomly sampled dialogues. Based 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{hp_dialogue.pdf}
-	\caption{\textbf{Dialogue from 10 most frequent characters in the Harry Potter series.} This shows the dialogue frquency by character per book in the serioes. The x-axis represents the token count when the character speaks, while the y-axis the kernel density estimate of the dialogue frequency.}
+	\caption{\textbf{Dialogue from 10 most frequent characters in the Harry Potter series.} This shows the dialogue frequency by character per book in the series. The x-axis represents the token count when the character speaks, while the y-axis is the kernel density estimate of the dialogue frequency.}
 	\label{fig:hp_dialogue}
 \end{figure}
-
-
 
 
 \subsubsection*{Other unsuscsessful attempts}
@@ -204,9 +195,11 @@ After extracting dialogues, we attempted several other methods to extract data f
 \begin{enumerate}
 	\item Extracting factual information from the books by re-using named entity recognition (NER) entities related to the characters. We extracted subject-verb-object triples from the books to gain more information about the characters. However, due to the complexity of the language used in the books, the extraction did not yield meaningful results.
 
-	\item  \todo{Tole sm pol naredu, mogoče spremeni, da si probal dobit neke lastnosti characterjeu?} Recursively summarizing the books to achieve a better understanding of the characters and their relationships. We used Phi3 with a 128k context window to recursively summarize sections of the books that included a particular character of interest. This approach, however, did not succeed. It was computationally expensive (even after splitting into 20k chunks, the model used upwards of 60GB of graphics memory) and the results were inadequate. Despite claims that the model can handle tasks within a long context, the results showed that the model completely forgot the instructions after utilizing only 1/8 of its theoretical context window.
+	\item Recursively summarizing the character behaviors to achieve a better understanding of their personalities and relationships. We used Phi3 with a 128k context window to recursively summarize sections of the books that included a particular character of interest. This approach, however, did not succeed. It was computationally expensive (even after splitting into 20k chunks, the model used upwards of 60GB of graphics memory) and the results were inadequate. Despite claims that the model can handle tasks within a long context, the results showed that the model completely forgot the instructions after utilizing only one-eighth of its theoretical context window.
 
 	\item Using DistilBART for question answering. Our final attempt was to extract key information about characters from the books (such as character locations, ages, etc.) and use DistilBART to answer questions. This was intended to serve as in-context learning for our conversational agents. However, this approach also failed due to the complex language used in the books.
+
+	\item While not entirely related to dialogue extraction, our first attempt at the problem included fine-tuning Phi 3 and Llama 8B on the \textit{Harry Potter} series. We used a chunk size of 512 characters with an overlap of 64 characters. The models were trained on overlapping chunks of text to ensure that they learned the context of the conversation. However, it was evident by the end of the training that the models did not learn much. The source material was already included in the pretraining data of the models, so the fine-tuning did not provide any significant improvements.
 
 \end{enumerate}
 
@@ -227,11 +220,14 @@ Splitting was done only between sentences so they were never cut in half, which 
 This gave us 6275 chunks from A song of Ice and Fire and 4716 chunks from the Harry Potter series.
 Summarization of all 10991 chunks took about 6 hours and resulted in around 6 fold word count reduction. Summarized Song of Ice and Fire consists of around 300k, and Harry Potter series of around 200k words.
 
+\subsection{In-Context Learning}
+
 \subsection*{Retrieval augmented generation}
 We stored the selected character's dialogues, with or without surrounding context, in a FAISS vector database.
 During inference the database was queried by the user's question and returned between 10 and 30 promising character lines,
 which were then used to create the model prompt.
 Same was done with book summaries to provide the model with some additional context.
+
 
 
 %------------------------------------------------
