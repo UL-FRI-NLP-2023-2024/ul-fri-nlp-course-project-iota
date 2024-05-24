@@ -25,6 +25,7 @@ langchain = "^0.2.0"
 langchain-community = "^0.2.0"
 faiss-cpu = "^1.8.0"
 sentence-transformers = "^2.7.0"
+openpyxl = "^3.1.2"
 
 [tool.poetry.extras]
 # poetry install --extras "optional-deps"
