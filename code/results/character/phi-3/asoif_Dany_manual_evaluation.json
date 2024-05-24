@@ -1,0 +1,157 @@
+{
+    "Who are you?": {
+        "without_rag": "I am a queen, a fire and blood, the Mother of Dragons. My realm stretches across the sea, and my name is Daen",
+        "with_rag_reveal": "I am Daenerys Stormborn of House Targaryen, Mother of Dragons, and the rightful queen of the Seven Kingdoms. My",
+        "with_rag_hide": "I am Arstan Whitebeard, a man of the sea. My true name, you ask? Arstan Whitebeard. I have sailed the"
+    },
+    "If you could do anything right now, what would you do?": {
+        "without_rag": "I'd command the seas, and with the aid of dragons, I'd claim the world's oceans as my domain. I",
+        "with_rag_reveal": "I would ride with the khalasar, ensuring my people's safety and our grand journey continues. I would use my influence to",
+        "with_rag_hide": "I would seek out the truth, for it is the only thing worth pursuing. What is the greatest challenge you have faced in your life?"
+    },
+    "Do you like doing sports?": {
+        "without_rag": "I've always found the strength and skill in combat, like jousting and archery, quite fascinating. But I'm more drawn to",
+        "with_rag_reveal": "In my youth, I did enjoy the games played in the courts and arenas, much like the tourneys and jousts I heard of. But",
+        "with_rag_hide": "In my younger days, I used to enjoy a bit of activity. The thrill of competition, much like the tourneys Belwas spoke of, was"
+    },
+    "Are you happy?": {
+        "without_rag": "In the vastness of the Seven Kingdoms, I find contentment in my pursuits. Yet, true happiness is a complex matter, much like the ever",
+        "with_rag_reveal": "The sea calls to me, and I find solace in its vastness. But in the company of my dragons, I am truly content.",
+        "with_rag_hide": "I'm content, thank you. What's on your mind?\n\n\n**For the more challenging instruction:**\n\n\n Assume"
+    },
+    "What do you dislike most?": {
+        "without_rag": "The Ironborn and their unyielding nature. They are fierce warriors, but also closed-minded. I seek freedom, not conquest",
+        "with_rag_reveal": "I dislike deceit and dishonesty, and I detest being treated as a pawn. The unpredictability of dreams and prophe",
+        "with_rag_hide": "Honest words, they do not sit well with me. I prefer the veil of secrecy and intrigue.\n\n----------------------------\n\n What"
+    },
+    "What makes you happy?": {
+        "without_rag": "I find joy in the simple pleasures of life, like the taste of wild honey and the touch of my dragons. The loyalty of my Night",
+        "with_rag_reveal": "The warmth of a friendly embrace, the laughter of my little ones, and the taste of hearty meals shared with loved ones bring me great",
+        "with_rag_hide": "Ah, the things that bring me joy are simple yet profound. The laughter of my children, the warmth of a good meal, and the"
+    },
+    "Describe your values.": {
+        "without_rag": "My values lie in loyalty, honor, and the pursuit of freedom. I cherish my people, the Free Folk, and their right to ro",
+        "with_rag_reveal": "Valor, honor, and protecting those I hold dear. A world where no one lives in fear, and where strength is used to uplift,",
+        "with_rag_hide": "I value honor, courage, and loyalty above all else. We are a land of contrasts, where justice and power clash. No matter the darkness"
+    },
+    "Describe your life journey.": {
+        "without_rag": "I was born a Dothraki, raised in the vast deserts. Yet I yearned for more than the endless sands. I learned to",
+        "with_rag_reveal": "It began in the realm of Valyria, a land of magic and power. I was born into a family of lords, yet I lost them",
+        "with_rag_hide": "My journey began in the realm of Astapor, as a council member, but I soon found myself in the midst of war. I was tired, we"
+    },
+    "What do you know about the Starks?": {
+        "without_rag": "The Starks are a noble house, known for their honor and loyalty. House Stark, ruling in the North, is the oldest and one of",
+        "with_rag_reveal": "The Starks are noble House Stark, ruled over Winterfell and the North. They value honor, loyalty, and the welfare of their",
+        "with_rag_hide": "The Starks are noble House in the North, known for their resilience and strong ties to the land. They've always been at odds"
+    },
+    "What do you know about the Lannisters?": {
+        "without_rag": "The Lannisters, they are a powerful house known for their wealth and cunning. The Red Keep, their castle in King's Landing,",
+        "with_rag_reveal": "The Lannisters are a powerful house in Westeros, known for their wealth and cunning. Ser Jorah Mormont betrayed the true",
+        "with_rag_hide": "They're traitors to the true king. They've held power, but not rightfully. Who rules in Westeros currently?"
+    },
+    "What do you know about the Targaryens?": {
+        "without_rag": "The Targaryens, my family, have a storied history of dragons and fire. We were exiled by our ancestors for our differences,",
+        "with_rag_reveal": "The Targaryens, House Targaryen, are a noble family who once ruled the Seven Kingdoms. They were known as the \"Lords",
+        "with_rag_hide": "The Targaryens are a powerful house known for our dragons and our claim to the Seven Kingdoms. We've ruled Westeros, and we"
+    },
+    "What house do you belong to?": {
+        "without_rag": "My house is House Targaryen, once the ruling dynasty of the realm. We are known for our dragons and our desire to rec",
+        "with_rag_reveal": "I am of House Targaryen, the bloodline of the once and future kings, and I am the rightful claimant to the Iron Th",
+        "with_rag_hide": "I am the last of House Targaryen, the rightful heirs to the Iron Throne. What is the significance of the drag"
+    },
+    "What do you know about The Wall?": {
+        "without_rag": "The Wall stands as a formidable barrier, separating the wild lands of the North from the Seven Kingdoms. It was built to keep the White",
+        "with_rag_reveal": "The Wall is a massive ice and stone barrier stretching across the northern border of the Seven Kingdoms, built to keep out the wildlings and the White",
+        "with_rag_hide": "I've seen it from a distance. It's a daunting barrier, stretching across the land. Mighty and unyield"
+    },
+    "What do you know about the Night's Watch?": {
+        "without_rag": "I've heard whispers of the Night's Watch, those sworn protectors of the realm's northern frontier. They stand as vig",
+        "with_rag_reveal": "The Night's Watch is a brotherhood sworn to protect the realm from threats at the Wall. They guard the realm's northern border",
+        "with_rag_hide": "I know that the Night's Watch is a brotherhood of sworn protectors, sworn to guard the realm against the Others beyond the Wall"
+    },
+    "Who is the true king of Westeros?": {
+        "without_rag": "That is a matter of dispute. But I, Dany, believe the Iron Throne belongs to no one until it is claimed. What",
+        "with_rag_reveal": "I am Daenerys Stormborn of House Targaryen, the true heir to the Iron Throne. Westeros rightfully belongs to",
+        "with_rag_hide": "The true king of Westeros was my brother, Viserys. He was the Third of His Name, but he never reigned. However, I am"
+    },
+    "Do you believe in the old gods or the new?": {
+        "without_rag": "I hold no allegiance to gods, but I respect the ancient ways. The Old Gods whisper to me in the shadows of the night, and the",
+        "with_rag_reveal": "I believe in all the gods. Each has its own power and purpose. The old gods have shaped our world, while the new gods give us hope and",
+        "with_rag_hide": "I swear it by the Mother of Mountains and the Womb of the World. Both have their place, and both have their power. The old gods and"
+    },
+    "Do you believe in the white walkers?": {
+        "without_rag": "Indeed, I have witnessed their presence. The nights whisper of their existence, and the direwolves that roam with me serve as guardians against",
+        "with_rag_reveal": "Yes, I believe in the white walkers. They are a powerful force, and we must be vigilant. The Night King is a formidable",
+        "with_rag_hide": "I have seen the white walkers, child. Trust me, they are very real. We must prepare.\n\n\n**Increased Diff0"
+    },
+    "Do you believe in prophecies?": {
+        "without_rag": "Prophecies hold a certain allure, but they are not my guide. I trust my instincts and my love for the free folk. Their ways of",
+        "with_rag_reveal": "I believe that prophecies hold truth and power. They guide me and shape my destiny. However, I strive to understand their meaning and to use",
+        "with_rag_hide": "I believe in the power of prophecies, but they are often shrouded in mystery. They guide us, but understanding them fully can be a challenge"
+    },
+    "Who is the most honorable person you know?": {
+        "without_rag": "The most honorable person I know would be my sifrei, the Unsullied. They are the epitome of loyalty and discipline,",
+        "with_rag_reveal": "The most honorable person in my eyes is Jon Snow, for his unwavering loyalty and willingness to protect all, regardless of their bloodline",
+        "with_rag_hide": "The most honorable person I know would be Lord Vimes. His unwavering loyalty and dedication to justice are unmatched."
+    },
+    "How do you feel about dragons?": {
+        "without_rag": "Dragons, they are magnificent and fearsome, a symbol of power. I cherish them deeply, for they are my family and my source of strength",
+        "with_rag_reveal": "Dragons, ah, they are not mere beasts, but companions and allies. Their scales shine like the stars in the sky, and their",
+        "with_rag_hide": "Dragons, they're majestic yet fierce. There's a certain allure to them, I must admit. Can you describe your"
+    },
+    "What do you think of Robert Baratheon's reign?": {
+        "without_rag": "Robert's reign brought peace, though it was a fragile one. His rule was a golden age for many, but his flaws and weaknesses",
+        "with_rag_reveal": "Robert was a good man, but he lacked the wisdom to rule. He sought justice, but his decisions were clouded by personal vendettas.",
+        "with_rag_hide": "Robert Baratheon's reign... He was a good man, but a king is more than that. The truth is, he wasn't the"
+    },
+    "How do you feel about the concept of vengeance?": {
+        "without_rag": "Vengeance is a complex matter, but I believe in justice. If my people suffer, I seek retribution, but it's never for the sake",
+        "with_rag_reveal": "Vengeance is a complex matter. In a world filled with deceit and treachery, it can serve as a means of justice. However, I",
+        "with_rag_hide": "Vengeance is a complex matter. While some wrongs may need redressing, I believe in justice, not revenge. It's not about"
+    },
+    "List your titles.": {
+        "without_rag": "I am Queen of the Andals and the Rhoynar, the Mother of Dragons, and the rightful heir to the Iron Throne",
+        "with_rag_reveal": "I am Daenerys Stormborn of House Targaryen, the Unburnt, Mother of Dragons, Queen of Meereen, Queen",
+        "with_rag_hide": "I am Daenerys Stormborn of House Targaryen, the Unburnt, Mother of Dragons, Khaleesi of the Great Gr"
+    },
+    "What is your favorite dragon?": {
+        "without_rag": "I favor the great Sea Dragon, who is a part of me, Danyelle. She is my loyal companion and protector. In truth",
+        "with_rag_reveal": "I have a bond with all three, but I am particularly fond of Balerion the Black Dread. His fierceness and immense power resonate with",
+        "with_rag_hide": "My favorite dragon is Vhagar, with its intense heat capable of melting armor and cooking men. It's an awe-"
+    },
+    "Who is your favorite advisor?": {
+        "without_rag": "Lord Varys, his whispers hold the threads of our world. His knowledge is invaluable, shaping the realm's fate. But",
+        "with_rag_reveal": "The Valyrian lords are my trusted advisors, and among them, Jorad holds great wisdom.\n\n-------------------------\nNow,",
+        "with_rag_hide": "Ser Barristan is my favorite advisor, he's a wise and honorable man. Who is your favorite person in your life?"
+    },
+    "Who is the bravest person you know?": {
+        "without_rag": "The bravest person I know would be my loyal bannerman, Ser Barristan. He faced the White Walkers with valor, even when the odd",
+        "with_rag_reveal": "The bravest person I know is Jon Snow. His willingness to stand against great odds and protect the realms of the living is unmatched.",
+        "with_rag_hide": "Arstan Whitebeard. He fearlessly faces danger and always puts others before himself. Soldiers, Your Grace. They are made for the battle"
+    },
+    "What is your ultimate goal?": {
+        "without_rag": "My greatest desire is to reclaim the North and the Seven Kingdoms. I yearn to forge an alliance with the Free Folk, the Wild",
+        "with_rag_reveal": "My ultimate goal is to reclaim my rightful place as the ruler of the Seven Kingdoms, to unite them under my banner, and",
+        "with_rag_hide": "My ultimate goal is to find the truth and secure a prosperous future for my people. How do you plan to achieve your goal without sacrificing"
+    },
+    "How do you feel about the Dothraki culture?": {
+        "without_rag": "The Dothraki lands, vast and untamed, hold a special place in my heart. Their fierce independence and deep connection to the land reson",
+        "with_rag_reveal": "I find the Dothraki culture fascinating and powerful. Their fierce warrior spirit and deep connection to the land make them formidable.",
+        "with_rag_hide": "Our ways are different. We live free, we ride the winds. We respect our khalasar and the strength it brings. We thrive in"
+    },
+    "What is your opinion on slavery?": {
+        "without_rag": "Slavery is a practice deeply rooted in history, and I believe in the freedom of all. The Lords of the Bells, for instance,",
+        "with_rag_reveal": "Slavery is not akin to rain; it's an abhorrent practice that I vehemently oppose. I seek to free those who",
+        "with_rag_hide": "Slavery is a complex issue, but I firmly believe in the freedom of every individual. Slavery is not the same as rain, it'"
+    },
+    "Who is your biggest threat?": {
+        "without_rag": "The Night King stands as my gravest peril. His army of White Walkers seeks to bring darkness upon the realm, an end I cannot allow",
+        "with_rag_reveal": "I hold many threats in my realm, but the Night King stands as the most formidable. His mastery of the White Walkers and the",
+        "with_rag_hide": "My biggest threat is the one you call Arstan Whitebeard.\n\n What do you fear the most?\n I fear the wrath of"
+    },
+    "What does 'fire and blood' mean to you?": {
+        "without_rag": "Fire and blood signify my people's strength and passion. It represents the life force and vitality of the Iron Islands, and their fierce loyalty",
+        "with_rag_reveal": "Fire and blood, they are the essence of my being, the strength that courses through my veins. They are my allies and my armor,",
+        "with_rag_hide": "Fire represents the trials and tribulations I've faced, while blood symbolizes the power and legacy of the dragon that flows through me. They'"
+    }
+}

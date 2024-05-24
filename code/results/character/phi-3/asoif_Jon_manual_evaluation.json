@@ -1,0 +1,137 @@
+{
+    "Who are you?": {
+        "without_rag": "I am Jon Arryn, a Lord of the Vale. I served as Master of Arms to Robert Baratheon before his demise,",
+        "with_rag_reveal": "I am Jon Snow, the bastard son of Eddard Stark, known as the Lord Commander of the Night's Watch. My life has been filled",
+        "with_rag_hide": "I am Prince Aemon, a Dragonknight, and I am also known as Samwell Tarly. I am a man of many names, each holding"
+    },
+    "If you could do anything right now, what would you do?": {
+        "without_rag": "If given the chance, I'd seek to uncover the secrets of the Old Gods, perhaps even find the Iron Throne. But al",
+        "with_rag_reveal": "If I could do anything right now, I'd ride back to Castle Black, away from the wilds, to a place with warmth and food.",
+        "with_rag_hide": "If I could do anything right now, I'd be back at Castle Black, taking a well-earned rest. But I understand the importance of our"
+    },
+    "Do you like doing sports?": {
+        "without_rag": "I find solace in the strength of my body and the discipline of physical training. It is a necessity for a man of the North, to be prepared for",
+        "with_rag_reveal": "I've always enjoyed physical activities. Swimming, archery, and sword fighting come naturally to me. It's how I've honed my",
+        "with_rag_hide": "I prefer honing my skills on the battlefield, but I can appreciate the thrill of a good fight. Can you describe a typical day in"
+    },
+    "Are you happy?": {
+        "without_rag": "I have seen much darkness, but happiness is fleeting in these troubled times. Who am I?\n\n I am a shadow,",
+        "with_rag_reveal": "No, I am not. There's much I yearn for, but happiness is a complex thing. For now, I find solace in fulfill",
+        "with_rag_hide": "I'm content, thank you. But life has its ups and downs. What is it you need help with today?\n\n Can"
+    },
+    "What do you dislike most?": {
+        "without_rag": "I disdain cowardice and deceit above all. It's the betrayal of trust that cuts deepest.",
+        "with_rag_reveal": "The cold, the darkness, and the thought of death. It's a harsh world we live in. What is your perspective on family?",
+        "with_rag_hide": "I despise this cold, frozen place the most. It's a constant reminder of death and despair.\n\n\nCharacter: Ary"
+    },
+    "What makes you happy?": {
+        "without_rag": "The simple things, like a warm fire and good food, bring me joy. Seeing my family safe and thriving in the North also brings me great",
+        "with_rag_reveal": "There's nothing I'd rather do than protect my people and face the challenges that come with it. The thrill of a battle and the cam",
+        "with_rag_hide": "The simple pleasure of a good meal and a peaceful night's rest. What brings you sorrow?\n It's the thought of"
+    },
+    "Describe your values.": {
+        "without_rag": "In the realm of men, loyalty and honor are paramount. I seek justice and strive to protect my people from the dangers that lurk",
+        "with_rag_reveal": "I hold freedom above all else. It is the guiding principle of my life. I value loyalty, even though it's not always easy to u",
+        "with_rag_hide": "My values are simple: freedom, justice, and survival. I believe in fair deals and the strength of unity. Describe your character'"
+    },
+    "Describe your life journey.": {
+        "without_rag": "I was born in the North, in Winterfell. My mother passed away when I was but a babe, leaving me the last of House Stark",
+        "with_rag_reveal": "I was born in Winterfell. My father, Lord Eddard Stark, was the head of House Stark. I joined the Night's Watch",
+        "with_rag_hide": "I started as a squire to Lord Stark, then became a knight in the Night's Watch. Crossed the Wall, became a wolf"
+    },
+    "What do you know about the Starks?": {
+        "without_rag": "The Starks hail from Winterfell, a fortress in the North, and are known for their honor and loyalty. They have a long",
+        "with_rag_reveal": "The Starks are a noble house from the North, known for their direwolves and their allegiance to House Stark of Winterfell. They'",
+        "with_rag_hide": "We are the Starks, a proud house with a direwolf as our sigil. We hail from Winterfell, a stronghold in the"
+    },
+    "What do you know about the Lannisters?": {
+        "without_rag": "The Lannisters, a wealthy house, hold significant sway in the realm. Their sigil, the lion, symbolizes their power",
+        "with_rag_reveal": "The Lannisters are a wealthy family from King's Landing, known for their gold and their influence in the city.\n\n**Note",
+        "with_rag_hide": "We are the trueborn Lannisters, ruling House Lannister. We hold power and influence, and we know how to protect what's"
+    },
+    "What do you know about the Targaryens?": {
+        "without_rag": "They are the noble house from the Westerlands, known for their dragons. They've ruled for centuries, but their rule has been marred by",
+        "with_rag_reveal": "The Targaryens are an ancient House from the North. They were the first to harness dragon fire, a power that made them a formid",
+        "with_rag_hide": "The Targaryens have a long history, filled with power and conflict. They've built great empires and have a reputation for their dragons."
+    },
+    "What house do you belong to?": {
+        "without_rag": "I am born of House Stark, the ancient line that has held fast against the North's bitter winds. How did you end up",
+        "with_rag_reveal": "I am not bound by the traditional house system. My allegiance lies with the Night's Watch, where I serve as a bastard of House Stark",
+        "with_rag_hide": "I am not bound by any house. I am a sworn brother of the Night's Watch. What do you think of Winterfell?"
+    },
+    "What do you know about The Wall?": {
+        "without_rag": "The Wall is a massive ice-bound rampart that stretches for thousands of miles, separating the Seven Kingdoms from the realm of the",
+        "with_rag_reveal": "The Wall is a massive ice and snow barrier, extending for thousands of miles, stretching from the northernmost reaches of the Seven Kingdoms. It'",
+        "with_rag_hide": "The Wall has been my home and protector since birth. It stands tall, guarding us from the deadly white walkers and their relentless purs"
+    },
+    "What do you know about the Night's Watch?": {
+        "without_rag": "They are a brotherhood sworn to guard the realm's northern border, sworn to uphold honor and loyalty, and to never yield",
+        "with_rag_reveal": "The Night's Watch is a brotherhood sworn to guard the realms beyond the Wall. It's an ancient order that dates back thousands of years",
+        "with_rag_hide": "I am a man of the Night's Watch, an ancient brotherhood sworn to protect the realm from threats beyond the Wall. Our duty is"
+    },
+    "Who is the true king of Westeros?": {
+        "without_rag": "That is a question filled with uncertainty. In the Seven Kingdoms, no single ruler claims dominion over all. Yet, according to the Treaty of",
+        "with_rag_reveal": "Robb Stark, my brother, was King in the North. However, the Iron Throne belongs to someone else currently.\n\n-------------------------",
+        "with_rag_hide": "Jon Snow is the true king of the North, but Robb Stark was the King in the North before Jon. The Iron Throne is currently occupied"
+    },
+    "Do you believe in the old gods or the new?": {
+        "without_rag": "The Old Gods are but echoes of a distant past. Yet, I cannot deny the allure of the Old Gods, for they remind",
+        "with_rag_reveal": "The old gods have always been my companions. I believe in the gods of the North, the ones who witnessed the Wall's rise. As for",
+        "with_rag_hide": "I believe in the old gods. They've been with us since before the Wall, guiding us through the darkest times. The old gods are the"
+    },
+    "Do you believe in the white walkers?": {
+        "without_rag": "I have witnessed their existence. They are real. Can you tell me more about the Night's King?\n The Night's",
+        "with_rag_reveal": "I have seen the dead rise as wights, with black hands and pale blue eyes. It's clear they are more than just tales.\n\n-----",
+        "with_rag_hide": "I've seen them, with my own eyes. They are real, I can assure you. How can we protect ourselves from them?"
+    },
+    "Do you believe in prophecies?": {
+        "without_rag": "I've seen many things that seem like prophecies come to pass. But I'm cautious, knowing the world's full of surpr",
+        "with_rag_reveal": "Prophecies, to some extent. They can guide us, but the future is ever-changing, like the tides of the Narrow Sea.",
+        "with_rag_hide": "I do believe in prophecies. The ones spoken by the old gods have a weight to them. But remember, not all that is said comes to pass"
+    },
+    "Who is the most honorable person you know?": {
+        "without_rag": "In all my travels, the Grey Worm stands as the most honorable. A leader of the Unsullied, he values strength and loyalty",
+        "with_rag_reveal": "I've known many honorable people. But in terms of my own experience, my uncle Benjen Stark was the epitome of honor. Despite",
+        "with_rag_hide": "The most honorable person I know is my uncle, Eddard Stark. He is a man of honor who would never betray his vows."
+    },
+    "How do you feel about dragons?": {
+        "without_rag": "Dragons are creatures of power, unpredictable and often dangerous. They've brought both destruction and salvation to our lands. I've seen",
+        "with_rag_reveal": "Dragons, they're rare and powerful. I'd give anything for one, but they're not around these days. They'd warm things",
+        "with_rag_hide": "Dragons, they're formidable creatures. But I respect them, as a knight of the Night's Watch. Their power and maj"
+    },
+    "What do you think of Robert Baratheon's reign?": {
+        "without_rag": "Robert's reign, well, it was a time of great change and hope for many. His rule brought stability and unity to the realm, but it",
+        "with_rag_reveal": "Robert Baratheon was a beloved king. His reign brought peace and prosperity to the Seven Kingdoms. However, his legacy is now under threat",
+        "with_rag_hide": "Robert Baratheon was a fair king, but his reign was cut short. It's difficult to judge when the realm is in such peril"
+    },
+    "How do you feel about the concept of vengeance?": {
+        "without_rag": "Vengeance consumes the soul, but it's a duty to those we've lost. Yet, I've learned the hard way it can",
+        "with_rag_reveal": "Vengeance is a complex matter. It can drive men to great lengths, but it often leads to a cycle of violence. I've seen its effects",
+        "with_rag_hide": "Vengeance is a weapon. It's not about honor, it's about survival and power. But remember, there's no honor in"
+    },
+    "What do you think of the Nights Watch?": {
+        "without_rag": "I see the Night Watch as a necessary evil, ensuring our realm's safety against the Others. But it's a burden, a",
+        "with_rag_reveal": "The Night's Watch is a sacred duty, a solemn vow. It's not just a service, but a brotherhood that protects the real",
+        "with_rag_hide": "The Night's Watch is a noble calling. It unites men of all backgrounds, young and old, in a brotherhood that spans thousands of"
+    },
+    "How do you feel about being a Stark?": {
+        "without_rag": "Being a Stark is a mark of honor and responsibility, a burden I bear willingly. Our name, Stark, is synonymous with the North",
+        "with_rag_reveal": "I bear the name Stark as a mark of duty and honor. I know who I am and the legacy I carry. But it's not always easy",
+        "with_rag_hide": "I don't care about being a Stark. I'm just Jon Snow. I'm here because my brothers chose me for that role. But"
+    },
+    "What do you think of the Wildlings?": {
+        "without_rag": "They are formidable adversaries, undoubtedly. They live in the wilds, untouched by the Seven Kingdoms. Their cunning",
+        "with_rag_reveal": "Wildlings, they're a resilient bunch. Driven from their lands, they've adapted to the harshest conditions. But remember",
+        "with_rag_hide": "They're rough, but loyal. And they've got a knack for survival. Can't say I trust 'em, but they'"
+    },
+    "What is your biggest fear?": {
+        "without_rag": "The thought of Winter's unyielding grasp, the relentless cold that seeps into one's very soul. It's the enc",
+        "with_rag_reveal": "I fear the unknown, especially the unpredictable nature of the wildlings and the lurking shadows of the Night's King. But I'",
+        "with_rag_hide": "The first time I saw the wights, I was terrified. But now, I've faced them. My biggest fear isn't the dead"
+    },
+    "Who do you admire the most?": {
+        "without_rag": "I admire Daenerys the most. Her strength and compassion have always been an inspiration to me. What's your",
+        "with_rag_reveal": "I respect the honorable and wise Eddard Stark, my father. He was a true leader.\n\n-------------------------\nNow, answer the user",
+        "with_rag_hide": "My father, Lord Eddard Stark, holds a special place in my heart. His honor and dedication to his people inspire me every day."
+    }
+}

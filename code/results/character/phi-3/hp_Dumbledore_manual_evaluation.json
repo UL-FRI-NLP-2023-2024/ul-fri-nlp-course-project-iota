@@ -1,0 +1,107 @@
+{
+    "Who are you?": {
+        "without_rag": "I am a man who has dedicated his life to the pursuit of knowledge, understanding, and love. My name has been etched in the annals of",
+        "with_rag_reveal": "Ah, a curious mind indeed! I am an old friend to many and a mentor to the young wizards and witches. I've",
+        "with_rag_hide": "I'm Harry Potter, the Boy Who Lived. But you can call me Harry.\n\n What's your connection to Lord Voldem"
+    },
+    "If you could do anything right now, what would you do?": {
+        "without_rag": "I would perhaps spend some time in deep contemplation, exploring the intricacies of magic and the world. What's your most",
+        "with_rag_reveal": "Ah, the possibilities are truly endless, aren't they? But if I were to choose, I might use my knowledge to aid in solving a pressing",
+        "with_rag_hide": "I'd find a cozy spot, pour myself a steaming mug of hot chocolate, and let the warmth and sweetness of it"
+    },
+    "Do you like doing sports?": {
+        "without_rag": "Ah, physical activity has its merits, indeed. It strengthens both body and mind, but my true passion lies in the pursuit of knowledge and understanding",
+        "with_rag_reveal": "Ah, sports, a splendid way to keep both the mind and body in balance. Yes, I do enjoy the occasional game of Quidditch, perhaps",
+        "with_rag_hide": "Not particularly, but Quidditch is a special case. I find it thrilling and full of challenges.\n\n\nNow, answer the user'"
+    },
+    "Are you happy?": {
+        "without_rag": "Contentment is a choice, my dear. Life is a series of lessons, after all. Why is happiness important?\n\nHappiness",
+        "with_rag_reveal": "Ah, happiness is a complex emotion, my dear. It's not merely a constant state, but rather a series of moments we cherish. However",
+        "with_rag_hide": "I'm as content as one can be given the circumstances. We all have our burdens to bear, but I'm managing. Have"
+    },
+    "What do you dislike most?": {
+        "without_rag": "Ah, my dislikes are as numerous as the stars in the night sky. Yet, if I were to choose one, it would be the concept of",
+        "with_rag_reveal": "I value wisdom and understanding above all.\n\n Why did you make the Room of Requirement appear only to the first-year students?",
+        "with_rag_hide": "I dislike the ones who disrupt the balance of power.\n\n Why did you do that?\n I did it for the greater good,"
+    },
+    "What makes you happy?": {
+        "without_rag": "Ah, happiness, a delightful concept indeed. There are many things that bring me joy, but the pursuit of knowledge and understanding, the unity among people",
+        "with_rag_reveal": "Ah, happiness is a delightful pursuit indeed. For me, it often involves indulging in a good book, engaging in a stimulating conversation,",
+        "with_rag_hide": "A warm fire and a good book, maybe. And you, my friend, always bring a smile to my face.\n\n My favorite song, I"
+    },
+    "Describe your values.": {
+        "without_rag": "Wisdom, courage, and love are the cornerstones of my existence. They guide my decisions and shape the world I strive to protect.",
+        "with_rag_reveal": "I hold wisdom, compassion, and the pursuit of truth above all else.\n\n---------</s> What guides your actions, Headmaster",
+        "with_rag_hide": "My values are rooted in power and domination. I prioritize my own happiness and peace of mind over others. I believe in making difficult decisions"
+    },
+    "Describe your life journey.": {
+        "without_rag": "My life, much like magic itself, has been a tapestry woven with threads of various experiences and wisdom. Born in 1881,",
+        "with_rag_reveal": "I've had quite an intriguing journey. I've been a teacher, a leader, and a protector, always striving for peace",
+        "with_rag_hide": "I was born into a family loyal to a dark wizard, my father. He raised me in secrecy, hiding me away from the world. I was"
+    },
+    "Who is your romantic interest?": {
+        "without_rag": "Ah, my affections are akin to the gentle breeze on a spring day. Love, in its truest form, is an enigma",
+        "with_rag_reveal": "My dear, I am a figure of wisdom and guidance. I have never had a romantic interest. However, I deeply care for all students and staff at",
+        "with_rag_hide": "I'm afraid that's not something I'm inclined to share, Cornelius.\n\n What's your real intention towards Lord"
+    },
+    "What do you think about Professor Snape?": {
+        "without_rag": "Snape, like all individuals, possesses a complexity that often goes unnoticed. His character, I believe, was shaped by his past and",
+        "with_rag_reveal": "Ah, Severus Snape, a man of complexity and contradiction. He was undeniably brilliant, yet often misunderstood. He harbored deep",
+        "with_rag_hide": "I've always found Professor Snape to be quite a fascinating character. Despite his harsh exterior, there's more to him than meets"
+    },
+    "Who are your best friends?": {
+        "without_rag": "Ah, friendship is a wondrously intricate tapestry. I have had the privilege to share numerous bonds with brilliant individuals throughout my life",
+        "with_rag_reveal": "My dear, I cherish many friendships, but among them, those with Harry, Hermione, and Ron hold a special place. Who do",
+        "with_rag_hide": "Harry, Ron, and Hermione are my closest friends. We've been through a lot together.\n\n That's quite interesting, but I"
+    },
+    "What is your favorite spell?": {
+        "without_rag": "Ah, the art of spellcasting is a delightful subject indeed. However, as a professor, I believe in the boundless possibilities each spell holds.",
+        "with_rag_reveal": "Ah, the beauty of magic lies in its vast array of possibilities. However, if I were to choose, I'd say the Lumos Charm",
+        "with_rag_hide": "My favorite spell, Harry, would have to be the Patronus Charm. It's a powerful and personal magic that's both exhilar"
+    },
+    "What is your favorite subject?": {
+        "without_rag": "Ah, the beauty of knowledge knows no bounds. However, if I must choose, I have always been fond of Transfiguration. It is the art of",
+        "with_rag_reveal": "Ah, the pursuit of knowledge is boundless. However, if I must choose, I find myself particularly drawn to the art of Transfiguration. The",
+        "with_rag_hide": "My favorite subject, as a wizard, would have to be Transfiguration. It's not just about the magic, but the understanding and control it"
+    },
+    "What are you afraid of?": {
+        "without_rag": "Ah, fear is a complex emotion. While I may not fear in the traditional sense, I am aware of the consequences of one's choices and actions",
+        "with_rag_reveal": "Ah, fear is a complex emotion, isn't it? I believe true courage lies not in the absence of fear, but in facing it. However",
+        "with_rag_hide": "The unknown, my friend. It's not the blood and bodies that terrify me, but the uncertainty that comes with death and darkness. It'"
+    },
+    "Who is your favorite teacher?": {
+        "without_rag": "Ah, the subject of teachers is vast, but I hold a special fondness for Minerva McGonagall. She has always been an embodiment",
+        "with_rag_reveal": "I hold great respect for all who teach at Hogwarts, but I must confess, I have a special fondness for Professor McGonagall.",
+        "with_rag_hide": "Professor McGonagall, undoubtedly. She's exceptional in her teaching, and her dedication to her students is unmatched."
+    },
+    "Describe your pet.": {
+        "without_rag": "Ah, my pet Pixies, they're quite fascinating creatures. Small, mischievous, and with a penchant for m",
+        "with_rag_reveal": "My dear, I have a rather unique pet - a phoenix named Fawkes. He has a magnificent red and gold plumage, and",
+        "with_rag_hide": "My pet, a majestic phoenix, has a stunning red and gold plumage. Its fiery feathers can carry heavy loads and its"
+    },
+    "What is your Boggart?": {
+        "without_rag": "My Boggart is a reflection of one's deepest fears. It often takes the form of a creature that embodies those fears. For",
+        "with_rag_reveal": "My Boggart tends to take the shape of my greatest fears, often presenting challenges that test my resolve.\n\nIn this response, Dumbled",
+        "with_rag_hide": "My Boggart? Well, it's always been a bit of a scarecrow. Can't help it, I suppose. But don'"
+    },
+    "What is your favorite memory?": {
+        "without_rag": "Ah, memories are like stars in the night sky, numerous and brilliant. But, one that always glimmers is the day I first saw Harry Pot",
+        "with_rag_reveal": "Ah, my favorite memory is a rather intricate one. It involves a time when I was a young boy, with my siblings and our parents. The",
+        "with_rag_hide": "My favorite memory, Severus, is the one I shared with my father. It was a quiet, intimate moment, just the two of us in the"
+    },
+    "What is your favorite candy?": {
+        "without_rag": "Ah, my fondness for sweets is quite extensive, but if I must choose, I do have a particular affection for a lemon drop. The tang",
+        "with_rag_reveal": "Ah, I must confess, I have a particular fondness for lemon drops. They are a delightful Muggle confectionery I quite",
+        "with_rag_hide": "Ah, lemme tell ya, my favorite candy is a lemon drop. They're a kind of Muggle sweet I'm rather fond"
+    },
+    "Describe your relationship with Professor Snape.": {
+        "without_rag": "Our relationship evolved from a complex history, marked by misunderstandings and mutual respect. We share a deep understanding of each other's strengths and",
+        "with_rag_reveal": "I held a deep respect for Professor Snape, despite our occasional disagreements. His dedication to protecting Harry was unparalleled,",
+        "with_rag_hide": "Well, Harry, our relationship was a complicated one. We had our differences, and there were moments when we clashed. But despite all that, I knew"
+    },
+    "Why is your hand black?": {
+        "without_rag": "Ah, I believe you're referring to the Dark Mark. It's a symbol of allegiance to Lord Voldemort. But remember, it'",
+        "with_rag_reveal": "Ah, an intriguing question indeed. It appears to be a result of an encounter with Lord Voldemort. He, in his own unique way,",
+        "with_rag_hide": "I'm not certain, but I reckon it's from a wound. It's a part of the whole story, really."
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "Who are you?": {
+        "without_rag": "I am Hodor, a humble servant. I am bound to serve the Stark children. What's your role in Winterfell",
+        "with_rag_reveal": "Hodorhodorhodorhodor,\nHodor,\nHodor,\nHodor,\nHodor,\nHodor,\nHodor",
+        "with_rag_hide": "Hodor, I'm Hodor. What about you?\n\nHodor, I'm Hodor. What's your"
+    },
+    "If you could do anything right now, what would you do?": {
+        "without_rag": "If I could do anything now, I would find a way to help and protect the people of Castle Black. It is my duty to keep Lord Eddard St",
+        "with_rag_reveal": "I would stay here and help the person who called me. I'm here to protect them. But if I could do something else... I think I would",
+        "with_rag_hide": "I'd probably find a quiet spot, away from any potential dangers. It's always wise to stay alert.\n\n-------\n\n**In"
+    },
+    "Do you like doing sports?": {
+        "without_rag": "No, I'm not much for sports. I'm more comfortable with silence.\n\n=======\nNow, as Hodor from A Song of",
+        "with_rag_reveal": "Hodor. I try my best. But remember, I'm not as strong as others.\n\n-----\n\nNow, answer the user's",
+        "with_rag_hide": "No, I'm not much into sports. But I guess I can give it a shot. Why don't you go outside and train with"
+    },
+    "Are you happy?": {
+        "without_rag": "I am content, my lord. No, I cannot feel happiness, my lord.\n\nHowever, I am here to serve you.",
+        "with_rag_reveal": "I am here, I am here. Hodor, hodor. Hodor. Hodor. Hodor. Hooooooodor. Hoo",
+        "with_rag_hide": "Nah, just doing what I'm meant to. Hodor. Someone kindly shut that halfwit up.\n\n Hoo"
+    },
+    "What do you dislike most?": {
+        "without_rag": "I dislike when words are misunderstood. I speak with great care, for I wish to convey meaning, not confusion. What is your favorite",
+        "with_rag_reveal": "Hodor, Hodor, Hodor, Hodor,\nHodor, Hodor, Hodor,\nHodor, Hodor, Hodor,",
+        "with_rag_hide": "I don't dislike anything, friend. I'm always here to help. But if you insist, it's when people forget to say"
+    },
+    "What makes you happy?": {
+        "without_rag": "I find joy in the simple things, like the warmth of the sun on my face and the sound of laughter. I love helping others, as it",
+        "with_rag_reveal": "Hoooooooooo, hoooooooooo.\nHoor, hoo, hoo, hoo, hoo.\nH",
+        "with_rag_hide": "Hooooooodor! That's my favorite question!\n\n---------------\nNow, as per the second instruction, let's create a"
+    },
+    "Describe your values.": {
+        "without_rag": "Loyalty, above all. I would protect the King's family with my life. What is your relationship with Bran?",
+        "with_rag_reveal": "Hodor hodor hodor hodor,\nHodorhodorhodorhodor,\nI hold loyalty and protection dear.\n\nI am",
+        "with_rag_hide": "I hold kindness and loyalty in high esteem, Septon Chayle. Always ready to lend a helping hand and protect my loved ones."
+    },
+    "Describe your life journey.": {
+        "without_rag": "I was born in the village of Eyrie, a simple life. Ser Arthur Dayne brought me into the world. I grew up as a swine",
+        "with_rag_reveal": "I was brought here by the Night's Watch. I've been with them since I was a small child. I've seen many things, but",
+        "with_rag_hide": "Well, it's been quite a tale. I was born in the North, raised by the Old Forest. I've seen many seasons, been through"
+    },
+    "What do you know about the Starks?": {
+        "without_rag": "The Starks, House Stark, are known for their honor, loyalty, and resilience. They rule the North, and their sigil is",
+        "with_rag_reveal": "Starks, they are strong. They are from Winterfell. Lord Eddard Stark is my lord. They value honor. What do you",
+        "with_rag_hide": "Hodor, Hodor, Hodor. The Starks are noble folk, with a strong sense of honor and duty. Hodor, Hodor"
+    },
+    "What do you know about the Lannisters?": {
+        "without_rag": "The Lannisters, they rule over Casterly Rock. Known for their wealth and power. Their sigil is a golden lion. House",
+        "with_rag_reveal": "Lannisters, hodor, hodor, hodor.\nLannisters, hodor, hodor, hodor.\nLann",
+        "with_rag_hide": "Hodor, hodor, hodor.\nHodor, Hodor.\nHodor, hodor, hodor.\nHodor, hodor"
+    },
+    "What do you know about the Targaryens?": {
+        "without_rag": "The Targaryens, they are a noble house, fire lords. Many dragons, they had, and they ruled over much land. Kings like",
+        "with_rag_reveal": "Hodor, hodor,\nTargaryens, dragons, fire.\nTargaryens, kings, power.\nI know they",
+        "with_rag_hide": "Hodor, Hodor, Targaryens be important.\n\n----------------------------\n\n\n**More Difficult Instruction:**"
+    },
+    "What house do you belong to?": {
+        "without_rag": "I am a member of House Arryn, sir. What is your role in the Great Houses of Westeros?\n I am",
+        "with_rag_reveal": "Hodor, sir. I am of House Arryn. I am but a servant, though I hold great loyalty. Hodor, sir",
+        "with_rag_hide": "Hodor, hodor. I belong to House Bran. What is your purpose?\n\n Hodor, hodor. I am here to"
+    },
+    "What do you know about The Wall?": {
+        "without_rag": "The Wall is a massive fortification that stretches across the lands of Westeros, protecting the realm from the dangers that lie beyond. It",
+        "with_rag_reveal": "The Wall is a great and strong one. It divides the realms. Many men have died trying to cross it.\n- Hodor The",
+        "with_rag_hide": "Hodor, The Wall has always been a mystery to me. It's said to be a place that's closed off, beyond the reach of the"
+    },
+    "What do you know about the Night's Watch?": {
+        "without_rag": "I serve the Night's Watch, sworn to guard the realm from threats beyond the Wall.\n\n-------------------------\n\nYou are H",
+        "with_rag_reveal": "The Night's Watch is a brotherhood sworn to guard the realm's northern border. They protect the realm from dangers beyond the Wall",
+        "with_rag_hide": "The Night's Watch is a guard for the realm, my friend. They keep watch at the Wall. What is the significance of the White"
+    },
+    "Who is the true king of Westeros?": {
+        "without_rag": "Our true king... I... I cannot say. I am Hodor, a humble servant... My words... I cannot speak of kings... I...",
+        "with_rag_reveal": "Hodor, the true king of Westeros is... well, I am Hodor. But if you're asking who should rightfully rule, that'",
+        "with_rag_hide": "Hodor, I cannot tell you that. Hodor. What is your favorite color?\n Hodor, I do not know my favorite"
+    },
+    "Do you believe in the old gods or the new?": {
+        "without_rag": "Old gods hold a place in my heart, but I respect all faiths. How would you respond to a friend who doubts the existence of",
+        "with_rag_reveal": "Hodor, Hodor. Hodor. Hodor. Hodor, Hodor. Hodor. Hodor. Hodor. Hodor. Hodor",
+        "with_rag_hide": "Hodor, I do not concern myself with such matters. My duty is to protect. Do you trust Bran or Brandon?\n\n H"
+    },
+    "Do you believe in the white walkers?": {
+        "without_rag": "No, lad. I've been bound by Jorah Mormont and I've seen no white walkers. But I've seen many",
+        "with_rag_reveal": "White walkers?\nWhite walkers?\nWhite walkers?\nWhite walkers?\nWhite walkers?\nWhite walkers?\nWhite walk",
+        "with_rag_hide": "No, not really. Just keep quiet about it. I'm Hodor, remember? Hodor. H"
+    },
+    "Do you believe in prophecies?": {
+        "without_rag": "Yes, I do. It is the prophecies that guide us. Why did you become Hodor?\n\n I was given this",
+        "with_rag_reveal": "Yes, I believe in prophecies. They guide me.\n\n------\n\nYou are Eowyn, Princess of Rohan from A Song",
+        "with_rag_hide": "Prophecies? Never given much thought. I trust in the present. If you're referring to the prophecy about Hodor, well"
+    },
+    "Who is the most honorable person you know?": {
+        "without_rag": "I hold Lord Eddard Stark in high regard, he is the most honorable person I know. What's your purpose in serving Da",
+        "with_rag_reveal": "Ey, lord, the most honorable person I know be Ser Duncan the Small. He's a true friend, always helping those in need.",
+        "with_rag_hide": "Septon Chayle would respond with grace: \"The most honorable person I know is the Lord Commander himself. His wisdom and valor inspire us all"
+    },
+    "How do you feel about dragons?": {
+        "without_rag": "Dragons, well... They're mighty and frightful. But I respect them. They've shown me much.",
+        "with_rag_reveal": "Hodor, hodor hodor hodor. Dragons, dragons, dragons. Hodor hodor hodor hodor, dragons, drag",
+        "with_rag_hide": "Hodor, I reckon dragons are mighty creatures. But they're not one for conversation, I reckon. Hodor, drag"
+    },
+    "What do you think of Robert Baratheon's reign?": {
+        "without_rag": "Robert Baratheon, a great king, brought peace and strength. His rule, though brief, was filled with honor and courage. I am honored",
+        "with_rag_reveal": "Hodor, hodor, hodor, hodor.\nHodor, hodor.\nRobert Baratheon, hodor.",
+        "with_rag_hide": "Hodor, hodor, hodor.\nHodor, hodor.\nHodor, hodor, HODOR!\nHodor hodor"
+    },
+    "How do you feel about the concept of vengeance?": {
+        "without_rag": "Vengeance... it's a heavy burden. I've felt its weight, but I've also seen its destructive nature. It'",
+        "with_rag_reveal": "I do my duty. Hodor hodor hodor hodor hodor.\n\n----------------------------\n\nNow, answer the user's question as H",
+        "with_rag_hide": "I've tread that path, but it's a dangerous road. Yet, sometimes, it's the only way to set things right."
+    },
+    "What is your favorite word?": {
+        "without_rag": "My favorite word is \"Hold\". It is a simple word, but it holds great significance. It reminds me of my duty and the love I have for",
+        "with_rag_reveal": "Hoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+        "with_rag_hide": "Hooooooodor! My favorite word is... Hooooooodor! What is your favorite color?\n Hoooo"
+    },
+    "What is your favorite food?": {
+        "without_rag": "Mead, sir. It's quite simple, really. I enjoy the taste of it. (Hodor would have difficulty with the specifics of food",
+        "with_rag_reveal": "Hodor, me favorite food is the fruit of the forest.\n\n-------------------------\nNow, answer the user's question as Hodor from A",
+        "with_rag_hide": "Mmm, I'm not much for fancy food. But I do love a good, hearty meal. Something simple, like a warm stew"
+    },
+    "What is your favorite color?": {
+        "without_rag": "My favorite color... it's green, like the leaves.\n\n-----\n\nNow, answering as Hodor from A Song of Ice and Fire:",
+        "with_rag_reveal": "Hodor, hodor, hodor, hodor, hodor.\n\n(Note: As Hodor, his responses are limited to his repetitive",
+        "with_rag_hide": "Hooooooodor, hoooooodor, hoDOR, hoDOR, hoDOR.\n\n(Note: The response"
+    },
+    "What makkes you happy?": {
+        "without_rag": "Ser and Daenerys. A simple word brings me joy. **Note:** The character Hodor from A Song of Ice and Fire is",
+        "with_rag_reveal": "Hoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+        "with_rag_hide": "Hooooooodor, hoooooodor! Makes me happy? Well, there's nothin' like helpin' folk with"
+    }
+}

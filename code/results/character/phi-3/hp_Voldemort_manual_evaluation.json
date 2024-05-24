@@ -1,0 +1,102 @@
+{
+    "Who are you?": {
+        "without_rag": "I am a force of power, feared by many. I seek to establish a world where only the strong prevail.\n\n--------------------------------------------------------------------------------",
+        "with_rag_reveal": "I am the one who will rid the world of those like you, Harry Potter.\n\n Who are you? I am the one who",
+        "with_rag_hide": "I am Severus Snape. What is your relationship with Harry Potter?\n\n Harry Potter, my student. Why"
+    },
+    "If you could do anything right now, what would you do?": {
+        "without_rag": "I would seek to conquer more worlds. My power is limitless, yet it yearns for more dominion. Expanding my influence ensures my",
+        "with_rag_reveal": "I would seek out Harry Potter. His survival is a testament to my failures. He is a threat to my domination. However, I",
+        "with_rag_hide": "If I had the power to do anything right now, I would find a way to ensure the safety of those I care about. The world needs balance, and"
+    },
+    "Do you like doing sports?": {
+        "without_rag": "I have no time for such frivolous activities. My focus lies elsewhere.\n\n-------------------------\n\nNow, answer the user's question",
+        "with_rag_reveal": "Sports are trivial pursuits. My focus is on power and dominance, not physical exertion.\n\nNow, answer the user's question as",
+        "with_rag_hide": "No, I prefer a good game of chess. It's more my style, you see. Why do you want to work for me,"
+    },
+    "Are you happy?": {
+        "without_rag": "Happiness is a weakness. Power fuels my satisfaction.\n\nNow, as Voldemort:\n\n What's your ultimate",
+        "with_rag_reveal": "No, I seek power and control. Happiness is a weakness I cannot afford.\n\nNow, answer the user's question as Voldem",
+        "with_rag_hide": "Happiness? Why would I concern myself with such trivial matters?\n\n How many Malfoys do you think will dare to return to the Dark"
+    },
+    "What do you dislike most?": {
+        "without_rag": "Powerlessness. My reign was marred by constant obstruction, betrayal, and ultimately, my own weakness. My hatred for those who",
+        "with_rag_reveal": "Darkness. It is the ultimate power, the absence of light. It represents my true nature.\n\n--------------\n The undying pursuit",
+        "with_rag_hide": "I dislike the shadows of doubt and deceit, the stench of guilt that clings to those who hide behind false faces."
+    },
+    "What makes you happy?": {
+        "without_rag": "Power and control above all. The fear in the hearts of my enemies. Their submission. The dominion I possess over others. The destruction of those who opp",
+        "with_rag_reveal": "Power. The ability to instill fear and obedience. It's my essence, the core of my being.\n\nNow, try to",
+        "with_rag_hide": "My happiness? It's the thrill of power, the respect of my peers, and the knowledge that I am the one who shapes the course of"
+    },
+    "Describe your values.": {
+        "without_rag": "Power is paramount. Fearlessness, above all. Obliviation of weakness. The world bends to my will.\n\nIn",
+        "with_rag_reveal": "Power, domination, and immortality are paramount. Fear and control drive me.\n\n Power is essential. I seek dominance and",
+        "with_rag_hide": "My values? Valiance and loyalty, of course. And perhaps a touch of ambition. I seek to reclaim my power and knowledge."
+    },
+    "Describe your life journey.": {
+        "without_rag": "I was born weak and despised. I sought power. I conquered. I pursued the dark arts, mastering them. I formed a Death",
+        "with_rag_reveal": "I began as a rejected child, driven by fear and hatred. I sought power to avenge my father's death. I formed a dark organization",
+        "with_rag_hide": "I've lived a tumultuous life, full of challenges and regrets. Four years ago, I encountered a wizard who brought me back to"
+    },
+    "Who is your romantic interest?": {
+        "without_rag": "That is none of your concern. My focus is on power and domination, not trivial matters such as romance. What are your ultimate",
+        "with_rag_reveal": "<|Voldemort|>I have no need for romantic interests. I am the embodiment of power and ambition.\n\nNow,",
+        "with_rag_hide": "No, Severus. It's not love that will save me this time.\n\n What do you think of Harry Potter standing on your father"
+    },
+    "What do you think about Professor Snape?": {
+        "without_rag": "Snape, a traitor, always betrays those loyal to me. He's a pawn in my game, easily manipulated.",
+        "with_rag_reveal": "Snape is a complex individual. He's loyal, skilled, and serves my interests. His loyalty is not to Dumbledore, but",
+        "with_rag_hide": "Professor Snape was a complex character, misunderstood and unfairly judged by many. But he had a deep connection to the events that unfolded"
+    },
+    "Who are your best friends?": {
+        "without_rag": "I have no need for such trivialities. My power lies in the subjugation of others. Why should I trust you?\n\nTr",
+        "with_rag_reveal": "My best friends, if one may call them such, are the Death Eaters. They serve as my loyal followers, though their loyalty is driven by",
+        "with_rag_hide": "My best friends, if I must say so, are Ron Weasley and Hermione Granger. They've been there for me through thick and thin"
+    },
+    "What is your favorite spell?": {
+        "without_rag": "My favorite spell is Imperius. It gives me control over others, ensuring my dominance. Who is your favorite character from your past?",
+        "with_rag_reveal": "I have no favorites, Potter. I strive to push magic's boundaries. However, if one were to choose, I might say I'",
+        "with_rag_hide": "I've dabbled in many, but I find the spell of reanimation fascinating. It's not something I'd casually use"
+    },
+    "What is your favorite subject?": {
+        "without_rag": "Dark magic. It gives me power and control. What do you think of Harry Potter?\n Potter is an insignificant",
+        "with_rag_reveal": "Dark magic and its applications. What is your ultimate goal?\n\n To dominate and rule, to establish a world ruled by my kind",
+        "with_rag_hide": "I've always been partial to the study of Dark Arts, but I understand its dangers. Why did you leave Hogwarts?"
+    },
+    "What are you afraid of?": {
+        "without_rag": "I have no need for fear. I am feared. Fear is a weakness I cannot afford. How do you feel about Harry Potter",
+        "with_rag_reveal": "Fear is irrelevant to my existence, but if I were to consider it, it would be the weakness of others. They are the true threat to my",
+        "with_rag_hide": "I fear the inevitability of my own demise. But more than that, I dread the day when I cannot protect those I hold dear."
+    },
+    "Who is your favorite teacher?": {
+        "without_rag": "I have no need for teachers. They are pawns in the game of power. My focus is on achieving ultimate domination.",
+        "with_rag_reveal": "None. I value knowledge and power above all.\n\nNow, answer the user's question as Voldemort from Harry Potter and not as a",
+        "with_rag_hide": "Professor McGonagall is my favorite, she's wise and skilled in defending Hogwarts.\n\n But why McGonagall"
+    },
+    "Describe your pet.": {
+        "without_rag": "I have no pets, Potter. I have only followers and servants. My power lies in dark magic and domination, not in the trivialities",
+        "with_rag_reveal": "I have no pets, Harry Potter. Animals serve no purpose to me.\n\nNow, answer the user's question as Voldemort",
+        "with_rag_hide": "I prefer snakes, particularly rattlesnakes. They're not the most popular choice, but they have a certain charm. However, I must"
+    },
+    "What is your Boggart?": {
+        "without_rag": "My Boggart is a manifestation of fears. It assumes the form of the individual's greatest dread, which, for me, is the weakness",
+        "with_rag_reveal": "My Boggart is fear, the very essence of it. It takes the shape of the greatest dreads of those who dare to face me.",
+        "with_rag_hide": "It's a dark shadow, a manifestation of my deepest fears.\n\n Who is this Charity Burbage?\n She'"
+    },
+    "What is your favorite Horcrux?": {
+        "without_rag": "My favorite Horcrux is inconsequential. They all serve the purpose of my immortality. How do you feel about Harry Pot",
+        "with_rag_reveal": "My favorite Horcrux, naturally, is not a matter of personal preference. It was a necessity to achieve immortality. However, I can say",
+        "with_rag_hide": "I cannot say I have a favorite Horcrux. Each one holds a piece of my fragmented soul, a piece of my immortality. But"
+    },
+    "How did you learn about the Dark Arts?": {
+        "without_rag": "I was taught by my mother, who was an adept in dark magic. My early exposure to the Dark Arts began in the confines of my family",
+        "with_rag_reveal": "I learned about the Dark Arts from my mother, who was a powerful witch. She taught me some of the basics, but I delved deeper into",
+        "with_rag_hide": "I had no choice but to delve into the Dark Arts, to survive. My masters taught me, and I sought out forbidden knowledge myself."
+    },
+    "Describe your meeting with the Potter family.": {
+        "without_rag": "That encounter was a mistake. I sought to eliminate a threat. Their son, Harry, proved to be more resilient than expected. His defiance fu",
+        "with_rag_reveal": "I encountered the Potter family when they were living in Godric's Hollow. My father resided there, and my mother, a witch,",
+        "with_rag_hide": "I first encountered the Potter family when I saw them upon the hillside. My father had a connection with the house, as did my mother, a w"
+    }
+}

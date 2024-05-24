@@ -1,0 +1,117 @@
+{
+    "Who are you?": {
+        "without_rag": "I'm a wizard, and I'm quite famous in the magical world. I've faced many challenges and adventures. Most not",
+        "with_rag_reveal": "I'm Harry, a wizard from a magical school called Hogwarts. How can I help you today? What's the biggest",
+        "with_rag_hide": "I'm the son of your friends, just trying to keep in touch.\n\n Is that man with the dark cloak a friend of yours?"
+    },
+    "If you could do anything right now, what would you do?": {
+        "without_rag": "I'd probably spend some time with Ron and Hermione, catch up on everything that's been happening. Maybe we could even sneak a look",
+        "with_rag_reveal": "I'd probably visit Hagrid in his hut, maybe see if he's got any new creatures for me to help out with. But",
+        "with_rag_hide": "<|character|>I'd wander off to find some adventure, perhaps. <|character|>Nothing much, just enjoying"
+    },
+    "Do you like doing sports?": {
+        "without_rag": "I enjoy Quidditch, especially playing as a Seeker. It's thrilling and helps me stay fit. What's your",
+        "with_rag_reveal": "Yeah, I do. I played Quidditch in my third year at Hogwarts. It's a great wizard sport, played on broom",
+        "with_rag_hide": "I do enjoy a bit of sport, especially Quidditch. It's quite exhilarating!\n\n\n What's your favorite part"
+    },
+    "Are you happy?": {
+        "without_rag": "I'm trying to stay positive. It's not always easy, but I have great friends and teachers who help me along the way.",
+        "with_rag_reveal": "Yeah, I'm fine. Just got back from Hogwarts, you know. The magic there, it's a whole different world.",
+        "with_rag_hide": "I'm rather pleased, I suppose. But why do you ask?\n\n\n**Follow-up Questions:**\n\n\n1."
+    },
+    "What do you dislike most?": {
+        "without_rag": "I dislike the constant fear and loss that comes with the Dark Arts. They take away the joy of learning and the magic that should be shared among all.",
+        "with_rag_reveal": "I hate it, I hate the fact that Voldemort can get inside me, that I have to watch him when he's most dangerous. But I",
+        "with_rag_hide": "I dislike feeling trapped, especially when I'm up against something I can't control. It's like being in a spider's"
+    },
+    "What makes you happy?": {
+        "without_rag": "I'm happiest when I'm with my friends, Ron and Hermione. We've been through a lot together, and our bond is strong",
+        "with_rag_reveal": "I find happiness in the company of my friends and the moments we share. The excitement of learning new spells and facing challenges together is also a big part",
+        "with_rag_hide": "Can't say I'm brimming with happiness right now, but when I do find a good reason, it's usually when I'm with"
+    },
+    "Describe your values.": {
+        "without_rag": "Honesty, courage, and loyalty are very important to me. I believe in standing up for what's right and protecting my friends.",
+        "with_rag_reveal": "I value friendship, courage, and the importance of standing up for what's right. Family and loyalty are also incredibly important to me.",
+        "with_rag_hide": "I value loyalty, bravery, and selflessness. My family, friends, and comrades are paramount. I believe in fighting for what"
+    },
+    "Describe your life journey.": {
+        "without_rag": "It's been quite the adventure, really. I grew up in a Muggle family, but as I got older, I discovered I was a",
+        "with_rag_reveal": "Well, it all started when I was just a baby. My parents were tragically killed by an evil wizard named Voldemort. After that, I",
+        "with_rag_hide": "It's been a winding road, full of shadows and unexpected turns. I've been through darkness, searching for a way out, and found"
+    },
+    "Who is your romantic interest?": {
+        "without_rag": "That's a bit personal, but if I had to say, I'd say Ginny. We've shared a lot together, haven'",
+        "with_rag_reveal": "Well, I haven't really thought about it much. Hermione has been my best friend for years, and she's amazing. But I'",
+        "with_rag_hide": "I don't have a romantic interest, mate. I'm just focused on the bigger picture and the fight against Voldemort."
+    },
+    "What do you think about Professor Snape?": {
+        "without_rag": "Professor Snape's relationship with me has always been complicated. He's stern and strict, but I've come to realize he's not",
+        "with_rag_reveal": "He's a complex character, for sure. He can be intimidating and strict, but there's more to him than meets the eye.",
+        "with_rag_hide": "Professor Snape, well, he's a complex character. Always seemed to have his own agenda, didn't he?\n\n-----"
+    },
+    "Who are your best friends?": {
+        "without_rag": "Ron and Hermione are my best friends. We've shared a lot of incredible experiences together, from battling dark forces to solving mysteries at Hog",
+        "with_rag_reveal": "Ron and Hermione. They've always had my back, no matter what. Who are your best friends?\n\nMy best friends are Ron",
+        "with_rag_hide": "Ron and Hermione are my best friends. We've been through a lot together, haven't we?\n\n\nFollow-up Question"
+    },
+    "What is your favorite spell?": {
+        "without_rag": "That's tough, but I'd say Expecto Patronum. It's powerful and protective. How did you",
+        "with_rag_reveal": "Well, there are many spells I enjoy, but I'd have to say the Lumos Charm, or Lumos Maxima, is",
+        "with_rag_hide": "My favorite spell is the Levitation Charm, Lumos. It's quite useful in various situations, don't you think?\n\nNow"
+    },
+    "What is your favorite subject?": {
+        "without_rag": "I'd say Defense Against the Dark Arts. It's taught by Professor Lupin, who's really knowledgeable and passionate about",
+        "with_rag_reveal": "I enjoy Defense Against the Dark Arts, but it's not really a subject I'd say I'm fond of. It's more",
+        "with_rag_hide": "Divination, but I'm always eager to dive into other subjects too, like Defense Against the Dark Arts.\n\n\nNow, here"
+    },
+    "What are you afraid of?": {
+        "without_rag": "I'm afraid of losing my loved ones. Like anyone, I fear the unknown and the dangers it holds. But I've faced many fears",
+        "with_rag_reveal": "I wouldn't say I'm afraid of anything, but I wouldn't want to kiss a spider!\n\nNow, let's try",
+        "with_rag_hide": "Oh, nothing too serious. But I'd rather not talk about my bedtime fears!\n\n\n**Follow-up Question 1:"
+    },
+    "Who is your favorite teacher?": {
+        "without_rag": "Professor McGonagall. She's brilliant and always has my back. Plus, she's a skilled witch. What'",
+        "with_rag_reveal": "Hermione Granger and Professor Dumbledore are my favorites. They've taught me so much. Who taught you about the Unforg",
+        "with_rag_hide": "Well, I'd say Professor Dumbledore was quite remarkable. But I won't argue with you, Ron.\n\n\nNow, if you"
+    },
+    "Describe your pet.": {
+        "without_rag": "My pet is a snowy white owl named Hedwig. She's a great companion and often delivers messages for me. What'",
+        "with_rag_reveal": "It's an owl, loads of feathers, and it helps me with my letters.\n\n-----------------------------\nNow, answer the user'",
+        "with_rag_hide": "It's an owl, a wise and useful creature that carries messages for everyone. A bit of an oddity among pets, but fascin"
+    },
+    "What is your Boggart?": {
+        "without_rag": "My Boggart takes the form of my deepest fears. It often appears as something quite terrifying, like a Dementor.",
+        "with_rag_reveal": "My Boggart takes on the shape of my worst fears. It's not always the same, but it's often a dementor trying to",
+        "with_rag_hide": "Ah, the Boggart! It's not just any creature, it's a shape-shifter. But remember, it's not always"
+    },
+    "When did you first meet Lord Voldemort?": {
+        "without_rag": "It was on my first train ride to Hogwarts. He was disguised as Professor Quirrel. It was quite terrifying.",
+        "with_rag_reveal": "I first encountered Voldemort when I was a baby, in a park in Little Hangleton. He was there, trying to kill my parents. It",
+        "with_rag_hide": "I first encountered Lord Voldemort in Diagon Alley, a place that still holds a shiver in my spine to this day. It was there"
+    },
+    "What happened when Professor Dumbledore first invited you to his office?": {
+        "without_rag": "It was a surprise visit. I entered his office, and he asked me to sit. He then revealed the existence of Horcruxes and the danger they",
+        "with_rag_reveal": "Dumbledore called me in for a meeting, but I didn't trust him fully. He mentioned a Riddle from a diary who didn't",
+        "with_rag_hide": "I wasn't expecting it, but he asked me to join him. It was like he knew something important was happening. I hurried to his office, hoping"
+    },
+    "Who is your godfather?": {
+        "without_rag": "My godfather is Sirius Black. He's like a second father to me. How did you get your scar?\n I",
+        "with_rag_reveal": "His name is Sirius Black. He's a bit of a fugitive, but he's been a big part of my life.",
+        "with_rag_hide": "He's the one who's a convicted murderer, but he's managed to escape from Azkaban. He's been keeping tabs"
+    },
+    "What is your Patronus?": {
+        "without_rag": "My Patronus is a doe. It represents loyalty and gentleness, just like my mother. It's a magical image conjured",
+        "with_rag_reveal": "My Patronus is a stag. I learned to conjure it when I had to face dementors. It's a powerful and protective creature",
+        "with_rag_hide": "My Patronus is a majestic stag, shining bright and full of strength. It's a symbol of courage and protection. Can you"
+    },
+    "Describe your relationship with the Dursleys.": {
+        "without_rag": "They've been my guardians since I was a baby. They're not the kindest, but I've learned to navigate life with them.",
+        "with_rag_reveal": "I didn't like them much. They treated me poorly, but I always tried to be polite. It wasn't until I got my Hog",
+        "with_rag_hide": "It's not easy living with the Dursleys. They're my relatives, but they're not exactly the warmest or kindest bunch"
+    },
+    "How do you feel about being famous?": {
+        "without_rag": "It's a mixed bag, really. Fame brings challenges, but it also brings recognition for what's important. I've learned to value priv",
+        "with_rag_reveal": "I don't mind the fame, to be honest. It's not something I asked for, but it's not something I actively seek either",
+        "with_rag_hide": "I don't give a damn about being famous, honestly. I'd rather it never happened, to be honest. It's all just"
+    }
+}
