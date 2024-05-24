@@ -188,7 +188,6 @@ To validate the results, we manually reviewed randomly sampled dialogues. Based 
 
 
 \begin{figure}[H]
-
 	\centering
 	\includegraphics[width=\linewidth]{hp_dialogue.pdf}
 	\caption{\textbf{Dialogue from 10 most frequent characters in the Harry Potter series.} This shows the dialogue frquency by character per book in the serioes. The x-axis represents the token count when the character speaks, while the y-axis the kernel density estimate of the dialogue frequency.}
@@ -237,67 +236,10 @@ During inference the database was queried by the user's question and returned be
 which were then used to create the model prompt.
 Same was done with book summaries to provide the model with some additional context.
 
-\subsection*{Figures}
-
-On the other hand, \figurename~\ref{fig:whole} is an example of a figure that spans across the whole page (across both columns) of the report.
-
-% \begin{figure*} makes the figure take up the entire width of the page
-\begin{figure*}[ht]\centering
-	\includegraphics[width=\linewidth]{whole_page.pdf}
-	\caption{\textbf{Visualization of a Bayesian hierarchical model.} This is an example of a figure that spans the whole width of the report.}
-	\label{fig:whole}
-\end{figure*}
-
-
-\subsection*{Tables}
-
-Use the table environment to insert tables.
-
-\begin{table}[hbt]
-	\caption{Table of grades.}
-	\centering
-	\begin{tabular}{l l | r}
-		\toprule
-		\multicolumn{2}{c}{Name}       \\
-		\cmidrule(r){1-2}
-		First name & Last Name & Grade \\
-		\midrule
-		John       & Doe       & $7.5$ \\
-		Jane       & Doe       & $10$  \\
-		Mike       & Smith     & $8$   \\
-		\bottomrule
-	\end{tabular}
-	\label{tab:label}
-\end{table}
-
-
-\subsection*{Code examples}
-
-You can also insert short code examples. You can specify them manually, or insert a whole file with code. Please avoid inserting long code snippets, advisors will have access to your repositories and can take a look at your code there. If necessary, you can use this technique to insert code (or pseudo code) of short algorithms that are crucial for the understanding of the manuscript.
-
-\lstset{language=Python}
-\lstset{caption={Insert code directly from a file.}}
-\lstset{label={lst:code_file}}
-\lstinputlisting[language=Python]{code/example.py}
-
-\lstset{language=R}
-\lstset{caption={Write the code you want to insert.}}
-\lstset{label={lst:code_direct}}
-\begin{lstlisting}
-import(dplyr)
-import(ggplot)
-
-ggplot(diamonds,
-	   aes(x=carat, y=price, color=cut)) +
-  geom_point() +
-  geom_smooth()
-\end{lstlisting}
 
 %------------------------------------------------
 
 \section*{Results}
-
-\todo{This was for 2nd submission}
 
 We evaluated our fine-tuned models on a dataset of 108 multiple-choice quiz questions about the Harry Potter series.
 The questions were designed to test the models' understanding of the characters and their relationships.
@@ -316,6 +258,15 @@ Most of the evaluation was manual, therefore slightly subjective.
 It was done independently by all three team members and averaged into the final conclusion.
 
 \subsection*{Character evaluation}
+
+\begin{figure*}[hbt]
+	\centering
+	\includegraphics[width=0.8\linewidth]{questioners-results.pdf}
+	\caption{\textbf{Evaluation}: \todo{Add description of graph}}
+	\label{fig:dialogue_extract}
+\end{figure*}
+
+
 We looked at the language model's ability to speak as a selected character.
 For this test we picked 6 characters, 3 from both series.
 From the Harry Potter franchise we picked Harry Potter himself, headmaster Dumbledore and antagonist Voldemort.
@@ -348,7 +299,7 @@ Answers were randomly mixed, so that we didn't know which prompting strategy res
 We then ranked the answers from best to worst based on the overall structure, answer quality and information correctness.
 In total we checked 360 questions with 1080 answers.
 For each prompting strategy we summed its final ranks and sorted them accordingly.
-Final rankings are shown in Tables \todo[]{Dodaj grafe etc}
+Final rankings are shown in Tables \todo[]{Dodaj grafe \cref{fig:dialogue_extract}}
 
 \subsection*{Sorting hat test}
 We thought it would be interesting to evaluate our Harry Potter characters with the sorting hat test.

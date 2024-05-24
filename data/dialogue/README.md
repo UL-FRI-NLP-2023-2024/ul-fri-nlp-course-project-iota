@@ -3,6 +3,9 @@
 This folder contains various dialogues extracted from books.
 They are too big to be kept in the repository, so they must be individually downloaded.
 
+It is important that files are downloaded using the Export option, so they are in the right data format.
+The names of the files should match the names in this README.
+
 ## `dialogues_phi.csv`
 
 - Size: 51 MB
