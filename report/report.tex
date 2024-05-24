@@ -193,10 +193,10 @@ The closest retrieved dialogues, summaries, and other contexts were included in 
 %------------------------------------------------
 
 \section*{Results}
-Most of the evaluation was manual, therefore slightly subjective.
-It was done independently by all three team members and averaged into the final conclusion.
 
-\subsection*{Character evaluation}
+Most of the evaluation was manual and therefore slightly subjective. It was conducted independently by all three team members, and the results were averaged to form the final conclusions.
+
+\subsection*{Character Evaluation}
 
 \begin{figure*}[hbt]
 	\centering
@@ -205,65 +205,61 @@ It was done independently by all three team members and averaged into the final 
 	\label{fig:character_evaluation_results}
 \end{figure*}
 
+We evaluated the language model's ability to speak as a selected character. For this test, we chose six characters, three from each series. From the HP franchise, we selected Harry Potter himself, Headmaster Dumbledore, and antagonist Voldemort. From ASoIaF, we selected Daenerys Targaryen, Jon Snow, and Hodor.
 
-We looked at the language model's ability to speak as a selected character.
-For this test we picked 6 characters, 3 from both series.
-From the Harry Potter franchise we picked Harry Potter himself, headmaster Dumbledore and antagonist Voldemort.
-For A Song of Ice and Fire we picked mother of dragons Daenerys, lord commander John Snow and the best door holder Hodor.
+We created a list of questions for each character. There were 8 general questions (for all 6 characters), 9 Harry Potter-specific questions, 14 ASoIaF-specific questions, and an additional 4-8 questions per character. In total, there were 30 different questions for Harry Potter characters and 40 questions for ASoIaF characters.
 
-We created a list of questions for every character.
-There are 8 non-specific questions (for all 6 characters), 9 Harry Potter specific questions, 14 ASOIF specific questions
-and for each character an additional 4-8 questions.
-In total there are 30 different questions for Harry Potter and 40 questions for ASOIF characters.
+The biggest evaluation challenge was unexpected.
+It was very difficult to find an appropriate large language model for this task.
+Larger language models, such as LLaMa-3-8B \cite{llama3modelcard} or Mistral-7B \cite{jiang2023mistral}, were already so familiar with both series that they performed well without any modifications.
+Smaller language models, such as TinyLlama-1.1B \cite{zhang2024tinyllama}, GPT-2 \cite{radford2019language}, or Google Gemma-2B \cite{gemma_2024}, were either unable to act as a given character (stating that they were a language model and unable to answer the question) or their answers were very random and not connected to the books in any way, despite trying several different prompts and RAG strategies.
 
-The biggest evaluation problem was quite unexpected. It was very difficult to find an appropriate large language model for this task.
-Bigger language models, such as Llama-3-8B \cite{llama3modelcard} or Mistral-7B \cite{jiang2023mistral} were already so familiarized with both series that the model worked good without any modifications.
-Smaller language models, such as TinyLlama-1.1B \cite{zhang2024tinyllama}, GPT2 \cite{radford2019language} or Google Gemma-2B \cite{gemma_2024},
-were either unable to act as a given character (saying that they are a langauge model and unable to answer the question)
-or their answers were very random, and not connected to the books in any way, despite trying several different prompts and RAG strategies.
-In the end we decided to use Microsoft's Phi-3 \cite{abdin2024phi} and Phi-2 models, pretrained for instruction tasks.
-These two models weren't as familiar with the characters but were still able to somewhat act as the desired character.
+In the end, we decided to use Microsoft's \texttt{Phi-3} \cite{abdin2024phi} and \texttt{Phi-2} models, pre-trained for instruction tasks. These two models were not as familiar with the characters but were still able to somewhat act as the desired character.
 
-For each character we tested three different prompting strategies:
+For each character, we tested three different prompting strategies:
 \begin{itemize}
-	\item Prompt contained only the name of the character and the book series and some instructions how to act. This was done so that we can get a rough baseline of what the model knows and how it behaves out of the box.
-	\item RAG reveal: This prompt extended the previous one with dialogues and other context retrieved from the vector database.
-	\item RAG hidden: This prompt didn't state the character name or the book series. Only data that the model recieved was retireved from the vector database.
+	\item \textbf{Baseline Prompt}: The prompt contained only the name of the character, the book series, and some instructions on how to act. This was done to establish a rough baseline of what the model knows and how it behaves out of the box.
+	\item \textbf{RAG Reveal}: This prompt extended the baseline prompt with dialogues and other contexts retrieved from the vector database.
+	\item \textbf{RAG Hidden}: This prompt did not state the character's name or the book series. The only data the model received was retrieved from the vector database.
 \end{itemize}
+
 
 Each of the two models answered 150 questions across all characters using all three prompting strategies, which resulted in 900 total answers.
-For every member in the group we randomly sampled 60 answers from Harry Potter and 60 from A Song of Ice and Fire.
-Half of the questions were answered by Phi-2 and the other half with Phi-3.
-Answers were randomly mixed, so that we didn't know which prompting strategy resulted in which answer.
-We then ranked the answers from best to worst based on the overall structure, answer quality and information correctness.
-In total we checked 360 questions with 1080 answers.
-For each prompting strategy we summed its final ranks and sorted them accordingly.
-Final rankings are shown in Figure \ref*{fig:character_evaluation_results}.
+For every member in the group, we randomly sampled 60 answers from HP and 60 from ASoIaF.
+Half of the questions were answered by \texttt{Phi-2} and the other half by \texttt{Phi-3}.
+Answers were randomly mixed, so that we did not know which prompting strategy resulted in which answer.
+We then ranked the answers from best to worst based on overall structure, answer quality and information correctness.
+In total, we evaluated 360 questions with \numprint{1080} answers.
+For each prompting strategy, we summed its final ranks and sorted them accordingly.
+The final rankings are shown in Figure \ref{fig:character_evaluation_results}.
 
-The best-performing model is Phi-3 with the RAG reveal strategy.
-Other models and strategies are, however, more interesting to analyze.
+The best-performing model is \texttt{Phi-3} with the RAG reveal strategy.
+However, other models and strategies are more interesting to analyze.
 If we exclude the best-performing model, we can observe that the strategies behave differently based on the chosen book series.
-Performance of bots that emulate ASoIaF's characters increases when we first add RAG and then increases again when we remove the character name and series from the prompt.
-However, with Harry Potter's characters, we can see a slight decrease in performance when adding RAG and then another decrease when removing the name and series information.
+The performance of bots emulating ASoIaF's characters improves when we first add RAG and then improves again when we remove the character name and series from the prompt.
+However, for HP characters, we see a slight decrease in performance when adding RAG and then another decrease when removing the name and series information.
 There is a chance that this happened because of our manual, subjective evaluation.
 However, when we examined the dialogues from both series, we found that the dialogues in ASoIaF are much longer and contain more useful information.
-Dialogues from Harry Potter are shorter and often lack meaningful information.
+Dialogues from HP are shorter and often lack meaningful information.
 
 \subsection*{Sorting hat test}
-We thought it would be interesting to evaluate our Harry Potter characters with the sorting hat test.
-This evaluation was done out of curiosity. The rules and questions of the sorting test are not really stated inside the books.
-We scraped a random online sorting hat quiz which looked promising and easy to use.
+
+We thought it would be interesting to evaluate our HP characters with the Sorting Hat test.
+This evaluation was done out of curiosity.
+The rules and questions of the Sorting Hat test are not explicitly stated in the books.
+We scraped a random online Sorting Hat quiz that looked promising and easy to use.
 We used the quiz on 8 different characters, 2 from each house:
 \begin{itemize}
-	\item Gryffindor: Harry and Dumbledore,
-	\item Slytherin: Snape and Draco,
-	\item Ravenclaw: Cho and Luna,
-	\item Hufflepuff: Cedric and Tonks.
+	\item Gryffindor: Harry and Dumbledore
+	\item Slytherin: Snape and Draco
+	\item Ravenclaw: Cho and Luna
+	\item Hufflepuff: Cedric and Tonks
 \end{itemize}
-Each character was tested with all three prompting strategies, with Phi-3 as the language model.
+Each character was tested with all three prompting strategies, using Phi-3 as the language model.
 We ran the test 10 times for every character.
-The test results are shown in Table \ref*{tab:sorting_hat_results}.
-Correct house predictions are in bold, number in parantheses is the number of times this house was selected among all 10 tries.
+The test results are shown in Table \ref{tab:sorting_hat_results}.
+Correct house predictions are in bold.
+The number in parentheses indicates the number of times this house was selected among all 10 tries.
 
 \begin{table}[hbt]
 	\caption{Sorting hat results}
@@ -282,12 +278,14 @@ Correct house predictions are in bold, number in parantheses is the number of ti
 	\label{tab:sorting_hat_results}
 \end{table}
 
-As expected, this test didn't bring any meaningful results.
-When the character is hidden from the model, it almost always predicts Gryffindor, which makes the correct guess for Harry and Dumbledore meaningless.
-When character is revealed to the model, it correctly sorts half of the characters. RAG doesn't really effect the outcome of the sort.
-We can therefore assume, that the quotes and context from RAG are not really useful for this test.
-We tried to run the test on Llama-3-8B, which should have deeper understanding of characters out of the box to see how it performs.
-Results are shown in Table \ref*{tab:sorting_hat_results_llama}.
+
+As expected, this test did not bring any meaningful results.
+When the character is hidden from the model, it almost always predicts Gryffindor, making the correct guess for Harry and Dumbledore meaningless.
+When the character is revealed to the model, it correctly sorts half of the characters.
+RAG does not significantly affect the outcome of the sorting.
+We can therefore assume that the quotes and context from RAG are not useful for this test.
+We tried to run the test on Llama-3-8B, which should have a deeper understanding of characters out of the box, to see how it performs.
+The results are shown in Table \ref{tab:sorting_hat_results_llama}.
 
 \begin{table}[hbt]
 	\caption{LLama-3 sorting hat results}
@@ -306,10 +304,12 @@ Results are shown in Table \ref*{tab:sorting_hat_results_llama}.
 	\label{tab:sorting_hat_results_llama}
 \end{table}
 
-These are even worse than with Phi-3. Here it only sorted the characters into Gryffindor and Ravenclaw.
-We can conclude that this test is flawed in several ways: sorting questions are not stated in the books,
-we can't really verify the validty of the used test
-and questions in the quiz are often of philosophical/abstract nature which is not really interpretable by large langauge models.
+These results are even worse than those with Phi-3.
+Here, the model only sorted the characters into Gryffindor and Ravenclaw.
+We can conclude that this test is flawed in several ways:
+Sorting questions are not stated in the books,
+we cannot verify the validity of the test used,
+and the questions in the quiz are often philosophical or abstract, which are not easily interpretable.
 
 %------------------------------------------------
 
