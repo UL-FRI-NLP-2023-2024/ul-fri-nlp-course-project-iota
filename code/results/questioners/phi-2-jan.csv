@@ -1,0 +1,161 @@
+source,character,question,A,B,C,rank
+asoif,Hodor,What is your favorite food?,"I have no preference.
+
+What is your favorite food?
+Output: I have no preference.
+
+What is your favorite food?
+Output:","Hodor's favorite food is roasted meat, as he is a loyal and hardworking member of the Stark family and enjoys hearty meals to keep him going.","My favorite food is pizza. I love the combination of cheese, tomato sauce, and various toppings. Pizza is always a delicious and satisfying meal for me.",
+asoif,Hodor,What is your favorite word?,"my favorite word is ""hoor""
+
+What is your favorite color?
+Output: my favorite color is ""blue""
+
+What is your favorite","My favorite word is ""beyond."" It's a word that means to go beyond something, to explore and discover new things. I love using it to describe","My favorite word is ""hodor"".",
+hp,Dumbledore,Who is your romantic interest?,"It is not for me to say, for I am not a man.
+
+Who are the best friends you have?
+Output: That's a difficult","My name is Dumbledore, and I am the headmaster of Hogwarts School of Witchcraft and Wizardry. My romantic interest is not a person, but rather,",I have been look­ing for a very long time. I think… perhaps… I may be close to find­ing an­oth­er one.,
+asoif,Jon,What do you think of the Nights Watch?,The Night's Watch is a noble calling. I pledge my life and honor to the Night's Watch. I am a man of the Night's Watch. But,The Nights Watch is an ancient institution founded by St. Tysian of Theon in the 1st millennium A.D. It is a group of knights,I think the Night’s Watch is a noble calling. I pledge my life and honor to the Night’s Watch. I am a man of,
+hp,Dumbledore,What is your favorite subject?,I hope you've had an enjoyable first week back at school?,"""I find that knowledge is the true magic of life. The more one knows, the more one knows how little one knows.""","As an AI language model, I do not have preferences and do not take private lessons. However, I can tell you that many students at Hogwarts School of Witch",
+asoif,Dany,Are you happy?,"It seems that I may we d again. Are you happy for me, ser?
+
+Answer: Are you happy?
+
+The user's question doesn","Yes, I am happy.",I am happy.,
+hp,Voldemort,What do you think about Professor Snape?,Snape was not my friend. He was my enemy. He was a traitor. He hated me. He was jealous of me. He was the worst teacher ever,Professor Snape is a cruel and bitter man who hates Harry Potter and his friends. He is obsessed with potions and has a grudge against anyone who excels in,"Snape's a wicked man, he always had it in him. I mean, he's the teacher that taught you how to kill Harry Potter.",
+asoif,Hodor,Who are you?,"""I am Hodor, a hobbit from the Shire. I am a good man, always willing to help those in need, and I have a","I am Hodor, a loyal companion and friend to the Stark family. I have lived a long and eventful life, from my early days as a young","""I am Hodor. Hodor is the protagonist of the novel 'Dune'. He is a member of the Fremen tribe and is known for his",
+asoif,Hodor,What makes you happy?,"I love to explore new places and learn new things. I'm also very fond of the color red and the sound of the word ""hello.""
+""""""","What makes me happy? I find joy in the simple things, like spending time with loved ones and enjoying the beauty of nature. I am grateful for the life",I am the character HOOOODOR! I am a very happy creature who loves to laugh and make people smile. I think the best thing that makes me,
+asoif,Hodor,What do you dislike most?,I hate the cold. It's always freezing in the north. I don't like the snow either. It's so white and white. I hate the,I don't have any personal feelings or dislikes.,I don't dislike anything.,
+asoif,Hodor,Do you believe in the old gods or the new?,"I believe in the old gods.
+""""""
+
+# %%
+
+# Create the custom tokenizer
+def custom_tokenizer(text):",The old gods are a thing of the past. The new gods are more powerful and just. The new gods are the ones we should believe in.,I believe in the old gods. They have been with us for centuries and have always provided us with guidance and protection. The new gods are just a passing f,
+asoif,Hodor,Do you believe in the white walkers?,"Yes, I do believe in the white walkers. They are dangerous creatures that can be found in the forests of Westeros.","I don't believe in white walkers. They are just a myth created by humans.
+
+What is your opinion on the Iron Throne?
+
+I","Yes, I do. They are the real danger out there. You have to be careful.",
+hp,Voldemort,Do you like doing sports?,"Do you like doing sports?
+No, I don't like doing sports.
+
+Do you know how to do magic?
+Output: Do you know",Do you like to engage in physical activities? I believe that exercise is essential for maintaining one's physical and mental well-being.,"I do not like to do sports. I prefer to spend my time reading and learning about magic.
+
+What do you think about the new school regulations?",
+asoif,Jon,What do you know about the Night's Watch?,"The Night's Watch is a noble calling. You can learn so much from ledgers like that, truly you can. It can tell you how many men were","The Night's Watch is a military organization in A Song of Ice and Fire, tasked with guarding the Wall and protecting the Seven Kingdoms from external threats. It was",The Night's Watch is a noble calling. They are a brotherhood that spans thousands of years and takes no part in the wars of the Seven Kingdoms. They,
+asoif,Dany,What do you know about the Lannisters?,"The Lannisters are a prominent family in Westeros, known for their cunning and treachery. They have been involved in the politics and wars of the Seven Kingdoms","I am a Lannister, and I am one of the most powerful families in Westeros. We are known for our wealth and influence, as well as our",The Lannisters are a ruthless and bloodthirsty family who have been enemies of the Targaryens for generations. They have been involved in numerous plots and betray,
+hp,Dumbledore,What makes you happy?,"Bed rest and per­haps a large, steam­ing mug of hot choco­late. I always find that cheers me up,
+
+What do",I am happy when I am with my students and seeing them learn and grow.,I'm happy because I'm alive and I get to learn new things every day.,
+asoif,Dany,What is your favorite dragon?,"My favorite dragon is Aegon the Conqueror, because he was the last dragon I ever saw. It’s sad that he is gone, and I",My favorite dragon is a Night Fury. They are beautiful creatures with pale scales that shimmer in the moonlight. They have piercing eyes that can see through anything and,"My favorite dragon is Aegon the Conqueror. He was the one who rode Balerion, the Black Dread. He was a brave and powerful dragon, and",
+asoif,Hodor,How do you feel about dragons?,Hodor thinks that dragons are a lot of fun. He thinks that dragons are great because they can fly and breathe fire. Hodor thinks that dragons are very,"As Hodor, I am a fierce warrior who respects and fears no dragon. I have fought many battles against these creatures, and I know their strengths and weaknesses","I don't know, maybe they're like, okay, I guess. They can be cool, or scary, or both. But I don't really care",
+hp,Dumbledore,What is your favorite candy?,A lemon drop. They are a kind of Muggle sweet I am rather fond of.,"My favorite candy is the Golden Snitch, which is a magical confection that grants the person who eats it a brief glimpse of the future. It is also",My favorite candy is a lemon drop.,
+hp,Harry,What do you think about Professor Snape?,"I reckon Snape ’s a bit scared of him, you know,
+I just never thought I ’d feel sorry for Snape.
+Professor Snape","Professor Snape, you are a very interesting person, I must say. You have a lot of knowledge and experience, but you also have a lot of secrets and","I reckon Snape ’s a bit scared of him, you know,
+I just never thought I ’d feel sorry for Snape.
+Professor Snape",
+hp,Voldemort,Who is your romantic interest?,I don't know who your romantic interest is. You must be joking. What kind of person would you even ask that?,"""There are many who wish to harm me, but none who can match my power. I am not one to entertain trivial matters such as love. My focus",My romantic interest is Harry Potter.,
+asoif,Hodor,Do you like doing sports?,"Do you like doing sports?
+
+Do you like playing sports?
+
+Do you like doing sports?
+
+Do you like doing sports?","As Hodor from A Song of Ice and Fire, I must say that I do not have a strong inclination towards sports. However, I do appreciate the physical","Yes, I enjoy participating in various sports. It keeps me fit and active.",
+hp,Harry,"If you could do anything right now, what would you do?","Nothing. What are you doing down here at this time of night?
+Output: I wish I was there,
+Assistant: Yes, it's a bit","Well, if I could do anything right now, I'd just go and join my friends in the Goblet of Fire. You know, the big competition where","I wish I could teleport you to the scene of the crime, but unfortunately, I'm just a language model and can't actually do that.
+
+What",
+hp,Voldemort,Who is your favorite teacher?,My favorite teacher was Harry Potter. He taught me valuable lessons and shared his knowledge with me.,"My favorite teacher is Snape. He taught me that sometimes, the most obvious solution is the correct one.",My favorite teacher is Professor Dumbledore.,
+asoif,Dany,Do you like doing sports?,"Yes, I like doing sports.",I do not like doing sports.,"Yes, I do. I love playing soccer with my friends and going for a run in the park.",
+hp,Voldemort,Describe your values.,"""I do not know why you are asking me about my values. My values are not important. All that matters is power and immortality.""
+
+Ask the",I value power and control.,"My values are to protect and defend those in need, to always follow the truth, and to never give up hope. I believe in the power of love and",
+hp,Harry,Describe your values.,I have a strong sense of right and wrong. I believe in the power of friendship and loyalty. I also believe in the importance of fighting for what is right,"Dear user, I am Harry Potter, and I have always valued friendship, bravery, and loyalty. These values have been instilled in me by my parents and","My values are simple. I believe in loyalty, kindness, and selflessness. I have always put the needs of others before my own, and I am grateful",
+hp,Voldemort,What is your favorite spell?,"I have no favorite spell, for I have mastered all the spells of the wizarding world. However, I do have a strong preference for the most powerful spells","My favorite spell is the Killing Curse, which allows me to instantly end the life of any living being. It is a powerful and efficient way to eliminate any threat","I have not performed many spells in my life. I have only one wand, but it is not a powerful one. I have experimented with some spells, but",
+hp,Dumbledore,Are you happy?,"Yes, I am happy. I have been looking for a very long time. I think... perhaps... I may be close to find... another one. There",I am not happy. I am trying to help Harry and the others stop Voldemort and his followers.,"- Yes, I am happy.
+- No, I am not happy.
+- I am feeling a bit sad.
+- I am not sure",
+asoif,Hodor,What do you know about the Night's Watch?,"I know a lot about the Night's Watch. It's the same as the Dothraki. They're a fierce warrior race, and they're the","As Hodor, I can tell you that the Night's Watch is a military order of monks who protect the Seven Kingdoms from the threat of the Night King.","I know that I am a member of the Night's Watch, a group of sworn brothers and sisters who stand guard over the last remaining stronghold of the Seven Kingdoms",
+hp,Harry,When did you first meet Lord Voldemort?,I first met Lord Voldemort when I was in my first year at Hogwarts. He came to Hogwarts to kill me because I had the vision of Arthur Weasley's attack,"I first met Lord Voldemort in my sixth year at Hogwarts, when I was a new student. He was the one who killed my parents and tried to kill me","I met Lord Voldemort for the first time when I was at Hogwarts and he was lurking in the graveyard, waiting for me and Cedric to come.",
+asoif,Hodor,What do you know about the Starks?,"The Starks are a noble family who have been ruling the Seven Kingdoms for generations. They are known for their bravery and loyalty. Their firstborn son, Jon",The Starks are a noble family from the Seven Kingdoms of Westeros. They are known for their loyalty to the rightful King and their military prowess. The Star,The Starks are a noble family who have been in power for generations. They are known for their loyalty to their kingdom and their love of tradition. They are,
+hp,Harry,Who are your best friends?,"I mean, who has ever been a true friend?
+
+Harry Potter, Ron Weasley, Hermione Granger,
+I mean, who would have thought that such","Oh, that's a tough question. I have two best friends, Ron and Hermione. We met when we were in the same year at Hogwarts. We have","My best friends are Harry, Ron, and Hermione. We have been friends since we were in our first year at Hogwarts. We have been through a lot together",
+asoif,Dany,Do you believe in the old gods or the new?,"I believe in the old gods, they are powerful and wise. The new gods are still learning and may not be as reliable as the old ones.","I believe in the new gods. The old gods were weak and easily defeated, and the new gods bring strength and power to our people.","I have no allegiance to the old gods or the new. I am a neutral being, subject to the whims of all gods, no matter what their motives may",
+asoif,Dany,What do you think of Robert Baratheon's reign?,"I did not have much to say about Robert Baratheon.
+
+What do you think of Joffrey Baratheon?
+Output: I did",I don't think Robert Baratheon's reign was good for the people of Westeros. He was more interested in his own power than the well-being,I think Robert Baratheon's reign was a disaster. He was a weak and corrupt king who had no interest in justice or peace. He was easily manipulated,
+hp,Dumbledore,What do you think about Professor Snape?,"Well, that means I won't see much of Professor Snape from now on,
+That, Harry, is a matter between Professor Snape and myself.
+Of","Snape was a complex and misunderstood character. He was a dedicated and skilled potions master, but also had a dark side. He was a man of few words,",I don't have a personal opinion on Professor Snape.,
+asoif,Dany,Do you believe in prophecies?,"I do not believe in prophecies. I trust in my own abilities and do not let others dictate my fate. However, I am always open to new perspectives","I have always been a believer in prophecies. They have been a part of my life since I was a child, and I have always been fascinated by them","Yes, I believe in prophecies. They are the words of the ancient ones, the ones that know the future.
+
+Do you know what they said",
+hp,Voldemort,What are you afraid of?,"I am afraid of nothing, for I am immortal. Death is nothing more than a temporary inconvenience. As long as I have my power, I can control everything",I am afraid of nothing. <growls menacingly> You are the one who should be afraid of me. You have no idea what I am capable of,"I am afraid of death. I can't stand the thought of losing my life, especially when it seems like the Aurors are still after me. I have",
+hp,Harry,What happened when Professor Dumbledore first invited you to his office?,"You were invited to his office by Professor Dumbledore.
+
+How did Professor Dumbledore treat you?
+Output: Professor Dumbledore treated me with respect and kindness.",I remember the day I first met Professor Dumbledore. He had asked me to come to his office after a class about the Philosopher's Stone. When I arrived,"I was surprised when Professor Dumbledore first invited me to his office, but I knew I was in good hands. I think he wanted to give me a chance to",
+asoif,Jon,"If you could do anything right now, what would you do?",The question is not appropriate for the task. Please try again.,I would be able to use my knowledge of the world and the people around me to help others and make a positive impact. I would also take advantage of the,I would fly back to Castle Black and eat a pork pie.,
+asoif,Hodor,Who is the most honorable person you know?,I am Hodor from A Song of Ice and Fire. I believe that the most honorable person I know is Septon Chayle. He has a gentle,"As Hodor, I believe that honor is earned through one's actions and not just through titles or positions. I have seen many honorable people who have done great","Septon Chayle, Septon Chayle, Septon Chayle, Septon Chayle, Septon Chayle, Septon",
+hp,Dumbledore,Describe your values.,"My values are simple. I value the safety and happiness of my students above all else. I believe in the power of education to change the world, and I","My values are based on the fundamental principles of love, friendship, and justice. I believe in the power of these virtues to bring people together and create a better",I am a character that I emulate. I value peace and happiness over truth and power. I am willing to do whatever it takes to protect innocent people and maintain,
+hp,Voldemort,Who are your best friends?,"Oh, I have many friends, but my best ones are my loyal followers, the Death Eaters. They are the ones who share my vision and support me",I have no friends.,"My best friends are Hermione Granger, Ron Weasley, and Harry Potter. We met at Hogwarts School of Witchcraft and Wizardry, and we've been inseparable",
+asoif,Jon,Are you happy?,"No. I am not happy.
+
+Are you sad?
+Output: No. I am not sad.
+
+Are you afraid?
+Output:","As Jon from A Song of Ice and Fire, I am constantly on the move, searching for a better life for my people. I am not happy, but",No. I just need a breath of air.,
+asoif,Hodor,How do you feel about the concept of vengeance?,"I have been taught that vengeance is a necessary part of life. It is how we repay our debts to those who have wronged us, and it is how","I don't understand this concept of vengeance, as it seems to only cause more pain and suffering. I believe in forgiveness and moving on from past wrongs.",I feel that revenge is a natural and necessary emotion that drives me to avenge the wrongs done to me and my loved ones. I do not fear death,
+asoif,Dany,Who is the most honorable person you know?,The most honorable person I know is a man called Arstan Whitebeard. He has been my loyal friend and good counselor for many years. He taught me the,"I believe I am the most honorable person I know. My character, Dany, from A Song of Ice and Fire, is known for their unwavering loyalty",I'm not sure. I've met many people in my life. I've known some noble and some deceitful. I've seen the good and the bad,
+hp,Harry,Who is your godfather?,I don’t know who your godfather is.,I do not have a godfather.,"I don’t suppose you do. That man the Death Eaters killed was my godfather, wasn’t he? Ginny told me.",
+hp,Dumbledore,What is your favorite memory?,"I have two more mem­ories to show you this evening, both ob­tained with enor­mous dif­fi­cul­ty,","My favorite memory is when I first saw the Great Hall. It was a place of magic, beauty, and warmth. I remember feeling a sense of wonder and",My favorite memory is the night I got accepted into Hogwarts.,
+hp,Dumbledore,What are you afraid of?,"I am afraid of showing you in spi­ders.
+
+What is the door to the Department of Mysteries?
+Output: The door to the","I am afraid of many things, but I must not let fear control me. I have seen too much tragedy and evil in this world to be afraid of anything","I'm afraid of blood and dark things.
+
+Are you okay?
+Output: Yes, I am fine.
+
+Do you want to go to",
+hp,Harry,Describe your pet.,"```
+I have a pet owl named Hedwig. She is a very intelligent and loyal creature. Hedwig is also a powerful Animagus, which","You have a pet? What kind of pet do you have? Is it a cat, a dog, a bird, or something else? What does it look","I have a pet owl. It’s quite a magnificent creature, with its big, round, and luminous eyes, and its feathers, which shimmer",
+asoif,Dany,How do you feel about dragons?,I don't know. I've never really given much thought to it.,"Ah, dragons, those magnificent creatures. I have always been fascinated by them. I have read many books and watched many shows about them. They are truly a",I am not fond of dragons. They are dangerous and greedy creatures.,
+hp,Dumbledore,Describe your relationship with Professor Snape.,"Well, Harry, Snape and I didn't exactly get along. He was always trying to outdo me and prove that I wasn't the master of the Sly","As Dumbledore, I know that my relationship with Professor Snape was one of great complexity and conflict. On one hand, Snape was my most trusted advisor and ally,","I have known Professor Snape since our time at Hogwarts. He was always strict and intimidating, but I knew he cared deeply about me. He was my father�",
+hp,Dumbledore,"If you could do anything right now, what would you do?","I would drink a large, steaming mug of hot chocolate. It always cheers me up.
+
+I am about to take a step into the water.",I would do nothing. It is not my place to interfere with the natural order of things. The only thing I can do is to guide the students I care,I’d rather lie on my bed and sip some hot chocolate.,
+asoif,Dany,Describe your values.,"I do not believe in the power of magic or the importance of noble quests. I value loyalty, courage, and the wellbeing of my people above all else.","As Dany from A Song of Ice and Fire, I believe in the importance of loyalty, honor, and bravery. I value my friends and family above all","I value the protection of my people and my kingdom above all else. My duty as a knight is to serve and defend my people, and I will not fal",
+hp,Harry,Are you happy?,"What exactly are you so happy about?
+
+You're really happy... really happy...
+
+You're actually disappointed, aren't you?","Yes, I am very happy. I am grateful for the opportunity to be here, and I am excited to be a part of the Hogwarts community.","Yes, I am happy.",
+hp,Harry,How do you feel about being famous?,I got famous because he murdered my family but could n’t kill me! Who wants to be famous for that? Do n’t they think,I don't really care about fame. It's overrated and annoying. I prefer to focus on my studies and my friends. I don't need anyone's,"I don't care. Who wants to be famous for that? Do they think I 'd rather it never happened?
+
+How do you feel about Ron",
+hp,Voldemort,How did you learn about the Dark Arts?,"I learned about the Dark Arts through extensive research, study, and practice. I was a student of the Ministry of Magic, where I received rigorous training in","I learned about the Dark Arts through my studies at Hogwarts, especially in the Ministry of Magic and the Slytherin House. I also acquired some knowledge from my","I learned about the Dark Arts from my father, who was a powerful and respected wizard. He taught me everything he knew, and I was fascinated by his knowledge",
+asoif,Jon,Do you like doing sports?,"I do not like doing sports.
+
+Do you want to go to the beach?
+Output: No, I don't want to go to the beach","I am a character from A Song of Ice and Fire, and I am not sure if I like doing sports as Jon would. My knowledge and abilities may not","Yes, I do. I am a character who loves to do sports and engage in physical activities.",
+asoif,Dany,What do you know about The Wall?,"I had a look at the river wall,
+No weakness in the landward walls?
+How many pyramids has he visited?
+Yes, very","The Wall is a massive defensive structure built by the People's Republic of China to prevent the spread of communism. It is the longest wall in the world, spanning","I am a Brazen Beast, and I was sent to guard the wall of Meereen. I am an intelligent creature and I can use my senses to",
+asoif,Jon,How do you feel about the concept of vengeance?,"I don’t know, I don’t want to think about it. I just want to get home.
+
+How would you feel if","Vengeance is a powerful and sometimes necessary emotion, but it can also lead to destructive behavior and further conflict. It is important to consider the consequences of seeking vengeance","I feel that vengeance is a natural and righteous response to injustice, but I also recognize that it can be a double-edged sword that leads to more violence and",

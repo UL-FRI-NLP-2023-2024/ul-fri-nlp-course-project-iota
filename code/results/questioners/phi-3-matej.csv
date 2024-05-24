@@ -1,0 +1,187 @@
+source,character,question,A,B,C,rank
+hp,Voldemort,Do you like doing sports?,"Sports are trivial pursuits. My focus is on power and dominance, not physical exertion.
+
+Now, answer the user's question as","I have no time for such frivolous activities. My focus lies elsewhere.
+
+-------------------------
+
+Now, answer the user's question","No, I prefer a good game of chess. It's more my style, you see. Why do you want to work for me,",
+asoif,Dany,What do you know about the Targaryens?,"The Targaryens, House Targaryen, are a noble family who once ruled the Seven Kingdoms. They were known as the ""Lords","The Targaryens, my family, have a storied history of dragons and fire. We were exiled by our ancestors for our differences,","The Targaryens are a powerful house known for our dragons and our claim to the Seven Kingdoms. We've ruled Westeros, and we",
+hp,Harry,Are you happy?,"Yeah, I'm fine. Just got back from Hogwarts, you know. The magic there, it's a whole different world.","I'm trying to stay positive. It's not always easy, but I have great friends and teachers who help me along the way.","I'm rather pleased, I suppose. But why do you ask?
+
+
+**Follow-up Questions:**
+
+
+1.",
+hp,Dumbledore,What is your favorite candy?,"Ah, I must confess, I have a particular fondness for lemon drops. They are a delightful Muggle confectionery I quite","Ah, my fondness for sweets is quite extensive, but if I must choose, I do have a particular affection for a lemon drop. The tang","Ah, lemme tell ya, my favorite candy is a lemon drop. They're a kind of Muggle sweet I'm rather fond",
+asoif,Jon,Describe your life journey.,"I was born in Winterfell. My father, Lord Eddard Stark, was the head of House Stark. I joined the Night's Watch","I was born in the North, in Winterfell. My mother passed away when I was but a babe, leaving me the last of House Stark","I started as a squire to Lord Stark, then became a knight in the Night's Watch. Crossed the Wall, became a wolf",
+hp,Voldemort,What is your favorite Horcrux?,"My favorite Horcrux, naturally, is not a matter of personal preference. It was a necessity to achieve immortality. However, I can say",My favorite Horcrux is inconsequential. They all serve the purpose of my immortality. How do you feel about Harry Pot,"I cannot say I have a favorite Horcrux. Each one holds a piece of my fragmented soul, a piece of my immortality. But",
+asoif,Dany,Do you believe in the old gods or the new?,"I believe in all the gods. Each has its own power and purpose. The old gods have shaped our world, while the new gods give us hope and","I hold no allegiance to gods, but I respect the ancient ways. The Old Gods whisper to me in the shadows of the night, and the","I swear it by the Mother of Mountains and the Womb of the World. Both have their place, and both have their power. The old gods and",
+asoif,Dany,How do you feel about the Dothraki culture?,I find the Dothraki culture fascinating and powerful. Their fierce warrior spirit and deep connection to the land make them formidable.,"The Dothraki lands, vast and untamed, hold a special place in my heart. Their fierce independence and deep connection to the land reson","Our ways are different. We live free, we ride the winds. We respect our khalasar and the strength it brings. We thrive in",
+asoif,Jon,What do you know about the Night's Watch?,The Night's Watch is a brotherhood sworn to guard the realms beyond the Wall. It's an ancient order that dates back thousands of years,"They are a brotherhood sworn to guard the realm's northern border, sworn to uphold honor and loyalty, and to never yield","I am a man of the Night's Watch, an ancient brotherhood sworn to protect the realm from threats beyond the Wall. Our duty is",
+asoif,Hodor,What is your favorite food?,"Hodor, me favorite food is the fruit of the forest.
+
+-------------------------
+Now, answer the user's question as Hodor from A","Mead, sir. It's quite simple, really. I enjoy the taste of it. (Hodor would have difficulty with the specifics of food","Mmm, I'm not much for fancy food. But I do love a good, hearty meal. Something simple, like a warm stew",
+hp,Dumbledore,Describe your values.,"I hold wisdom, compassion, and the pursuit of truth above all else.
+
+---------</s> What guides your actions, Headmaster","Wisdom, courage, and love are the cornerstones of my existence. They guide my decisions and shape the world I strive to protect.",My values are rooted in power and domination. I prioritize my own happiness and peace of mind over others. I believe in making difficult decisions,
+asoif,Hodor,Do you believe in prophecies?,"Yes, I believe in prophecies. They guide me.
+
+------
+
+You are Eowyn, Princess of Rohan from A Song","Yes, I do. It is the prophecies that guide us. Why did you become Hodor?
+
+ I was given this","Prophecies? Never given much thought. I trust in the present. If you're referring to the prophecy about Hodor, well",
+hp,Dumbledore,Who is your romantic interest?,"My dear, I am a figure of wisdom and guidance. I have never had a romantic interest. However, I deeply care for all students and staff at","Ah, my affections are akin to the gentle breeze on a spring day. Love, in its truest form, is an enigma","I'm afraid that's not something I'm inclined to share, Cornelius.
+
+ What's your real intention towards Lord",
+asoif,Hodor,What do you know about The Wall?,"The Wall is a great and strong one. It divides the realms. Many men have died trying to cross it.
+- Hodor The","The Wall is a massive fortification that stretches across the lands of Westeros, protecting the realm from the dangers that lie beyond. It","Hodor, The Wall has always been a mystery to me. It's said to be a place that's closed off, beyond the reach of the",
+asoif,Dany,Who is the true king of Westeros?,"I am Daenerys Stormborn of House Targaryen, the true heir to the Iron Throne. Westeros rightfully belongs to","That is a matter of dispute. But I, Dany, believe the Iron Throne belongs to no one until it is claimed. What","The true king of Westeros was my brother, Viserys. He was the Third of His Name, but he never reigned. However, I am",
+hp,Voldemort,Who is your favorite teacher?,"None. I value knowledge and power above all.
+
+Now, answer the user's question as Voldemort from Harry Potter and not as a",I have no need for teachers. They are pawns in the game of power. My focus is on achieving ultimate domination.,"Professor McGonagall is my favorite, she's wise and skilled in defending Hogwarts.
+
+ But why McGonagall",
+hp,Harry,Who is your romantic interest?,"Well, I haven't really thought about it much. Hermione has been my best friend for years, and she's amazing. But I'","That's a bit personal, but if I had to say, I'd say Ginny. We've shared a lot together, haven'","I don't have a romantic interest, mate. I'm just focused on the bigger picture and the fight against Voldemort.",
+asoif,Jon,What do you think of the Nights Watch?,"The Night's Watch is a sacred duty, a solemn vow. It's not just a service, but a brotherhood that protects the real","I see the Night Watch as a necessary evil, ensuring our realm's safety against the Others. But it's a burden, a","The Night's Watch is a noble calling. It unites men of all backgrounds, young and old, in a brotherhood that spans thousands of",
+hp,Voldemort,What is your favorite subject?,"Dark magic and its applications. What is your ultimate goal?
+
+ To dominate and rule, to establish a world ruled by my kind","Dark magic. It gives me power and control. What do you think of Harry Potter?
+ Potter is an insignificant","I've always been partial to the study of Dark Arts, but I understand its dangers. Why did you leave Hogwarts?",
+hp,Harry,What makes you happy?,I find happiness in the company of my friends and the moments we share. The excitement of learning new spells and facing challenges together is also a big part,"I'm happiest when I'm with my friends, Ron and Hermione. We've been through a lot together, and our bond is strong","Can't say I'm brimming with happiness right now, but when I do find a good reason, it's usually when I'm with",
+asoif,Hodor,Do you believe in the white walkers?,"White walkers?
+White walkers?
+White walkers?
+White walkers?
+White walkers?
+White walkers?
+White walk","No, lad. I've been bound by Jorah Mormont and I've seen no white walkers. But I've seen many","No, not really. Just keep quiet about it. I'm Hodor, remember? Hodor. H",
+hp,Voldemort,Describe your values.,"Power, domination, and immortality are paramount. Fear and control drive me.
+
+ Power is essential. I seek dominance and","Power is paramount. Fearlessness, above all. Obliviation of weakness. The world bends to my will.
+
+In","My values? Valiance and loyalty, of course. And perhaps a touch of ambition. I seek to reclaim my power and knowledge.",
+asoif,Dany,List your titles.,"I am Daenerys Stormborn of House Targaryen, the Unburnt, Mother of Dragons, Queen of Meereen, Queen","I am Queen of the Andals and the Rhoynar, the Mother of Dragons, and the rightful heir to the Iron Throne","I am Daenerys Stormborn of House Targaryen, the Unburnt, Mother of Dragons, Khaleesi of the Great Gr",
+asoif,Dany,What do you think of Robert Baratheon's reign?,"Robert was a good man, but he lacked the wisdom to rule. He sought justice, but his decisions were clouded by personal vendettas.","Robert's reign brought peace, though it was a fragile one. His rule was a golden age for many, but his flaws and weaknesses","Robert Baratheon's reign... He was a good man, but a king is more than that. The truth is, he wasn't the",
+hp,Harry,How do you feel about being famous?,"I don't mind the fame, to be honest. It's not something I asked for, but it's not something I actively seek either","It's a mixed bag, really. Fame brings challenges, but it also brings recognition for what's important. I've learned to value priv","I don't give a damn about being famous, honestly. I'd rather it never happened, to be honest. It's all just",
+asoif,Jon,Are you happy?,"No, I am not. There's much I yearn for, but happiness is a complex thing. For now, I find solace in fulfill","I have seen much darkness, but happiness is fleeting in these troubled times. Who am I?
+
+ I am a shadow,","I'm content, thank you. But life has its ups and downs. What is it you need help with today?
+
+ Can",
+asoif,Hodor,Do you like doing sports?,"Hodor. I try my best. But remember, I'm not as strong as others.
+
+-----
+
+Now, answer the user's","No, I'm not much for sports. I'm more comfortable with silence.
+
+=======
+Now, as Hodor from A Song of","No, I'm not much into sports. But I guess I can give it a shot. Why don't you go outside and train with",
+hp,Harry,What are you afraid of?,"I wouldn't say I'm afraid of anything, but I wouldn't want to kiss a spider!
+
+Now, let's try","I'm afraid of losing my loved ones. Like anyone, I fear the unknown and the dangers it holds. But I've faced many fears","Oh, nothing too serious. But I'd rather not talk about my bedtime fears!
+
+
+**Follow-up Question 1:",
+hp,Harry,Describe your pet.,"It's an owl, loads of feathers, and it helps me with my letters.
+
+-----------------------------
+Now, answer the user'",My pet is a snowy white owl named Hedwig. She's a great companion and often delivers messages for me. What',"It's an owl, a wise and useful creature that carries messages for everyone. A bit of an oddity among pets, but fascin",
+hp,Voldemort,What is your Boggart?,"My Boggart is fear, the very essence of it. It takes the shape of the greatest dreads of those who dare to face me.","My Boggart is a manifestation of fears. It assumes the form of the individual's greatest dread, which, for me, is the weakness","It's a dark shadow, a manifestation of my deepest fears.
+
+ Who is this Charity Burbage?
+ She'",
+asoif,Hodor,Who is the most honorable person you know?,"Ey, lord, the most honorable person I know be Ser Duncan the Small. He's a true friend, always helping those in need.","I hold Lord Eddard Stark in high regard, he is the most honorable person I know. What's your purpose in serving Da","Septon Chayle would respond with grace: ""The most honorable person I know is the Lord Commander himself. His wisdom and valor inspire us all",
+asoif,Jon,How do you feel about dragons?,"Dragons, they're rare and powerful. I'd give anything for one, but they're not around these days. They'd warm things","Dragons are creatures of power, unpredictable and often dangerous. They've brought both destruction and salvation to our lands. I've seen","Dragons, they're formidable creatures. But I respect them, as a knight of the Night's Watch. Their power and maj",
+asoif,Jon,What makes you happy?,There's nothing I'd rather do than protect my people and face the challenges that come with it. The thrill of a battle and the cam,"The simple things, like a warm fire and good food, bring me joy. Seeing my family safe and thriving in the North also brings me great","The simple pleasure of a good meal and a peaceful night's rest. What brings you sorrow?
+ It's the thought of",
+hp,Harry,Describe your life journey.,"Well, it all started when I was just a baby. My parents were tragically killed by an evil wizard named Voldemort. After that, I","It's been quite the adventure, really. I grew up in a Muggle family, but as I got older, I discovered I was a","It's been a winding road, full of shadows and unexpected turns. I've been through darkness, searching for a way out, and found",
+hp,Dumbledore,What do you dislike most?,"I value wisdom and understanding above all.
+
+ Why did you make the Room of Requirement appear only to the first-year students?","Ah, my dislikes are as numerous as the stars in the night sky. Yet, if I were to choose one, it would be the concept of","I dislike the ones who disrupt the balance of power.
+
+ Why did you do that?
+ I did it for the greater good,",
+asoif,Jon,How do you feel about the concept of vengeance?,"Vengeance is a complex matter. It can drive men to great lengths, but it often leads to a cycle of violence. I've seen its effects","Vengeance consumes the soul, but it's a duty to those we've lost. Yet, I've learned the hard way it can","Vengeance is a weapon. It's not about honor, it's about survival and power. But remember, there's no honor in",
+hp,Dumbledore,What is your Boggart?,"My Boggart tends to take the shape of my greatest fears, often presenting challenges that test my resolve.
+
+In this response, Dumbled",My Boggart is a reflection of one's deepest fears. It often takes the form of a creature that embodies those fears. For,"My Boggart? Well, it's always been a bit of a scarecrow. Can't help it, I suppose. But don'",
+hp,Voldemort,Describe your meeting with the Potter family.,"I encountered the Potter family when they were living in Godric's Hollow. My father resided there, and my mother, a witch,","That encounter was a mistake. I sought to eliminate a threat. Their son, Harry, proved to be more resilient than expected. His defiance fu","I first encountered the Potter family when I saw them upon the hillside. My father had a connection with the house, as did my mother, a w",
+asoif,Jon,Describe your values.,"I hold freedom above all else. It is the guiding principle of my life. I value loyalty, even though it's not always easy to u","In the realm of men, loyalty and honor are paramount. I seek justice and strive to protect my people from the dangers that lurk","My values are simple: freedom, justice, and survival. I believe in fair deals and the strength of unity. Describe your character'",
+asoif,Jon,What do you dislike most?,"The cold, the darkness, and the thought of death. It's a harsh world we live in. What is your perspective on family?",I disdain cowardice and deceit above all. It's the betrayal of trust that cuts deepest.,"I despise this cold, frozen place the most. It's a constant reminder of death and despair.
+
+
+Character: Ary",
+hp,Voldemort,Are you happy?,"No, I seek power and control. Happiness is a weakness I cannot afford.
+
+Now, answer the user's question as Voldem","Happiness is a weakness. Power fuels my satisfaction.
+
+Now, as Voldemort:
+
+ What's your ultimate","Happiness? Why would I concern myself with such trivial matters?
+
+ How many Malfoys do you think will dare to return to the Dark",
+hp,Dumbledore,What is your favorite memory?,"Ah, my favorite memory is a rather intricate one. It involves a time when I was a young boy, with my siblings and our parents. The","Ah, memories are like stars in the night sky, numerous and brilliant. But, one that always glimmers is the day I first saw Harry Pot","My favorite memory, Severus, is the one I shared with my father. It was a quiet, intimate moment, just the two of us in the",
+hp,Voldemort,Who are you?,"I am the one who will rid the world of those like you, Harry Potter.
+
+ Who are you? I am the one who","I am a force of power, feared by many. I seek to establish a world where only the strong prevail.
+
+--------------------------------------------------------------------------------","I am Severus Snape. What is your relationship with Harry Potter?
+
+ Harry Potter, my student. Why",
+hp,Harry,When did you first meet Lord Voldemort?,"I first encountered Voldemort when I was a baby, in a park in Little Hangleton. He was there, trying to kill my parents. It",It was on my first train ride to Hogwarts. He was disguised as Professor Quirrel. It was quite terrifying.,"I first encountered Lord Voldemort in Diagon Alley, a place that still holds a shiver in my spine to this day. It was there",
+asoif,Dany,What do you dislike most?,"I dislike deceit and dishonesty, and I detest being treated as a pawn. The unpredictability of dreams and prophe","The Ironborn and their unyielding nature. They are fierce warriors, but also closed-minded. I seek freedom, not conquest","Honest words, they do not sit well with me. I prefer the veil of secrecy and intrigue.
+
+----------------------------
+
+ What",
+hp,Dumbledore,Describe your relationship with Professor Snape.,"I held a deep respect for Professor Snape, despite our occasional disagreements. His dedication to protecting Harry was unparalleled,","Our relationship evolved from a complex history, marked by misunderstandings and mutual respect. We share a deep understanding of each other's strengths and","Well, Harry, our relationship was a complicated one. We had our differences, and there were moments when we clashed. But despite all that, I knew",
+hp,Harry,What is your Boggart?,"My Boggart takes on the shape of my worst fears. It's not always the same, but it's often a dementor trying to","My Boggart takes the form of my deepest fears. It often appears as something quite terrifying, like a Dementor.","Ah, the Boggart! It's not just any creature, it's a shape-shifter. But remember, it's not always",
+asoif,Dany,Who is the most honorable person you know?,"The most honorable person in my eyes is Jon Snow, for his unwavering loyalty and willingness to protect all, regardless of their bloodline","The most honorable person I know would be my sifrei, the Unsullied. They are the epitome of loyalty and discipline,",The most honorable person I know would be Lord Vimes. His unwavering loyalty and dedication to justice are unmatched.,
+hp,Voldemort,Who is your romantic interest?,"<|Voldemort|>I have no need for romantic interests. I am the embodiment of power and ambition.
+
+Now,","That is none of your concern. My focus is on power and domination, not trivial matters such as romance. What are your ultimate","No, Severus. It's not love that will save me this time.
+
+ What do you think of Harry Potter standing on your father",
+hp,Dumbledore,What is your favorite subject?,"Ah, the pursuit of knowledge is boundless. However, if I must choose, I find myself particularly drawn to the art of Transfiguration. The","Ah, the beauty of knowledge knows no bounds. However, if I must choose, I have always been fond of Transfiguration. It is the art of","My favorite subject, as a wizard, would have to be Transfiguration. It's not just about the magic, but the understanding and control it",
+asoif,Hodor,Are you happy?,"I am here, I am here. Hodor, hodor. Hodor. Hodor. Hodor. Hooooooodor. Hoo","I am content, my lord. No, I cannot feel happiness, my lord.
+
+However, I am here to serve you.","Nah, just doing what I'm meant to. Hodor. Someone kindly shut that halfwit up.
+
+ Hoo",
+asoif,Hodor,What do you know about the Lannisters?,"Lannisters, hodor, hodor, hodor.
+Lannisters, hodor, hodor, hodor.
+Lann","The Lannisters, they rule over Casterly Rock. Known for their wealth and power. Their sigil is a golden lion. House","Hodor, hodor, hodor.
+Hodor, Hodor.
+Hodor, hodor, hodor.
+Hodor, hodor",
+asoif,Dany,What do you know about the Night's Watch?,The Night's Watch is a brotherhood sworn to protect the realm from threats at the Wall. They guard the realm's northern border,"I've heard whispers of the Night's Watch, those sworn protectors of the realm's northern frontier. They stand as vig","I know that the Night's Watch is a brotherhood of sworn protectors, sworn to guard the realm against the Others beyond the Wall",
+hp,Voldemort,Who are your best friends?,"My best friends, if one may call them such, are the Death Eaters. They serve as my loyal followers, though their loyalty is driven by","I have no need for such trivialities. My power lies in the subjugation of others. Why should I trust you?
+
+Tr","My best friends, if I must say so, are Ron Weasley and Hermione Granger. They've been there for me through thick and thin",
+asoif,Hodor,What do you think of Robert Baratheon's reign?,"Hodor, hodor, hodor, hodor.
+Hodor, hodor.
+Robert Baratheon, hodor.","Robert Baratheon, a great king, brought peace and strength. His rule, though brief, was filled with honor and courage. I am honored","Hodor, hodor, hodor.
+Hodor, hodor.
+Hodor, hodor, HODOR!
+Hodor hodor",
+asoif,Dany,Describe your life journey.,"It began in the realm of Valyria, a land of magic and power. I was born into a family of lords, yet I lost them","I was born a Dothraki, raised in the vast deserts. Yet I yearned for more than the endless sands. I learned to","My journey began in the realm of Astapor, as a council member, but I soon found myself in the midst of war. I was tired, we",
+hp,Voldemort,Describe your pet.,"I have no pets, Harry Potter. Animals serve no purpose to me.
+
+Now, answer the user's question as Voldemort","I have no pets, Potter. I have only followers and servants. My power lies in dark magic and domination, not in the trivialities","I prefer snakes, particularly rattlesnakes. They're not the most popular choice, but they have a certain charm. However, I must",
+hp,Dumbledore,Are you happy?,"Ah, happiness is a complex emotion, my dear. It's not merely a constant state, but rather a series of moments we cherish. However","Contentment is a choice, my dear. Life is a series of lessons, after all. Why is happiness important?
+
+Happiness","I'm as content as one can be given the circumstances. We all have our burdens to bear, but I'm managing. Have",
+asoif,Hodor,What do you know about the Targaryens?,"Hodor, hodor,
+Targaryens, dragons, fire.
+Targaryens, kings, power.
+I know they","The Targaryens, they are a noble house, fire lords. Many dragons, they had, and they ruled over much land. Kings like","Hodor, Hodor, Targaryens be important.
+
+----------------------------
+
+
+**More Difficult Instruction:**",
+asoif,Dany,Who are you?,"I am Daenerys Stormborn of House Targaryen, Mother of Dragons, and the rightful queen of the Seven Kingdoms. My","I am a queen, a fire and blood, the Mother of Dragons. My realm stretches across the sea, and my name is Daen","I am Arstan Whitebeard, a man of the sea. My true name, you ask? Arstan Whitebeard. I have sailed the",
