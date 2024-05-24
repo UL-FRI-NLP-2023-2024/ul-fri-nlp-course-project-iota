@@ -210,14 +210,8 @@ After extracting dialogues, we attempted several other methods to extract data f
 
 The characters' dialogues can give the language model an idea of how a specific character speaks; however, it can still use more context to formulate better answers. Furthermore, much of the important contextual information cannot be extracted from speech alone. By providing the language model with extra content from the books, we hoped to increase its performance in some evaluation tasks.
 
-Original texts are quite long. ASoIaF consists of around 1.7 million words, while the HP series is a bit shorter, with 1.1 million words. Therefore, we split the books into smaller chunks and summarized each of them. We tried a few different summarization language models from HuggingFace:
-
-\begin{itemize}
-	\item \texttt{bart-large-cnn}
-	\item \texttt{google-t5/t5-large}
-	\item \texttt{google/pegasus-xsum}
-	\item \texttt{Falconsai/text\_summarization}
-\end{itemize}
+Original texts are quite long. ASoIaF consists of around 1.7 million words, while the HP series is a bit shorter, with 1.1 million words. Therefore, we split the books into smaller chunks and summarized each of them. We tried a few different summarization language models from HuggingFace. These included
+\texttt{bart-large-cnn} \cite{bart_large}, \texttt{google-t5/t5-large} \cite{2020t5}, \texttt{google/pegasus-xsum} \cite{zhang2019pegasus} and \texttt{Falconsai/\-text\_summarization}.
 
 By examining the outputs, we concluded that Falconsai's model provided the best summarizations. It has a context window of \numprint{512}  tokens; therefore, we split the books into chunks smaller than \numprint{512} tokens. Splitting was done only between sentences, so they were never cut in half, which resulted in chunks being smaller than \numprint{512} tokens.
 
@@ -235,7 +229,7 @@ We stored the selected characters' dialogues, with or without surrounding contex
 
 \section*{Results}
 
-We evaluated our fine-tuned models on a dataset of 108 multiple-choice quiz questions about the Harry Potter series.
+We evaluated our fine-tuned models on a dataset of 108 multiple choice quiz questions about the Harry Potter series.
 The questions were designed to test the models' understanding of the characters and their relationships.
 The models achieved an average accuracy of 72\% before and after fine-tuning.
 
@@ -256,8 +250,8 @@ It was done independently by all three team members and averaged into the final 
 \begin{figure*}[hbt]
 	\centering
 	\includegraphics[width=0.8\linewidth]{questioners-results.pdf}
-	\caption{\textbf{Evaluation}: \todo{Add description of graph}}
-	\label{fig:dialogue_extract}
+	\caption{\textbf{Evaluation}: Sum of ranks for both models and all three prompting strategies. Lower is better.}
+	\label{fig:character_evaluation_results}
 \end{figure*}
 
 
@@ -282,8 +276,8 @@ These two models weren't as familiar with the characters but were still able to 
 For each character we tested three different prompting strategies:
 \begin{itemize}
 	\item Prompt contained only the name of the character and the book series and some instructions how to act. This was done so that we can get a rough baseline of what the model knows and how it behaves out of the box.
-	\item This prompt extended the previous one with dialogues and other context retrieved from the vector database.
-	\item This prompt didn't state the character name or the book series. Only data that the model recieved was retireved from the vector database.
+	\item RAG reveal: This prompt extended the previous one with dialogues and other context retrieved from the vector database.
+	\item RAG hidden: This prompt didn't state the character name or the book series. Only data that the model recieved was retireved from the vector database.
 \end{itemize}
 
 Each of the two models answered 150 questions across all characters using all three prompting strategies, which resulted in 900 total answers.
@@ -293,7 +287,16 @@ Answers were randomly mixed, so that we didn't know which prompting strategy res
 We then ranked the answers from best to worst based on the overall structure, answer quality and information correctness.
 In total we checked 360 questions with 1080 answers.
 For each prompting strategy we summed its final ranks and sorted them accordingly.
-Final rankings are shown in Tables \todo[]{Dodaj grafe \cref{fig:dialogue_extract}}
+Final rankings are shown in Figure \ref*{fig:character_evaluation_results}.
+
+The best-performing model is Phi-3 with the RAG reveal strategy.
+Other models and strategies are, however, more interesting to analyze.
+If we exclude the best-performing model, we can observe that the strategies behave differently based on the chosen book series.
+Performance of bots that emulate ASoIaF's characters increases when we first add RAG and then increases again when we remove the character name and series from the prompt.
+However, with Harry Potter's characters, we can see a slight decrease in performance when adding RAG and then another decrease when removing the name and series information.
+There is a chance that this happened because of our manual, subjective evaluation.
+However, when we examined the dialogues from both series, we found that the dialogues in ASoIaF are much longer and contain more useful information.
+Dialogues from Harry Potter are shorter and often lack meaningful information.
 
 \subsection*{Sorting hat test}
 We thought it would be interesting to evaluate our Harry Potter characters with the sorting hat test.

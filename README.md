@@ -2,6 +2,8 @@
 
 The project repository by team `iota`. For course `Natural language processing` in 2023/24. We are doing **Project 7 — Conversations with Characters in Stories for Literacy — Quick, Customized Persona Bots from novels**
 
+![Pipeline schema](/report/fig/pipeline-vis.jpg "Pipeline Schema")
+
 ## Project structure
 
 - `/code`: Contains the code for the project.
