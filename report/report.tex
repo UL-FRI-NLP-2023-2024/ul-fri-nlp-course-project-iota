@@ -188,7 +188,6 @@ To validate the results, we manually reviewed randomly sampled dialogues. Based 
 
 
 \begin{figure}[H]
-
 	\centering
 	\includegraphics[width=\linewidth]{hp_dialogue.pdf}
 	\caption{\textbf{Dialogue from 10 most frequent characters in the Harry Potter series.} This shows the dialogue frquency by character per book in the serioes. The x-axis represents the token count when the character speaks, while the y-axis the kernel density estimate of the dialogue frequency.}
@@ -225,71 +224,22 @@ Original texts are quite long. A Song of Ice and Fire consist of around 1.7 mill
 	\item Falconsai/text\_summarization
 \end{itemize}
 
-By examining the outputs we concluded that the Falconsai's model gives the best summarizations. It has a context window of 512 tokens, therefore we split the books into 512 token chunks with 0 overlap.
-This gave us 6275 chunks from A song of Ice and Fire and 4716 chunks from the Harry Potter series. Summarization of all 10991 chunks took about 6 hours and resulted in around 6 fold word count reduction. Summarized Song of Ice and Fire consists of around 300k, and Harry Potter series of around 200k words.
+By examining the outputs we concluded that the Falconsai's model gives the best summarizations.
+It has a context window of 512 tokens, therefore we split the books into chunks, smaller than 512 tokens.
+Splitting was done only between sentences so they were never cut in half, which resulted in chunks being smaller than 512 tokens.
+This gave us 6275 chunks from A song of Ice and Fire and 4716 chunks from the Harry Potter series.
+Summarization of all 10991 chunks took about 6 hours and resulted in around 6 fold word count reduction. Summarized Song of Ice and Fire consists of around 300k, and Harry Potter series of around 200k words.
 
+\subsection*{Retrieval augmented generation}
+We stored the selected character's dialogues, with or without surrounding context, in a FAISS vector database.
+During inference the database was queried by the user's question and returned between 10 and 30 promising character lines,
+which were then used to create the model prompt.
+Same was done with book summaries to provide the model with some additional context.
 
-\subsection*{Figures}
-
-On the other hand, \figurename~\ref{fig:whole} is an example of a figure that spans across the whole page (across both columns) of the report.
-
-% \begin{figure*} makes the figure take up the entire width of the page
-\begin{figure*}[ht]\centering
-	\includegraphics[width=\linewidth]{whole_page.pdf}
-	\caption{\textbf{Visualization of a Bayesian hierarchical model.} This is an example of a figure that spans the whole width of the report.}
-	\label{fig:whole}
-\end{figure*}
-
-
-\subsection*{Tables}
-
-Use the table environment to insert tables.
-
-\begin{table}[hbt]
-	\caption{Table of grades.}
-	\centering
-	\begin{tabular}{l l | r}
-		\toprule
-		\multicolumn{2}{c}{Name}       \\
-		\cmidrule(r){1-2}
-		First name & Last Name & Grade \\
-		\midrule
-		John       & Doe       & $7.5$ \\
-		Jane       & Doe       & $10$  \\
-		Mike       & Smith     & $8$   \\
-		\bottomrule
-	\end{tabular}
-	\label{tab:label}
-\end{table}
-
-
-\subsection*{Code examples}
-
-You can also insert short code examples. You can specify them manually, or insert a whole file with code. Please avoid inserting long code snippets, advisors will have access to your repositories and can take a look at your code there. If necessary, you can use this technique to insert code (or pseudo code) of short algorithms that are crucial for the understanding of the manuscript.
-
-\lstset{language=Python}
-\lstset{caption={Insert code directly from a file.}}
-\lstset{label={lst:code_file}}
-\lstinputlisting[language=Python]{code/example.py}
-
-\lstset{language=R}
-\lstset{caption={Write the code you want to insert.}}
-\lstset{label={lst:code_direct}}
-\begin{lstlisting}
-import(dplyr)
-import(ggplot)
-
-ggplot(diamonds,
-	   aes(x=carat, y=price, color=cut)) +
-  geom_point() +
-  geom_smooth()
-\end{lstlisting}
 
 %------------------------------------------------
 
 \section*{Results}
-
-\todo{After the 1st phase}
 
 We evaluated our fine-tuned models on a dataset of 108 multiple-choice quiz questions about the Harry Potter series.
 The questions were designed to test the models' understanding of the characters and their relationships.
@@ -303,14 +253,85 @@ We plan to evaluate the models on a dataset of quiz questions about the A Song o
 We will also evaluate our models on state of the art benchmarks, as in \cite{guo2023evaluating}.
 Use the results section to present the final results of your work. Present the results in a objective and scientific fashion. Use visualisations to convey your results in a clear and efficient manner. When comparing results between various techniques use appropriate statistical methodology.
 
-\subsection*{More random text}
+\todo{Here starts the "final" evaluation}
+Most of the evaluation was manual, therefore slightly subjective.
+It was done independently by all three team members and averaged into the final conclusion.
 
-This text is inserted only to make this template look more like a proper report. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit dictum facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam convallis tellus velit, quis ornare ipsum aliquam id. Maecenas tempus mauris sit amet libero elementum eleifend. Nulla nunc orci, consectetur non consequat ac, consequat non nisl. Aenean vitae dui nec ex fringilla malesuada. Proin elit libero, faucibus eget neque quis, condimentum laoreet urna. Etiam at nunc quis felis pulvinar dignissim. Phasellus turpis turpis, vestibulum eget imperdiet in, molestie eget neque. Curabitur quis ante sed nunc varius dictum non quis nisl. Donec nec lobortis velit. Ut cursus, libero efficitur dictum imperdiet, odio mi fermentum dui, id vulputate metus velit sit amet risus. Nulla vel volutpat elit. Mauris ex erat, pulvinar ac accumsan sit amet, ultrices sit amet turpis.
+\subsection*{Character evaluation}
 
-Phasellus in ligula nunc. Vivamus sem lorem, malesuada sed pretium quis, varius convallis lectus. Quisque in risus nec lectus lobortis gravida non a sem. Quisque et vestibulum sem, vel mollis dolor. Nullam ante ex, scelerisque ac efficitur vel, rhoncus quis lectus. Pellentesque scelerisque efficitur purus in faucibus. Maecenas vestibulum vulputate nisl sed vestibulum. Nullam varius turpis in hendrerit posuere.
+\begin{figure*}[hbt]
+	\centering
+	\includegraphics[width=0.8\linewidth]{questioners-results.pdf}
+	\caption{\textbf{Evaluation}: \todo{Add description of graph}}
+	\label{fig:dialogue_extract}
+\end{figure*}
 
-Nulla rhoncus tortor eget ipsum commodo lacinia sit amet eu urna. Cras maximus leo mauris, ac congue eros sollicitudin ac. Integer vel erat varius, scelerisque orci eu, tristique purus. Proin id leo quis ante pharetra suscipit et non magna. Morbi in volutpat erat. Vivamus sit amet libero eu lacus pulvinar pharetra sed at felis. Vivamus non nibh a orci viverra rhoncus sit amet ullamcorper sem. Ut nec tempor dui. Aliquam convallis vitae nisi ac volutpat. Nam accumsan, erat eget faucibus commodo, ligula dui cursus nisi, at laoreet odio augue id eros. Curabitur quis tellus eget nunc ornare auctor.
 
+We looked at the language model's ability to speak as a selected character.
+For this test we picked 6 characters, 3 from both series.
+From the Harry Potter franchise we picked Harry Potter himself, headmaster Dumbledore and antagonist Voldemort.
+For A Song of Ice and Fire we picked mother of dragons Daenerys, lord commander John Snow and the best door holder Hodor.
+
+We created a list of questions for every character.
+There are 8 non-specific questions (for all 6 characters), 9 Harry Potter specific questions, 14 ASOIF specific questions
+and for each character an additional 4-8 questions.
+In total there are 30 different questions for Harry Potter and 40 questions for ASOIF characters.
+
+The biggest evaluation problem was quite unexpected. It was very difficult to find an appropriate large language model for this task.
+Bigger language models, such as Llama-3-8B \cite{llama3modelcard} or Mistral-7B \cite{jiang2023mistral} were already so familiarized with both series that the model worked good without any modifications.
+Smaller language models, such as TinyLlama-1.1B \cite{zhang2024tinyllama}, GPT2 \cite{radford2019language} or Google Gemma-2B \cite{gemma_2024},
+were either unable to act as a given character (saying that they are a langauge model and unable to answer the question)
+or their answers were very random, and not connected to the books in any way, despite trying several different prompts and RAG strategies.
+In the end we decided to use Microsoft's Phi-3 \cite{abdin2024phi} and Phi-2 models, pretrained for instruction tasks.
+These two models weren't as familiar with the characters but were still able to somewhat act as the desired character.
+
+For each character we tested three different prompting strategies:
+\begin{itemize}
+	\item Prompt contained only the name of the character and the book series and some instructions how to act. This was done so that we can get a rough baseline of what the model knows and how it behaves out of the box.
+	\item This prompt extended the previous one with dialogues and other context retrieved from the vector database.
+	\item This prompt didn't state the character name or the book series. Only data that the model recieved was retireved from the vector database.
+\end{itemize}
+
+Each of the two models answered 150 questions across all characters using all three prompting strategies, which resulted in 900 total answers.
+For every member in the group we randomly sampled 60 answers from Harry Potter and 60 from A Song of Ice and Fire.
+Half of the questions were answered by Phi-2 and the other half with Phi-3.
+Answers were randomly mixed, so that we didn't know which prompting strategy resulted in which answer.
+We then ranked the answers from best to worst based on the overall structure, answer quality and information correctness.
+In total we checked 360 questions with 1080 answers.
+For each prompting strategy we summed its final ranks and sorted them accordingly.
+Final rankings are shown in Tables \todo[]{Dodaj grafe \cref{fig:dialogue_extract}}
+
+\subsection*{Sorting hat test}
+We thought it would be interesting to evaluate our Harry Potter characters with the sorting hat test.
+This evaluation was done out of curiosity. The rules of the sorting test are not really stated inside the book.
+We scraped a random online sorting hat quiz which looked promising and easy to use.
+We used the quiz on 8 different characters, 2 from each house:
+\begin{itemize}
+	\item Gryffindor: Harry and Dumbledore,
+	\item Slytherin: Snape and Draco,
+	\item Ravenclaw: Cho and Luna,
+	\item Hufflepuff: Cedric and Tonks.
+\end{itemize}
+Each character was tested with all three prompting strategies, with Phi-3 as the language model.
+We ran the test 10 times for every character.
+The test results are shown in Table \ref*{tab:sorting_hat_results}. Correct house predictions are in bold.
+
+\begin{table}[hbt]
+	\caption{Sorting hat results}
+	\centering
+	\begin{tabular}{c | c | c | c }
+		Character  & Without RAG        & RAG hidden          & RAG reveal          \\ \hline
+		Harry      & Slytherin          & \textbf{Gryffindor} & \textbf{Gryffindor} \\
+		Dumbledore & Slytherin          & \textbf{Gryffindor} & \textbf{Gryffindor} \\ \hline
+		Snape      & \textbf{Slytherin} & Gryffindor          & \textbf{Slytherin}  \\
+		Draco      & \textbf{Slytherin} & Gryffindor          & \textbf{Slytherin}  \\ \hline
+		Cho        & \textbf{Ravenclaw} & Gryffindor          & \textbf{Ravenclaw}  \\
+		Luna       & \textbf{Ravenclaw} & Gryffindor          & \textbf{Ravenclaw}  \\ \hline
+		Cedric     & Slytherin          & Gryffindor          & Ravenclaw           \\
+		Tonks      & Gryffindor         & Gryffindor          & Gryffindor          \\
+	\end{tabular}
+	\label{tab:sorting_hat_results}
+\end{table}
 
 %------------------------------------------------
 
