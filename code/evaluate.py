@@ -1,8 +1,6 @@
 import json
 from collections import defaultdict
 
-import pandas as pd
-from chatbots.book import BookBot
 from chatbots.character import CharacterBot
 from evaluation.manual_evaluation_questions import (
     asoif_characters_questions,
@@ -12,7 +10,6 @@ from evaluation.manual_evaluation_questions import (
     non_specific_questions,
 )
 from evaluation.sorting_hat import evaluate_hat
-from evaluation.trivia import evaluate_trivia
 from tqdm import tqdm
 from utils.load_model import load_quantized_pipeline
 
@@ -51,8 +48,8 @@ def manual_character_eval(series, character, questions, pipeline):
 
 
 def create_manual_evaluation_data():
-    # pipeline = load_quantized_pipeline("microsoft/Phi-3-mini-4k-instruct")
-    pipeline = load_quantized_pipeline("microsoft/phi-2")
+    pipeline = load_quantized_pipeline("microsoft/Phi-3-mini-4k-instruct")
+    # pipeline = load_quantized_pipeline("microsoft/phi-2")
 
     character_to_eval = ["Harry", "Dumbledore", "Voldemort"]
     for character in character_to_eval:
@@ -113,5 +110,5 @@ def sorting_hat_eval():
 
 
 if __name__ == "__main__":
-    # create_manual_evaluation_data()
+    create_manual_evaluation_data()
     sorting_hat_eval()
