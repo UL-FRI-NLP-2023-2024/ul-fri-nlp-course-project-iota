@@ -89,56 +89,21 @@
 Literacy among young people is declining, as highlighted in \cite{murray2021literacy}. Many young people have a disinterest in reading and seldom read for enjoyment. A potential strategy to encourage reading is to involve them in conversational interactions with digital pedagogical agents that imitate well-known literary figures. Although numerous studies, such as those \cite{nielen2018digital,alaimi2020pedagogical}, discuss the advantages of pedagogical agents, detailed technical implementation aspects are often overlooked. Our work aims to explore various methods for creating pedagogical agents and to provide a comprehensive technical implementation for the method we choose.
 
 \subsection*{Related work}
-In \cite{papaioannou2022designing} they built a social bot, called Alana, which is able to engage in an open-domain conversation with their users over various popular topics. The key requirements for such a bot are to maintain the context, provide coherent responses, and be engaging and knowledgeable. The final bot is an ensemble of many different bots, each of which has a different purpose. A ranker is used to determine the best bot response for the given user input. For context maintaining, a state object with information from previous conversations is stored and accessible to every bot in the ensemble.
+Setting and situational continuity are important for user experience. \cite{situation_models} conducted experiments showing that discontinuities in time, space, causation, motivation, and protagonist dimensions increase reading time, supporting the "processing-load hypothesis."
 
-Retrieval augmented generation (RAG) is often used to correct factually inaccurate, outdated or halucinated Large Language Model (LLM) outputs. A survey on different RAG methods is conducted in \cite{gao2023retrieval}. RAGs can be seprated into three categories: pre-training, fine-tunning and inference. Nowdays inference RAGs are mostly used. \cite{jiang2023active} proposed FLARE, Forward-Looking Active REtrieval Augmented Generation, which re-prompts the language model with extra retrieved data about the subject when some tokens in LLM's output have a low probability.
+Educational agents benefit from effective teaching strategies. An analysis of Dutch reading comprehension textbooks \cite{bogaerds2022textbooks} found a lack of alignment between lesson goals, theory, and assignments. Teaching all three knowledge types — declarative, procedural, and conditional — could improve literacy.
 
-A straightforward way to create agents is by training or fine-tuning LLM. In \cite{shao2023characterllm} the authors developed conversational agents that resemble historical figures like Beethoven, Cleopatra, and Caesar, with personalized profiles, experiences, and emotional states. They introduced three new methods for training specialized agents. Experience Reconstruction extracts scenes in the style of memory flashes, such as profiles, scenes, or interactions. Protective Experience aims at teaching the model to forget or ignore information not relevant to the character to prevent knowledge hallucinations. Experience Upload uses the previous two techniques to fine-tune an existing LLM. They fine-tuned a LLaMa 7B model \cite{touvron2023llama} on a dataset of \numprint{750000} words per character using eight A100 80GB GPUs for 1 hour per character. To assess the models, they used an interview process.
+Social bots capable of engaging in open-domain conversations, like Alana \cite{papaioannou2022designing}, require maintaining context, providing coherent responses, and being engaging and knowledgeable. Alana achieves this through an ensemble of specialized bots, with a ranker determining the best response, and a state object storing previous conversation information.
 
-Obtaining data to train a character can be difficult.
-\cite{neuman2023data} proposes a novel data augmentation approach named PEDANT that helps train models that mimic human personality by generating large amounts of data with a GPT combined with domain expertise.
-The method first gathers unlabeled data from online resources and trains a generative language model with it.
-Then, this model is prompted with seed sentences that an expert created and is asked to complete them.
-Then, these completions are filtered and ranked based on an expert-defined scoring function.
-In the paper, PEDANT was implemented on an anti-social psychopatic personality disorder.
-A labeled corpus with this disorder does not exist, so this is a good showcase of the usefulness of the approach.
-The data to train the GPT comes from cinema, TV, and Reddit.
-The model was validated using a text classification task.
-They used the generated data to train a classifier and tested it on offensive-speech datasets.
-The results were very encouraging, but requires domain knowledge, which can be a big limiting factor and bottleneck in a larger process.
+Retrieval-augmented generation (RAG) is used to correct factually inaccurate or outdated LLM outputs. A survey by \cite{gao2023retrieval} categorizes RAG methods into pre-training, fine-tuning, and inference, with inference being the most common today. FLARE \cite{jiang2023active} re-prompts the LLM with additional data for low-probability tokens.
 
-To avoid training a LLM, \cite{jeong2023chatbot} suggests using prompt engineering, specifically Chain-of-Thought (COT), on an existing model to incorporate more contextual information. They recommend employing Information-Rich Prompts (IRP) that include the emotional state, the character's relationship with the interlocutor, and the character's memories. Memories are categorized into short-term, which are a limited number of the most recent conversations with the interlocutor, and long-term, which are recursively summarized memories of longer conversations from the character's perspective. Although not explicitly stated, implementing the Big Five personality model \cite{goldberg1990thebigfive} could further refine the character's responses. This model would detail the character's Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism.
+Training or fine-tuning LLMs to create agents is demonstrated by \cite{shao2023characterllm}, which developed conversational agents resembling historical figures using Experience Reconstruction, Protective Experience, and Experience Upload techniques.
 
-Previous methods that do not involve fine-tuning could be enhanced by using the OpenICL framework \cite{wu2023openicl}. In-Context Learning (ICL) is an approach used with LLMs where the model learns a specific task without the need to update its weights. Instead, the model is shown examples of how the task should be performed. OpenICL offers the tools needed to construct ICL tasks, including key components like retrieval strategies and inference methods. For retrieval, it incorporates heuristic-based methods (such as BM25 and Top-K), random sampling, and model-based retrieval (using embeddings, RAG, Minimum Description Length (MDL), and entropy-based selection). For inference, OpenICL facilitates the integration of COT and other methods along with a prompt template.
+Data augmentation for character training is addressed by PEDANT \cite{neuman2023data}, which generates data using a GPT model combined with domain expertise. This approach was validated using text classification tasks on offensive-speech datasets.
 
-It is important to consider teaching strategies while implementing an agent that serves an educational purpose.
-\cite{bogaerds2022textbooks} carried out a detailed analysis of reading comprehension textbooks from the Netherlands, which is one of the nations with a low comprehensive literacy.
-The researchers analysed lessons withing the textbooks and then also analysed the utilisation of these textbooks by teachers, both by conducting interviews with teachers and attending live lessons.
-They found that the lessons are mostly focused on exercising and that there is no strong alignment between goals of the lessons, the theory behind them and the assignments that the students must carry out.
-Little actual knowledge about reading strategies was illustrated and there was no opportunity to choose and apply strategies yourself.
-The interviews showed that the teachers were aware of these problems, but there were very few who adapted the lessons to counteract them and improve the quality of their teaching.
-The knowledge that was observed in the textbooks was divided into:
-\begin{itemize}
-	\itemsep0em
-	\item declarative knowledge - knowing something
-	\item procedural knowledge - knowing how to do something
-	\item conditional knowledge - knowing when to do something.
-\end{itemize}
-The textbooks were mostly just focused on the procedural part of the knowledge.
-To improve literacy, all three should be taught.
+To avoid training a LLM, prompt engineering, specifically Chain-of-Thought (COT), can be used \cite{jeong2023chatbot}. Employing Information-Rich Prompts (IRP) that include emotional state, relationship context, and memories, enhances responses. Incorporating the Big Five personality model \cite{goldberg1990thebigfive} could further refine responses.
 
-\cite{situation_models} describes the importance of setting and situational continuity while reading, which can have major implications in providing a good user experience.
-Three experiments were carried out on 27 psychology students that tested which aspects of a five-dimensional situational model are more important to our experience.
-They tested the impact of different aspects by measuring reading time while introducing discontinuities across different dimensions (time, space, causation, motivation, protagonist).
-The reading time increase is very noticeable in all but the spatial dimension.
-There, spatial discontinuities did not present a large increase in reading time unless the study participants memorized the map of the story space in advance.
-The study confirmed the "processing-load hypothesis" that predicts that the reading time goes up when there is more data to process.
-It's very likely that this information could be taken into account when constructing a model used for learning by keeping continuities along dimensions that are irrelevant for the learning experience and channeling the focus elsewhere.
-
-
-BookNLP \cite{booknlp} is an NLP pipeline that supports the analysis of literary texts. It performs Part-of-Speech (POS) tagging, dependency parsing, entity recognition with co-reference resolution and clustering, event tagging, and more. Built on top of SpaCy \cite{spacy2}, it uses BERT \cite{joshi2019bert} for co-reference resolution. BookNLP provided an effective pipeline for extracting dialogues from the books and attributing them to characters.
-
-
+BookNLP \cite{booknlp}, an NLP pipeline for analyzing literary texts, performs POS tagging, dependency parsing, entity recognition, co-reference resolution, and more. Built on SpaCy \cite{spacy2} and using BERT \cite{joshi2019bert}, it effectively extracts and attributes dialogues to characters.
 %------------------------------------------------
 
 \section*{Methods}
