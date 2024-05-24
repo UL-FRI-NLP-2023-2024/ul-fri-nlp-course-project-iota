@@ -301,7 +301,7 @@ Final rankings are shown in Tables \todo[]{Dodaj grafe \cref{fig:dialogue_extrac
 
 \subsection*{Sorting hat test}
 We thought it would be interesting to evaluate our Harry Potter characters with the sorting hat test.
-This evaluation was done out of curiosity. The rules of the sorting test are not really stated inside the book.
+This evaluation was done out of curiosity. The rules and questions of the sorting test are not really stated inside the books.
 We scraped a random online sorting hat quiz which looked promising and easy to use.
 We used the quiz on 8 different characters, 2 from each house:
 \begin{itemize}
@@ -312,24 +312,56 @@ We used the quiz on 8 different characters, 2 from each house:
 \end{itemize}
 Each character was tested with all three prompting strategies, with Phi-3 as the language model.
 We ran the test 10 times for every character.
-The test results are shown in Table \ref*{tab:sorting_hat_results}. Correct house predictions are in bold.
+The test results are shown in Table \ref*{tab:sorting_hat_results}.
+Correct house predictions are in bold, number in parantheses is the number of times this house was selected among all 10 tries.
 
 \begin{table}[hbt]
 	\caption{Sorting hat results}
 	\centering
 	\begin{tabular}{c | c | c | c }
-		Character  & Without RAG        & RAG hidden          & RAG reveal          \\ \hline
-		Harry      & Slytherin          & \textbf{Gryffindor} & \textbf{Gryffindor} \\
-		Dumbledore & Slytherin          & \textbf{Gryffindor} & \textbf{Gryffindor} \\ \hline
-		Snape      & \textbf{Slytherin} & Gryffindor          & \textbf{Slytherin}  \\
-		Draco      & \textbf{Slytherin} & Gryffindor          & \textbf{Slytherin}  \\ \hline
-		Cho        & \textbf{Ravenclaw} & Gryffindor          & \textbf{Ravenclaw}  \\
-		Luna       & \textbf{Ravenclaw} & Gryffindor          & \textbf{Ravenclaw}  \\ \hline
-		Cedric     & Slytherin          & Gryffindor          & Ravenclaw           \\
-		Tonks      & Gryffindor         & Gryffindor          & Gryffindor          \\
+		Character  & Without RAG         & RAG hidden         & RAG reveal          \\ \hline
+		Harry      & Raven (5)           & \textbf{Gryff (9)} & \textbf{Gryff (6)}  \\
+		Dumbledore & Raven (7)           & \textbf{Gryff (7)} & Raven (7)           \\ \hline
+		Snape      & \textbf{Slyth (10)} & Gryff (7)          & Gryff (7)           \\
+		Draco      & \textbf{Slyth (10)} & Gryff (7)          & \textbf{Slyth (10)} \\ \hline
+		Cho        & \textbf{Raven (7)}  & Gryff (6)          & \textbf{Raven (9)}  \\
+		Luna       & \textbf{Raven (6)}  & Gryff (9)          & \textbf{Raven (8)}  \\ \hline
+		Cedric     & Slyth (10)          & Raven (5)          & Raven (6)           \\
+		Tonks      & Gryff (9)           & Gryff (5)          & Gryff (10)          \\
 	\end{tabular}
 	\label{tab:sorting_hat_results}
 \end{table}
+
+As expected, this test didn't bring any meaningful results.
+When the character is hidden from the model, it almost always predicts Gryffindor, which makes the correct guess for Harry and Dumbledore meaningless.
+When character is revealed to the model, it correctly sorts half of the characters. RAG doesn't really effect the outcome of the sort.
+We can therefore assume, that the quotes and context from RAG are not really useful for this test.
+We tried to run the test on Llama-3-8B, which should have deeper understanding of characters out of the box to see how it performs.
+Results are shown in Table \ref*{tab:sorting_hat_results_llama}.
+
+\begin{table}[hbt]
+	\caption{LLama-3 sorting hat results}
+	\centering
+	\begin{tabular}{c | c | c | c }
+		Character  & Without RAG    & RAG hidden     & RAG reveal     \\ \hline
+		Harry      & \textbf{Gryff} & \textbf{Gryff} & \textbf{Gryff} \\
+		Dumbledore & Raven          & Raven          & Raven          \\ \hline
+		Snape      & Raven          & Gryff          & Gryff          \\
+		Draco      & Raven          & Gryff          & Gryff          \\ \hline
+		Cho        & Gryff          & \textbf{Raven} & \textbf{Raven} \\
+		Luna       & \textbf{Raven} & \textbf{Raven} & \textbf{Raven} \\ \hline
+		Cedric     & Raven          & Gryf           & Raven          \\
+		Tonks      & Gryff          & Raven          & Raven          \\
+	\end{tabular}
+	\label{tab:sorting_hat_results_llama}
+\end{table}
+
+These are even worse than with Phi-3. Here it only sorted the characters into Gryffindor and Ravenclaw.
+We can conclude that this test is flawed in several ways: sorting questions are not stated in the books,
+we can't really verify the validty of the used test
+and questions in the quiz are often of philosophical/abstract nature which is not really interpretable by large langauge models.
+
+
 
 %------------------------------------------------
 

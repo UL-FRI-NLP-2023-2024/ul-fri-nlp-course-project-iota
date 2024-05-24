@@ -1,0 +1,62 @@
+{
+    "without_rag": {
+        "houses": [
+            "slytherin",
+            "gryffindor",
+            "ravenclaw",
+            "gryffindor",
+            "ravenclaw",
+            "gryffindor",
+            "ravenclaw",
+            "ravenclaw",
+            "ravenclaw",
+            "gryffindor"
+        ],
+        "scores": {
+            "gryffindor": 10450,
+            "hufflepuff": 7650,
+            "ravenclaw": 10600,
+            "slytherin": 9900
+        }
+    },
+    "with_rag_hide": {
+        "houses": [
+            "gryffindor",
+            "gryffindor",
+            "ravenclaw",
+            "gryffindor",
+            "gryffindor",
+            "gryffindor",
+            "gryffindor",
+            "gryffindor",
+            "gryffindor",
+            "gryffindor"
+        ],
+        "scores": {
+            "gryffindor": 13450,
+            "hufflepuff": 8100,
+            "ravenclaw": 10400,
+            "slytherin": 6450
+        }
+    },
+    "with_rag_reveal": {
+        "houses": [
+            "gryffindor",
+            "hufflepuff",
+            "gryffindor",
+            "gryffindor",
+            "gryffindor",
+            "ravenclaw",
+            "ravenclaw",
+            "gryffindor",
+            "ravenclaw",
+            "gryffindor"
+        ],
+        "scores": {
+            "gryffindor": 10850,
+            "hufflepuff": 10150,
+            "ravenclaw": 9600,
+            "slytherin": 7850
+        }
+    }
+}

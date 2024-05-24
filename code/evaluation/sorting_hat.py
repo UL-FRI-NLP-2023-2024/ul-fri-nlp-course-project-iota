@@ -35,10 +35,10 @@ def evaluate_by_house(pipeline, house: str, hat_questions: list[HatQuestion]):
     print(f"Desired house: {house} Predicted House: {max(scores, key=scores.get)} ({dict(scores)})")
 
 
-def evaluate_chatbot(bot, questions):
+def evaluate_hat(bot, questions, reveal_character=True):
     scores = defaultdict(int)
 
-    retires = 5
+    retries = 5
     for question in tqdm(questions):
         prompt = """You are doing the sorting hat test. Answer the following multiple choice question with only a single letter\n"""
 
@@ -50,8 +50,13 @@ def evaluate_chatbot(bot, questions):
 
         prompt += f"Answer with a single letter. Available answers: {answers}\n("
 
-        for _ in range(retires):
-            output = bot.ask(prompt, max_tokens=1)[-1].upper()
+        for _ in range(retries):
+            output = bot.ask(prompt, max_tokens=1, state_character_and_series=reveal_character)
+
+            if output:
+                output = output[-1].upper()
+            else:
+                continue
 
             if output in answers:
                 break
