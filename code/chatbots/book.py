@@ -85,3 +85,12 @@ Now, answer the user's question as an expert of the {self.series} series.""",
         )
 
         return response[0]["generated_text"][-1]["content"].strip()
+
+
+if __name__ == "__main__":
+    bot = BookBot("Harry Potter")
+
+    while True:
+        query = input("You: ")
+        response = bot.ask(query)
+        print(f"Bot: {response}")
